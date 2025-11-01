@@ -6899,6 +6899,7 @@
 #include "interface\fonts\vcr_osd_mono.dm"
 #include "modular_gs\code\__HELPERS\fatness.dm"
 #include "modular_gs\code\clothing\accessory.dm"
+#include "modular_gs\code\datums\interaction_datum.dm"
 #include "modular_gs\code\datums\components\fattening.dm"
 #include "modular_gs\code\datums\components\fattening_door.dm"
 #include "modular_gs\code\datums\diseases\advance\symptoms\berry.dm"
