@@ -148,6 +148,18 @@
 /obj/item/organ/genital/breasts/set_size(size)
 	genital_size = max(size, set_genital_size)		// mmmmmmm, they're getting so big~
 	genital_size = min(genital_size, MAX_BREASTS_SIZE)
+	var/breasts_capacity = 1
+	switch(genital_type)
+		if("pair")
+			breasts_capacity = 2
+		if("quad")
+			breasts_capacity = 2.5
+		if("sextuple")
+			breasts_capacity = 3
+	internal_fluid_maximum = genital_size * breasts_capacity * 60
+	if(internal_fluid_maximum > 3500)
+		internal_fluid_maximum = 3500
+	reagents.maximum_volume = internal_fluid_maximum	// what does this do when the breast size goes down and you're at the limit? Guess we'll find out
 	update_sprite_suffix()
 
 /datum/sprite_accessory/genital/breasts/alt_GS13/pair
