@@ -1,0 +1,5 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Primitive Bluespace Belt is now available in the loadout screen"
+  - code_imp: "refactors helplessness mechanics - they are now based on a `/datum/helplessness` which stores the main logic, as well as many subtypes of it which store values and unique interactions. If something changed gameplay wise, report it for it is a bug."

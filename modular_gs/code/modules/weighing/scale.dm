@@ -13,12 +13,8 @@
 	var/buildstackamount = 3
 	//stores the weight of the last person to step on in Lbs
 	var/lastreading = 0
-	/// What was the last carbon mob standing on this?
-	var/mob/living/carbon/most_recent_carbon
-	/// Is there a mob currently standing on this?
-	var/currently_weighing = FALSE
 	/// What datum are we using to track weight?
-	var/datum/weigh_out/weight_datum
+	var/datum/component/weigh_out/weight_component
 
 /obj/structure/scale/attackby(obj/item/W, mob/user, params)
 	if(W.tool_behaviour == TOOL_WRENCH && !(flags_1 & NO_DEBRIS_AFTER_DECONSTRUCTION))
@@ -34,7 +30,13 @@
 		COMSIG_ATOM_EXITED = PROC_REF(stop_weighing),
 	)
 	AddElement(/datum/element/connect_loc, loc_connections)
-	weight_datum = new (src)
+	weight_component = AddComponent(/datum/component/weigh_out)
+
+/obj/structure/scale/Destroy(force)
+	if(weight_component)
+		qdel(weight_component)
+
+	return ..()
 
 /obj/structure/scale/examine(mob/user)
 	. = ..()
@@ -68,10 +70,12 @@
 	visible_message("<span class='notice'>The numbers on the screen settle on: [src.lastreading]Lbs.</span>")
 	visible_message("<span class='notice'>The numbers on the screen read out: [fatty] has a BFI of [fatty.fatness].</span>")
 
-	currently_weighing = TRUE
-	most_recent_carbon = fatty
+	weight_component.currently_weighing = TRUE
+	weight_component.most_recent_carbon = fatty
 
 /obj/structure/scale/proc/stop_weighing(datum/source)
 	SIGNAL_HANDLER
-	currently_weighing = FALSE
+	weight_component.currently_weighing = FALSE
 
+/obj/structure/scale/ui_interact(mob/user)
+	weight_component.ui_interact(user)

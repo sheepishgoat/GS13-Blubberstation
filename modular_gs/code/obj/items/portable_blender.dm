@@ -1,7 +1,7 @@
 /obj/item/portable_blender
 	name = "portable blender"
 	desc = "Perfect for grinding food up into an unrecognizable paste! Will not work with non-foods!"
-	icon = 'modular_gs/icons/obj/items/blender.dmi' //Sprites made by @greenwoman
+	icon = 'modular_gs/icons/obj/items/blender.dmi' //Sprites made by @greeenwoman
 	icon_state = "blender"
 	base_icon_state = "blender"
 	/// What reagent container do we have currently in this baby?
