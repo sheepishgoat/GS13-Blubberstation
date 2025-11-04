@@ -1,8 +1,11 @@
 /datum/interaction/breast_feed_self
 	name = "Breast feed"
-	description = "Feed yourself using your breasts"
-	// user_messages = list("You lift your breasts to your mouth and begin sucking...")
-	message = list("lifts their breasts into their mouth and begin sucking...")
+	description = "Feed yourself using your breasts!"
+	user_messages = list(
+		"You lift your breasts to your mouth and begin sucking...",
+		"You gently bite on your nipples and begin sucking..."
+		)
+	message = list("lifts their breasts into their mouth and begins sucking...")
 	category = "Sex"
 	usage = INTERACTION_SELF
 	lewd = TRUE	// truth nuke
@@ -27,4 +30,39 @@
 		return
 
 	breasts.reagents.trans_to(user, 5, transferred_by = user, methods = INGEST)
-	to_chat(user, "As you begin sucking on your own breasts, the milk begins flowing...")
+	to_chat(user, "You begin sucking on your own breasts, and can feel the taste of warm milk hit your tongue.")
+
+/datum/interaction/breast_feed_other
+	name = "Breast feed them"
+	description = "Feed someone else using your breasts!"
+	user_messages = list("You lift your breasts to your mouth and begin sucking...")
+	target_messages = list("%USER% brings their breasts")
+	message = list("lifts their breasts into their mouth and begin sucking...")
+	category = "Sex"
+	usage = INTERACTION_OTHER
+	lewd = TRUE
+	user_required_parts = list(ORGAN_SLOT_BREASTS)
+	target_required_parts
+	user_pleasure = 1	// values straight out of my big, juicy ass
+	user_arousal = 2
+	target_pleasure = 2
+	target_arousal = 2
+	interaction_requires = list(INTERACTION_REQUIRE_SELF_HAND)
+	color = ""
+	// sexuality = 
+
+/datum/interaction/breast_feed_from_other
+	name = "Breast feed from them"
+	description = "Bite onto those milkers and begin sucking!"
+	user_messages = list("You lift your breasts to your mouth and begin sucking...")
+	target_messages = list("%USER% brings their breasts")
+	message = list("lifts their breasts into their mouth and begin sucking...")
+	category = "Sex"
+	usage = INTERACTION_OTHER
+	lewd = TRUE
+	user_required_parts = list(ORGAN_SLOT_BREASTS)
+	user_pleasure = 1
+	user_arousal = 2
+	interaction_requires = list(INTERACTION_REQUIRE_SELF_HAND)
+	color = ""
+	// sexuality = 
