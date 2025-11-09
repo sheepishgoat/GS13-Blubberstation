@@ -263,3 +263,9 @@
 	desc = "Dual tone, black jumpsuit with deep purple stripes. Worn by representatives of GATO corporation."
 	greyscale_colors = "#1a1a20#ee2cb4"
 	flags_1 = 0		// make it non-recolorable
+
+/obj/item/clothing/under/color/dual_tone/centcom/civilian
+	name = "GATO flavored dual tone jumpsuit (Modular)"
+	desc = "Dual tone, black jumpsuit with deep purple stripes. Worn by people obsessed with the kitty meow meow corporation."
+	greyscale_colors = "#1a1a20#ee2cb4"
+	flags_1 = 0		// make it non-recolorable

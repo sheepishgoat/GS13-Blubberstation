@@ -15682,6 +15682,7 @@
 	name = "Research Lab Desk";
 	req_access = list("science")
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/science/lab)
 "foB" = (

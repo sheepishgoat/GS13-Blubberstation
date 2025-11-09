@@ -529,12 +529,16 @@ export function MainPage(props: MainPageProps) {
   const WGPreferences = {
     ...data.character_preferences.wg_prefs,
   };
+  const GSExaminePreferences = {
+    ...data.character_preferences.gs13_examine_prefs,
+  };
   // GS13 END EDIT
   // BUBBER EDIT ADDITION BEGIN: SWAPPABLE PREF MENUS
   enum PrefPage {
     Visual, // The visual parts
     Lore, // Lore, Flavor Text, Age, Records
     WGprefs, // GS13 EDIT prefs
+    GSExaminePrefs, // GS13 EDIT prefs
   }
 
   const [currentPrefPage, setCurrentPrefPage] = useState(PrefPage.Visual);
@@ -607,6 +611,19 @@ export function MainPage(props: MainPageProps) {
           </LabeledList>
           <br />
         </Section>
+      );
+      break;
+    case PrefPage.GSExaminePrefs:
+      prefPageContents = (
+        <PreferenceList
+          randomizations={getRandomization(
+            GSExaminePreferences,
+            serverData,
+            randomBodyEnabled,
+          )}
+          preferences={GSExaminePreferences}
+          maxHeight="auto"
+        />
       );
       break;
     // GS13 END EDIT
@@ -771,6 +788,15 @@ export function MainPage(props: MainPageProps) {
                 </PageButton>
               </Stack.Item>
               {/* GS13 EDIT */}
+              <Stack.Item grow={2}>
+                <PageButton
+                  currentPage={currentPrefPage}
+                  page={PrefPage.GSExaminePrefs}
+                  setPage={setCurrentPrefPage}
+                >
+                  GS13 Examines
+                </PageButton>
+              </Stack.Item>
               <Stack.Item grow={2}>
                 <PageButton
                   currentPage={currentPrefPage}

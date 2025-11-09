@@ -5,9 +5,10 @@
 	desc = "Strangely tasty for a cigarette."
 	icon = 'modular_gs/icons/obj/cigarettes.dmi'
 	icon_state = "smokegatitos"
-	spawn_type = /obj/item/clothing/mask/cigarette/gatito
+	base_icon_state = "smokegatitos"
+	spawn_type = /obj/item/cigarette/gatito
 
-/obj/item/clothing/mask/cigarette/gatito
+/obj/item/cigarette/gatito
 	desc = "A HumoGatitos brand cigarette."
 
 /obj/item/banner/gato

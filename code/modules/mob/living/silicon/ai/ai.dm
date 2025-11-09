@@ -176,6 +176,12 @@
 		icon_state = initial(icon_state)
 	else
 		var/preferred_icon = input ? input : C.prefs.read_preference(/datum/preference/choiced/ai_core_display)
+		// GS13 EDIT CFC AI. This is not modular because I don't expect us to have a second AI icon anytime so- FUCK WE HAVE THE OTHER ONES
+		if (input == "cfc")
+			icon = 'modular_gs/icons/mob/silicon/ai.dmi'
+		else
+			icon = 'icons/mob/silicon/ai.dmi'
+		// GS13 END EDIT
 		icon_state = resolve_ai_icon(preferred_icon)
 
 /// Apply an AI's hologram preference
@@ -220,6 +226,9 @@
 			continue
 		if(option == "Portrait")
 			iconstates[option] = image(icon = src.icon, icon_state = "ai-portrait")
+			continue
+		if(option == "cfc")
+			iconstates[option] = image(icon = 'modular_gs/icons/mob/silicon/ai.dmi', icon_state = "ai-cfc")
 			continue
 		iconstates[option] = image(icon = src.icon, icon_state = resolve_ai_icon(option))
 

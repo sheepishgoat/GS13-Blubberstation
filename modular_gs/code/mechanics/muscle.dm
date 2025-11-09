@@ -5,7 +5,7 @@
 	/// How much real muscle mass does our mob have?
 	var/muscle_real = 0
 	/// How fast do we lose muscle?
-	var/muscle_gain_rate = 1
+	var/muscle_gain_rate = 0.5
 	/// How fast do we gain muscle?
 	var/muscle_loss_rate = 1
 

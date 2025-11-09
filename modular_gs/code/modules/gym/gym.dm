@@ -83,7 +83,7 @@
 				"\The [src] audibly strains under [fatty]'s weight...",
 				"\The [src] creeaaaaks under [fatty]'s strain..."
 			)))
-	var/base_intensity = 0.1
+	var/base_intensity = 0.125
 	var/custom_stamina_cost = (base_intensity * INTENSITY_TO_STAMINA_RATIO) * stamina_cost_divider
 
 	fatty.work_out(base_intensity, custom_stamina_cost)
@@ -94,14 +94,14 @@
 	for(var/obj/item/stock_parts/servo/servo in component_parts)
 		stamina_cost_divider += servo.rating * 1
 
-/obj/machinery/treadmill/attackby(obj/item/O, mob/living/user, params)
-	if(default_deconstruction_screwdriver(user, "conveyor0", "conveyor0", O))
+/obj/machinery/treadmill/attackby(obj/item/item, mob/living/user, params)
+	if(default_deconstruction_screwdriver(user, "treadmill", "treadmill", item))
 		return TRUE
 
-	if(default_deconstruction_crowbar(O))
+	if(default_deconstruction_crowbar(item))
 		return TRUE
 
-	if(default_change_direction_wrench(O))
+	if(default_change_direction_wrench(user, item))
 		return TRUE
 
 	return ..()

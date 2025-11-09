@@ -115,7 +115,7 @@
 	vend_reply = "Lovely choice~"
 	products = list(
 				/obj/item/toy/plush/gs13/gatito = 6,
-	            /obj/item/soap/gato = 6,
+				/obj/item/soap/gato = 6,
 				/obj/item/book/manual/gato_spacelaw = 6,
 				/obj/item/book/manual/fatty_chems = 6,
 				/obj/item/book/lorebooks/welcome_to_gato = 6,
@@ -123,7 +123,7 @@
 				/obj/item/sign/flag/gato = 10,
 				/obj/item/toy/cards/deck/gato = 5,
 				/obj/item/bedsheet/gato = 3,
-
+				/obj/item/clothing/under/color/dual_tone/centcom/civilian = 5,
 				)
 
 	refill_canister = /obj/item/vending_refill/gato_merch

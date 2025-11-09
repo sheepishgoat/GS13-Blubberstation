@@ -68,3 +68,8 @@
 // 	name = "Sam's Unlucky Welder"
 // 	item_path = /obj/item/weldingtool/bronze
 // 	ckeywhitelist = list("almaniak", "Almaniak", "AlManiak")
+
+/datum/loadout_item/neck/sm_pendant
+	name = "Supermatter Pendant"
+	item_path = /obj/item/clothing/neck/supermatter_pendant
+	ckeywhitelist = list("absolutelyfree")

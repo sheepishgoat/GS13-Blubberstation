@@ -17030,6 +17030,7 @@
 	name = "Cargo Desk";
 	req_access = list("cargo")
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/cargo/office)
 "bkO" = (
@@ -37080,6 +37081,7 @@
 	pixel_x = -6
 	},
 /obj/structure/window/spawner/directional/south,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/hallway/primary/starboard)
 "cJQ" = (
@@ -41797,14 +41799,13 @@
 /area/station/cargo/office)
 "eNw" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/stripes/white/end{
-	color = "#9FED58";
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/end{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/side{
@@ -42565,10 +42566,8 @@
 "few" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/airalarm/directional/south,
-/obj/effect/turf_decal/tile/green/opposingcorners{
-	dir = 1
-	},
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -53571,11 +53570,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "kfd" = (
-/obj/machinery/cryopod,
 /obj/structure/sign/poster/timeclock_psa/directional/north,
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "kfh" = (
@@ -57686,10 +57683,8 @@
 /obj/machinery/camera/directional/south{
 	c_tag = "Cryopods"
 	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -60728,9 +60723,9 @@
 /area/station/security/execution/education)
 "nuX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/machinery/cryopod,
 /obj/machinery/computer/cryopod/directional/north,
-/obj/effect/turf_decal/tile/green/opposingcorners,
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "nvh" = (
@@ -62798,19 +62793,14 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "ooQ" = (
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#9FED58";
-	dir = 1;
-	name = "green line"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#9FED58";
-	name = "green line"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/common/cryopods)
 "ooW" = (
@@ -64262,14 +64252,13 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "oYO" = (
-/obj/effect/turf_decal/stripes/white/end{
-	color = "#9FED58";
-	dir = 8
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/stripes/white/end{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
@@ -67103,6 +67092,7 @@
 	},
 /obj/machinery/autolathe,
 /obj/structure/window/spawner/directional/south,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/hallway/primary/starboard)
 "qnS" = (
@@ -69404,11 +69394,9 @@
 /turf/open/floor/iron/dark/airless,
 /area/station/science/ordnance/freezerchamber)
 "rkf" = (
-/obj/machinery/cryopod,
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
 /obj/machinery/modular_computer/preset/time_clock/directional/north,
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "rkn" = (
@@ -77742,10 +77730,8 @@
 	},
 /area/station/cargo/storage)
 "uUe" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -78295,14 +78281,12 @@
 /turf/open/floor/engine,
 /area/station/engineering/atmos/hfr_room)
 "viw" = (
-/obj/machinery/cryopod,
 /obj/machinery/power/apc/auto_name/directional/north,
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
 /obj/effect/mapping_helpers/apc/full_charge,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /obj/structure/cable,
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line,
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "vix" = (
@@ -80458,22 +80442,6 @@
 	dir = 1
 	},
 /area/station/ai_monitored/turret_protected/ai_upload)
-"wfK" = (
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#9FED58";
-	name = "green line"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	color = "#9FED58";
-	dir = 1;
-	name = "green line"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/station/common/cryopods)
 "wgc" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Office"
@@ -115899,7 +115867,7 @@ apI
 aBz
 cvP
 rkf
-wfK
+ooQ
 lUa
 agm
 xzh

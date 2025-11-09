@@ -109,7 +109,7 @@
 	// make sure it has fatness
 	if (!iscarbon(quirk_holder))
 		return
-	
+
 	var/mob/living/carbon/fatty = quirk_holder
 
 	// check their weight and apply virus resistance if they're fat
@@ -135,7 +135,7 @@
 	// make sure it's a human
 	// if(!ishuman(quirk_holder))
 	// 	return
-	
+
 	var/mob/living/carbon/human/fatty = quirk_holder
 
 	// remove old modifier
@@ -149,3 +149,11 @@
 	// apply the new one
 	fatty.physiology.brute_mod /= damage_resistance
 	fatty.physiology.tox_mod /= damage_resistance
+
+/datum/quirk/slime_eater
+	name = "Slime eater"
+	desc = "Slimes make your mouth water! You can safely metabolize slime jelly for nutrition and can gobble up a xenobiology slime you are aggressively grabbing!"
+	icon = "fa-shield"
+	value = 1
+	gain_text = span_notice("You are hungry for slime! Yummy!")
+	lose_text = span_notice("You no longer feel hungry for slimes. Yuck...")

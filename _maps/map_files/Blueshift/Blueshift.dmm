@@ -19344,7 +19344,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/pink/visible{
 	dir = 8
 	},
-/turf/open/floor/engine/vacuum,
+/turf/open/floor/plating/airless,
 /area/station/maintenance/department/engineering/atmos_aux_port)
 "dFs" = (
 /obj/machinery/light/small/directional/south,
@@ -28821,7 +28821,8 @@
 /area/station/service/kitchen/diner)
 "ftk" = (
 /obj/machinery/light/directional/east,
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
@@ -37707,6 +37708,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
+"hfL" = (
+/turf/open/floor/plating/airless,
+/area/station/maintenance/department/engineering/atmos_aux_port)
 "hfM" = (
 /obj/effect/turf_decal/stripes{
 	dir = 10
@@ -38853,7 +38857,8 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/upper)
 "hqv" = (
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
@@ -45572,7 +45577,8 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8
 	},
-/turf/open/floor/engine/vacuum,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
 /area/station/maintenance/department/engineering/atmos_aux_port)
 "iFJ" = (
 /obj/structure/cable,
@@ -46897,6 +46903,7 @@
 	},
 /obj/machinery/autolathe,
 /obj/structure/window/spawner/directional/south,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/science/lab)
 "iUz" = (
@@ -49567,7 +49574,8 @@
 /area/station/maintenance/department/medical/central)
 "jtu" = (
 /obj/machinery/light/directional/west,
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
@@ -55222,7 +55230,8 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "ktQ" = (
-/obj/machinery/cryopod{
+/obj/machinery/cryopod/tele,
+/obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
@@ -66511,6 +66520,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/structure/window/spawner/directional/south,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/science/lab)
 "mFh" = (
@@ -112823,6 +112833,7 @@
 	req_access = list("cargo")
 	},
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/station/cargo/office)
 "vqU" = (
@@ -162451,9 +162462,9 @@ aar
 jrA
 nrT
 jrA
-aar
+hfL
 dFr
-aar
+fZI
 jrA
 ffu
 eFZ
@@ -162706,12 +162717,12 @@ aar
 aar
 aar
 jrA
+xJH
 fZI
-jrA
-aar
+fZI
 iFA
-aar
-jrA
+fZI
+fZI
 jrA
 jrA
 jrA
@@ -162964,11 +162975,11 @@ aar
 aar
 jrA
 xJH
-jrA
-aar
-aar
-aar
-jrA
+fZI
+fZI
+fZI
+fZI
+fZI
 fZI
 fZI
 fZI
@@ -163221,11 +163232,11 @@ jrA
 jrA
 jrA
 fZI
-jrA
-jrA
-jrA
-jrA
-jrA
+fZI
+fZI
+fZI
+fZI
+fZI
 fZI
 fZI
 fZI
@@ -228234,7 +228245,7 @@ gLc
 bYD
 gLc
 rhu
-gLc
+jDG
 gLc
 gLc
 gLc
@@ -228748,7 +228759,7 @@ gLc
 bYD
 gLc
 rhu
-gLc
+ddw
 gLc
 gLc
 gLc

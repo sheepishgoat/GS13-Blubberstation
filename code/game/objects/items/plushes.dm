@@ -60,6 +60,9 @@
 	heartbroken_message = list("\n[src] looks so sad.")
 	vowbroken_message = list("\n[src] lost \his ring...")
 	parent_message = list("\n[src] can't remember what sleep is.")
+	//GS13 EDIT START
+	default_icon_state = icon_state
+	//GS13 EDIT END
 
 	normal_desc = desc
 
@@ -126,6 +129,10 @@
 		to_chat(user, span_notice("You try to pet [src], but it has no stuffing. Aww..."))
 
 /obj/item/toy/plush/attackby(obj/item/I, mob/living/user, list/modifiers, list/attack_modifiers)
+	// GS13 EDIT START
+	if(attempt_to_feed(I, user))
+		return
+	// GS13 EDIT END
 	if(I.get_sharpness())
 		if(!grenade)
 			if(!stuffed)

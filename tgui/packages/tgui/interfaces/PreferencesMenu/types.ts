@@ -206,7 +206,8 @@ export type PreferencesMenuData = {
     manually_rendered_features: Record<string, string>;
 
     // GS13 EDIT
-    wg_prefs: Record<string, unknown>
+    wg_prefs: Record<string, unknown>;
+    gs13_examine_prefs: Record<string, unknown>;
     // GS13 END EDIT
 
     names: Record<string, string>;

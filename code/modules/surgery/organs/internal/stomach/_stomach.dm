@@ -210,6 +210,9 @@
 	//GS13 EDIT Handle Weight gain
 	handle_weight_gain(human)
 
+	// GS13 EDIT handle fullness reduction
+	human.fullness_reduction()
+
 	//Hunger slowdown for if mood isn't enabled
 	if(CONFIG_GET(flag/disable_human_mood))
 		handle_hunger_slowdown(human)

@@ -62,8 +62,11 @@
 
 /obj/item/toy/plush/gs13/metis
 	name = "Nerdy Gote plush"
-	desc = "A plush of black-furred nerdy goat."
+	desc = "A plush of black-furred nerdy goat. Made with materials."
 	icon_state = "metis"
+	prey_plush = TRUE
+	can_eat_food = TRUE
+	fatness_to_max = 15
 
 /obj/item/toy/plush/gs13/sharky
 	name = "Sharky plush"
@@ -89,3 +92,37 @@
 	name = "Flimbus plushie"
 	desc = "Fill him with oil and throw him at a wall!"
 	icon_state = "flint"
+	pred_plush = TRUE
+	can_eat_food = TRUE
+	edible_object_types = list(/obj/item/food, /obj/item/stack/sheet/cotton, /obj/item/trash)
+
+/obj/item/toy/plush/gs13/protogen
+	name = "Protogen plushie"
+	desc = "A round protogen plushie. Despite her shape, she looks like she likes to exercise."
+	icon_state = "proot"
+
+/obj/item/toy/plush/gs13/yeen
+	name = "Grumpy hyena plushie"
+	desc = "This hyena's one eye looks full of harmful intent."
+	icon_state = "yeen"
+	stuffed_icon_state = "yeen_stuffed"
+	pred_plush = TRUE
+	can_eat_food = TRUE
+	digestion_divider = 1.5 // Apex metabolism
+	fatness_to_max = 30 // She's a big gal, for you.
+
+/obj/item/toy/plush/gs13/noms
+	name = "Strange blue creature plushie"
+	desc = "A large, very unwieldly plush toy of cargo's biggest workplace hazard. a small tag says \"squeeze me!\" on the seam of one of the legs."
+	icon = 'modular_gs/icons/obj/plushes_big.dmi'
+	icon_state = "noms"
+
+/obj/item/toy/plush/gs13/fala
+	name = "Fala'squee plushie"
+	desc = "A rotund green beast of whimsy and mischief. Chaos twists and reality bends in its presence, defying all known laws and rules for the benefit of its whims. Dare you wield its visage and shape along with your adventures? A low rumble emits from the plush every so often, expressing its hunger for new experiences...      Or that could just be your tummy telling you you're hungry"
+	icon_state = "fala"
+	stuffed_icon_state = "fala_stuffed"
+	pred_plush = TRUE
+	prey_plush = TRUE
+	can_eat_food = TRUE
+	max_plushie_scale = 1.5 // Already pretty huge

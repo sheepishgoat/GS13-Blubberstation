@@ -103,3 +103,49 @@
 	name = "Weak lipoifier"
 	description = "A weaker variant of lipoifier. Causes those that ingest it to build up fat cells."
 	fat_to_add = 6
+
+/datum/reagent/micro_calorite
+	name = "Micro calorite"
+	description = "Tiny pieces of grinded calorite, shining with a strange, orange glow. They cause living beings to accumulate fat faster, as well as increase hunger, at high concentrations causing passive weight gain. Metabolizes very slowly."
+	color = "#eb6e00"
+	taste_description = "sugar"
+	metabolization_rate = 0.05 * REAGENTS_METABOLISM
+	overdose_threshold = 100
+
+/datum/reagent/micro_calorite/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	affected_mob.fullness_reduction += 25	// default reduction rate is 15 per tick, so this gives 10 per tick
+
+/datum/reagent/micro_calorite/on_mob_add(mob/living/affected_mob, amount)
+	. = ..()
+	if (!iscarbon(affected_mob))
+		return
+
+	var/mob/living/carbon/affected_carbon = affected_mob
+	affected_carbon.set_weight_gain_modifier("micro_calorite", 0.3)
+	affected_carbon.set_weight_loss_modifier("micro_calorite", -0.3)
+
+/datum/reagent/micro_calorite/on_mob_delete(mob/living/affected_mob)
+	. = ..()
+	if (!iscarbon(affected_mob))
+		return
+
+	var/mob/living/carbon/affected_carbon = affected_mob
+	affected_carbon.set_weight_gain_modifier("micro_calorite", 0)
+	affected_carbon.set_weight_loss_modifier("micro_calorite", 0)
+
+/datum/reagent/micro_calorite/overdose_start(mob/living/affected_mob)
+	..()
+	if (!iscarbon(affected_mob))
+		return
+	
+	var/mob/living/carbon/affected_carbon = affected_mob
+	affected_carbon.add_weight_gain_modifier("micro_calorite", 0.6)
+	affected_carbon.add_weight_loss_modifier("micro_calorite", -0.6)
+
+/datum/reagent/micro_calorite/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
+	if (!iscarbon(affected_mob))
+		return
+	
+	var/mob/living/carbon/affected_carbon = affected_mob
+	affected_carbon.adjust_fatness(5, FATTENING_TYPE_CHEM)

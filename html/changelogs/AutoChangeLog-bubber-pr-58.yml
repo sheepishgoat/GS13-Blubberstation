@@ -1,0 +1,10 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "ports fullness alert and fullness description text"
+  - rscadd: "allows cargo to buy pipe scrubbers"
+  - rscadd: "gulp cups"
+  - rscadd: "civilian GATO dual tone suit"
+  - qol: "prevents lipoifium from working at very low concetrations"
+  - bugfix: "hopefully finally fixed persistent weight JESUS CHRIST"
+  - bugfix: "apparently the sounds of chairs breaking from someone's fat ass were broken. This should fix it"

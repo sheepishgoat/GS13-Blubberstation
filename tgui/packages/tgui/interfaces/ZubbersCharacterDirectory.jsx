@@ -47,13 +47,15 @@ export const ZubbersCharacterDirectory = (props) => {
     personalHypnoTag,
     personalNonconTag,
     personalFeedingTag,
+    personalMuscleTag,
+    personalInflationTag,
     personalNonconFeedingTag,
   } = data;
 
   return (
-    <Window width={900} height={640} resizeable>
+    <Window width={1050} height={640} resizeable>
       <Window.Content scrollable>
-        <Section title="Controls">
+        <Section title="Conatrols">
           <LabeledList>
             <LabeledList.Item label="Visibility">
               <Button fluid>
@@ -83,6 +85,12 @@ export const ZubbersCharacterDirectory = (props) => {
             </LabeledList.Item>
             <LabeledList.Item label="Noncon Feeding">
               <Button fluid>{personalNonconFeedingTag}</Button>
+            </LabeledList.Item>
+            <LabeledList.Item label="Muscle Gain">
+              <Button fluid>{personalMuscleTag}</Button>
+            </LabeledList.Item>
+            <LabeledList.Item label="Inflation">
+              <Button fluid>{personalInflationTag}</Button>
             </LabeledList.Item>
           </LabeledList>
         </Section>
@@ -237,6 +245,22 @@ const CharacterDirectoryList = (props) => {
             Feeding
           </SortButton>
           <SortButton
+            id="muscle"
+            sortId={sortId}
+            sortOrder={sortOrder}
+            onClick={handleSort}
+          >
+            Muscle Gain
+          </SortButton>
+          <SortButton
+            id="inflation"
+            sortId={sortId}
+            sortOrder={sortOrder}
+            onClick={handleSort}
+          >
+            Inflation
+          </SortButton>
+          <SortButton
             id="feeding_nc"
             sortId={sortId}
             sortOrder={sortOrder}
@@ -286,6 +310,8 @@ const CharacterDirectoryList = (props) => {
             <Table.Cell>{character.erp}</Table.Cell>
             <Table.Cell>{character.vore}</Table.Cell>
             <Table.Cell>{character.feeding}</Table.Cell>
+            <Table.Cell>{character.muscle}</Table.Cell>
+            <Table.Cell>{character.inflation}</Table.Cell>
             <Table.Cell>{character.feeding_nc}</Table.Cell>
             <Table.Cell>{character.hypno}</Table.Cell>
             <Table.Cell>{character.noncon}</Table.Cell>

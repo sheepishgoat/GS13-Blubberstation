@@ -167,6 +167,8 @@ GLOBAL_DATUM(character_directory, /datum/character_directory)
 		data["personalErpTag"] = READ_PREFS(user, choiced/erp_status)
 		data["personalVoreTag"] = READ_PREFS(user, choiced/erp_status_v)
 		data["personalFeedingTag"] = READ_PREFS(user, choiced/erp_status_feed) //GS13 EDIT
+		data["personalMuscleTag"] = READ_PREFS(user, choiced/erp_status_muscle) //GS13 EDIT
+		data["personalInflationTag"] = READ_PREFS(user, choiced/erp_status_inflation) //GS13 EDIT
 		data["personalNonconFeedingTag"] = READ_PREFS(user, choiced/erp_status_feed_nc) //GS13 EDIT
 		data["personalHypnoTag"] = READ_PREFS(user, choiced/erp_status_hypno)
 		data["personalNonconTag"] = READ_PREFS(user, choiced/erp_status_nc)
@@ -194,6 +196,8 @@ GLOBAL_DATUM(character_directory, /datum/character_directory)
 		var/erp = "Ask"
 		var/vore = "Ask"
 		var/feeding = "Ask" //GS13 EDIt
+		var/muscle = "Ask" //GS13 EDIt
+		var/inflation = "Ask" //GS13 EDIt
 		var/feeding_nc = "Ask" //GS13 EDIt
 		var/hypno = "Ask"
 		var/noncon = "Ask"
@@ -237,6 +241,8 @@ GLOBAL_DATUM(character_directory, /datum/character_directory)
 		vore = READ_PREFS(mob, choiced/erp_status_v)
 		//GS13 EDIT START
 		feeding = READ_PREFS(mob, choiced/erp_status_feed)
+		muscle = READ_PREFS(mob, choiced/erp_status_muscle)
+		inflation = READ_PREFS(mob, choiced/erp_status_inflation)
 		feeding_nc = READ_PREFS(mob, choiced/erp_status_feed_nc)
 		//GS13 EDIT END
 		hypno = READ_PREFS(mob, choiced/erp_status_hypno)
@@ -255,6 +261,8 @@ GLOBAL_DATUM(character_directory, /datum/character_directory)
 			"vore" = vore,
 			// GS13 EDIT START
 			"feeding" = feeding,
+			"muscle" = muscle,
+			"inflation" = inflation,
 			"feeding_nc" = feeding_nc,
 			// GS13 EDIT END
 			"hypno" = hypno,
