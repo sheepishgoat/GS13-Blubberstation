@@ -1,3 +1,5 @@
+GLOBAL_LIST_INIT(no_random_cure_symptoms, list(/datum/symptom/berry, /datum/symptom/weight_gain,))
+
 /datum/symptom/berry
 	name = "Berrification"
 	desc = "The virus causes the host's biology to overflow with a blue substance. Infection ends if the substance is completely removed from their body, besides ordinary cures."

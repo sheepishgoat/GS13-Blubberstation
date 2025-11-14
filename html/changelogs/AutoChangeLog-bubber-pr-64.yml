@@ -1,0 +1,10 @@
+author: "EllaOW"
+delete-after: True
+changes:
+  - rscadd: "New GS type narrator which cannot spawn antags"
+  - qol: "made the GS narrator the default narrator and removed the ability for other narrators to be voted on (increased minpop to 60 which we never reach)"
+  - balance: "Changed minimum popcount for events to spawn (most mega destructive events like mega meteor shower and directional sandstorm have at least 15/20+ or even higher pop requirement)"
+  - bugfix: "fixed old storyteller config throwing errors during setup from outdated variables"
+  - code_imp: "fixed incorrect code not correctly referencing event paths by having the code refer to the event name"
+  - code_imp: "Added a unique GS narrator type define"
+  - config: "decreased the popcount event time variables to account for smaller playerbase (result is that a lower pop doesn't result in a huge decrease of event amounts)"

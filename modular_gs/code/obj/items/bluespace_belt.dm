@@ -1,3 +1,6 @@
+#define MODE_HIDE_AMOUNT	"Hide"
+#define MODE_SHOW_AMOUNT	"Show"
+
 /obj/item/bluespace_belt
 	name = "bluespace belt"
 	desc = "A belt made using bluespace technology. The power of space and time, used to hide the fact you are fat."
@@ -9,7 +12,12 @@
 	equip_sound = 'modular_gs/sound/items/equip/toolbelt_equip.ogg'
 	drop_sound = 'modular_gs/sound/items/handling/toolbelt_drop.ogg'
 	pickup_sound =  'modular_gs/sound/items/handling/toolbelt_pickup.ogg'
-	var/equipped = FALSE		// is it in the belt slot?
+	/// is it in the belt slot?
+	var/equipped = FALSE
+	/// are we set to show X amount of BFI, or hide X amount of BFI
+	var/current_mode = MODE_SHOW_AMOUNT
+	/// how much BFI we're hiding/showing
+	var/BFI_percentage = 0
 
 /obj/item/bluespace_belt/equipped(mob/user, slot)
 	..()
@@ -35,7 +43,52 @@
 	U.hider_remove(src)
 
 /obj/item/bluespace_belt/proc/fat_hide(var/mob/living/carbon/user)
-	return -(user.fatness_real - 1)
+	var/amount_to_hide = user.fatness_real	// not gonna be that easy to hide your chubbyness now fatty~
+	if (current_mode == MODE_SHOW_AMOUNT)	// show BFI_percentage% of our fatness_real
+		amount_to_hide *= (100 - BFI_percentage) / 100
+	if (current_mode == MODE_HIDE_AMOUNT)	// show BFI_percentage% of our fatness_real
+		amount_to_hide *= BFI_percentage / 100
+
+	return -(amount_to_hide)
+
+/obj/item/bluespace_belt/click_alt(mob/user)
+	ui_interact(user, null)
+
+/obj/item/bluespace_belt/ui_data(mob/user)
+	var/list/data = list()
+	data["current_mode"] = current_mode
+	data["BFI_value"] = BFI_percentage
+	return data
+
+/obj/item/bluespace_belt/ui_interact(mob/user, datum/tgui/ui)
+	ui = SStgui.try_update_ui(user, src, ui)
+	if(!ui)
+		ui = new(user, src, "BluespaceBelt", src)
+		ui.open()
+	var/dist = get_dist(user, src)
+	if (dist >= 2)
+		ui.set_state(GLOB.default_state)
+
+/obj/item/bluespace_belt/proc/ui_interact_on_other(mob/user)
+	var/datum/tgui/ui = null
+	ui = SStgui.try_update_ui(user, src, ui)
+	if(!ui)
+		ui = new(user, src, "BluespaceBelt", src)
+		ui.set_state(GLOB.always_state)
+		ui.open()
+
+
+/obj/item/bluespace_belt/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+	. = ..()
+	if(.)
+		return
+
+	switch(action)
+		if ("set_mode")
+			current_mode = params["mode"]
+		if ("set_value")
+			BFI_percentage = params["percentage"]
+
 
 /obj/item/bluespace_belt/primitive
 	name = "primitive bluespace belt"
@@ -191,3 +244,6 @@
 	power_drain = min(power_drain, cell.charge)
 	cell.use(power_drain)
 	cell.update_icon()
+
+/obj/item/bluespace_belt/primitive/ui_interact(mob/user, datum/tgui/ui)
+	return

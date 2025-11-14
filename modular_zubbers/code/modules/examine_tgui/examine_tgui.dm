@@ -89,12 +89,16 @@
 			var/e_prefs_v = preferences.read_preference(/datum/preference/choiced/erp_status_v)
 			var/e_prefs_feed = preferences.read_preference(/datum/preference/choiced/erp_status_feed) //GS13 EDIT
 			var/e_prefs_feed_nc = preferences.read_preference(/datum/preference/choiced/erp_status_feed_nc) //GS13 EDIT
+			var/e_prefs_muscle = preferences.read_preference(/datum/preference/choiced/erp_status_muscle) //GS13 EDIT
+			var/e_prefs_inflation = preferences.read_preference(/datum/preference/choiced/erp_status_inflation) //GS13 EDIT
 			var/e_prefs_nc = preferences.read_preference(/datum/preference/choiced/erp_status_nc)
 			var/e_prefs_mechanical = preferences.read_preference(/datum/preference/choiced/erp_status_mechanics)
 			ooc_notes += "ERP: [e_prefs]\n"
 			ooc_notes += "Hypnosis: [e_prefs_hypno]\n"
 			ooc_notes += "Vore: [e_prefs_v]\n"
 			ooc_notes += "Feeding: [e_prefs_feed]\n" //GS13 EDIT
+			ooc_notes += "Muscle Gain: [e_prefs_muscle]\n" //GS13 EDIT
+			ooc_notes += "Inflation: [e_prefs_inflation]\n" //GS13 EDIT
 			ooc_notes += "Non-Con Feeding: [e_prefs_feed_nc]\n" //GS13 EDIT
 			ooc_notes += "Non-Con: [e_prefs_nc]\n"
 			ooc_notes += "ERP Mechanics: [e_prefs_mechanical]\n"

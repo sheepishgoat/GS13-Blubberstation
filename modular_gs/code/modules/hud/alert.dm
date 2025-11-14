@@ -77,3 +77,59 @@
 	name = "Hungry"
 	desc = "Some food would be good right about now."
 	icon_state = "hungry"
+
+// Muscle alerts
+
+/atom/movable/screen/alert/gs13/toned
+	name = "Toned"
+	desc = "You posses a toned physique."
+	icon_state = "toned"
+
+
+/atom/movable/screen/alert/gs13/sporty
+	name = "Sporty"
+	desc = "You posses a sporty physique."
+	icon_state = "sporty"
+
+
+/atom/movable/screen/alert/gs13/athletic
+	name = "Athletic"
+	desc = "You posses an athletic physique."
+	icon_state = "athletic"
+
+
+/atom/movable/screen/alert/gs13/muscular
+	name = "Muscular"
+	desc = "You posses a muscular physique."
+	icon_state = "muscular"
+
+
+/atom/movable/screen/alert/gs13/beefy
+	name = "Beefy"
+	desc = "You posses a beefy physique."
+	icon_state = "beefy"
+
+
+/atom/movable/screen/alert/gs13/herculean
+	name = "Herculean"
+	desc = "You posses a herculean physique."
+	icon_state = "herculean"
+
+
+/atom/movable/screen/alert/gs13/hulking
+	name = "Hulking"
+	desc = "You posses a hulking physique."
+	icon_state = "hulking"
+
+
+/atom/movable/screen/alert/gs13/titanic
+	name = "Titanic"
+	desc = "You posses a titanic physique."
+	icon_state = "titanic"
+
+
+/atom/movable/screen/alert/gs13/mountainous
+	name = "Mountainous"
+	desc = "You posses a mountainous physique."
+	icon_state = "mountainous"
+

@@ -78,13 +78,21 @@
 	if(!drip_reagents)
 		return PROCESS_KILL
 
+	var/mob/living/carbon/attached_carbon = attached_to
+	if(!istype(attached_carbon))
+		return FALSE
+
 	if(!transfer_rate)
 		return
+
+	var/obj/item/organ/stomach/target_stomach = attached_carbon?.get_organ_slot(ORGAN_SLOT_STOMACH)
+	if(!istype(target_stomach))
+		return FALSE
 
 	// Give reagents
 	if(mode)
 		if(drip_reagents.total_volume)
-			drip_reagents.trans_to(attached_to, transfer_rate * seconds_per_tick, methods = INJECT, show_message = FALSE) //make reagents reacts, but don't spam messages
+			drip_reagents.trans_to(target_stomach.reagents, transfer_rate * seconds_per_tick, show_message = FALSE) //make reagents reacts, but don't spam messages
 			update_appearance(UPDATE_ICON)
 
 /obj/machinery/iv_drip/feeding_tube/item_interaction(mob/living/user, obj/item/tool, list/modifiers)

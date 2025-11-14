@@ -1,0 +1,4 @@
+author: "EllaOW"
+delete-after: True
+changes:
+  - balance: "disabled bluespace anomalies and prevented revenants from spawning based on corpse values."

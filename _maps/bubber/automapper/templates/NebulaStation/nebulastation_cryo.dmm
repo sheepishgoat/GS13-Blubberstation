@@ -22,9 +22,9 @@
 /turf/open/floor/plating,
 /area/station/commons/locker)
 "g" = (
-/obj/machinery/cryopod,
 /obj/machinery/digital_clock/directional/north,
 /obj/effect/turf_decal/bot_blue,
+/obj/machinery/cryopod/tele,
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "i" = (
@@ -82,10 +82,10 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "s" = (
-/obj/machinery/cryopod,
 /obj/structure/sign/poster/timeclock_psa/directional/east,
 /obj/effect/turf_decal/bot_blue,
 /obj/machinery/status_display/evac/directional/north,
+/obj/machinery/cryopod/tele,
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "v" = (
@@ -98,9 +98,9 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "z" = (
-/obj/machinery/cryopod,
 /obj/effect/turf_decal/bot_blue,
 /obj/machinery/light_switch/default_on/directional/north,
+/obj/machinery/cryopod/tele,
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "A" = (
@@ -160,12 +160,12 @@
 	},
 /area/station/commons/locker)
 "L" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
 /obj/structure/sign/poster/timeclock_psa/directional/east,
 /obj/effect/turf_decal/bot_blue,
 /obj/machinery/firealarm/directional/south,
+/obj/machinery/cryopod/tele{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "Q" = (
@@ -185,11 +185,11 @@
 	},
 /area/station/commons/locker)
 "T" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
 /obj/effect/turf_decal/bot_blue,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/cryopod/tele{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 "U" = (
@@ -230,11 +230,11 @@
 /turf/open/floor/iron/dark,
 /area/station/commons/locker)
 "Y" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
 /obj/effect/turf_decal/bot_blue,
 /obj/machinery/newscaster/directional/south,
+/obj/machinery/cryopod/tele{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/herringbone,
 /area/station/commons/locker)
 

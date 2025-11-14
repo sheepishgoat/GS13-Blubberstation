@@ -235,12 +235,17 @@
 /datum/emote/living/burp
 	vary = TRUE
 
+
+/* GS13 EDIT START
+//We have our own belch sounds anyway
 /datum/emote/living/burp/get_sound(mob/living/user)
 	if(iscarbon(user))
 		if(user.gender == MALE)
 			return 'modular_skyrat/modules/emotes/sound/emotes/male/burp_m.ogg'
 		return 'modular_skyrat/modules/emotes/sound/emotes/female/burp_f.ogg'
 	return
+*/
+//GS13 EDIT END
 
 /datum/emote/living/clap
 	key = "clap"

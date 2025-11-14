@@ -14,7 +14,8 @@
 	)
 	antag_divisor = 32
 	storyteller_type = STORYTELLER_TYPE_CALM
-
+	population_min = 60 //GS EDIT
+	
 /datum/storyteller_data/tracks/chill
 	threshold_mundane = 1800
 	threshold_moderate = 2700

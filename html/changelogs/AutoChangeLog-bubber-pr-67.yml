@@ -1,0 +1,5 @@
+author: "SeepingVisage"
+delete-after: True
+changes:
+  - bugfix: "you can now print calovoltaic generator modules and hydraulic assistance modules"
+  - balance: "the mod exoskeleton is cheaper"

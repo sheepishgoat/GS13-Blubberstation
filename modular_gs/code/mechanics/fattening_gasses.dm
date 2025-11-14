@@ -7,6 +7,9 @@
 	var/lipoifium_moles = breathe_gas_volume(breath, /datum/gas/lipoifium)
 	var/lipoifium_ratio = lipoifium_moles / total_moles
 
+	if (lipoifium_pp < 0.1)	// less than 0.1 KPa of lipo
+		return
+
 	var/fatness_to_add = lipoifium_moles * 1500	// each mole gives 1500 BFI. Now, you may think that that's A METRIC FUCKTON, but in reality, because lungs by default are 0.5 liters, at 20C 101.325 kPa that's just 0.02 moles
 	// fatness_to_add *= 10 * lipoifium_moles / total_moles
 	if (lipoifium_ratio > 0.75 && lipoifium_pp > 16)	// if more than 75% of the air we breathe is lipo and we breathe at least 16 kPa of it

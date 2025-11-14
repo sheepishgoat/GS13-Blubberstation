@@ -661,10 +661,10 @@ SUBSYSTEM_DEF(gamemode)
 		return
 	var/list/decoded = json_decode(file2text(json_file))
 	for(var/event_text_path in decoded)
-		var/event_path = text2path(event_text_path)
+		//GS13 EDIT - ORIGINAL var/event_path = text2path(event_text_path)
 		var/datum/round_event_control/event
 		for(var/datum/round_event_control/iterated_event as anything in control)
-			if(iterated_event.type == event_path)
+			if(iterated_event.name == event_text_path) // GS13 EDIT - Original : if(iterated_event.type == event_path)
 				event = iterated_event
 				break
 		if(!event)

@@ -24,3 +24,7 @@
 /datum/round_event_control/mutant_infestation
 	track = EVENT_TRACK_MAJOR
 	tags = list(TAG_COMMUNAL, TAG_COMBAT, TAG_CHAOTIC, TAG_CREW_ANTAG)
+
+/datum/round_event_control/anomaly/anomaly_bluespace //GS:13 edit | disabled due to hitting people in dorms.
+	track = EVENT_TRACK_MODERATE
+	tags = list(TAG_COMMUNAL, TAG_DESTRUCTIVE, TAG_CHAOTIC)

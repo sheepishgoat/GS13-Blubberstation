@@ -54,7 +54,7 @@
 /datum/design/module/hydraulic_movement
 	name = "Hydraulic Assistance Module"
 	id = "mod_hydraulic"
-	materials = list(/datum/material/iron = 1000, /datum/material/glass = 200)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*2.5, /datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT)
 	build_path = /obj/item/mod/module/hydraulic_movement
 	desc = "A GATO-designed module that supports plumper bodies and allows easier movement."
 
@@ -95,7 +95,7 @@
 /datum/design/module/calovoltaic
 	name = "Calovoltaic Generator Module"
 	id = "mod_calovoltaic"
-	materials = list(/datum/material/iron = 500, /datum/material/glass = 500, /datum/material/plasma = 500)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/plasma = SHEET_MATERIAL_AMOUNT * 2.5)
 	build_path = /obj/item/mod/module/calovoltaic
 	desc = "A GATO-designed module for burning excess fat to make power for your suit."
 
@@ -208,7 +208,7 @@
 /obj/item/mod/control/pre_equipped/exoskeleton
 	desc = "A pre-built GATO mobility exoskeleton, designed to support high weights, favor movement and weight loss."
 	theme = /datum/mod_theme/exoskeleton
-	core = /obj/item/mod/core/standard
+	applied_cell = /obj/item/stock_parts/power_store/cell/high
 
 /obj/item/mod/control/pre_equipped/exoskeleton/locked
 	name = "MOD control unit (locked)"
@@ -219,7 +219,7 @@
 	name = "MOD exoskeleton"
 	desc = "A pre-built GATO mobility exoskeleton, designed to support high weights, favor movement and weight loss."
 	id = "mod_exoskeleton"
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*50, /datum/material/glass = SHEET_MATERIAL_AMOUNT*50, /datum/material/plasma = SHEET_MATERIAL_AMOUNT*50)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*10, /datum/material/glass = SHEET_MATERIAL_AMOUNT*5, /datum/material/plasma = SHEET_MATERIAL_AMOUNT*2.5)
 	build_path = /obj/item/mod/control/pre_equipped/exoskeleton
 	desc = "A GATO-designed assistance exoskeleton based on MODsuit tech."
 	build_type = MECHFAB

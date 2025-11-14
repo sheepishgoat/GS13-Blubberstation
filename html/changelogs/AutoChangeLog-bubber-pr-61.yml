@@ -1,0 +1,14 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Adds micro calorite reagent. It is obtained by grinding calorite alongside lipoifier, obtaining 0.5u per sheet of calorite grinded. Normally, it provides a +0.3 increase to weight gain rate and a -0.3 decrease to weight loss rate. It also decreases fullness and is very slow to metabolize. It has a 100u overdose, which adds BFI to the player (around 9 BFI per tick (3/5 of lipoifier)), as well as increases the WG/L rate modifier to 0.9."
+  - rscadd: "AL-T ray reverser now flips the value of weight loss rate on each hit. Getting hit once results in weight loss rate being set to negative, resulting in weight loss. Getting hit again reverses that effect, with any further hits repeating this process."
+  - rscadd: "due to a coding change that will be described later, calorite slimes maximum increase to weight gain and loss values has been lowered to 2"
+  - rscadd: "munchies weed now reduce fullness without reducing nutrition, allowing for better simulation of hunger. this fullness system is currently pretty underbaked, but it should work for now as a suitable replacement until I come up with a better solution."
+  - rscadd: "changes the way modifying weight gain and loss rate through in-game means works. They will now be tracked separately from the value set in prefs, meaning that changing it won't override any modifiers a player may have obtained during the course of the round. They do not carry over between rounds."
+  - bugfix: "calorite can be printed from autolathes"
+  - bugfix: "single side reflectors were applying the fattening effect meant for calorite reflectors. They no longer do it."
+  - code_imp: "adjusted the way weight gain/loss rate modifiers work. They are now tracked in a list containing key value pairs, with the key being the name of the source while the value being the additive change to be applied to the final WG/L rate. The values in the list are uncapped, however they are capped to a range of [-2, 2] when applying them for fatness adjustment calculations."
+  - code_imp: "added many procs to handle the WG/L rate modifier lists"
+  - code_imp: "added a variable for flipping the sign on WG/L rate, one var for each."
+  - code_imp: "added procs to calculate the final WG/L rate applied to a mob, taking into consideration the value set in prefs, the flips and modifiers."

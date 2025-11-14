@@ -9,6 +9,10 @@
 /obj/machinery/newscaster/directional/north,
 /turf/template_noop,
 /area/template_noop)
+"e" = (
+/obj/structure/sign/warning/gato/vacuum,
+/turf/closed/wall/r_wall,
+/area/station/hallway/secondary/entry)
 "f" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -39,7 +43,6 @@
 /area/template_noop)
 "v" = (
 /obj/item/radio/intercom/directional/south,
-/obj/structure/sign/warning/vacuum/external/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "w" = (
@@ -224,7 +227,7 @@ Y
 Y
 Y
 v
-c
+e
 y
 H
 c

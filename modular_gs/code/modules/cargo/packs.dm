@@ -1,13 +1,11 @@
-//Reminders-
-// If you add something to this list, please group it by type and sort it alphabetically instead of just jamming it in like an animal
-// cost = 700- Minimum cost, or infinite points are possible.
-
 /datum/supply_pack/vending/mealdor
 	name = "Meal Vendor Supply Crate"
 	desc = "Suprising one to order. If you need a refill for the meal vendor, someone's immobile somewhere. And since you managed to make it to cargo... Well it's not our job to say no!"
-	cost = 10000
+	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/vending_refill/mealdor)
 	crate_name = "meal vendor supply crate"
+
+/*
 
 /datum/supply_pack/misc/livestock
 	name = "Livestock Implant"
@@ -55,3 +53,5 @@
 					/obj/item/book/manual/prisoner_SOP,
 					/obj/item/book/manual/greytide_SOP)
 	crate_name = "sop books crate"
+
+*/

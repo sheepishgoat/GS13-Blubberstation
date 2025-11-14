@@ -1,0 +1,13 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "control menu to the Bluespace belt, allowing the user to control the % of their fat they wish to hide/show. It can also be accessed by another player through the strip menu. It can also be accessed through alt click when you're wearing it."
+  - rscadd: "ports the metal cruncher trait, and makes calorite edible"
+  - rscadd: "ports lipolicide tolerance"
+  - balance: "lowers micro calorite metabolisation rate further"
+  - balance: "drastically increases the amount of calorite found in the mines"
+  - bugfix: "fixes some runtime related to calorite floors"
+  - bugfix: "fixes a lot of our beaker presets being broken"
+  - bugfix: "fixes a typo in the WG prefs screen"
+  - code_imp: "adds 2 new procs for weight gain modifiers for clearing a single, or all sources"
+  - code_imp: "moves the location of the mealdor resupply pack from `rebase_packs.dm` to `packs.dm`, and removes the old file since it was the only item in it."

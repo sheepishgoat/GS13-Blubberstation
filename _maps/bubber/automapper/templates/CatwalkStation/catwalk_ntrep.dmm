@@ -111,6 +111,7 @@
 	pixel_x = 7
 	},
 /obj/structure/sign/flag/galfed/directional/north,
+/obj/item/sign/flag/gato,
 /turf/open/floor/carpet/green,
 /area/station/command/heads_quarters/nt_rep)
 "qL" = (
@@ -227,7 +228,10 @@
 /turf/closed/wall,
 /area/station/hallway/primary/central)
 "Ld" = (
-/obj/structure/sign/flag/nanotrasen/directional/south,
+/obj/structure/sign/flag/gato{
+	pixel_x = 0;
+	pixel_y = -32
+	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/nt_rep)
 "Mm" = (

@@ -1,0 +1,7 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Yeen and protogen plushies, as well as re-adds the LGO and kota plushes to the loadout screen"
+  - rscadd: "changed the way fullness_reduction works,"
+  - bugfix: "fixes treadmills not being rotatable with a wrench, and disappearing when their panel was open"
+  - bugfix: "fixes humogatitos missing their textures when opened and not having cigarettes inside. Also changes their sprite to the new one made by Clumpy"

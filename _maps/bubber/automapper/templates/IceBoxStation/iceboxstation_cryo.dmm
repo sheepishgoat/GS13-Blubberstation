@@ -4,10 +4,13 @@
 /turf/open/floor/iron,
 /area/station/common/cryopods)
 "b" = (
-/obj/machinery/cryopod{
+/obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/white{
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/machinery/cryopod/tele{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -43,6 +46,12 @@
 	},
 /obj/machinery/light/directional/east,
 /obj/machinery/modular_computer/preset/time_clock/directional/east,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
+	},
+/obj/machinery/cryopod/tele{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "k" = (
@@ -60,13 +69,16 @@
 /turf/template_noop,
 /area/template_noop)
 "z" = (
-/obj/machinery/cryopod{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/cryopod/tele{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -85,9 +97,6 @@
 /turf/closed/wall,
 /area/station/common/cryopods)
 "E" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
@@ -97,16 +106,25 @@
 	dir = 4
 	},
 /obj/machinery/camera/directional/west,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/machinery/cryopod/tele{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "J" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/west,
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/machinery/cryopod/tele{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "K" = (

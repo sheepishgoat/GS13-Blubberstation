@@ -7,7 +7,7 @@
 	tag_multipliers = list(
 		TAG_DESTRUCTIVE = 1.5
 	)
-	population_min = 25
+	population_min = 60 //GS EDIT
 	antag_divisor = 10
 	storyteller_type = STORYTELLER_TYPE_INTENSE
 

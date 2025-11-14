@@ -16,9 +16,6 @@
 /turf/open/floor/iron/white,
 /area/station/commons/fitness/recreation)
 "k" = (
-/obj/machinery/cryopod{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -27,6 +24,9 @@
 	dir = 1
 	},
 /obj/machinery/camera/directional/east,
+/obj/machinery/cryopod/tele{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
 "l" = (
@@ -38,10 +38,10 @@
 /turf/open/floor/iron/white,
 /area/station/commons/fitness/recreation)
 "F" = (
-/obj/machinery/cryopod{
+/obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/white{
+/obj/machinery/cryopod/tele{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -70,8 +70,8 @@
 /turf/open/floor/iron/white,
 /area/station/commons/fitness/recreation)
 "Z" = (
-/obj/machinery/cryopod,
 /obj/effect/turf_decal/siding/white,
+/obj/machinery/cryopod/tele,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation)
 

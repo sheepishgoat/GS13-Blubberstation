@@ -91,3 +91,13 @@ export const erp_status_pref_feed_nc: FeatureChoiced = {
   name: 'ERP Non-Con Feeding Status',
   component: FeatureDropdownInput,
 };
+
+export const erp_status_pref_muscle: FeatureChoiced = {
+  name: 'ERP Muscle Gain Status',
+  component: FeatureDropdownInput,
+};
+
+export const erp_status_pref_inflation: FeatureChoiced = {
+  name: 'ERP Inflation Status',
+  component: FeatureDropdownInput,
+};

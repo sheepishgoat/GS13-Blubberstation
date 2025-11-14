@@ -1,0 +1,5 @@
+author: "EllaOW"
+delete-after: True
+changes:
+  - bugfix: "fixed nukies being able to spawn when antags are disabled."
+  - config: "supermatter surge now requires 10 people (was 0), energetic flux now requires 5 people (was 1), pyroclastic anomaly now requires 8 people (was 1)."

@@ -1,0 +1,8 @@
+author: "SeepingVisage"
+delete-after: True
+changes:
+  - refactor: "burp code"
+  - rscadd: "belch"
+  - rscadd: "fart"
+  - rscadd: "playsound_prefed()"
+  - rscadd: "preferences to enable/disable certain noises"

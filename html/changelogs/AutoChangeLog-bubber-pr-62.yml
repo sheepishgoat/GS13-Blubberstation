@@ -1,0 +1,5 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Adds the CFC ai skin"
+  - rscadd: "Adds 2 law boards with feeder laws, one antagonistic and other more neutral."

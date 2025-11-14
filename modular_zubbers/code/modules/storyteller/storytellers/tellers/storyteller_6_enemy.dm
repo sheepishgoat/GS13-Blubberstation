@@ -8,7 +8,7 @@
 		TAG_CHAOTIC = 0.1, //*look inside high chaos storyteller* *no chaos*
 		TAG_CREW_ANTAG = 2,
 	)
-	population_min = 35
+	population_min = 60 //GS EDIT
 	antag_divisor = 5
 	storyteller_type = STORYTELLER_TYPE_INTENSE
 
@@ -23,7 +23,6 @@
 		EVENT_TRACK_CREWSET = 1,
 		EVENT_TRACK_GHOSTSET = 0
 	)
-
 	event_repetition_multiplier = 1 //Set from default 0.6 so that the round just doesn't throw every antag type possible at the crew.
 
 /datum/storyteller_data/tracks/enemy

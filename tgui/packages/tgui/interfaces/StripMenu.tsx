@@ -88,6 +88,12 @@ const ALTERNATE_ACTIONS: Record<string, AlternateAction> = {
     icon: 'ribbon',
     text: 'Strip accessory',
   },
+  // GS13 EDIT - bluespace belt adjustment on other
+  bluespace_belt_adjustment:{
+    icon: "microchip",
+    text: "Adjust belt settings",
+  }
+  // GS13 END EDIT
 };
 
 const SLOTS: Record<
