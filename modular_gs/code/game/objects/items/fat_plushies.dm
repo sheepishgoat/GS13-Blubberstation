@@ -60,9 +60,9 @@
 		digestion_value = PLUSHIE_VORE_VALUE
 		digestion_time = PLUSHIE_DIGESTION_TIME_VORE
 		if(devoured_plush.fatness > digestion_value)
-			digestion_value = devoured_plush.fatness
+			digestion_value += devoured_plush.fatness
 
-		devoured_plushies += 1
+		devoured_plushies += (1 + devoured_plush?.devoured_plushies)
 
 	to_chat(user, span_notice("[src] devours the [item_to_devour]!"))
 	digestion_time = (digestion_time / digestion_divider)

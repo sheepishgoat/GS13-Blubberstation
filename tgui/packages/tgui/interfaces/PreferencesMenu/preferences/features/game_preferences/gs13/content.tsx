@@ -77,3 +77,15 @@ export const muscle_gain: FeatureToggle = {
   category: 'WG Sources',
   component: CheckboxInput,
 };
+
+export const burping_noises: FeatureToggle = {
+  name: 'Enable burping noises',
+  category: 'SOUND',
+  component: CheckboxInput,
+};
+
+export const farting_noises: FeatureToggle = {
+  name: 'Enable farting noises',
+  category: 'SOUND',
+  component: CheckboxInput,
+};

@@ -7,7 +7,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/status_display/evac/directional/east,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/carpet/gato,
 /area/shuttle/pod_1)
 "B" = (
 /turf/closed/wall/mineral/titanium,
@@ -16,7 +16,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/open/floor/carpet/executive,
+/turf/open/floor/carpet/gato,
 /area/shuttle/pod_1)
 "N" = (
 /obj/docking_port/mobile/pod{
@@ -25,7 +25,7 @@
 /obj/machinery/door/airlock/titanium/glass{
 	name = "Escape Pod Airlock"
 	},
-/turf/open/floor/carpet/executive,
+/turf/open/floor/carpet/gato,
 /area/shuttle/pod_1)
 "Q" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -38,7 +38,7 @@
 /obj/item/radio/intercom/directional/east,
 /obj/item/storage/pod/directional/west,
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/carpet/executive,
+/turf/open/floor/carpet/gato,
 /area/shuttle/pod_1)
 "Z" = (
 /obj/machinery/power/shuttle_engine/propulsion/burst,

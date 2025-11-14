@@ -1,7 +1,8 @@
 /datum/quirk/metal_cruncher
 	name = "Metal Cruncher"
 	desc = "You can eat most minerals. Brush your teeth."
-	value = 0 //ERP quirk
+	icon = "fa-compact-disc"
+	value = 0
 	gain_text = "<span class='notice'>You feel like you could eat steel.</span>"
 	lose_text = "<span class='notice'>Your teeth hurt too much...</span>"
 	mob_trait = TRAIT_METAL_CRUNCHER
@@ -9,24 +10,24 @@
 /obj/item/stack
 	var/crunch_value = 0
 
-/obj/item/stack/attack(mob/living/M, mob/living/user)
-	if(HAS_TRAIT(M, TRAIT_METAL_CRUNCHER))
+/obj/item/stack/attack(mob/living/cruncher, mob/living/user)
+	if(HAS_TRAIT(cruncher, TRAIT_METAL_CRUNCHER) || istype(src, /obj/item/stack/sheet/mineral/calorite))
 		if(crunch_value > 0)
-			if(M == user)
+			if(cruncher == user)
 				user.visible_message("<span class='notice'>[user] crunches on some of [src].</span>", "<span class='notice'>You crunch on some of [src].</span>")
 			else
-				M.visible_message("<span class='danger'>[user] attempts to feed some of [src] to [M].</span>", "<span class='userdanger'>[user] attempts to feed some of [src] to [M].</span>")
-			playsound(M,'sound/items/eatfood.ogg', rand(10,50), 1)
+				cruncher.visible_message("<span class='danger'>[user] attempts to feed some of [src] to [cruncher].</span>", "<span class='userdanger'>[user] attempts to feed some of [src] to [cruncher].</span>")
+			playsound(cruncher,'sound/items/eatfood.ogg', rand(10,50), 1)
 			use(1)
-			M.nutrition += crunch_value
-			//if(HAS_TRAIT(M, TRAIT_VORACIOUS))
-			//	M.changeNext_move(CLICK_CD_MELEE * 0.5)
+			cruncher.nutrition += crunch_value
+			//if(HAS_TRAIT(cruncher, TRAIT_VORACIOUS))
+			//	cruncher.changeNext_move(CLICK_CD_MELEE * 0.5)
 		return
 	. = ..()
 
 /obj/item/stack/cable_coil
 	crunch_value = 2
-/obj/item/stack/sheet/metal
+/obj/item/stack/sheet/iron
 	crunch_value = 4
 /obj/item/stack/rods
 	crunch_value = 2
@@ -54,10 +55,12 @@
 	crunch_value = 1
 /obj/item/stack/sheet/mineral/calorite
 	crunch_value = 100
+/obj/item/stack/sheet/calorite_glass
+	crunch_value = 110
 /obj/item/stack/sheet/mineral/sandstone
 	crunch_value = 1
 /obj/item/stack/sheet/mineral/uranium
-	crunch_value = 50
+	crunch_value = 90	// 20 billion calories. So if you really want to bulk up, you have a source
 /obj/item/stack/sheet/mineral/plasma
 	crunch_value = 10
 /obj/item/stack/sheet/mineral/gold

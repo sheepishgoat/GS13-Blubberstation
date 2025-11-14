@@ -39,7 +39,7 @@
 	item_path = /obj/item/toy/plush/gs13/flint
 
 /datum/loadout_item/toys/protogen_plush
-	name = "Protogen Plush"
+	name = "Proto-orb Plush"
 	item_path = /obj/item/toy/plush/gs13/protogen
 
 /datum/loadout_item/toys/yeen_plush
@@ -53,3 +53,11 @@
 /datum/loadout_item/toys/fala_plush
 	name = "Fala'squee Plush"
 	item_path = /obj/item/toy/plush/gs13/fala
+
+/datum/loadout_item/toys/val_plush
+	name = "Abhorent fen Plush"
+	item_path = /obj/item/toy/plush/gs13/val
+
+/datum/loadout_item/toys/isaac_plush
+	name = "Plump dragon Plush"
+	item_path = /obj/item/toy/plush/gs13/isaac

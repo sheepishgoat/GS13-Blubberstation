@@ -19,6 +19,8 @@
 		"mod_flashlight",
 		//GS13 EDIT START
 		"mod_exoskeleton",
+		"mod_hydraulic",
+		"mod_calovoltaic",
 		//GS13 EDIT END
 	)
 

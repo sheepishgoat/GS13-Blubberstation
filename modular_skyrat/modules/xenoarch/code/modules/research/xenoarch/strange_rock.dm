@@ -223,13 +223,13 @@
 		/obj/item/stack/ore/titanium = 11,
 		/obj/item/stack/ore/gold = 10,
 		/turf/closed/mineral/strange_rock/volcanic = 10,
+		// GS13 EDIT - calorite
+		/obj/item/stack/ore/calorite = 8,
+		// GS13 END EDIT
 		/obj/item/stack/ore/uranium = 5,
 		/turf/closed/mineral/gibtonite/volcanic = 4,
 		/obj/item/stack/ore/diamond = 1,
-		/obj/item/stack/ore/bluespace_crystal = 1,
-		// GS13 EDIT - calorite
-		/obj/item/stack/ore/calorite = 1
-		// GS13 END EDIT
+		/obj/item/stack/ore/bluespace_crystal = 1
 		)
 
 /turf/closed/mineral/strange_rock/ice
@@ -255,6 +255,9 @@
 		/obj/item/stack/ore/titanium = 11,
 		/obj/item/stack/ore/gold = 10,
 		/turf/closed/mineral/strange_rock/ice/icemoon = 10,
+		// GS13 EDIT - calorite
+		/obj/item/stack/ore/calorite = 8,
+		// GS13 END EDIT
 		/obj/item/stack/ore/uranium = 5,
 		/turf/closed/mineral/gibtonite/ice/icemoon = 4,
 		/obj/item/stack/ore/diamond = 1,
@@ -273,6 +276,9 @@
 		/obj/item/stack/ore/gold = 20,
 		/obj/item/stack/ore/plasma = 20,
 		/obj/item/stack/ore/iron = 20,
+		// GS13 EDIT - calorite
+		/obj/item/stack/ore/calorite = 16,
+		// GS13 END EDIT
 		/obj/item/stack/ore/uranium = 10,
 		/turf/closed/mineral/strange_rock/ice/icemoon = 10,
 		/turf/closed/mineral/gibtonite/ice/icemoon = 8,
@@ -315,6 +321,9 @@
 		/obj/item/stack/ore/titanium = 11,
 		/obj/item/stack/ore/gold = 10,
 		/turf/closed/mineral/strange_rock/asteroid = 10,
+		// GS13 EDIT - calorite
+		/obj/item/stack/ore/calorite = 8,
+		// GS13 END EDIT
 		/obj/item/stack/ore/uranium = 5,
 		/turf/closed/mineral/gibtonite/asteroid = 4,
 		/obj/item/stack/ore/bluespace_crystal = 1,

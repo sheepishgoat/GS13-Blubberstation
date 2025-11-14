@@ -70,13 +70,14 @@
 	. = ..()
 	if(!.)
 		return
-	if(!roundstart && !SSgamemode.can_inject_antags())
+	return FALSE //GS13 edit: returns false without any evaluation until we are sure we want antags in place. This prevents nukies without editing core files.
+	/*if(!roundstart && !SSgamemode.can_inject_antags())
 		return FALSE
 	if(!get_antag_amount())
 		return FALSE
 	var/list/candidates = get_candidates()
 	if(candidates.len < get_minimum_candidates())
-		return FALSE
+		return FALSE */
 
 /datum/round_event_control/antagonist/proc/get_minimum_candidates()
 	return minimum_candidate_base

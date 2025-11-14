@@ -23,28 +23,31 @@
 /obj/item/reagent_containers/cup/beaker/galbanic
 	list_reagents = list(/datum/reagent/fermi_fat = 50)
 
+/obj/item/reagent_containers/cup/beaker/cornoil
+	list_reagents = list(/datum/reagent/consumable/nutriment/fat/oil/corn = 50)
 
-///obj/item/reagent_containers/glass/beaker/cornoil
-	//list_reagents = list(/datum/reagent/consumable/cornoil = 50)
-
-/obj/item/reagent_containers/glass/beaker/blueberry_juice
+/obj/item/reagent_containers/cup/beaker/blueberry_juice
 	list_reagents = list(/datum/reagent/blueberry_juice = 50)
-/*
-/obj/item/reagent_containers/glass/beaker/fizulphite
+
+/obj/item/reagent_containers/cup/beaker/fizulphite
 	list_reagents = list(/datum/reagent/consumable/fizulphite = 50)
 
-/obj/item/reagent_containers/glass/beaker/extilphite
+/obj/item/reagent_containers/cup/beaker/extilphite
 	list_reagents = list(/datum/reagent/consumable/extilphite = 50)
 
-/obj/item/reagent_containers/glass/beaker/calorite_blessing
+/obj/item/reagent_containers/cup/beaker/calorite_blessing
 	list_reagents = list(/datum/reagent/consumable/caloriteblessing = 50)
 
-/obj/item/reagent_containers/glass/beaker/flatulose
+/obj/item/reagent_containers/cup/beaker/micro_calorite
+	list_reagents = list(/datum/reagent/micro_calorite = 50)
+
+/obj/item/reagent_containers/cup/beaker/flatulose
 	list_reagents = list(/datum/reagent/consumable/flatulose = 50)
 
-/obj/item/reagent_containers/glass/beaker/macarenic
+/obj/item/reagent_containers/cup/beaker/macarenic
 	list_reagents = list(/datum/reagent/fermi_slim = 50)
 
+/*
 //evil fucking donut
 
 /obj/item/food/donut/evil_superfat

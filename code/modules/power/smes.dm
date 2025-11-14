@@ -539,6 +539,10 @@
 	charge = 50 * STANDARD_BATTERY_CHARGE // Engineering starts with some charge for singulo //sorry little one, singulo as engine is gone
 	output_level = 90 KILO WATTS
 
+/obj/machinery/power/smes/super/full_engineering //GS13 - our own variant for maps
+	charge = 100 * STANDARD_BATTERY_CHARGE // Engineering starts with some charge for singulo //sorry little one, singulo as engine is gone
+	output_level = 90 KILO WATTS
+
 /obj/machinery/power/smes/magical
 	name = "magical power storage unit"
 	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit. Magically produces power."

@@ -31753,13 +31753,13 @@
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
 /obj/structure/sign/warning/electric_shock/directional/north,
-/obj/machinery/power/smes/full,
+/obj/machinery/power/smes/super/full_engineering,
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/engine_smes)
 "cid" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
-/obj/machinery/power/smes/full,
+/obj/machinery/power/smes/super/full_engineering,
 /turf/open/floor/iron/smooth_large,
 /area/station/engineering/engine_smes)
 "cie" = (
@@ -42566,8 +42566,10 @@
 "few" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/cryopod/tele,
 /obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/cryopod/tele{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -57683,8 +57685,10 @@
 /obj/machinery/camera/directional/south{
 	c_tag = "Cryopods"
 	},
-/obj/machinery/cryopod/tele,
 /obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/cryopod/tele{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
@@ -77730,8 +77734,10 @@
 	},
 /area/station/cargo/storage)
 "uUe" = (
-/obj/machinery/cryopod/tele,
 /obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/cryopod/tele{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,

@@ -13,11 +13,11 @@
 		"earliest_start": 3000
 	},
 	"Spontaneous Brain Trauma": {
-		"min_players": 13,
+		"min_players": 7,
 		"weight": 25
 	},
 	"Brand Intelligence": {
-		"min_players": 20,
+		"min_players": 13,
 		"weight": 5
 	},
 	"Bureaucratic Error": {
@@ -29,16 +29,16 @@
 		"weight": 100
 	},
 	"Carp Migration": {
-		"min_players": 12,
+		"min_players": 5,
 		"weight": 15,
 		"earliest_start": 6000
 	},
 	"Disease Outbreak: Classic": {
-		"min_players": 10,
+		"min_players": 8,
 		"weight": 5
 	},
 	"Disease Outbreak: Advanced": {
-		"min_players": 35,
+		"min_players": 14,
 		"weight": 15,
 		"earliest_start": 9000
 	},
@@ -73,7 +73,7 @@
 		"weight": 10
 	},
 	"Random Heart Attack": {
-		"min_players": 40,
+		"min_players": 14,
 		"weight": 20
 	},
 	"Ion Storm": {
@@ -102,7 +102,7 @@
 		"weight": 0
 	},
 	"Processor Overload": {
-		"min_players": 20,
+		"min_players": 8,
 		"weight": 15
 	},
 	"Radiation Leak": {
@@ -114,7 +114,7 @@
 		"weight": 10
 	},
 	"Sandstorm: Directional": {
-		"min_players": 35,
+		"min_players": 15,
 		"weight": 10,
 		"earliest_start": 21000
 	},
@@ -124,16 +124,16 @@
 		"earliest_start": 0
 	},
 	"Scrubber Overflow: Normal": {
-		"min_players": 10,
+		"min_players": 4,
 		"weight": 10
 	},
 	"Scrubber Overflow: Threatening": {
-		"min_players": 25,
+		"min_players": 10,
 		"weight": 4,
 		"earliest_start": 21000
 	},
 	"Scrubber Overflow: Catastrophic": {
-		"min_players": 35,
+		"min_players": 15,
 		"weight": 2,
 		"earliest_start": 27000
 	},
@@ -150,7 +150,7 @@
 		"weight": 10
 	},
 	"Spider Infestation": {
-		"min_players": 20,
+		"min_players": 8,
 		"weight": 10
 	},
 	"Stray Cargo Pod": {
@@ -164,7 +164,7 @@
 		"earliest_start": 18000
 	},
 	"Supermatter Surge": {
-		"min_players": 0,
+		"min_players": 10,
 		"weight": 15
 	},
 	"Supermatter Surge: Poly's Revenge": {
@@ -187,7 +187,7 @@
 		"earliest_start": 6000
 	},
 	"Ventilation Clog: Critical": {
-		"min_players": 15,
+		"min_players": 8,
 		"weight": 8,
 		"earliest_start": 15000
 	},
@@ -205,11 +205,11 @@
 		"weight": 1
 	},
 	"Anomaly: Energetic Flux": {
-		"min_players": 1,
+		"min_players": 5,
 		"weight": 15
 	},
 	"Anomaly: Bioscrambler": {
-		"min_players": 10,
+		"min_players": 5,
 		"weight": 20
 	},
 	"Anomaly: Bluespace": {
@@ -217,11 +217,11 @@
 		"weight": 15
 	},
 	"Anomaly: Dimensional": {
-		"min_players": 10,
+		"min_players": 5,
 		"weight": 20
 	},
 	"Anomaly: Ectoplasmic Outburst": {
-		"min_players": 30,
+		"min_players": 20,
 		"weight": 4
 	},
 	"Anomaly: Hyper-Energetic Flux": {
@@ -237,15 +237,15 @@
 		"weight": 15
 	},
 	"Anomaly: Hallucination": {
-		"min_players": 10,
+		"min_players": 5,
 		"weight": 20
 	},
 	"Anomaly: Pyroclastic": {
-		"min_players": 1,
+		"min_players": 8,
 		"weight": 20
 	},
 	"Anomaly: Vortex": {
-		"min_players": 20,
+		"min_players": 10,
 		"weight": 10
 	},
 	"Abductors": {
@@ -315,32 +315,32 @@
 		"weight": 0
 	},
 	"Meteor Wave: Normal": {
-		"min_players": 15,
+		"min_players": 5,
 		"weight": 4,
 		"earliest_start": 15000
 	},
 	"Meteor Wave: Threatening": {
-		"min_players": 20,
+		"min_players": 15,
 		"weight": 5,
 		"earliest_start": 21000
 	},
 	"Meteor Wave: Catastrophic": {
-		"min_players": 25,
+		"min_players": 20,
 		"weight": 7,
 		"earliest_start": 27000
 	},
 	"Meteor Wave: Meaty": {
-		"min_players": 15,
+		"min_players": 7,
 		"weight": 2,
 		"earliest_start": 15000
 	},
 	"Major Space Dust": {
-		"min_players": 15,
+		"min_players": 8,
 		"weight": 14,
 		"earliest_start": 9000
 	},
 	"Stray Meteor": {
-		"min_players": 15,
+		"min_players": 8,
 		"weight": 15
 	},
 	"Shuttle Loan": {
@@ -349,7 +349,7 @@
 		"earliest_start": 4200
 	},
 	"Space Vines": {
-		"min_players": 10,
+		"min_players": 8,
 		"weight": 15
 	}
 }

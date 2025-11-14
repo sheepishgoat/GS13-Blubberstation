@@ -1,0 +1,5 @@
+author: "EllaOW"
+delete-after: True
+changes:
+  - refactor: "standardized code between config and examplestoryteller.dm files. config now has a set value of 60 for all event tracks, which is multiplied by the value in the storyteller files to create a rough equivalence of about 1 minute per 1 value in the storyteller file."
+  - config: "major events now have a minimum of 10 players to run (down from 15) to allow for major events with slightly lower thresholds to still run. This does not affect events that had minimum populations greater than or equal to 15 already."

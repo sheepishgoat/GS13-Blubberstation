@@ -59,8 +59,8 @@
 	if(!iscarbon(M))
 		return..()
 	var/mob/living/carbon/C = M
-	C.adjust_fatness(20, FATTENING_TYPE_CHEM)
-	C.adjust_perma(1, FATTENING_TYPE_CHEM)
+	C.adjust_fatness(30, FATTENING_TYPE_CHEM)
+	C.adjust_perma(6, FATTENING_TYPE_CHEM)
 	..()
 
 /datum/reagent/fermi_fat/overdose_start(mob/living/M)

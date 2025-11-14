@@ -21,9 +21,9 @@
 	//At what rate does the parent mob lose weight? 1 = 100%
 	var/weight_loss_rate = 1
 	/// modifier for weight gain rate. Don't modify this directly, instead use the set and add_weight_gain_modifier procs
-	var/weight_gain_modifiers = list()
+	var/list/weight_gain_modifiers = list()
 	/// modifier for weight loss rate. Don't modify this directly, instead use the set and add_weight_loss_modifier procs
-	var/weight_loss_modifiers = list()
+	var/list/weight_loss_modifiers = list()
 	/// whether we flip the sign on the final WG rate. This will make any fattening action make you lose weight instead
 	var/flip_gain_rate = FALSE
 	/// whether we flip the sign on the final WL rate. This will make any slimming action make you gain weight
@@ -183,6 +183,28 @@
 		return weight_loss_modifiers[source]
 	
 	return 0
+
+/// completely removes a weight gain modifier from the list
+/mob/living/carbon/proc/remove_weight_gain_modifier(source)
+	if (!weight_gain_modifiers[source])
+		return
+	
+	weight_gain_modifiers.Remove(source)
+
+/// completely removes a weight loss modifier from the list
+/mob/living/carbon/proc/remove_weight_loss_modifier(source)
+	if (!weight_loss_modifiers[source])
+		return
+	
+	weight_loss_modifiers.Remove(source)
+
+/// removes all weight gain modifiers
+/mob/living/carbon/proc/clear_weight_gain_modifiers()
+	weight_gain_modifiers.Cut()
+
+/// removes all weight loss modifiers
+/mob/living/carbon/proc/clear_weight_loss_modifiers()
+	weight_loss_modifiers.Cut()
 
 /// returns the final weight gain rate of a carbon, taking into account all modifiers, flips, traits etc
 /mob/living/carbon/proc/get_weight_gain_rate()

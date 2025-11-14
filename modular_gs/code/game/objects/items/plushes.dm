@@ -34,6 +34,8 @@
 	name = "Plant Snake plush"
 	desc = "An energetic looking snake toy with a silly little rose hanging from the side of his head."
 	icon_state = "rose"
+	stuffed_icon_state = "rose_stuffed"
+	can_eat_food = TRUE
 
 /obj/item/toy/plush/gs13/kinichi
 	name = "Jani-liz plush"
@@ -44,6 +46,8 @@
 	name = "Trashbot plush"
 	desc = "An attempt to market one of cleaning machines from the local market, in the form of a purchasable plushie."
 	icon_state = "lgo"
+	can_eat_food = TRUE
+	edible_object_types = list(/obj/item/food, /obj/item/stack/sheet/cotton, /obj/item/trash)
 
 /obj/item/toy/plush/gs13/oliver
 	name = "Sharkie plush"
@@ -66,6 +70,7 @@
 	icon_state = "metis"
 	prey_plush = TRUE
 	can_eat_food = TRUE
+	stuffed_icon_state = "metis_stuffed"
 	fatness_to_max = 15
 
 /obj/item/toy/plush/gs13/sharky
@@ -82,11 +87,15 @@
 	name = "Gatito plushie"
 	desc = "Cutie kitty meow meow gatito plushie! Corporate flavor!!"
 	icon_state = "gatito"
+	can_eat_food = TRUE
 
 /obj/item/toy/plush/gs13/sam
 	name = "Blueish Fopps plushie"
 	desc = "If he was green, he would die."
 	icon_state = "sam"
+	stuffed_icon_state = "sam_stuffed"
+	pred_plush = TRUE
+	can_eat_food = TRUE
 
 /obj/item/toy/plush/gs13/flint
 	name = "Flimbus plushie"
@@ -97,8 +106,8 @@
 	edible_object_types = list(/obj/item/food, /obj/item/stack/sheet/cotton, /obj/item/trash)
 
 /obj/item/toy/plush/gs13/protogen
-	name = "Protogen plushie"
-	desc = "A round protogen plushie. Despite her shape, she looks like she likes to exercise."
+	name = "Proto-orb plushie"
+	desc = "A round proto-orb plushie. Despite her shape, she looks like she likes to exercise."
 	icon_state = "proot"
 
 /obj/item/toy/plush/gs13/yeen
@@ -116,6 +125,9 @@
 	desc = "A large, very unwieldly plush toy of cargo's biggest workplace hazard. a small tag says \"squeeze me!\" on the seam of one of the legs."
 	icon = 'modular_gs/icons/obj/plushes_big.dmi'
 	icon_state = "noms"
+	stuffed_icon_state = "noms_stuffed"
+	pred_plush = TRUE
+	can_eat_food = TRUE
 
 /obj/item/toy/plush/gs13/fala
 	name = "Fala'squee plushie"
@@ -126,3 +138,19 @@
 	prey_plush = TRUE
 	can_eat_food = TRUE
 	max_plushie_scale = 1.5 // Already pretty huge
+
+/obj/item/toy/plush/gs13/val
+	name = "Abhorrent fen plushie"
+	desc = "You feel like it's staring at you... it's quite unnerving."
+	icon_state = "val"
+	stuffed_icon_state = "val_stuffed"
+	can_eat_food = TRUE
+
+/obj/item/toy/plush/gs13/isaac
+	name = "Plump dragon plush"
+	desc = "If he were were green, he too would die.."
+	icon_state = "isaac"
+	stuffed_icon_state = "isaac_stuffed"
+	can_eat_food = TRUE
+	pred_plush = TRUE
+	prey_plush = TRUE

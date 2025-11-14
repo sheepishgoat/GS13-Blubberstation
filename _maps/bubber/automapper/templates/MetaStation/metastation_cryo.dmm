@@ -19,7 +19,9 @@
 	dir = 1
 	},
 /obj/machinery/airalarm/directional/south,
-/obj/machinery/cryopod/tele,
+/obj/machinery/cryopod/tele{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "j" = (
@@ -38,7 +40,9 @@
 	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
-/obj/machinery/cryopod/tele,
+/obj/machinery/cryopod/tele{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/common/cryopods)
 "v" = (

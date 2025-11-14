@@ -606,7 +606,7 @@ export function MainPage(props: MainPageProps) {
             <LabeledList.Item label="Morbidly obese">840</LabeledList.Item>
             <LabeledList.Item label="Extremely obese">1240</LabeledList.Item>
             <LabeledList.Item label="Barely mobile">1840</LabeledList.Item>
-            <LabeledList.Item label="Imobile">2540</LabeledList.Item>
+            <LabeledList.Item label="Immobile">2540</LabeledList.Item>
             <LabeledList.Item label="Blob">3440</LabeledList.Item>
           </LabeledList>
           <br />

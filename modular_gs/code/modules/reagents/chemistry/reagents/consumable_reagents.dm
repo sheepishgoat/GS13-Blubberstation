@@ -109,7 +109,7 @@
 	description = "Tiny pieces of grinded calorite, shining with a strange, orange glow. They cause living beings to accumulate fat faster, as well as increase hunger, at high concentrations causing passive weight gain. Metabolizes very slowly."
 	color = "#eb6e00"
 	taste_description = "sugar"
-	metabolization_rate = 0.05 * REAGENTS_METABOLISM
+	metabolization_rate = 0.01	// just absolutely fuck them up
 	overdose_threshold = 100
 
 /datum/reagent/micro_calorite/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
