@@ -1,0 +1,4 @@
+author: "smerglemzerb"
+delete-after: True
+changes:
+  - balance: "buffs points given by negative traits \"Weak legs\" (from -1 to -4) and \"Very weak legs\" (from -6 to -7)"
