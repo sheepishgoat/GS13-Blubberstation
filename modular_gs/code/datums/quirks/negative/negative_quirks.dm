@@ -3,7 +3,7 @@
 	desc = "Your legs can't carry the heaviest of weights. You will become much slower when fat."
 	icon = "fa-weight-hanging"
 	medical_record_text = "Patients legs cannot carry heavy weights well."
-	value = -1
+	value = -4
 	gain_text = span_notice("You feel your legs tremble under your weight")
 	lose_text = span_notice("Your legs seem to have gotten stronger")
 	quirk_flags = 0
@@ -19,7 +19,7 @@
 	desc = "Your legs can't carry the heaviest of weights. At 2540 BFI you will become unable to move. WARNING! PICKING THIS QUIRK WILL MAKE YOU IMMOBILE REGARDLESS OF YOUR IMMOBILITY PREFERENCE!"
 	icon = "fa-weight-scale"
 	medical_record_text = "Patients legs cannot carry heavy weights at all."
-	value = -6
+	value = -7
 	gain_text = span_notice("You feel your legs tremble under your weight")
 	lose_text = span_notice("Your legs seem to have gotten stronger")
 	quirk_flags = 0
