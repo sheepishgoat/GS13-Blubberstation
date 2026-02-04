@@ -7006,6 +7006,7 @@
 #include "modular_gs\code\machinery\adipoelectric_generator.dm"
 #include "modular_gs\code\machinery\adipoelectric_transformer.dm"
 #include "modular_gs\code\machinery\cryogenic.dm"
+#include "modular_gs\code\machinery\fan.dm"
 #include "modular_gs\code\machinery\fattening_turret.dm"
 #include "modular_gs\code\machinery\feeding_tube.dm"
 #include "modular_gs\code\machinery\gato_respawner.dm"
