@@ -21,9 +21,9 @@
 	return ..()
 
 /obj/machinery/gs/fan/on_deconstruction(disassembled)
-	new /obj/item/stack/sheet/iron(drop_location(), 5)
+	new /obj/item/stack/sheet/iron(drop_location())
+	new /obj/item/stack/sheet/plasteel(drop_location(), 4)
 	new /obj/item/stack/cable_coil/five(drop_location())
-	new /obj/item/stack/sheet/mineral/plasma(drop_location())
 
 /obj/machinery/gs/fan/block_superconductivity()
 	return TRUE
