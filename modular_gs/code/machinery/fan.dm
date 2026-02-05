@@ -37,7 +37,7 @@
 	return ITEM_INTERACT_SUCCESS
 
 /datum/crafting_recipe/gs/fan
-	name = "Tiny Fan"
+	name = "Self Powered Tiny Fan"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/machinery/gs/fan/
 	reqs = list(
