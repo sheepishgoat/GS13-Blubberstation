@@ -42,7 +42,7 @@
 	result = /obj/machinery/gs/fan/
 	reqs = list(
 		/obj/item/pipe = 1,
-		/obj/item/stack/sheet/iron = 4,
+		/obj/item/stack/sheet/plasteel = 4,
 		/obj/item/stack/cable_coil = 5,
 		/obj/item/stack/sheet/mineral/plasma = 1,
 	)
