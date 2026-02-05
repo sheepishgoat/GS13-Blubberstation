@@ -1,4 +1,4 @@
-/obj/machinery/gs/fan/ //Buildable tiny fan! Just a self powered variant for now, apc powered version in the future? Who knows.
+/obj/machinery/gs/fan //Buildable tiny fan! Just a self powered variant for now, apc powered version in the future? Who knows.
 	name = "tiny fan"
 	desc = "A tiny fan, releasing a thin gust of air."
 	layer = HIGH_PIPE_LAYER
