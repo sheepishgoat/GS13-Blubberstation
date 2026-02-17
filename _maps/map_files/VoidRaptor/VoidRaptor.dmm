@@ -16610,7 +16610,9 @@
 "eIH" = (
 /obj/structure/sign/warning/electric_shock/directional/north,
 /obj/effect/turf_decal/bot,
-/obj/machinery/power/smes/full,
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
 /obj/structure/cable,
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/station/tcommsat/server)

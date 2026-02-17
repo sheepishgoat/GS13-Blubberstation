@@ -85337,7 +85337,7 @@
 /area/station/maintenance/port/upper)
 "qiY" = (
 /obj/effect/turf_decal/stripes/box,
-/obj/machinery/power/smes/full,
+/obj/machinery/power/smes/engineering,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)

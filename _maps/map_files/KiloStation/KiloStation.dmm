@@ -60678,7 +60678,9 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/chemistry)
 "tqm" = (
-/obj/machinery/power/smes/full,
+/obj/machinery/power/smes{
+	charge = 5e+006
+	},
 /obj/machinery/light/small/directional/north,
 /obj/structure/sign/warning/electric_shock/directional/north,
 /obj/structure/cable,

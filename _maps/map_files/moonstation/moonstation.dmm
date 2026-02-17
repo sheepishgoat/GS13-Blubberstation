@@ -52013,8 +52013,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "nWO" = (
+/obj/structure/table,
+/obj/machinery/plantgenes{
+	pixel_y = 8
+	},
 /obj/item/radio/intercom/directional/west,
-/obj/item/kirbyplants/random,
 /turf/open/floor/iron/terracotta,
 /area/station/service/hydroponics)
 "nWS" = (
@@ -68999,6 +69002,7 @@
 /area/station/terminal/maintenance/aft)
 "stL" = (
 /obj/structure/table,
+/obj/machinery/smartfridge/disks,
 /obj/item/book/manual/hydroponics_pod_people,
 /obj/item/toy/figure/botanist,
 /turf/open/floor/iron/terracotta,
