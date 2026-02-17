@@ -28,6 +28,7 @@
 		"Colonist",
 		"Contractor",
 		"Civilian",
+		"Duchess",
 		"Duke",
 		"Diplomat",
 		"Entertainer",
@@ -376,7 +377,7 @@
 		"Command Advisor",
 		"Corporate Diplomat",
 		"Corporate Representative",
-		"Corporate Liason",
+		"Corporate Liaison",
 		"Corporate Interest Officer",
 	)
 

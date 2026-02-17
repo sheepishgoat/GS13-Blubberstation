@@ -13,7 +13,7 @@
 	var/where_accessory //! where the accessory spawned
 	var/obj/item/accessory_type //! If this is null, an accessory won't be spawned.
 	var/drug_flavour_text = "Better hope you don't run out... of what, exactly? You don't know."
-	var/process_interval = 30 MINUTES //! how frequently the quirk processes	// GS13 EDIT make addiction less annoying to deal with. Original: 30 SECONDS
+	var/process_interval = 30 MINUTES //! how frequently the quirk processes	// GS13 EDIT make addiction less annoying to deal with. Original: 90 SECONDS
 	COOLDOWN_DECLARE(next_process) //! ticker for processing
 
 /datum/quirk/item_quirk/addict/add(client/client_source)

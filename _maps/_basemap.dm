@@ -24,6 +24,7 @@
 		#include "map_files\biodome\biodome.dmm"
 		#include "map_files\moonstation\moonstation.dmm"
 		#include "map_files\BoxStation\BoxStation.dmm"
+		#include "map_files\Ouroboros\Ouroboros.dmm"
 		// BUBBER EDIT ADDITION END
 		//GS13 EDIT
 		#include "map_files\GS_Xenoarch\Lavaland_Xenoarch.dmm"
