@@ -19,8 +19,8 @@
 			continue
 
 		var/possible_fatty_score = possible_fatty.nutrition
-		if(possible_fatty.has_quirk(/datum/quirk/overweight))
-			possible_fatty_score = possible_fatty_score * 1.5 + 1000
+		//GS13 EDIT Removal of Overweight qurk - Original: if(possible_fatty.has_quirk(/datum/quirk/overweight))
+		//	possible_fatty_score = possible_fatty_score * 1.5 + 1000
 
 		if(possible_fatty_score > unlucky_victim_fatty_score)
 			unlucky_victim = "[possible_fatty]" //We don't use .name here because we want "The" to be affixed to it if needed.
