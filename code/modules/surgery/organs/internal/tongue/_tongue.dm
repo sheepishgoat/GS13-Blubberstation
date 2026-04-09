@@ -227,11 +227,10 @@
 
 	/// The statue we turn into.
 	/// We only ever make one (in New) and simply move it into nullspace or back.
-<<<<<<< HEAD
+
 	var/obj/structure/statue/custom/silverscale/statue // GS13 EDIT: New subtype to prevent jank
-=======
+
 	var/obj/structure/statue/custom/statue
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
 
 /datum/action/cooldown/turn_to_statue/New(Target)
 	. = ..()
@@ -258,14 +257,13 @@
 		return FALSE
 
 	if(isnull(statue))
-<<<<<<< HEAD
+
 		init_statue() // GS13 EDIT: If your statue is destroyed let's generate a new one
 
-=======
+
 		if(feedback)
 			owner.balloon_alert(owner, "you can't seem to statue-ize!")
 		return FALSE // permanently bricked
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
 	if(owner.stat != CONSCIOUS)
 		if(feedback)
 			owner.balloon_alert(owner, "you're too weak!")
@@ -296,11 +294,10 @@
 	if(is_statue)
 		statue.visible_message(span_danger("[statue] becomes animated!"))
 		owner.forceMove(get_turf(statue))
-<<<<<<< HEAD
+
 		qdel(statue) // GS13 EDIT: Lazy way to resolve appearance layering issue (and a few others)
-=======
+
 		statue.moveToNullspace()
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
 		UnregisterSignal(owner, COMSIG_MOVABLE_MOVED)
 
 	else
@@ -335,14 +332,13 @@
 
 	to_chat(carbon_owner, span_userdanger("Your existence as a living creature snaps as your statue form crumbles!"))
 	carbon_owner.forceMove(get_turf(statue))
-<<<<<<< HEAD
+
 	carbon_owner.adjust_brute_loss(300) // GS13 EDIT: Replaces statue dusting with absolutely shattering your body
 	// carbon_owner.dust(just_ash = TRUE, drop_items = TRUE)
 	carbon_owner.investigate_log("has been killed from having their Silverscale Statue deconstructed / destroyed.", INVESTIGATE_DEATHS)
-=======
+
 	carbon_owner.dust(just_ash = TRUE, drop_items = TRUE)
 	carbon_owner.investigate_log("has been dusted from having their Silverscale Statue deconstructed / destroyed.", INVESTIGATE_DEATHS)
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
 
 	clean_up_statue() // unregister signal before we can do further side effects.
 

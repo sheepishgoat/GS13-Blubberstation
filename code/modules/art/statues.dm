@@ -22,23 +22,20 @@
 	var/art_type = /datum/element/art
 	/// Set to true to prevent it from being carved out of a block
 	var/uncarveable = FALSE
-<<<<<<< HEAD
+
 	/// GS13 EDIT: Controls whether or not we want to be able to speak through the statue
 	var/should_marionette = TRUE
-=======
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
 
 /obj/structure/statue/Initialize(mapload)
 	. = ..()
 	AddElement(art_type, impressiveness)
 	AddElement(/datum/element/beauty, impressiveness * 75)
 	AddComponent(/datum/component/simple_rotation)
-<<<<<<< HEAD
+
 	if(should_marionette) /// GS13 EDIT
 		AddComponent(/datum/component/marionette) /// GS13 EDIT
-=======
+
 	AddComponent(/datum/component/marionette)
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
 
 /obj/structure/statue/wrench_act(mob/living/user, obj/item/tool)
 	. = ..()
@@ -639,10 +636,7 @@ Moving interrupts
 		. += content_ma
 
 #undef SCULPT_SOUND_INCREMENT
-<<<<<<< HEAD
 
 // GS13 EDIT: Structure base for silverscale tongue
 /obj/structure/statue/custom/silverscale
 	should_marionette = FALSE
-=======
->>>>>>> parent of 00d96d46593 (Swing And A Miss)
