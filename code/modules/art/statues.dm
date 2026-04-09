@@ -22,7 +22,7 @@
 	var/art_type = /datum/element/art
 	/// Set to true to prevent it from being carved out of a block
 	var/uncarveable = FALSE
-	/// Controls whether or not we want to be able to speak through the statue
+	/// GS13 EDIT: Controls whether or not we want to be able to speak through the statue
 	var/should_marionette = TRUE
 
 /obj/structure/statue/Initialize(mapload)
@@ -30,8 +30,8 @@
 	AddElement(art_type, impressiveness)
 	AddElement(/datum/element/beauty, impressiveness * 75)
 	AddComponent(/datum/component/simple_rotation)
-	if(should_marionette)
-		AddComponent(/datum/component/marionette)
+	if(should_marionette) /// GS13 EDIT
+		AddComponent(/datum/component/marionette) /// GS13 EDIT
 
 /obj/structure/statue/wrench_act(mob/living/user, obj/item/tool)
 	. = ..()
@@ -633,6 +633,6 @@ Moving interrupts
 
 #undef SCULPT_SOUND_INCREMENT
 
-//Structure base for silverscale tongue
+// GS13 EDIT: Structure base for silverscale tongue
 /obj/structure/statue/custom/silverscale
 	should_marionette = FALSE
