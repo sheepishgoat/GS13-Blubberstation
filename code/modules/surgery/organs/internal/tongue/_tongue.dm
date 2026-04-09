@@ -227,7 +227,7 @@
 
 	/// The statue we turn into.
 	/// We only ever make one (in New) and simply move it into nullspace or back.
-	var/obj/structure/statue/custom/statue
+	var/obj/structure/statue/custom/silverscale/statue // New subtype to prevent jank
 
 /datum/action/cooldown/turn_to_statue/New(Target)
 	. = ..()
@@ -254,9 +254,8 @@
 		return FALSE
 
 	if(isnull(statue))
-		if(feedback)
-			owner.balloon_alert(owner, "you can't seem to statue-ize!")
-		return FALSE // permanently bricked
+		init_statue() // If your statue is destroyed let's generate a new one
+
 	if(owner.stat != CONSCIOUS)
 		if(feedback)
 			owner.balloon_alert(owner, "you're too weak!")
@@ -287,7 +286,7 @@
 	if(is_statue)
 		statue.visible_message(span_danger("[statue] becomes animated!"))
 		owner.forceMove(get_turf(statue))
-		statue.moveToNullspace()
+		qdel(statue) // Lazy way to resolve appearance layering issue (and a few others)
 		UnregisterSignal(owner, COMSIG_MOVABLE_MOVED)
 
 	else
@@ -322,8 +321,9 @@
 
 	to_chat(carbon_owner, span_userdanger("Your existence as a living creature snaps as your statue form crumbles!"))
 	carbon_owner.forceMove(get_turf(statue))
-	carbon_owner.dust(just_ash = TRUE, drop_items = TRUE)
-	carbon_owner.investigate_log("has been dusted from having their Silverscale Statue deconstructed / destroyed.", INVESTIGATE_DEATHS)
+	carbon_owner.adjust_brute_loss(300) // Replaces statue dusting with absolutely shattering your body
+	// carbon_owner.dust(just_ash = TRUE, drop_items = TRUE)
+	carbon_owner.investigate_log("has been killed from having their Silverscale Statue deconstructed / destroyed.", INVESTIGATE_DEATHS)
 
 	clean_up_statue() // unregister signal before we can do further side effects.
 
