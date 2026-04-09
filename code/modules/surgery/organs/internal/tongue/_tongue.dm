@@ -228,8 +228,6 @@
 	/// The statue we turn into.
 	/// We only ever make one (in New) and simply move it into nullspace or back.
 
-	var/obj/structure/statue/custom/silverscale/statue // GS13 EDIT: New subtype to prevent jank
-
 	var/obj/structure/statue/custom/statue
 
 /datum/action/cooldown/turn_to_statue/New(Target)
