@@ -161,11 +161,6 @@
 	name = "Aquatic tongue"
 	path = /obj/item/organ/tongue/akula
 
-/datum/augment_item/organ/tongue/tongue/lizard/silver
-	name = "Silverscale tongue"
-	path = /obj/item/organ/tongue/lizard/silver
-	cost = 2
-
 //EARS
 /datum/augment_item/organ/ears
 	slot = AUGMENT_SLOT_EARS

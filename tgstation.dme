@@ -7990,7 +7990,10 @@
 #include "modular_skyrat\modules\customization\modules\client\augment\implants.dm"
 #include "modular_skyrat\modules\customization\modules\client\augment\limbs.dm"
 #include "modular_skyrat\modules\customization\modules\client\augment\organs.dm"
+<<<<<<< HEAD
 #include "modular_gs\modules\customization\modules\client\augment\species_limbs.dm"
+=======
+>>>>>>> parent of 00d96d46593 (Swing And A Miss)
 #include "modular_skyrat\modules\customization\modules\clothing\accessories.dm"
 #include "modular_skyrat\modules\customization\modules\clothing\toggle_base.dm"
 #include "modular_skyrat\modules\customization\modules\clothing\ears\ears.dm"

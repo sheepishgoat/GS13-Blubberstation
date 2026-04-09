@@ -3,8 +3,6 @@
 	allowed_biotypes = MOB_ORGANIC|MOB_ROBOTIC
 	///Hardcoded styles that can be chosen from and apply to limb, if it's true
 	var/uses_robotic_styles = TRUE
-	///Should we draw these greyscale?
-	var/uses_greyscale = FALSE
 
 /datum/augment_item/limb/apply(mob/living/carbon/human/augmented, character_setup = FALSE, datum/preferences/prefs)
 	if(character_setup)
@@ -22,11 +20,8 @@
 			old_limb.set_icon_static(chosen_style)
 			old_limb.current_style = prefs.augment_limb_styles[slot]
 		else
-			if(!uses_greyscale)
-				old_limb.set_icon_static(initial(new_limb.icon))
-			else
-				old_limb.set_icon_greyscale(UNLINT(initial(new_limb.icon_greyscale))) // stupid var_protected memes
-		old_limb.should_draw_greyscale = uses_greyscale
+			old_limb.set_icon_static(initial(new_limb.icon))
+		old_limb.should_draw_greyscale = FALSE
 
 		return body_zone
 	else
