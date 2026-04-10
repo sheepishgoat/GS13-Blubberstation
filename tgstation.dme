@@ -7176,6 +7176,8 @@
 #include "modular_gs\code\structures\chair.dm"
 #include "modular_gs\code\structures\sink.dm"
 #include "modular_gs\code\structures\trapped_items.dm"
+#include "modular_gs\customization\modules\client\augment\limbs.dm"
+#include "modular_gs\customization\modules\surgery\bodyparts\_bodyparts.dm"
 #include "modular_gs\gatofication\obj\signs.dm"
 #include "modular_skyrat\master_files\code\_globalvars\configuration.dm"
 #include "modular_skyrat\master_files\code\_globalvars\regexes.dm"
