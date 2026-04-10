@@ -3,6 +3,8 @@
 	icon_greyscale = BODYPART_ICON_AKULA
 	limb_id = SPECIES_AKULA
 	bodyshape = parent_type::bodyshape | BODYSHAPE_SNOUTED
+	icon = 'modular_skyrat/modules/bodyparts/icons/akula_parts_greyscale.dmi'
+	icon_state = "akula_head_m"
 
 /obj/item/bodypart/chest/mutant/akula
 	icon_greyscale = BODYPART_ICON_AKULA

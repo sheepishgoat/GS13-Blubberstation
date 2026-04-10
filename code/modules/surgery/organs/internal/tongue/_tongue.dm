@@ -254,6 +254,9 @@
 		return FALSE
 
 	if(isnull(statue))
+
+		init_statue() // GS13 EDIT: If your statue is destroyed let's generate a new one
+
 		if(feedback)
 			owner.balloon_alert(owner, "you can't seem to statue-ize!")
 		return FALSE // permanently bricked
@@ -287,6 +290,9 @@
 	if(is_statue)
 		statue.visible_message(span_danger("[statue] becomes animated!"))
 		owner.forceMove(get_turf(statue))
+
+		qdel(statue) // GS13 EDIT: Lazy way to resolve appearance layering issue (and a few others)
+
 		statue.moveToNullspace()
 		UnregisterSignal(owner, COMSIG_MOVABLE_MOVED)
 
@@ -322,6 +328,11 @@
 
 	to_chat(carbon_owner, span_userdanger("Your existence as a living creature snaps as your statue form crumbles!"))
 	carbon_owner.forceMove(get_turf(statue))
+
+	carbon_owner.adjust_brute_loss(300) // GS13 EDIT: Replaces statue dusting with absolutely shattering your body
+	// carbon_owner.dust(just_ash = TRUE, drop_items = TRUE)
+	carbon_owner.investigate_log("has been killed from having their Silverscale Statue deconstructed / destroyed.", INVESTIGATE_DEATHS)
+
 	carbon_owner.dust(just_ash = TRUE, drop_items = TRUE)
 	carbon_owner.investigate_log("has been dusted from having their Silverscale Statue deconstructed / destroyed.", INVESTIGATE_DEATHS)
 

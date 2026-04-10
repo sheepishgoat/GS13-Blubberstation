@@ -7044,6 +7044,7 @@
 #include "modular_gs\code\mechanics\xwg.dm"
 #include "modular_gs\code\mechanics\transformation\new_tf_item.dm"
 #include "modular_gs\code\mobs\chocoslime.dm"
+#include "modular_gs\code\modules\art\statues.dm"
 #include "modular_gs\code\modules\atmospherics\gasmixtures\gas_types.dm"
 #include "modular_gs\code\modules\atmospherics\gasmixtures\reactions.dm"
 #include "modular_gs\code\modules\atmospherics\machinery\components\gas_recipe_machines\atmos_machine_recipes.dm"
