@@ -27,6 +27,8 @@
 	icon_greyscale = BODYPART_ICON_MAMMAL
 	limb_id = SPECIES_MAMMAL
 	head_flags = HEAD_DEFAULT_FEATURES
+	icon = 'modular_skyrat/modules/mutants/icons/mutant_parts_greyscale.dmi'
+	icon_state = "mutant_head"
 
 /obj/item/bodypart/chest/mutant
 	icon_greyscale = BODYPART_ICON_MAMMAL
