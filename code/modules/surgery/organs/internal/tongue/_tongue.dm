@@ -227,7 +227,6 @@
 
 	/// The statue we turn into.
 	/// We only ever make one (in New) and simply move it into nullspace or back.
-
 	var/obj/structure/statue/custom/statue
 
 /datum/action/cooldown/turn_to_statue/New(Target)
@@ -257,7 +256,6 @@
 	if(isnull(statue))
 
 		init_statue() // GS13 EDIT: If your statue is destroyed let's generate a new one
-
 
 		if(feedback)
 			owner.balloon_alert(owner, "you can't seem to statue-ize!")
