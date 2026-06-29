@@ -6,22 +6,23 @@
 	var/obj/item/organ/genital/butt/butt = H.get_organ_slot(ORGAN_SLOT_BUTT)
 	var/obj/item/organ/genital/belly/belly = H.get_organ_slot(ORGAN_SLOT_BELLY)
 	var/obj/item/organ/genital/breasts/breasts = H.get_organ_slot(ORGAN_SLOT_BREASTS)
-	// var/obj/item/organ/genital/taur_belly/tbelly = H.get_organ_slot(ORGAN_SLOT_TAUR_BELLY)
+	var/obj/item/organ/taur_body/horselike/taur_belly = H.get_organ_slot(ORGAN_SLOT_TAUR_BELLY)
 
 	if(butt)
 		butt.update_size_from_weight(size_change)
 	if(belly)
 		belly.update_size_from_weight(size_change)
+	if(breasts)
+		breasts.update_size_from_weight(size_change)
+	if (taur_belly && taur_belly.mutantpart_info[MUTANT_INDEX_NAME] == "drake")
+		taur_belly.update_size_from_weight(size_change)
+	//((dna.mutant_bodyparts[FEATURE_TAUR] && dna.mutant_bodyparts[FEATURE_TAUR][MUTANT_INDEX_NAME] != "None")
 	// if(tbelly)
 	// 	if(tbelly.max_genital_size > 0)
 	// 		if((tbelly.size + size_change) <= tbelly.max_genital_size)
 	// 			tbelly.set_size(size_change)
 	// 	else
 	// 		tbelly.set_size(size_change)
-	if(breasts)
-		breasts.update_size_from_weight(size_change)
-
-	// H.genital_override = TRUE
 	H.update_body()
 	H.update_worn_undersuit()
 	H.update_worn_oversuit()
@@ -31,7 +32,6 @@
 		set_size(max_genital_size)
 	else
 		set_size(size_change + set_genital_size)
-
 
 /mob/living/carbon/human/proc/handle_fatness_trait(trait, trait_lose, trait_gain, fatness_lose, fatness_gain, chat_lose, chat_gain, weight_stage)
 	var/mob/living/carbon/human/H = src
