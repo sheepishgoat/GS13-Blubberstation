@@ -1,4 +1,3 @@
-
 /mob/living/carbon/human/proc/update_body_size(mob/living/carbon/human/H, size_change)
 	if(!istype(H))
 		return
