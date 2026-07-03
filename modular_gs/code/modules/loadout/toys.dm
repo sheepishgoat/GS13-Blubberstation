@@ -101,3 +101,7 @@
 /datum/loadout_item/toys/plush/remmy_plush
 	name = "Clueless Dragon Plush"
 	item_path = /obj/item/toy/plush/gs13/remmy
+
+/datum/loadout_item/toys/caloritepen
+	name = "Calorite Pen"
+	item_path = /obj/item/pen/calorite

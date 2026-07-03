@@ -5,8 +5,8 @@
       from the discord.
   - bugfix: fixed teshari layering
   SeepingVisage:
-  - refactor: refactors fullness. It will now work with fullness reducing emotes
-      like *burp and *belch
+  - refactor: refactors fullness. It will now work with fullness reducing emotes like
+      *burp and *belch
   - bugfix: fixes fizulphite not working
   Swan:
   - rscadd: Getting stuck in doors because of fatness no longer stuns and knocks down
@@ -24,3 +24,17 @@
   - bugfix: Legion cores and other full heal methods no longer remove fatness.
   - code_imp: 'fat removal is now it''s own proc: `fully_heal_fatness`, with a meme
       version: `fully_heal_fatness_shitpost`'
+2026-06-30:
+  Icepick200:
+  - code_imp: merged some things from upstream
+  Swan:
+  - code_imp: merges with upstream
+  evilew:
+  - map: 'added a new ghost cafe condo: Feeder Den (with the help of @icepick100)'
+  - map: fixes to feeder den like broken posters, decals or missing cryo console etc
+  - map: small mapping fixes to xenoarch, like broken air tanks or error pizzas
+  - map: removed Feeder Basement & Calorite Shrine from Ghost Cafe (moved to condos)
+  - map: 'new condos: Feeder Basement & Calorite Temple'
+  - rscadd: 'calorite pen: a novelty item that adds a lil bit of poisoning upon stabbing,
+      with a stronger variant of a calorite pen that does far more poisoning and adds
+      permafat, available via opfor or uplink'

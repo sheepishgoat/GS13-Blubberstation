@@ -1,5 +1,5 @@
 /datum/centcom_announcer/default
-	welcome_sounds = list('sound/announcer/default/welcome.ogg')
+	welcome_sounds = list('modular_gs/sound/announcer/default/welcome.ogg')	// GS13 EDIT: adds our own welcome sound. Original is without the `modular_gs/` bit
 	alert_sounds = list('modular_skyrat/modules/alerts/sound/alerts/alert2.ogg')
 	command_report_sounds = list('modular_skyrat/modules/alerts/sound/alerts/commandreport.ogg')
 	event_sounds = list(

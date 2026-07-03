@@ -1,0 +1,2594 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ak" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"aw" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/vending/dorms,
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 5
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"aH" = (
+/obj/item/trash/boritos{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"bf" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/iv_drip/feeding_tube,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"bo" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"bw" = (
+/obj/structure/chair/sofa/middle/brown{
+	dir = 8
+	},
+/obj/item/reagent_containers/cup/bigbottle/cola{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"by" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 8
+	},
+/obj/item/plate/small{
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"ch" = (
+/obj/structure/window/calorite/fulltile,
+/obj/effect/light_emitter/tendril,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"cy" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"dw" = (
+/obj/structure/window/calorite/spawner/directional/east,
+/obj/structure/marker_beacon/bronze,
+/obj/structure/window/calorite/spawner/directional/west,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"dP" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"ed" = (
+/obj/item/trash/cnds{
+	pixel_x = -12;
+	pixel_y = -10
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"ej" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/structure/chair/comfy/brown{
+	buildstackamount = 0;
+	color = "#991e18";
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"ex" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"eB" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"fe" = (
+/obj/structure/chair/sofa/left/brown,
+/obj/item/trash/candy,
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"ff" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/table/wood/fancy/orange,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"gs" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"gJ" = (
+/obj/structure/window/calorite/spawner/directional/east,
+/obj/structure/window/calorite/spawner/directional/west,
+/obj/structure/statue/calorite/fatty,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"hn" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 1
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"iC" = (
+/obj/item/trash/candy,
+/obj/effect/spawner/random/trash/crushed_can{
+	pixel_x = -6;
+	pixel_y = -11
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"iD" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/plate{
+	pixel_x = -1;
+	pixel_y = 0
+	},
+/obj/item/plate{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/food/burger/superbite{
+	pixel_x = -9;
+	pixel_y = 14
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"kV" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"ld" = (
+/obj/effect/spawner/random/trash/crushed_can{
+	pixel_x = -18;
+	pixel_y = 23
+	},
+/obj/effect/spawner/random/trash/crushed_can{
+	pixel_x = 14;
+	pixel_y = 19
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"lz" = (
+/obj/structure/window/calorite/fulltile,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"lY" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"mq" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/plate{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/obj/item/food/pizzaslice/sassysage{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"mt" = (
+/obj/structure/chair/sofa/right/brown,
+/obj/item/trash/tray,
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"mu" = (
+/obj/structure/mineral_door/calorite,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"nb" = (
+/obj/structure/chair/sofa/middle/brown,
+/obj/item/food/pizzaslice/vegetable,
+/obj/effect/spawner/random/trash/crushed_can{
+	pixel_x = -14;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"nt" = (
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 10
+	},
+/obj/machinery/iv_drip/feeding_tube,
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"nH" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"nM" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/slime_cookie/calorite,
+/obj/item/slime_cookie/calorite,
+/obj/item/slime_cookie/calorite,
+/obj/item/slime_cookie/calorite,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"oz" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"oE" = (
+/obj/item/trash/cnds{
+	pixel_x = 11;
+	pixel_y = 3
+	},
+/obj/item/trash/sosjerky{
+	pixel_x = -7;
+	pixel_y = -7
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"oS" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"oZ" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"pa" = (
+/obj/item/flashlight/lantern/on,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"pl" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"ps" = (
+/obj/structure/statue/calorite/fatty/huge{
+	pixel_x = -16;
+	pixel_y = 1
+	},
+/obj/effect/light_emitter/tendril,
+/obj/item/clothing/neck/necklace/memento_mori/calori{
+	pixel_x = 0;
+	pixel_y = 33
+	},
+/turf/open/floor/mineral/gold,
+/area/misc/condo)
+"pt" = (
+/obj/item/trash/tray{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/effect/spawner/random/trash/crushed_can{
+	pixel_x = 1;
+	pixel_y = -7
+	},
+/obj/effect/spawner/random/trash/crushed_can{
+	pixel_x = -13;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"pR" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/table/wood/fancy/orange,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"qN" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"qP" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"rA" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 10
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"rE" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"rT" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"sf" = (
+/obj/structure/statue/calorite/fatty,
+/obj/effect/light_emitter/tendril,
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"si" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"tz" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/structure/chair/comfy/brown{
+	buildstackamount = 0;
+	color = "#991e18";
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"tB" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/food/pizza/flatbread/imperial{
+	pixel_x = 1;
+	pixel_y = -6
+	},
+/obj/item/trash/tray{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/item/metal_food/mburger_calorite{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"tH" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"tX" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"ua" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"uf" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"uv" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"uB" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"uM" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"vP" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/plate{
+	pixel_x = -5;
+	pixel_y = -7
+	},
+/obj/item/food/burger/superbite{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/slime_cookie/calorite,
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"vW" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/food/pizza/framewrecker,
+/obj/item/food/pizza/framewrecker,
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"wa" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"wQ" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"wT" = (
+/obj/structure/chair/sofa/left/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"wY" = (
+/obj/structure/chair/sofa/left/brown{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"xm" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"xD" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"xP" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"yk" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"yH" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 5
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"yJ" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"zg" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Ac" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"AG" = (
+/obj/structure/window/calorite/fulltile,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"Bq" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/vending/mealdor{
+	free = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Ck" = (
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 1
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Cq" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/vending/hotdog{
+	onstation = 0;
+	onstation_override = 1;
+	all_products_free = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Cx" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"CK" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"CM" = (
+/turf/open/lava/smooth,
+/area/misc/condo)
+"CO" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Di" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/vending/starshine,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Do" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Du" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"DF" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/table/wood/fancy/orange,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"DO" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"EB" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/vending/gato,
+/obj/effect/light_emitter/tendril,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"ES" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/plate/small{
+	pixel_x = -6;
+	pixel_y = -1
+	},
+/obj/item/food/pizzaslice/pineapple{
+	pixel_x = -8;
+	pixel_y = 14
+	},
+/obj/item/food/pizzaslice/pineapple{
+	pixel_x = 4;
+	pixel_y = 14
+	},
+/obj/item/food/pizzaslice/pineapple{
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"Fv" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/item/flashlight/lantern/on,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"FO" = (
+/turf/closed/mineral/random/volcanic,
+/area/misc/condo)
+"Gz" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/slime_cookie/calorite,
+/obj/item/slime_cookie/calorite,
+/obj/item/slime_cookie/calorite,
+/obj/item/slime_cookie/calorite,
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"GE" = (
+/obj/structure/window/calorite/spawner/directional/east,
+/obj/structure/window/calorite/spawner/directional/west,
+/obj/structure/marker_beacon/bronze,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"GF" = (
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Hg" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Hl" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"HT" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/plate{
+	pixel_x = -2;
+	pixel_y = 0
+	},
+/obj/item/plate{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/item/plate{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/food/burger/rib{
+	pixel_x = -2;
+	pixel_y = 10
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"If" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Ig" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 4
+	},
+/obj/item/plate/small{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/item/plate/small{
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/item/plate/small{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/plate/small{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/item/plate/small{
+	pixel_x = 1;
+	pixel_y = 7
+	},
+/obj/item/plate/small{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"Ip" = (
+/obj/structure/chair/sofa/middle/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"IC" = (
+/obj/item/trash/empty_food_tray{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/trash/empty_food_tray{
+	pixel_x = 11;
+	pixel_y = -8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"IT" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"IU" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/iv_drip/feeding_tube,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"JN" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"JS" = (
+/obj/machinery/iv_drip/feeding_tube,
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 5
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"Kg" = (
+/obj/structure/chair/sofa/left/brown{
+	dir = 4
+	},
+/obj/item/reagent_containers/cup/bigbottle/fizz,
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"KC" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/plate{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/cup/bigbottle/cola{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"Ly" = (
+/turf/closed/indestructible/hoteldoor/fakedoor,
+/area/misc/condo)
+"LG" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"LO" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 9
+	},
+/obj/structure/statue/calorite/pillar,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"LQ" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Mf" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Mi" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 1
+	},
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/item/clothing/neck/necklace/memento_mori/calori,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Mx" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"MO" = (
+/obj/machinery/iv_drip/feeding_tube,
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 9
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"Nl" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/platform/gold,
+/obj/item/gavelhammer/fattening{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/item/gavelhammer/permafattening{
+	pixel_x = -4;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Ny" = (
+/turf/closed/wall/mineral/calorite,
+/area/misc/condo)
+"NA" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"ND" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Of" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"OE" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Pc" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"PC" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 9
+	},
+/obj/machinery/vending/fatty_items,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"PM" = (
+/obj/effect/turf_decal/siding/yellow/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"PT" = (
+/obj/effect/turf_decal/siding/yellow{
+	dir = 5
+	},
+/obj/structure/statue/calorite/pillar,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"PV" = (
+/obj/structure/fans/tiny/invisible,
+/obj/structure/mineral_door/calorite,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"Qg" = (
+/obj/item/pizzabox{
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/item/pizzabox{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/item/pizzabox{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/obj/item/pizzabox{
+	pixel_x = 1;
+	pixel_y = 10
+	},
+/obj/item/pizzabox{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Qs" = (
+/obj/structure/window/calorite/spawner/directional/west,
+/obj/structure/window/calorite/spawner/directional/east,
+/obj/structure/marker_beacon/bronze,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"QD" = (
+/obj/effect/light_emitter/tendril,
+/obj/structure/window/calorite/fulltile,
+/turf/open/floor/mineral/calorite,
+/area/misc/condo)
+"QK" = (
+/obj/structure/marker_beacon/bronze,
+/turf/closed/wall/mineral/gold,
+/area/misc/condo)
+"QN" = (
+/obj/structure/chair/sofa/middle/brown{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/structure/trap/fattening,
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"Rf" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Rl" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Rz" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/structure/statue/calorite/fatty/fattha,
+/obj/effect/light_emitter/tendril,
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"Su" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"SS" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"To" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/machinery/vending/mealdor{
+	free = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Ty" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Tz" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"TE" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/platform/gold,
+/obj/item/melee/curator_whip/fattening{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/obj/item/melee/curator_whip/permafattening{
+	pixel_x = -6;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Up" = (
+/turf/closed/indestructible/rock,
+/area/misc/condo)
+"UV" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Va" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Vb" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Vz" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"VD" = (
+/obj/structure/statue/calorite/pillar,
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"VN" = (
+/obj/effect/decal/bigfatsigil,
+/obj/structure/trap/fattening,
+/obj/effect/light_emitter/tendril,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"VO" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Wb" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Wn" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/turf/open/floor/carpet/orange,
+/area/misc/condo)
+"Wo" = (
+/obj/machinery/iv_drip/feeding_tube,
+/obj/effect/turf_decal/tile/brown/fourcorners{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 6
+	},
+/turf/open/floor/mineral/calorite/hide,
+/area/misc/condo)
+"Wy" = (
+/turf/closed/wall/mineral/gold,
+/area/misc/condo)
+"WA" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 1
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"WT" = (
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Xb" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/structure/table/wood/fancy/orange,
+/obj/item/storage/box/beakers/bluespace,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"Xe" = (
+/obj/structure/table/wood/fancy/orange,
+/obj/item/food/pizza/flatbread/italic{
+	pixel_x = -18;
+	pixel_y = 7
+	},
+/obj/item/food/burger/greaseburger{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/food/burger/greaseburger{
+	pixel_x = 20;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/cup/bigbottle/spaceup{
+	pixel_x = -10;
+	pixel_y = 3
+	},
+/turf/open/floor/mineral/calorite/dance,
+/area/misc/condo)
+"Xm" = (
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+"XP" = (
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/siding/wideplating_new/terracotta{
+	dir = 4
+	},
+/turf/open/floor/iron/diagonal,
+/area/misc/condo)
+
+(1,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+Up
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(2,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+FO
+CM
+CM
+FO
+FO
+CM
+CM
+CM
+FO
+CM
+CM
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(3,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+FO
+FO
+CM
+CM
+CM
+FO
+Up
+Up
+Up
+Up
+FO
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(4,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+Ny
+CM
+CM
+CM
+Ny
+CM
+CM
+CM
+Ny
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(5,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+Ny
+Qs
+gJ
+Qs
+Ny
+Qs
+gJ
+Qs
+Ny
+Ny
+Ny
+Ny
+CM
+CM
+CM
+CM
+CM
+Ny
+Ny
+ND
+gs
+XP
+XP
+XP
+Of
+rA
+Ny
+Ny
+Up
+Up
+Up
+Up
+Up
+"}
+(6,1,1) = {"
+Up
+Up
+Up
+Up
+Ny
+Ny
+Ny
+Mx
+xm
+xm
+xm
+wQ
+wQ
+xm
+xm
+xm
+IU
+Ny
+Ny
+Ny
+Ny
+CM
+Ny
+Ny
+ND
+Wb
+UV
+AG
+ch
+AG
+oz
+WT
+rA
+Ny
+Ny
+Up
+Up
+Up
+Up
+"}
+(7,1,1) = {"
+Up
+Up
+Up
+Ny
+Ny
+IT
+uB
+Pc
+Xm
+xP
+xP
+yk
+Xm
+xP
+xP
+ex
+yJ
+ff
+Xb
+Ny
+Ny
+CM
+Ny
+ND
+Wb
+pa
+Tz
+IC
+iC
+oE
+ua
+Fv
+WT
+rA
+Ny
+Ny
+Ny
+Ny
+Ny
+"}
+(8,1,1) = {"
+Up
+Ny
+Ny
+Ny
+Nl
+SS
+Ny
+VD
+uM
+VD
+Ny
+VD
+uM
+VD
+Ny
+bo
+xP
+xP
+CO
+uf
+Ny
+GE
+Ny
+xD
+nH
+OE
+MO
+Kg
+QN
+Ig
+nt
+Xm
+yk
+Rl
+Ny
+PC
+To
+Bq
+Ny
+"}
+(9,1,1) = {"
+Up
+Ny
+QK
+Wy
+PT
+PM
+Wn
+ej
+Su
+ej
+Rf
+ej
+Su
+ej
+VO
+tH
+Su
+eB
+GF
+GF
+PV
+kV
+PV
+Do
+AG
+WA
+mt
+vP
+tB
+ES
+wT
+ld
+AG
+lY
+mu
+oz
+dP
+qP
+Ny
+"}
+(10,1,1) = {"
+Up
+Ny
+Wy
+ps
+Mi
+hn
+ak
+nM
+vW
+Gz
+vW
+Gz
+vW
+Gz
+si
+ak
+sf
+si
+VN
+GF
+Ny
+Hg
+Ny
+Do
+ch
+WA
+nb
+Xe
+Rz
+KC
+Ip
+Do
+QD
+WA
+Ny
+oz
+EB
+qP
+Ly
+"}
+(11,1,1) = {"
+Up
+Ny
+QK
+Wy
+LO
+Ck
+CK
+tz
+Du
+tz
+Ty
+tz
+Du
+tz
+rT
+Ac
+Du
+Mf
+GF
+GF
+PV
+LQ
+PV
+Do
+AG
+WA
+fe
+mq
+HT
+iD
+NA
+aH
+lz
+WA
+mu
+oz
+dP
+qP
+Ny
+"}
+(12,1,1) = {"
+Up
+Ny
+Ny
+Ny
+TE
+cy
+Ny
+VD
+DO
+VD
+Ny
+VD
+DO
+VD
+Ny
+Mx
+xm
+xm
+oZ
+uf
+Ny
+GE
+Ny
+Vb
+JN
+Cx
+JS
+by
+bw
+wY
+Wo
+wa
+JN
+oS
+Ny
+aw
+Cq
+Di
+Ny
+"}
+(13,1,1) = {"
+Up
+Up
+Up
+Ny
+Ny
+zg
+LG
+tX
+wa
+xm
+xm
+xm
+wa
+xm
+xm
+Wb
+If
+DF
+pR
+Ny
+Ny
+CM
+Ny
+yH
+dP
+Fv
+Hl
+Qg
+ed
+pt
+rE
+pa
+If
+pl
+Ny
+Ny
+Ny
+Ny
+Ny
+"}
+(14,1,1) = {"
+Up
+Up
+Up
+Up
+Ny
+Ny
+Ny
+bo
+xP
+xP
+xP
+xP
+xP
+yk
+yk
+xP
+bf
+Ny
+Ny
+Ny
+Ny
+CM
+Ny
+Ny
+yH
+WT
+UV
+AG
+ch
+AG
+oz
+If
+pl
+Ny
+Ny
+Up
+Up
+Up
+Up
+"}
+(15,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+Ny
+Qs
+gJ
+dw
+Ny
+Qs
+gJ
+dw
+Ny
+Ny
+Ny
+Ny
+CM
+CM
+CM
+CM
+CM
+Ny
+Ny
+yH
+uv
+Va
+Vz
+Vz
+qN
+pl
+Ny
+Ny
+Up
+Up
+Up
+Up
+Up
+"}
+(16,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+Ny
+CM
+CM
+CM
+Ny
+CM
+CM
+CM
+Ny
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Ny
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(17,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+CM
+FO
+CM
+CM
+FO
+CM
+CM
+CM
+FO
+Up
+Up
+Up
+Up
+FO
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(18,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+FO
+FO
+CM
+CM
+FO
+CM
+CM
+CM
+FO
+FO
+CM
+CM
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+"}
+(19,1,1) = {"
+Up
+Up
+Up
+Up
+Up
+Up
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+FO
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+"}

@@ -54,6 +54,13 @@
 	cost = 4
 	cant_discount = FALSE
 
+/datum/uplink_item/adipowarfare/caloritepen
+	name = "Galbanic-Infused Calorite Pen"
+	desc = "A novelty pen with a calorite tip, infused with galbanic. Does a little bit of perma-fattening and calorite poisoning on stab."
+	item = /obj/item/pen/calorite/syndicate
+	cost = 1
+	cant_discount = TRUE
+
 /datum/uplink_item/adipowarfare/alter_ray_reverser
 	name = "Alter-Ray Reverser"
 	desc = "A lasergun that's capable of reversing the subject's metabolism, making them unable to lose weight."
@@ -134,6 +141,13 @@
 	item_type = /obj/item/melee/curator_whip/permafattening
 	description = "A galbanic-infused whip. Its attacks are harmless but they disarm and perma-fatten targets."
 	admin_note = "Useful for kink antags. Generally harmless. Perma-fattens people. Great at disarming."
+
+/datum/opposing_force_equipment/antagonist_powers/caloritepen
+	name = "Galbanic-infused Calorite Pen"
+	item_type = /obj/item/pen/calorite/syndicate
+	description = "A novelty pen with a calorite tip, infused with galbanic. Does a little bit of perma-fattening and calorite poisoning on stab."
+	admin_note = "Useful for kink antags. No combat capability. Perma-fattens people and adds calorite poisoning."
+
 
 /datum/opposing_force_equipment/antagonist_powers/lipoifier_beaker
 	name = "Beaker of Lipoifier"

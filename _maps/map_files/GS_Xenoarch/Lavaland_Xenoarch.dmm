@@ -64,8 +64,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "acs" = (
@@ -136,8 +140,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/fattening,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -274,8 +282,12 @@
 /turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "akh" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
 /obj/item/food/burger/fish{
 	pixel_x = -5;
@@ -951,8 +963,12 @@
 /turf/open/floor/iron/edge,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "aEv" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
@@ -987,8 +1003,12 @@
 /turf/open/water/jungle,
 /area/lavaland/underground)
 "aFH" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 6
 	},
@@ -1034,8 +1054,12 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "aGX" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/light_emitter/tendril,
 /obj/effect/decal/bigfatsigil,
 /mob/living/simple_animal/hostile/fatten/magehand,
@@ -1414,8 +1438,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "aVX" = (
@@ -1607,8 +1635,12 @@
 /turf/open/floor/iron/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "bcr" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
@@ -2252,8 +2284,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/flashlight/lantern/on,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -2289,8 +2325,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/dark,
@@ -2403,8 +2443,12 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "bFw" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/singular/always_floorplane,
 /obj/structure/flora/rock,
 /turf/open/misc/dirt/dark,
@@ -2714,8 +2758,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -3082,8 +3130,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "cgP" = (
@@ -3137,8 +3189,12 @@
 /turf/open/floor/iron,
 /area/mine/xenoarch/engineering)
 "ciM" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/food/burger/superbite{
 	pixel_x = 1;
 	pixel_y = -2
@@ -3416,8 +3472,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "crH" = (
@@ -3840,16 +3900,24 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "cHA" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "cHR" = (
@@ -3883,8 +3951,12 @@
 	},
 /area/lavaland/underground/xenoarch/candyland)
 "cIR" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
@@ -3899,8 +3971,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -4272,8 +4348,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/donut_factory)
 "cWI" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
@@ -4292,8 +4372,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "cYc" = (
@@ -4482,8 +4566,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/item/flashlight/lantern/on{
 	pixel_x = 2;
 	pixel_y = -2
@@ -4735,7 +4823,9 @@
 /area/xenoarch/lavaland/public)
 "dpB" = (
 /obj/structure/window/calorite/fulltile,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "dpK" = (
@@ -4769,8 +4859,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "dqz" = (
@@ -5017,8 +5111,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "dCa" = (
@@ -5096,8 +5194,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/singular/always_floorplane/directional/east,
 /obj/structure/broken_flooring/singular/always_floorplane/directional/south,
 /turf/open/misc/dirt/dark,
@@ -5630,8 +5732,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "dZs" = (
@@ -5764,8 +5870,12 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "efa" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -6658,8 +6768,12 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "eQG" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/belch,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -6962,8 +7076,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "faA" = (
@@ -7572,8 +7690,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/reagent_dispensers/cooking_oil/cream,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -7846,8 +7968,12 @@
 /area/xenoarch/lavaland/foyer)
 "fLr" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "fLt" = (
@@ -7920,8 +8046,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "fNA" = (
@@ -8098,8 +8228,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/singular/always_floorplane/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8334,8 +8468,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -8487,8 +8625,12 @@
 /area/xenoarch/lavaland/public)
 "gjo" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/fattening,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -8807,8 +8949,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/dark,
@@ -8891,8 +9037,12 @@
 /turf/open/floor/iron,
 /area/xenoarch/lavaland/foyer)
 "gzj" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/slime_cookie/calorite,
 /obj/structure/trap/fattening,
 /turf/open/floor/iron/diagonal,
@@ -9775,8 +9925,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "hhC" = (
@@ -9903,8 +10057,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -10046,8 +10204,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -10089,8 +10251,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -10111,8 +10277,12 @@
 /area/mine/xenoarch/engineering)
 "hug" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -10143,8 +10313,12 @@
 /turf/open/floor/iron/white/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "huO" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -10314,8 +10488,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "hAx" = (
@@ -10810,8 +10988,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -11223,8 +11405,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "iea" = (
@@ -11378,8 +11564,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "iiC" = (
@@ -11455,8 +11645,12 @@
 	},
 /area/xenoarch/lavaland/lowerlevel)
 "ilb" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/fattening,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -11629,8 +11823,12 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "iuA" = (
@@ -11701,8 +11899,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -11884,8 +12086,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -12373,8 +12579,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "iZt" = (
@@ -12584,8 +12794,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -12654,8 +12868,12 @@
 /turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "jlp" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
@@ -12811,8 +13029,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/belch,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -13001,6 +13223,13 @@
 	},
 /turf/open/floor/glass/reinforced,
 /area/lavaland/underground/xenoarch/caloriteresearch)
+"jyQ" = (
+/obj/machinery/atmospherics/components/tank/air/layer4{
+	open_ports = 2
+	},
+/obj/effect/turf_decal/tile/neutral/full,
+/turf/open/floor/iron/dark/textured_large,
+/area/mine/xenoarch/engineering)
 "jyV" = (
 /obj/structure/railing/corner/end{
 	dir = 8;
@@ -13251,8 +13480,12 @@
 /turf/open/floor/iron/white/small,
 /area/lavaland/underground/xenoarch/donut_factory)
 "jIm" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -13471,8 +13704,12 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_east)
 "jQc" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "jQs" = (
@@ -13893,8 +14130,12 @@
 /turf/open/floor/carpet/black,
 /area/xenoarch/lavaland/public)
 "kgJ" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 6
 	},
@@ -13973,8 +14214,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
@@ -13999,8 +14244,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "kjs" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
@@ -15585,8 +15834,12 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_west)
 "lrV" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
@@ -15605,8 +15858,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -15689,8 +15946,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -15839,8 +16100,12 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "lyJ" = (
@@ -16144,8 +16409,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "lIk" = (
@@ -16406,8 +16675,12 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/xenoarch/lavaland/bot)
 "lSc" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
@@ -16479,8 +16752,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "lUU" = (
@@ -16645,8 +16922,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -16677,8 +16958,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -16779,8 +17064,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/belch,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -16816,8 +17105,12 @@
 "mfp" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
 /obj/item/flashlight/lantern/on,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -16997,8 +17290,12 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/lavaland/maint_east)
 "mnO" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/fattening,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -17032,8 +17329,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "mpI" = (
@@ -17773,8 +18074,12 @@
 /turf/open/floor/iron/textured_large,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "mQN" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
@@ -17810,8 +18115,12 @@
 /turf/open/floor/mineral/basaltstone_floor,
 /area/lavaland/underground/xenoarch/donut_factory)
 "mSe" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
@@ -17896,8 +18205,12 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground/xenoarch/donut_factory)
 "mUI" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 6
 	},
@@ -18387,8 +18700,12 @@
 /turf/open/floor/iron/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "nkA" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -18432,8 +18749,12 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "nkT" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
@@ -18465,8 +18786,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -18525,8 +18850,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "npr" = (
@@ -18785,8 +19114,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "nzh" = (
@@ -18808,8 +19141,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/platform/gold,
 /obj/item/stack/ore/calorite,
 /obj/item/stack/ore/calorite,
@@ -19018,8 +19355,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "nHQ" = (
@@ -19065,8 +19406,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/dark,
@@ -19161,8 +19506,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/flashlight/lantern/on,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -19745,8 +20094,12 @@
 /turf/open/floor/concrete,
 /area/lavaland/underground)
 "odu" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
@@ -19892,8 +20245,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -20423,8 +20780,12 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/flashlight/lantern/on,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -20503,8 +20864,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -21055,8 +21420,12 @@
 /area/xenoarch/lavaland/maint_east)
 "pbi" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock/pile,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -21339,8 +21708,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pnu" = (
@@ -21492,8 +21865,12 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
 "ptq" = (
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/structure/decorative/shelf/crates1,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -21501,8 +21878,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -21585,8 +21966,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/misc/dirt/dark,
@@ -21704,8 +22089,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/donut_factory)
 "pAe" = (
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/structure/decorative/shelf,
 /obj/item/stack/ore/calorite,
 /obj/item/stack/ore/calorite,
@@ -21804,8 +22193,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/statue/calorite/pillar,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -21836,8 +22229,12 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "pFw" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
@@ -21856,8 +22253,12 @@
 /turf/open/floor/iron/freezer,
 /area/xenoarch/lavaland/bathroom)
 "pGh" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
@@ -21875,8 +22276,12 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pGO" = (
@@ -21985,8 +22390,12 @@
 /turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "pKM" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
@@ -22133,8 +22542,12 @@
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "pQR" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
@@ -22315,8 +22728,12 @@
 /turf/open/floor/iron/half,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "pXS" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
@@ -22513,8 +22930,12 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "qhR" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
@@ -22564,8 +22985,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -22693,8 +23118,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 6
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "qoW" = (
@@ -23141,8 +23570,12 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "qIF" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
@@ -23248,8 +23681,12 @@
 /turf/open/indestructible/chocolate,
 /area/lavaland/underground/xenoarch/candyland)
 "qLX" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -23594,8 +24031,12 @@
 /turf/open/floor/iron/dark,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "rag" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
@@ -23621,8 +24062,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -23932,8 +24377,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "rky" = (
@@ -23965,6 +24414,10 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1;
 	alpha = 120
+	},
+/obj/machinery/airalarm{
+	name = "Xenoarch science hallway air alarm";
+	pixel_y = 24
 	},
 /turf/open/floor/iron,
 /area/mine/xenoarch/engineering)
@@ -24104,8 +24557,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -24667,8 +25124,12 @@
 /turf/open/floor/iron/cafeteria,
 /area/xenoarch/lavaland/gen)
 "rKQ" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/food/burger/cheese{
 	pixel_x = 8;
 	pixel_y = 3
@@ -24959,8 +25420,12 @@
 /area/lavaland/underground/xenoarch/candy_outpost)
 "rWw" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "rWB" = (
@@ -25121,8 +25586,12 @@
 /turf/closed/wall/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "sev" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -25255,8 +25724,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "skH" = (
@@ -25290,8 +25763,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /mob/living/basic/slime/calorite,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -25458,8 +25935,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "ssm" = (
@@ -26735,8 +27216,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/singular/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -26801,8 +27286,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "tol" = (
@@ -27154,10 +27643,6 @@
 	pixel_x = 8;
 	pixel_y = 3
 	},
-/obj/item/food/pizza{
-	pixel_x = -12;
-	pixel_y = 9
-	},
 /obj/item/reagent_containers/cup/bigbottle/cola{
 	pixel_x = 2;
 	pixel_y = 5
@@ -27236,8 +27721,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 6
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -27374,8 +27863,12 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -27591,8 +28084,12 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "tSK" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/singular/directional/north,
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
@@ -27789,8 +28286,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/item/flashlight/lantern/on{
 	pixel_x = 0;
 	pixel_y = 12
@@ -27820,8 +28321,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "tYu" = (
@@ -27964,8 +28469,12 @@
 /turf/open/floor/carpet,
 /area/xenoarch/lavaland/public)
 "ueb" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
@@ -28043,8 +28552,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "ugy" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
@@ -28207,8 +28720,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "umV" = (
@@ -28470,8 +28987,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "usV" = (
@@ -28733,8 +29254,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "uyj" = (
@@ -28766,8 +29291,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "uzl" = (
@@ -29039,8 +29568,12 @@
 	},
 /area/xenoarch/lavaland/gym)
 "uJl" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/food/burger/rootrib{
 	pixel_x = 0;
 	pixel_y = 15
@@ -29295,8 +29828,12 @@
 /turf/open/floor/iron/smooth_large,
 /area/xenoarch/lavaland/maint_east)
 "uTn" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
@@ -29474,8 +30011,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/pile/always_floorplane/directional/north,
 /turf/open/misc/dirt/dark,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -29915,8 +30456,12 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/xenoarch/lavaland/gym)
 "voX" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 6
 	},
@@ -30161,8 +30706,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 10
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "vzI" = (
@@ -30285,8 +30834,12 @@
 /turf/open/floor/carpet/royalblue,
 /area/xenoarch/lavaland/gen)
 "vHF" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
 /obj/item/food/burger/chicken{
 	pixel_x = -1;
@@ -30507,8 +31060,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "vOR" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
@@ -30641,10 +31198,6 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "vUk" = (
 /obj/structure/bed/double,
-/obj/item/food/pizzaslice{
-	pixel_x = -5;
-	pixel_y = 6
-	},
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/gym)
 "vUm" = (
@@ -30805,8 +31358,12 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "vXZ" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "vYo" = (
@@ -30835,8 +31392,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 9
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -30908,8 +31469,12 @@
 /turf/open/floor/iron/dark/diagonal,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "was" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/food/burger/greaseburger{
 	pixel_x = 7;
 	pixel_y = -5
@@ -31290,8 +31855,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -31420,8 +31989,12 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/lavaland/maint_east)
 "wto" = (
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /obj/structure/decorative/shelf,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -31464,8 +32037,12 @@
 /area/xenoarch/lavaland/foyer)
 "wuO" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -31543,8 +32120,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/trap/fattening,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -31841,8 +32422,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/item/flashlight/lantern/on,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -31942,8 +32527,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "wPV" = (
@@ -32115,8 +32704,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -32142,8 +32735,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/broken_flooring/singular/always_floorplane/directional/south,
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
@@ -32339,8 +32936,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -32502,8 +33103,12 @@
 /area/lavaland/underground/xenoarch/donut_factory)
 "xkR" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "xkS" = (
@@ -32731,8 +33336,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/end{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/structure/platform/gold,
 /obj/item/gavelhammer/permafattening,
 /turf/open/floor/iron/diagonal,
@@ -32975,8 +33584,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xGq" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner{
 	dir = 1
 	},
@@ -33001,8 +33614,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
 /mob/living/basic/slime/calorite,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
@@ -33123,8 +33740,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -33135,8 +33756,12 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/donut_factory)
 "xJZ" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta/corner,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/diagonal,
@@ -33179,8 +33804,12 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xLO" = (
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
@@ -33625,8 +34254,12 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "ycR" = (
@@ -33791,8 +34424,12 @@
 	dir = 1
 	},
 /obj/item/flashlight/lantern/on,
-/obj/effect/turf_decal/tile/brown/diagonal_centre,
-/obj/effect/turf_decal/tile/dark_red/diagonal_edge,
+/obj/effect/turf_decal/tile/brown/diagonal_centre{
+	use_holiday_colors = 0
+	},
+/obj/effect/turf_decal/tile/dark_red/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "yhU" = (
@@ -111256,7 +111893,7 @@ ycz
 gNx
 cix
 oVc
-eke
+jyQ
 dMT
 cNS
 xed

@@ -90,3 +90,9 @@
 	desc = "Popular in GS13, this emitter is able to project a hardlight wheelchair for an user to sit in."
 	cost = 150
 	contains = list(/obj/item/holosign_creator/hardlight_wheelchair)
+
+/datum/supply_pack/goody/caloritepen
+	name = "Novelty Calorite Pen"
+	desc = "A novelty pen with the tip made out of calorite, made to celebrate the success of Nutri-Tech! GATO is not liable for any mishandlings of this novelty item."
+	cost = 1000
+	contains = list(/obj/item/pen/calorite)

@@ -9,9 +9,9 @@
 	icon_state = "bluespace_belt"
 	//inhand_icon_state = "bluespace_belt"
 	slot_flags = ITEM_SLOT_BELT
-	equip_sound = 'modular_gs/sound/items/equip/toolbelt_equip.ogg'
-	drop_sound = 'modular_gs/sound/items/handling/toolbelt_drop.ogg'
-	pickup_sound =  'modular_gs/sound/items/handling/toolbelt_pickup.ogg'
+	equip_sound = 'sound/items/equip/toolbelt_equip.ogg'
+	drop_sound = 'sound/items/handling/toolbelt_drop.ogg'
+	pickup_sound =  'sound/items/handling/toolbelt_pickup.ogg'
 	/// is it in the belt slot?
 	var/equipped = FALSE
 	/// are we set to show X amount of BFI, or hide X amount of BFI

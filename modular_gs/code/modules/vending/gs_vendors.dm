@@ -96,6 +96,8 @@
 	products = list(
 				/obj/item/melee/curator_whip/fattening = 99,
 				/obj/item/melee/curator_whip/permafattening = 99,
+				/obj/item/pen/calorite = 99,
+				/obj/item/pen/calorite/syndicate = 99,
 				/obj/item/gavelhammer/fattening = 99,
 				/obj/item/gavelhammer/permafattening = 99,
 				/obj/item/gun/energy/fatoray/cannon = 99,

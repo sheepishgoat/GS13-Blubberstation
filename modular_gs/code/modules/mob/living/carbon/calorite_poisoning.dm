@@ -32,7 +32,7 @@
 	set_weight_gain_modifier(CALORITE_POISONING, calorite_poisoning)
 	set_weight_loss_modifier(CALORITE_POISONING, -calorite_poisoning)
 
-	adjust_hunger(calorite_poisoning * 2.5)
+	adjust_hunger(calorite_poisoning * 2)
 
 	if (calorite_poisoning > 0.3)
 		if (prob(5))

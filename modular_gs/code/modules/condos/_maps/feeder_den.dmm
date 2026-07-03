@@ -526,7 +526,9 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/misc/condo)
 "fO" = (
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 4
 	},
@@ -579,7 +581,9 @@
 /turf/open/floor/hay,
 /area/misc/condo)
 "gk" = (
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 5
 	},
@@ -1133,7 +1137,9 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/misc/condo)
 "lK" = (
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -1442,7 +1448,9 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/misc/condo)
 "oE" = (
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
@@ -1647,7 +1655,9 @@
 /area/misc/condo)
 "qG" = (
 /obj/machinery/shower/directional/west,
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 4
 	},
@@ -2068,6 +2078,12 @@
 	},
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/tile/neutral/half{
+	alpha = 255;
+	color = "#5d341f";
+	dir = 2;
+	use_holiday_colors = 0
+	},
 /turf/open/floor/wood/tile,
 /area/misc/condo)
 "tn" = (
@@ -2082,7 +2098,9 @@
 /turf/open/floor/iron/white/small,
 /area/misc/condo)
 "tI" = (
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
@@ -3001,7 +3019,9 @@
 /area/misc/condo)
 "Dt" = (
 /obj/structure/railing,
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light/end{
 	dir = 8
 	},
@@ -3062,7 +3082,8 @@
 /obj/effect/turf_decal/tile/neutral/half{
 	alpha = 255;
 	color = "#5d341f";
-	dir = 2
+	dir = 2;
+	use_holiday_colors = 0
 	},
 /obj/item/clothing/neck/human_petcollar/locked/cow{
 	pixel_x = 0;
@@ -3253,7 +3274,9 @@
 	anchored = 1;
 	name = "warning line"
 	},
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 1
 	},
@@ -3516,7 +3539,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 8
 	},
@@ -3534,7 +3559,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/turf_decal/siding/wideplating/light{
@@ -3845,7 +3872,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/misc/condo)
 "LP" = (
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/machinery/shower/directional/west,
 /obj/structure/decorative{
 	icon_state = "drain";
@@ -4449,7 +4478,9 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light/corner{
 	dir = 8
 	},
@@ -4789,7 +4820,8 @@
 /obj/effect/turf_decal/tile/neutral/half{
 	alpha = 255;
 	color = "#5d341f";
-	dir = 2
+	dir = 2;
+	use_holiday_colors = 0
 	},
 /turf/open/floor/hay,
 /area/misc/condo)
@@ -4874,7 +4906,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue/diagonal_edge,
+/obj/effect/turf_decal/tile/blue/diagonal_edge{
+	use_holiday_colors = 0
+	},
 /obj/effect/turf_decal/siding/wideplating/light{
 	dir = 8
 	},
@@ -5165,6 +5199,17 @@
 	},
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_large,
+/area/misc/condo)
+"YN" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/tile/neutral/half{
+	alpha = 255;
+	color = "#5d341f";
+	dir = 2;
+	use_holiday_colors = 0
+	},
+/turf/open/floor/wood/tile,
 /area/misc/condo)
 "YR" = (
 /obj/item/trash/can,
@@ -6100,7 +6145,7 @@ Nd
 sg
 Yn
 gI
-lZ
+YN
 EW
 VD
 lM
@@ -6134,7 +6179,7 @@ FP
 Xw
 Jh
 xj
-lZ
+YN
 vb
 uT
 Ly
@@ -6202,7 +6247,7 @@ Cu
 eo
 NG
 mb
-lZ
+YN
 Vu
 uT
 GO
@@ -6236,7 +6281,7 @@ Nd
 Ih
 Cs
 pA
-lZ
+YN
 El
 VD
 ZT
