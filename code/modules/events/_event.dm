@@ -67,20 +67,36 @@
 /datum/round_event_control/proc/can_spawn_event(players_amt, allow_magic = FALSE)
 	SHOULD_CALL_PARENT(TRUE)
 	if(occurrences >= max_occurrences)
+		message_admins("Event: [name] was unable to run due to too many occurences. Occurences: [occurrences]; Max occurences: [max_occurrences].")
+		log_admin("Event: [name] was unable to run due to too many occurences. Occurences: [occurrences]; Max occurences: [max_occurrences].")
 		return FALSE
 	if(!(roundstart ^ SSticker.HasRoundStarted())) // BUBBER EDIT: Roundstart checks added
+		message_admins("Event: [name] was unable to run due to being roundstart related. SSticker: [SSticker.HasRoundStarted()]; Roundstart: [roundstart].")
+		log_admin("Event: [name] was unable to run due to being roundstart related. SSticker: [SSticker.HasRoundStarted()]; Roundstart: [roundstart].")
 		return FALSE
 	if(weight == 0) // BUBBER EDIT: Weight check added
+		message_admins("Event: [name] was unable to run due to its weight being 0.")
+		log_admin("Event: [name] was unable to run due to its weight being 0.")
 		return FALSE
 	if(!allow_magic && wizardevent != SSevents.wizardmode)
+		message_admins("Event: [name] was unable to run due to wizard events not being allowed.")
+		log_admin("Event: [name] was unable to run due to wizard events not being allowed.")
 		return FALSE
 	if(players_amt < min_players)
+		message_admins("Event: [name] was unable to run due to there not being enough players. Players: [player_amt]; Min players: [min_players].")
+		log_admin("Event: [name] was unable to run due to there not being enough players. Players: [player_amt]; Min players: [min_players].")
 		return FALSE
 	if(holidayID && !check_holidays(holidayID))
+		message_admins("Event: [name] was unable to run due to being related to holidays.")
+		log_admin("Event: [name] was unable to run due to being related to holidays.")
 		return FALSE
 	if(EMERGENCY_ESCAPED_OR_ENDGAMED)
+		message_admins("Event: [name] was unable to run due to the game having ended already.")
+		log_admin("Event: [name] was unable to run due to the game having ended already.")
 		return FALSE
 	if(ispath(typepath, /datum/round_event/ghost_role) && !(GLOB.ghost_role_flags & GHOSTROLE_MIDROUND_EVENT))
+		message_admins("Event: [name] was unable to run due to some ghost role fuckery. Swan'll know.")
+		log_admin("Event: [name] was unable to run due to some ghost role fuckery. Swan'll know.")
 		return FALSE
 
 	return TRUE
