@@ -83,8 +83,8 @@
 		log_admin("Event: [name] was unable to run due to wizard events not being allowed.")
 		return FALSE
 	if(players_amt < min_players)
-		message_admins("Event: [name] was unable to run due to there not being enough players. Players: [player_amt]; Min players: [min_players].")
-		log_admin("Event: [name] was unable to run due to there not being enough players. Players: [player_amt]; Min players: [min_players].")
+		message_admins("Event: [name] was unable to run due to there not being enough players. Players: [players_amt]; Min players: [min_players].")
+		log_admin("Event: [name] was unable to run due to there not being enough players. Players: [players_amt]; Min players: [min_players].")
 		return FALSE
 	if(holidayID && !check_holidays(holidayID))
 		message_admins("Event: [name] was unable to run due to being related to holidays.")
