@@ -47,7 +47,7 @@
 			/datum/material/glass,
 			/datum/material/plasma,
 			/datum/material/diamond,
-			/datum/material/bluespace,
+			/datum/material/bluespace,// goo goo ga ga test
 			/datum/material/bananium,
 			/datum/material/plastic,
 		)
