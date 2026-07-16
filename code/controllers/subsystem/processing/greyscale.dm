@@ -11,6 +11,7 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 #endif
 
 /datum/controller/subsystem/processing/greyscale/Initialize()
+	log_world("Initializing greyscale")
 	for(var/datum/greyscale_layer/greyscale_layer as anything in subtypesof(/datum/greyscale_layer))
 		layer_types[initial(greyscale_layer.layer_type)] = greyscale_layer
 
@@ -20,25 +21,31 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 
 	// We do this after all the types have been loaded into the listing so reference layers don't care about init order
 	for(var/greyscale_type in configurations)
+		log_world("Fucky thing 1")
 		CHECK_TICK
 		var/datum/greyscale_config/config = configurations[greyscale_type]
 		config.Refresh()
 
 #ifdef USE_RUSTG_ICONFORGE_GAGS
+	log_world("Fucky thing 2")
 	var/list/job_ids = list()
 #endif
 
 	// This final verification step is for things that need other greyscale configurations to be finished loading
 	for(var/greyscale_type in configurations)
+		log_world("Fucky thing 3")
 		CHECK_TICK
 		var/datum/greyscale_config/config = configurations[greyscale_type]
 		config.CrossVerify()
 #ifdef USE_RUSTG_ICONFORGE_GAGS
+		log_world("Fucky thing 4")
 		job_ids += rustg_iconforge_load_gags_config_async(greyscale_type, config.raw_json_string, config.string_icon_file)
 
+	log_world("Fucky thing 5")
 	UNTIL(jobs_completed(job_ids))
 #endif
 
+	log_world("Greyscale initialized")
 	return SS_INIT_SUCCESS
 
 #ifdef USE_RUSTG_ICONFORGE_GAGS
