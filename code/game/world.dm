@@ -225,7 +225,6 @@ GLOBAL_VAR(restart_counter)
 	return data
 
 /world/proc/SetupLogs()
-	log_world("Beginning to setup logs")
 	var/override_dir = params[OVERRIDE_LOG_DIRECTORY_PARAMETER]
 	if(!override_dir)
 		var/realtime = world.realtime
@@ -254,11 +253,9 @@ GLOBAL_VAR(restart_counter)
 	logger.init_logging()
 
 	if(Tracy.trace_path)
-		log_world("Rust_G writing to tracy")
 		rustg_file_write("[Tracy.trace_path]", "[GLOB.log_directory]/tracy.loc")
 
 	if(!fexists(GLOB.master_public_log_file)) // BUBBER EDIT ADDITION
-		log_world("Rust_G writing to master public log file")
 		rustg_file_write("Starting up round ID [GLOB.round_id].\n --------------------------\n", GLOB.master_public_log_file) // BUBBER EDIT ADDITION
 	var/latest_changelog = file("[global.config.directory]/../html/changelogs/archive/" + time2text(world.timeofday, "YYYY-MM", TIMEZONE_UTC) + ".yml")
 	GLOB.changelog_hash = fexists(latest_changelog) ? md5(latest_changelog) : 0 //for telling if the changelog has changed recently
