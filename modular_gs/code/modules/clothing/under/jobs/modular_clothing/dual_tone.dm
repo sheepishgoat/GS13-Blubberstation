@@ -4,6 +4,7 @@
 	name = "Engineering dual tone jumpsuit (Modular)"
 	desc = "Dual tone, high visibility orange jumpsuit worn by engineers. It has minor radiation shielding."
 	greyscale_colors = "#FFDD00#FF7F00"
+	icon_state = "/obj/item/clothing/under/dual_tone/engineering"
 	armor_type = /datum/armor/clothing_under/rank_engineering
 	flags_1 = 0		// make it non-recolorable
 
@@ -11,17 +12,20 @@
 	name = "Chief Engineers dual tone jumpsuit (Modular)"
 	desc = "Dual tone, gray jumpsuit given to those engineers insane enough to achieve the rank of \"Chief Engineer\". It has minor radiation shielding."
 	greyscale_colors = "#dfdfdf#FFCC33"
+	icon_state = "/obj/item/clothing/under/dual_tone/engineering/chief"
 	armor_type = /datum/armor/clothing_under/engineering_chief_engineer
 
 /obj/item/clothing/under/dual_tone/engineering/atmos
 	name = "Atmospherics dual tone jumpsuit (Modular)"
 	desc = "Dual tone, high visibility yellow blue jumpsuit worn by Atmospherics Technicians. It has minor fire protective plating."
 	greyscale_colors = "#FFe000#00A9FF"
+	icon_state = "/obj/item/clothing/under/dual_tone/engineering/atmos"
 
 /obj/item/clothing/under/dual_tone/engineering/tcomms
 	name = "Telecomms specialists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, high visibility yellow blue jumpsuit worn by the telecomms specialists. Don't mistake with atmos techs!"
 	greyscale_colors = "#FFDD00#0048ff"
+	icon_state = "/obj/item/clothing/under/dual_tone/engineering/tcomms"
 
 // ### MEDBAY ###
 
@@ -29,6 +33,7 @@
 	name = "Doctors dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white-blue uniform worn by medical personnel. Provides minor protection against biohazards."
 	greyscale_colors = "#FFFFFF#5A96BB"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay"
 	armor_type = /datum/armor/clothing_under/rank_medical
 	flags_1 = 0		// make it non-recolorable
 
@@ -36,32 +41,38 @@
 	name = "Chief Medical Officers dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white jumpsuit worn by those with the experience to be \"Chief Medical Officer\". Provides minor biohazard shielding."
 	greyscale_colors = "#FFFFFF#3366FF"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay/chief_medical_officer"
 
 /obj/item/clothing/under/dual_tone/medbay/chemist
 	name = "Chemists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white-orange uniform worn by chemists. Provides minor protection against acids."
 	greyscale_colors = "#FFFFFF#FF8800"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay/chemist"
 	armor_type = /datum/armor/clothing_under/medical_chemist
 
 /obj/item/clothing/under/dual_tone/medbay/geneticist
 	name = "Geneticists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white-blue jumpsuit worn by geneticists. Provides minor biohazard shielding."
 	greyscale_colors = "#FFFFFF#0097CA"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay/geneticist"
 
 /obj/item/clothing/under/dual_tone/medbay/virologist
 	name = "Virologists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white-green jumpsuit worn by virologists. Provides minor biohazard shielding."
 	greyscale_colors = "#FFFFFF#339900"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay/virologist"
 
 /obj/item/clothing/under/dual_tone/medbay/paramedic
 	name = "Paramedics dual tone jumpsuit (Modular)"
 	desc = "Dual tone, dark-blue jumpsuit with white stripes worn by paramedics. Provides minor biohazard shielding."
 	greyscale_colors = "#364660#FFFFFF"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay/paramedic"
 
 /obj/item/clothing/under/dual_tone/medbay/psychologist
 	name = "Psychologists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black jumpsuit with white stripes worn by psychologists."
 	greyscale_colors = "#202020#FFFFFF"
+	icon_state = "/obj/item/clothing/under/dual_tone/medbay/psychologist"
 	armor_type = /datum/armor/clothing_under
 
 // ### SCIENCE ###
@@ -70,6 +81,7 @@
 	name = "Scientists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white-purple labcoat worn by the stations eggheads. Has shielding providing minor protection against explosions."
 	greyscale_colors = "#FFFFFF#AA24EA"
+	icon_state = "/obj/item/clothing/under/dual_tone/science"
 	armor_type = /datum/armor/clothing_under/science
 	flags_1 = 0		// make it non-recolorable
 
@@ -77,12 +89,14 @@
 	name = "Research Director dual tone jumpsuit (Modular)"
 	desc = "Dual tone labcoat worn by those with the know-how to achieve the position of \"Research Director\". Has shielding providing minor protection against explosions and acids."
 	greyscale_colors = "#AA24EA#FFFFFF"
+	icon_state = "/obj/item/clothing/under/dual_tone/science/research_director"
 	armor_type = /datum/armor/clothing_under/rnd_research_director
 
 /obj/item/clothing/under/dual_tone/science/roboticist
 	name = "Roboticists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black suit worn by roboticists."
 	greyscale_colors = "#363636#8B2400"
+	icon_state = "/obj/item/clothing/under/dual_tone/science/roboticist"
 
 // ### CARGO ###
 
@@ -90,23 +104,27 @@
 	name = "Cargo technicians dual tone jumpsuit (Modular)"
 	desc = "Dual tone, yellow-gray jumpsuit worn by cargo techs. Comfy and with big pockets!"
 	greyscale_colors = "#7a4400#303030"
+	icon_state = "/obj/item/clothing/under/dual_tone/cargo"
 	flags_1 = 0		// make it non-recolorable
 
 /obj/item/clothing/under/dual_tone/cargo/quartermaster
 	name = "Quartermasters dual tone jumpsuit (Modular)"
 	desc = "Dual tone, yellow-gray jumpsuit by the Quartermaster. It's specially designed to prevent back injuries caused by pushing paper."
 	greyscale_colors = "#BB9042#C0C0C0"
+	icon_state = "/obj/item/clothing/under/dual_tone/cargo/quartermaster"
 
 /obj/item/clothing/under/dual_tone/cargo/miner
 	name = "Shaft miners dual tone jumpsuit (Modular)"
 	desc = "Dual tone, greenish-purple jumpsuit worn by miners. Provides good fire protection."
 	greyscale_colors = "#717261#8A5AE1"
+	icon_state = "/obj/item/clothing/under/dual_tone/cargo/miner"
 	armor_type = /datum/armor/clothing_under/cargo_miner
 
 /obj/item/clothing/under/dual_tone/cargo/bitrunner
 	name = "Bitrunners dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black brown jumpsuit worn by the laziest person in the cargo department. With how long you sit in that pod, it's obvious why the outfit needs to be stretchy..."
 	greyscale_colors = "#242424#432100"
+	icon_state = "/obj/item/clothing/under/dual_tone/cargo/bitrunner"
 
 // ### SECURITY ###
 
@@ -114,6 +132,7 @@
 	name = "Security officer's dual tone jumpsuit (Modular)"
 	desc = "Dual tone, dark blue tactical jumpsuit worn by security officers. Comes with plating meant for pretection against melee attacks."
 	greyscale_colors = "#00386e#222222"
+	icon_state = "/obj/item/clothing/under/dual_tone/security"
 	strip_delay = 50
 	sensor_mode = SENSOR_COORDS
 	random_sensor = FALSE
@@ -124,16 +143,19 @@
 	name = "Red Security officer's dual tone jumpsuit (Modular)"
 	desc = "Dual tone, red tactical jumpsuit reminding you of the good old days. Comes with plating meant for pretection against melee attacks."
 	greyscale_colors = "#C12D30#545350"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/red"
 
 /obj/item/clothing/under/dual_tone/security/medic
 	name = "Security medic dual tone jumpsuit (Modular)"
 	desc = "Dual tone, deep red and white jumpsuit worn by the security medic."
 	greyscale_colors = "#910000#c7c7c7"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/medic"
 
 /obj/item/clothing/under/dual_tone/security/head_of_security
 	name = "Head of Security's dual tone jumpsuit (Modular)"
 	desc = "Dual tone, dark blue tactical jumpsuit decorated for those few with the dedication to achieve the position of Head of Security."
 	greyscale_colors = "#002243#FFDD00"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/head_of_security"
 	armor_type = /datum/armor/clothing_under/security_head_of_security
 	strip_delay = 60
 
@@ -141,36 +163,43 @@
 	name = "Wardens dual tone jumpsuit (Modular)"
 	desc = "Dual tone, red tactical jumpsuit worn by the warden."
 	greyscale_colors = "#002243#D0D0D0"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/warden"
 
 /obj/item/clothing/under/dual_tone/security/detective
 	name = "Detective dual tone jumpsuit (Modular)"
 	desc = "It was a dual tone, white jumpsuit like any other... but I could tell there was something wrong. It's brown stripe was stretched across their huge belly, indicating that this wasn't a mere bedsheet, but rather, something worn by this stations loose cannon..."
 	greyscale_colors = "#FFFFFF#AB731C"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/detective"
 
 /obj/item/clothing/under/dual_tone/security/engineering
 	name = "Engineering guard dual tone jumpsuit (Modular)"
 	desc = "Dual tone, high-vis orange-white jumpsuit worn by the poor seccie assigned to the engineering department."
 	greyscale_colors = "#FF7F00#dddddd"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/engineering"
 
 /obj/item/clothing/under/dual_tone/security/medbay
 	name = "Orderly dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white-light blue jumpsuit worn by the one person in medbay that takes the hippocratic oath as a suggestion."
 	greyscale_colors = "#FFFFFF#77cdff"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/medbay"
 
 /obj/item/clothing/under/dual_tone/security/science
 	name = "science guard dual tone jumpsuit (Modular)"
 	desc = "Dual tone, purple white jumpsuit worn by the scientists guard."
 	greyscale_colors = "#dddddd#390039"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/scientist"
 
 /obj/item/clothing/under/dual_tone/security/cargo
 	name = "Customs agent dual tone jumpsuit (Modular)"
 	desc = "Dual tone, brown black jumpsuit worn by the cargo guard."
 	greyscale_colors = "#b7793d#202020"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/cargo"
 
 /obj/item/clothing/under/dual_tone/security/service
 	name = "Bouncers dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black blue jumpsuit worn by the person upholding the order at parties."
 	greyscale_colors = "#171717#4c99ff"
+	icon_state = "/obj/item/clothing/under/dual_tone/security/service"
 
 // ### SERVICE ###
 
@@ -183,47 +212,56 @@
 	name = "Head of Personnel dual tone jumpsuit (Modular)"
 	desc = "Dual tone, navy colored jumpsuit with red stripes, worn by the defender of Ian, the \"Head of Personnel\"."
 	greyscale_colors = "#006086#B00000"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/head_of_personnel"
 
 /obj/item/clothing/under/dual_tone/service/bartender
 	name = "Bartenders dual tone jumpsuit (Modular)"
 	desc = "Dual tone, white jumpsuit with black stripes. Classical bartender look."
 	greyscale_colors = "#FFFFFF#313131"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/bartender"
 
 /obj/item/clothing/under/dual_tone/service/chaplain
 	name = "Chaplains dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black jumpsuit with golden stripes. Deus Vult."
 	greyscale_colors = "#363636#FFDD00"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/chaplain"
 
 /obj/item/clothing/under/dual_tone/service/chef
 	name = "Chefs dual tone jumpsuit (Modular)"
 	desc = "Dual tone, but pretty much just white, jumpsuit used by the chef."
 	greyscale_colors = "#FFFFFF#C0C0C0"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/chef"
 
 /obj/item/clothing/under/dual_tone/service/hydroponics
 	name = "Botanists dual tone jumpsuit (Modular)"
 	desc = "Dual tone, green jumpsuit with blue stripes. Provides minor protection against plant-related hazards."
 	greyscale_colors = "#6AD427#3164FF"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/hydroponics"
 
 /obj/item/clothing/under/dual_tone/service/janitor
 	name = "Janitors dual tone jumpsuit (Modular)"
 	desc = "Dual tone, grey jumpsuit with purple stripes. Used by the station's cleankeeper, it has minor protection from biohazards."
 	greyscale_colors = "#C0C0C0#A747C0"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/janitor"
 	armor_type = /datum/armor/clothing_under/civilian_janitor
 
 /obj/item/clothing/under/dual_tone/service/lawyer
 	name = "Lawyers dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black jumpsuit with blue stripes. Worn by lawyers."
 	greyscale_colors = "#303030#FFFFFF"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/lawyer"
 
 /obj/item/clothing/under/dual_tone/service/curator
 	name = "Curators dual tone jumpsuit (Modular)"
 	desc = "Dual tone, red jumpsuit with white stripes. Worn by curators."
 	greyscale_colors = "#911719#FFFFFF"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/curator"
 
 /obj/item/clothing/under/dual_tone/service/barber
 	name = "Barbers dual tone jumpsuit (Modular)"
 	desc = "Fancy looking, dual tone pink and white jumpsuit."
 	greyscale_colors = "#ff99d1#eeeeee"
+	icon_state = "/obj/item/clothing/under/dual_tone/service/barber"
 
 // ### SPECIAL ###
 
@@ -236,6 +274,7 @@
 	name = "Captains dual tone jumpsuit (Modular)"
 	desc = "Dual tone, deep blue jumpsuit with gold markings. Worn by the most distinguished crew member aboard, the \"Captain\"."
 	greyscale_colors = "#004B8F#E1C709"
+	icon_state = "/obj/item/clothing/under/dual_tone/command/captain"
 	armor_type = /datum/armor/clothing_under/rank_captain
 	sensor_mode = SENSOR_COORDS
 	random_sensor = FALSE
@@ -244,6 +283,7 @@
 	name = "Blueshields dual tone jumpsuit (Modular)"
 	desc = "Dual tone, dark blue jumpsuit with white markings. Worn by the commands prime bodyguard."
 	greyscale_colors = "#002243#eeeeee"
+	icon_state = "/obj/item/clothing/under/dual_tone/command/blueshield"
 	strip_delay = 50
 	armor_type = /datum/armor/clothing_under/rank_blueshield
 	sensor_mode = SENSOR_COORDS
@@ -253,6 +293,7 @@
 	name = "Prisoners dual tone jumpsuit (Modular)"
 	desc = "Dual tone, orange jumpsuit with black markings. Worn by the scum of the station."
 	greyscale_colors = "#FF7F00#202020"
+	icon_state = "/obj/item/clothing/under/dual_tone/prisonner"
 	has_sensor = LOCKED_SENSORS
 	sensor_mode = SENSOR_COORDS
 	random_sensor = FALSE
@@ -262,16 +303,19 @@
 	name = "CentComs Officer dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black jumpsuit with deep purple stripes. Worn by representatives of GATO corporation."
 	greyscale_colors = "#1a1a20#ee2cb4"
+	icon_state = "/obj/item/clothing/under/dual_tone/centcom"
 	flags_1 = 0		// make it non-recolorable
 
 /obj/item/clothing/under/dual_tone/centcom/civilian
 	name = "GATO flavored dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black jumpsuit with deep purple stripes. Worn by people obsessed with the kitty meow meow corporation."
 	greyscale_colors = "#1a1a20#ee2cb4"
+	icon_state = "/obj/item/clothing/under/dual_tone/centcom/civilian"
 	flags_1 = 0		// make it non-recolorable
 
 /obj/item/clothing/under/dual_tone/syndicate
 	name = "Syndicate dual tone jumpsuit (Modular)"
 	desc = "Dual tone, black jumpsuit with red stripes, worn by the enemies of GATO"
 	greyscale_colors = "#202020#dd0000"
+	icon_state = "/obj/item/clothing/under/dual_tone/syndicate"
 	flags_1 = 0
