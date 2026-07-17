@@ -8,9 +8,6 @@
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
 	icon_state = "/obj/item/clothing/under/dual_tone/bunny_suit"
 	worn_icon = 'modular_gs/icons/mob/modclothes/dual_tone_suit_worn.dmi'
-	// worn_icon_state = "bunny_suit"
-	// worn_icon_digi = 'modular_gs/icons/mob/modclothes/bunny_suit_digi.dmi'
-	// worn_icon_taur_snake = 'modular_gs/icons/mob/modclothes/bunny_suit_taur_snake.dmi'
 	post_init_icon_state = "bunny_suit"		// but why does it have to be this way
 
 	greyscale_config = /datum/greyscale_config/bunny_suit

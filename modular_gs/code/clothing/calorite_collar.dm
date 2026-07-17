@@ -32,11 +32,9 @@
 	name = "calorite collar"
 	desc = "A modified pet collar infused with calorite, magnifying the caloric impact of any food the wearer eats"
 	weight_gain_rate_modifier = 0.5
-	modular_icon_location = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	greyscale_colors = "#303030"			// I like this
-	icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
-	icon_state = "collar_obj"
-	worn_icon_state = "calorite_collar_wear"
+	icon_state = "/obj/item/clothing/neck/human_petcollar/calorite"
+	worn_icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn
@@ -46,11 +44,9 @@
 	name = "locked calorite collar"
 	desc = "A modified locked collar infused with calorite, magnifying the caloric impact of any food the wearer eats"
 	weight_gain_rate_modifier = 0.5
-	modular_icon_location = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	greyscale_colors = "#303030"			// I like this
-	icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
-	icon_state = "collar_obj"
-	worn_icon_state = "calorite_collar_wear"
+	icon_state = "/obj/item/clothing/neck/human_petcollar/calorite"
+	worn_icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn
@@ -62,7 +58,6 @@
 
 /datum/greyscale_config/calorite_collar/worn
 	name = "Calorite Collar (Worn)"
-	icon_file = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	json_config = 'modular_gs/code/datums/greyscale/json_configs/calorite_collar_wear.json'
 
 /datum/crafting_recipe/calorite_collar

@@ -9,9 +9,6 @@
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
 	icon_state = "/obj/item/clothing/under/dual_tone"
 	worn_icon = 'modular_gs/icons/mob/modclothes/dual_tone_suit_worn.dmi'
-	// worn_icon_state = "dual_tone_jumpsuit"
-	// worn_icon_digi = 'modular_gs/icons/mob/modclothes/dual_tone_suit_digi.dmi'
-	// worn_icon_taur_snake = 'modular_gs/icons/mob/modclothes/dual_tone_suit_taur_snake.dmi'
 	post_init_icon_state = "dual_tone_jumpsuit"		// but why does it have to be this way
 
 	armor_type = /datum/armor/clothing_under
