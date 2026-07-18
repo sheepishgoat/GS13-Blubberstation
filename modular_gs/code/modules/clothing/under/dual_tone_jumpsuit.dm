@@ -26,7 +26,7 @@
 
 /datum/greyscale_config/dual_tone_suit/worn
 	name = "Dual Tone Suit (Worn)"
-	icon_file = 'modular_gs/icons/mob/modclothes/dual_tone_suit.dmi'
+	icon_file = 'modular_gs/icons/mob/modclothes/dual_tone_suit_worn.dmi'
 
 /datum/greyscale_config/dual_tone_suit/worn/digi
 	name = "Dual Tone Suit (Worn)(Digi)"

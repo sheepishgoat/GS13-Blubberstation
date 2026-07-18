@@ -22,7 +22,7 @@
 
 /datum/greyscale_config/bunny_suit/worn
 	name = "Bunny Suit (Worn)"
-	icon_file = 'modular_gs/icons/mob/modclothes/bunny_suit.dmi'
+	icon_file = 'modular_gs/icons/mob/modclothes/bunny_suit_worn.dmi'
 
 /datum/greyscale_config/bunny_suit/worn/digi
 	name = "Bunny Suit (Worn)(Digi)"

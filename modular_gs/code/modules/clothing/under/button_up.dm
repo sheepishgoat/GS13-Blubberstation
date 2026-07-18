@@ -24,7 +24,7 @@
 
 /datum/greyscale_config/button_up/worn
 	name = "Button Up Suit (Worn)"
-	icon_file = 'modular_gs/icons/mob/modclothes/button_up.dmi'
+	icon_file = 'modular_gs/icons/mob/modclothes/button_up_worn.dmi'
 
 /datum/greyscale_config/button_up/worn/digi
 	name = "Button Up Suit (Worn)(Digi)"
