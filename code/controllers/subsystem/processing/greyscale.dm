@@ -35,7 +35,9 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 		var/datum/greyscale_config/config = configurations[greyscale_type]
 		config.CrossVerify()
 #ifdef USE_RUSTG_ICONFORGE_GAGS
+		log_world("Starting rust_g job. Loading [greyscale_type], config json [config.raw_json_string], config icon [config.string_icon_file]")
 		job_ids += rustg_iconforge_load_gags_config_async(greyscale_type, config.raw_json_string, config.string_icon_file)
+		log_world("rust_g job started succesfully")
 
 	UNTIL(jobs_completed(job_ids))
 #endif
@@ -103,4 +105,4 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 	for(var/color in 2 to length(split_colors))
 		. += "#[split_colors[color]]"
 
-// #undef USE_RUSTG_ICONFORGE_GAGS
+#undef USE_RUSTG_ICONFORGE_GAGS
