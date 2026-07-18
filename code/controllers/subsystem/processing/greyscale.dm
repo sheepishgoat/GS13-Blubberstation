@@ -25,9 +25,9 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 		var/datum/greyscale_config/config = configurations[greyscale_type]
 		config.Refresh()
 
-#ifdef USE_RUSTG_ICONFORGE_GAGS
-	var/list/job_ids = list()
-#endif
+// #ifdef USE_RUSTG_ICONFORGE_GAGS
+// 	var/list/job_ids = list()
+// #endif
 
 	// This final verification step is for things that need other greyscale configurations to be finished loading
 	for(var/greyscale_type in configurations)
@@ -35,9 +35,10 @@ PROCESSING_SUBSYSTEM_DEF(greyscale)
 		var/datum/greyscale_config/config = configurations[greyscale_type]
 		config.CrossVerify()
 #ifdef USE_RUSTG_ICONFORGE_GAGS
-		job_ids += rustg_iconforge_load_gags_config_async(greyscale_type, config.raw_json_string, config.string_icon_file)
+		// job_ids += rustg_iconforge_load_gags_config_async(greyscale_type, config.raw_json_string, config.string_icon_file)
+		rustg_iconforge_load_gags_config(greyscale_type, config.raw_json_string, config.string_icon_file)
 
-	UNTIL(jobs_completed(job_ids))
+	// UNTIL(jobs_completed(job_ids))
 #endif
 
 	log_world("Greyscale initialized")
