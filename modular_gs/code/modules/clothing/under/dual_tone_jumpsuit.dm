@@ -15,7 +15,7 @@
 	greyscale_config = /datum/greyscale_config/dual_tone_suit
 	greyscale_config_worn = /datum/greyscale_config/dual_tone_suit/worn
 	greyscale_config_worn_digi = /datum/greyscale_config/dual_tone_suit/worn/digi
-	greyscale_config_worn_taur_snake = /datum/greyscale_config/dual_tone_suit/worn/taur/snake
+	greyscale_config_worn_taur_snake = /datum/greyscale_config/dual_tone_suit/worn/taur_snake
 
 	flags_1 = IS_PLAYER_COLORABLE_1
 
@@ -32,7 +32,7 @@
 	name = "Dual Tone Suit (Worn)(Digi)"
 	icon_file = 'modular_gs/icons/mob/modclothes/dual_tone_suit_digi.dmi'
 
-/datum/greyscale_config/dual_tone_suit/worn/taur/snake
+/datum/greyscale_config/dual_tone_suit/worn/taur_snake
 	name = "Dual Tone Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/dual_tone_suit_taur_snake.dmi'
 

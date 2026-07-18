@@ -13,7 +13,7 @@
 	greyscale_config = /datum/greyscale_config/bunny_suit
 	greyscale_config_worn = /datum/greyscale_config/bunny_suit/worn
 	greyscale_config_worn_digi = /datum/greyscale_config/bunny_suit/worn/digi
-	greyscale_config_worn_taur_snake = /datum/greyscale_config/bunny_suit/worn/taur/snake
+	greyscale_config_worn_taur_snake = /datum/greyscale_config/bunny_suit/worn/taur_snake
 
 /datum/greyscale_config/bunny_suit
 	name = "Bunny Suit"
@@ -28,7 +28,7 @@
 	name = "Bunny Suit (Worn)(Digi)"
 	icon_file = 'modular_gs/icons/mob/modclothes/bunny_suit_digi.dmi'
 
-/datum/greyscale_config/bunny_suit/worn/taur/snake
+/datum/greyscale_config/bunny_suit/worn/taur_snake
 	name = "Bunny Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/bunny_suit_taur_snake.dmi'
 

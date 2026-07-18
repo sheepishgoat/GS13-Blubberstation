@@ -15,7 +15,7 @@
 	greyscale_config = /datum/greyscale_config/button_up
 	greyscale_config_worn = /datum/greyscale_config/button_up/worn
 	greyscale_config_worn_digi = /datum/greyscale_config/button_up/worn/digi
-	greyscale_config_worn_taur_snake = /datum/greyscale_config/button_up/worn/taur/snake
+	greyscale_config_worn_taur_snake = /datum/greyscale_config/button_up/worn/taur_snake
 
 /datum/greyscale_config/button_up
 	name = "Button Up Suit"
@@ -30,7 +30,7 @@
 	name = "Button Up Suit (Worn)(Digi)"
 	icon_file = 'modular_gs/icons/mob/modclothes/button_up_digi.dmi'
 
-/datum/greyscale_config/button_up/worn/taur/snake
+/datum/greyscale_config/button_up/worn/taur_snake
 	name = "Button Up Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/button_up_taur_snake.dmi'
 

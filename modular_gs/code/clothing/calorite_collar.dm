@@ -53,11 +53,12 @@
 
 /datum/greyscale_config/calorite_collar
 	name = "Calorite Collar"
-	icon_file = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
+	icon_file = 'modular_gs/icons/obj/clothing/cal_collar.dmi'
 	json_config = 'modular_gs/code/datums/greyscale/json_configs/calorite_collar.json'
 
 /datum/greyscale_config/calorite_collar/worn
 	name = "Calorite Collar (Worn)"
+	icon_file = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	json_config = 'modular_gs/code/datums/greyscale/json_configs/calorite_collar_wear.json'
 
 /datum/crafting_recipe/calorite_collar
