@@ -1,0 +1,6 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Adds a new \"fatty alert\" event, which simply triggers a fake blob event. It's funny, trust me."
+  - bugfix: "Fixes size collars integration with XWG. Also fixes XWG not being disabled when you disable the pref"
+  - bugfix: "Fixes GT bot printing the typepath, rather than the name of the storyteller to the discord chat"

@@ -13,11 +13,9 @@
 
 	if (HAS_TRAIT(fatty, override_quirk))
 		trigger_weight = default_trigger_weight
-		if (HAS_TRAIT(fatty, TRAIT_STRONGLEGS))
-			trigger_weight = FATNESS_LEVEL_BLOB
 		if (HAS_TRAIT(fatty, TRAIT_WEAKLEGS))
 			trigger_weight = FATNESS_LEVEL_BARELYMOBILE
-	
+
 	return trigger_weight
 
 /datum/helplessness/clumsy
@@ -28,15 +26,15 @@
 	gain_message = "Your newfound weight has made it hard to manipulate objects."
 	lose_message = "You feel like you have lost enough weight to recover your dexterity."
 
-/datum/helplessness/nearsighted
-	helplessness_trait = null	// nearsighted isn't a trait the same way others are
+/datum/helplessness/low_fov
+	helplessness_trait = null
 	default_trigger_weight = FATNESS_LEVEL_BLOB
 	override_quirk = TRAIT_HELPLESS_BIG_CHEEKS
-	preference = /datum/preference/numeric/helplessness/nearsighted
+	preference = /datum/preference/numeric/helplessness/low_fov
 	gain_message = "Your fat makes it difficult to see the world around you."
 	lose_message = "You are thin enough to see your environment better."
 
-/datum/helplessness/nearsighted/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+/datum/helplessness/low_fov/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	if(fatness >= 2 * trigger_weight)
 		if(!HAS_TRAIT(fatty, TRAIT_VERY_LOW_FOV))
 			to_chat(fatty, span_warning(gain_message))
@@ -53,15 +51,33 @@
 		REMOVE_TRAIT(fatty, TRAIT_VERY_LOW_FOV, HELPLESSNESS_TRAIT)
 		fatty.add_fov_trait(TRAIT_LOW_FOV, FOV_180_DEGREES)
 		return TRUE
-	
+
 	return FALSE
 
-/datum/helplessness/nearsighted/disable_helplessness(mob/living/carbon/human/fatty)
+/datum/helplessness/low_fov/disable_helplessness(mob/living/carbon/human/fatty)
 	fatty.remove_fov_trait(TRAIT_VERY_LOW_FOV, FOV_270_DEGREES)
 	fatty.remove_fov_trait(TRAIT_LOW_FOV, FOV_180_DEGREES)
 	REMOVE_TRAIT(fatty, TRAIT_VERY_LOW_FOV, HELPLESSNESS_TRAIT)
 	REMOVE_TRAIT(fatty, TRAIT_LOW_FOV, HELPLESSNESS_TRAIT)
 	return TRUE
+
+/datum/helplessness/nearsighted
+	helplessness_trait = TRAIT_NEARSIGHTED
+	default_trigger_weight = FATNESS_LEVEL_BLOB
+	override_quirk = TRAIT_HELPLESS_NEARSIGHTED
+	preference = /datum/preference/numeric/helplessness/nearsighted
+	gain_message = "Your fat makes it difficult to see the world around you."
+	lose_message = "You are thin enough to see your environment better."
+
+/datum/helplessness/nearsighted/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+	. = ..()
+	if (.)
+		fatty.become_nearsighted(HELPLESSNESS_TRAIT)
+
+/datum/helplessness/nearsighted/disable_helplessness(mob/living/carbon/human/fatty)
+	. = ..()
+	if (.)
+		fatty.cure_nearsighted(HELPLESSNESS_TRAIT)
 
 /datum/helplessness/hidden_face
 	helplessness_trait = TRAIT_DISFIGURED
@@ -113,7 +129,7 @@
 
 /datum/helplessness/jumpsuit_bursting/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	..()
-	
+
 	var/obj/item/clothing/under/jumpsuit = fatty.w_uniform
 	if(istype(jumpsuit))
 		to_chat(fatty, span_warning("[jumpsuit] can no longer contain your weight!"))
@@ -129,7 +145,7 @@
 
 /datum/helplessness/misc_clothing_bursting/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
-	
+
 	var/obj/item/clothing/suit/worn_suit = fatty.wear_suit
 	if(istype(worn_suit) && !istype(worn_suit, /obj/item/clothing/suit/mod))
 		to_chat(fatty, span_warning("[worn_suit] can no longer contain your weight!"))
@@ -203,11 +219,61 @@
 
 /datum/helplessness/no_neck/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
-	
+
 	var/obj/item/clothing/neck/neckwear = fatty.wear_neck
 	if(istype(neckwear))
 		to_chat(fatty, span_warning("[neckwear] can no longer fit around your neck!"))
 		fatty.dropItemToGround(neckwear)
+
+/datum/helplessness/waddle
+	helplessness_trait = TRAIT_WADDLE
+	default_trigger_weight = FATNESS_LEVEL_BARELYMOBILE
+	override_quirk = TRAIT_HELPLESS_WADDLING
+	preference = /datum/preference/numeric/helplessness/waddle
+	gain_message = "Your legs are too thick to walk straight."
+	lose_message = "Your legs are thin enough to walk normally again."
+
+/datum/helplessness/waddle/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+	. = ..()
+	if (!.)
+		return
+	fatty.AddElementTrait(TRAIT_WADDLING, REF(fatty), /datum/element/waddling)
+
+/datum/helplessness/waddle/disable_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+	. = ..()
+	if (!.)
+		return
+	REMOVE_TRAIT(fatty, TRAIT_WADDLING, REF(fatty))
+
+/datum/helplessness/lisp
+	helplessness_trait = TRAIT_LISP
+	default_trigger_weight = FATNESS_LEVEL_BARELYMOBILE
+	override_quirk = TRAIT_HELPLESS_LISP
+	preference = /datum/preference/numeric/helplessness/lisp
+	gain_message = "Your face feelth too big to pronouce thome letterth."
+	lose_message = "Your face has shrunk enough to talk normally again."
+
+/datum/helplessness/lisp/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+	. = ..()
+	if (!.)
+		return
+	RegisterSignal(fatty, COMSIG_MOB_SAY, PROC_REF(handle_speech))
+
+/datum/helplessness/lisp/disable_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
+	. = ..()
+	if (!.)
+		return
+	UnregisterSignal(fatty, COMSIG_MOB_SAY)
+
+/datum/helplessness/lisp/proc/handle_speech(datum/source, list/speech_args)
+	SIGNAL_HANDLER
+	if(HAS_TRAIT(source, TRAIT_SIGN_LANG))
+		return
+	var/message = speech_args[SPEECH_MESSAGE]
+	if(message)
+		message = replacetext(message,"s","th")
+		message = replacetext(message,"x","th")
+		speech_args[SPEECH_MESSAGE] = message
 
 #define MAX_PRESSURE_DEBUFF 0.5
 /*
@@ -225,11 +291,11 @@
 
 	if(!should_be_active)
 		return should_be_active
-	
+
 	var/obj/item/organ/lungs/holder_lungs = fatty.get_organ_slot(ORGAN_SLOT_LUNGS)
 	if (isnull(holder_lungs))
 		return FALSE
-	
+
 	var/pressure_debuff = (fatness - trigger_weight) / (2 * trigger_weight)	// 1 when fatness = 3x trigger weight
 	pressure_debuff = pressure_debuff * MAX_PRESSURE_DEBUFF		// scale it to be in range [0; MAX_PRESSURE_DEBUFF]
 	pressure_debuff = max(1 - pressure_debuff, MAX_PRESSURE_DEBUFF)		// and in result, we reach this cap when fatness = 3x trigger weight

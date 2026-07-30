@@ -7,6 +7,7 @@
 				/obj/item/clothing/under/color/grey = 5,
 				/obj/item/clothing/under/dual_tone = 5,
 				/obj/item/clothing/under/dual_tone/button_up = 5,
+				/obj/item/clothing/under/dual_tone/bunny_suit = 5,
 				),
 			),
 	)

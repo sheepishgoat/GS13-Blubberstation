@@ -35,7 +35,9 @@
 	contains = list(
 		/obj/item/stack/sheet/iron/twenty,
 		/obj/item/stack/sheet/glass/fifty,
+		/obj/item/stack/sheet/plasteel/ten,
 		/obj/item/stack/sheet/mineral/titanium/five,
+		/obj/item/stack/sheet/mineral/silver/five,
 		/obj/item/stack/sheet/mineral/gold/five,
 		/obj/item/stack/sheet/mineral/uranium/five,
 		/obj/item/stack/sheet/mineral/diamond,
@@ -96,3 +98,9 @@
 	desc = "A novelty pen with the tip made out of calorite, made to celebrate the success of Nutri-Tech! GATO is not liable for any mishandlings of this novelty item."
 	cost = 1000
 	contains = list(/obj/item/pen/calorite)
+
+/datum/supply_pack/goody/adipoluri
+	name = "Soft Massage Oil"
+	desc = "A medical gel applicator bottle, containing adipoluri substance meant to be rubbed on fat tissure to mend bruises and burns. When the gel is applied, the person may be subject to small amounts of weight gain when massaged."
+	cost = 200
+	contains = list(/obj/item/reagent_containers/medigel/adipoluri)

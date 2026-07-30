@@ -525,7 +525,13 @@
 		return
 
 	for(var/datum/material/selected_mat as anything in mineral_breakdown)
-		var/atom/movable/flick_visual/visual = flick_overlay_view(mutable_appearance('icons/effects/vent_overlays.dmi', selected_mat.name), 4.5 SECONDS)
+		// GS13 EDIT - adds calorite to ore vents
+		var/atom/movable/flick_visual/visual
+		if (selected_mat.name == "calorite")
+			visual = flick_overlay_view(mutable_appearance('modular_gs/icons/effects/vent_overlays.dmi', selected_mat.name), 4.5 SECONDS)
+		else
+			visual = flick_overlay_view(mutable_appearance('icons/effects/vent_overlays.dmi', selected_mat.name), 4.5 SECONDS)
+		// GS13 END EDIT
 		animate(visual, alpha = 0, time = 4.5 SECONDS, easing = CIRCULAR_EASING|EASE_IN)
 
 	if(artifact_chance)

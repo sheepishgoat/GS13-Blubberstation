@@ -151,16 +151,6 @@
 	var/mob/living/carbon/affected_carbon = affected_mob
 	affected_carbon.adjust_fatness(5, FATTENING_TYPE_CHEM)
 
-
-/datum/reagent/consumable/nutriment/on_mob_metabolize(mob/living/affected_mob)
-	. = ..()
-	if(HAS_TRAIT(affected_mob, TRAIT_NUTRICIOUS_BOOST))
-		affected_mob.add_movespeed_modifier(/datum/movespeed_modifier/nutricious_boost/nutriment)
-
-/datum/reagent/consumable/nutriment/on_mob_end_metabolize(mob/living/affected_mob)
-	. = ..()
-	affected_mob.remove_movespeed_modifier(/datum/movespeed_modifier/nutricious_boost/nutriment)
-
 /datum/reagent/consumable/alien_honey	// for use in breasts, doesn't heal nor add sugar
 	name = "Alien Honey"
 	description = "Sweet sweet honey. Doesn't heal nor decay into sugar; but otherwise, it is identical to the one made by bees."

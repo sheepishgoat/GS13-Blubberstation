@@ -19517,9 +19517,6 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/machinery/button/delam_scram{
-	pixel_y = -23
-	},
 /obj/item/clothing/glasses/meson{
 	pixel_y = 1;
 	pixel_x = -4
@@ -46439,11 +46436,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/engine)
-"mtp" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/obj/machinery/atmospherics/components/unary/delam_scram/directional/east,
-/turf/open/floor/engine,
-/area/station/engineering/supermatter/engine)
 "mtz" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
@@ -54418,7 +54410,6 @@
 "oBO" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/sign/delam_procedure/directional/south,
 /obj/effect/turf_decal/tile/yellow/half/contrasted,
 /obj/effect/spawner/random/burgerstation/power,
 /turf/open/floor/iron/dark,
@@ -89450,7 +89441,7 @@
 "xYe" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/structure/cable,
-/obj/structure/reagent_water_basin,
+/obj/structure/reagent_dispensers/reagent_smithing_basin/prefilled,
 /turf/open/floor/iron/checker,
 /area/station/cargo/blacksmith)
 "xYh" = (
@@ -251231,7 +251222,7 @@ lpS
 wtd
 dig
 pSI
-mtp
+ttW
 ttW
 ttW
 sLA

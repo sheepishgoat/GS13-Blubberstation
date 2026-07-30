@@ -1,0 +1,14 @@
+2026-07-16:
+  Icepick200:
+  - rscadd: Added a helpless pref for waddling
+  - rscadd: Added buildable tiny fans.
+  - rscadd: Added lisping as a free quirk.
+  - rscadd: Added a modular bunny suit
+  - rscadd: Added the ability to speak in red text.
+  Swan:
+  - sound: the announcer now welcomes you to GS13
+  - bugfix: fixes Teshari bellies disappearing when using the "belly uses skin tone"
+      option
+  - code_imp: merges with upstream
+  - map: heavily restricts access to some xenoarch areas
+  - map: removes a lot of high value items from xenoarch

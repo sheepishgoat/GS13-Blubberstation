@@ -1,0 +1,4 @@
+author: "Swan"
+delete-after: True
+changes:
+  - balance: "Adds a persistent powerator money modifier, which affects how much money it makes when it is over or under used."

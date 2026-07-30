@@ -60,12 +60,13 @@
 	name = "calorite ore"
 	singular_name = "calorite ore chunk"
 	icon = 'modular_gs/icons/obj/mining.dmi'
-	icon_state = "calorite ore"
+	icon_state = "calorite_ore"
 	singular_name = "Calorite ore chunk"
 	points = 40
 	mats_per_unit = list(/datum/material/calorite = SHEET_MATERIAL_AMOUNT)
 	refined_type = /obj/item/stack/sheet/mineral/calorite
 	mine_experience = 20
+	scan_icon = 'modular_gs/icons/effects/ore_visuals.dmi'
 	scan_state = "rock_Calorite"
 	merge_type = /obj/item/stack/ore/calorite
 
@@ -110,11 +111,10 @@
 
 /turf/closed/mineral/calorite
 	mineral_type = /obj/item/stack/ore/calorite
+	scan_icon = 'modular_gs/icons/effects/ore_visuals.dmi'
 	scan_state = "rock_Calorite"
 
 /turf/closed/mineral/calorite/volcanic //for mapping
-	mineral_type = /obj/item/stack/ore/calorite
-	scan_state = "rock_Calorite"
 	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
 	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS

@@ -1,0 +1,6 @@
+author: "Swan"
+delete-after: True
+changes:
+  - qol: "Getting stuck in doors will now occur on the airlocks tile, rather than in front of it"
+  - bugfix: "Instant storyteller vote now takes the current population into account when picking storytellers to include in the vote"
+  - bugfix: "fixes the adipoelectric generator in xenoarch not being connected to the grid at round start"

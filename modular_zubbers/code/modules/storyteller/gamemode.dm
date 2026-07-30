@@ -780,11 +780,13 @@ SUBSYSTEM_DEF(gamemode)
 		QDEL_NULL(vote_datum)
 
 	// Notify discord about the round's selected storyteller
+	/* GS13 EDIT - this kind of doesn't work for us due to how long our votes are
 	for(var/channel_tag in CONFIG_GET(str_list/channel_announce_new_game))
 		send2chat(
 			new /datum/tgs_message_content("The storyteller selected for this round is [storyteller.name]!"),
 			channel_tag,
 		)
+	GS13 END EDIT*/
 
 /**
  * set_storyteller

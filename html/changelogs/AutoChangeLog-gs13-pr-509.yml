@@ -1,0 +1,4 @@
+author: "Icepick200"
+delete-after: True
+changes:
+  - rscadd: "Added looking into the distance by Alt Right-Clicking. We can finally use our eyes."

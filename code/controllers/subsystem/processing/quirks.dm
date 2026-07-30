@@ -55,6 +55,7 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	// GS13 EDIT
 	list(/datum/quirk/fat_aversion, /datum/quirk/fat_affinity),
 	list(/datum/quirk/weak_legs, /datum/quirk/strong_legs),
+	list(/datum/quirk/helplessness/immobile, /datum/quirk/strong_legs),
 	list(/datum/quirk/helplessness/chair_breakage, /datum/quirk/helplessness/no_buckle),
 	// GS13 END EDIT
 ))

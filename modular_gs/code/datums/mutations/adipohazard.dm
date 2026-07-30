@@ -91,7 +91,7 @@
 /datum/reagent/adipoluri/proc/fatten(mob/living/carbon/owner, amount = 1)
 	if(!ishuman(owner))
 		return
-	owner.adjust_fatness(get_fatness_bonus(owner) + amount, FATTENING_TYPE_CHEM)
+	owner.adjust_fatness(get_fatness_bonus(owner) + amount + 12, FATTENING_TYPE_CHEM)
 	owner.adjust_brute_loss(-(1 + (get_fatness_bonus(owner)/2)), updating_health = FALSE, required_bodytype = affected_bodytype)
 	owner.adjust_fire_loss(-((1 + get_fatness_bonus(owner))/2), updating_health = FALSE, required_bodytype = affected_bodytype)
 	to_chat(owner, "<span class='notice'>That felt nice...</span>")

@@ -137,6 +137,7 @@
 
 	var/static/list/loc_connections = list(
 		COMSIG_ATOM_MAGICALLY_UNLOCKED = PROC_REF(on_magic_unlock),
+		COMSIG_ATOM_EXIT = PROC_REF(check_door_stuckage),	// GS13 edit - door stuckage
 	)
 	AddElement(/datum/element/connect_loc, loc_connections)
 	AddElement(/datum/element/can_barricade)

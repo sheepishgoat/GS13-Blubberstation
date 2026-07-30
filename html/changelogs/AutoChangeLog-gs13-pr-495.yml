@@ -1,0 +1,6 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Adds calorite to ore vents"
+  - balance: "The knockdown duration on the burp trap in xenoarch is now much shorter. Also, them, alongside the fattening traps, are now a LOT less durable"
+  - bugfix: "Fixes calorite not showing up on the mining scanner (again)"

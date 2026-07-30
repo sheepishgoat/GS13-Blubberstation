@@ -2,7 +2,7 @@ GLOBAL_LIST_EMPTY_TYPED(helplessness_mechanics, /datum/helplessness)
 /**
  * A datum responsible for handling helplessness mechanics.
  * Check out [modular_gs/code/datums/helplessness/helplessness.dm] for examples on how to extend this
- * and it's procs.
+ * and its procs.
  * 
  * Created and maintained by Swan on Gain Station 13 discord server, if you have any questions 
  * or are interested in expanding it's functionality feel free to reach out to me.
@@ -105,7 +105,8 @@ ahhhh~! It's all documented too~ 🥵
 	return trigger_weight
 
 /**
- * Applies helplessness trait(s). Basically, if you're here, means that you can apply the trait
+ * Applies helplessness trait(s). Basically, if you're here, means that you can apply the trait,
+ * and that it is not present on the mob yet.
  * Override this for custom behaviour, adding/deleting multiple trait under one helplessness pref etc.
  * 
  * Returns FALSE if the trait was not applied.

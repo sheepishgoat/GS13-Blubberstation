@@ -15,9 +15,15 @@ export const clumsy: Feature<number> = {
   component: FeatureNumberInput,
 };
 
-export const nearsighted: Feature<number> = {
+export const low_fov: Feature<number> = {
   name: 'Reduced FOV from weight',
   description: 'At what weight does your fat hinder your FOV? 0 disables this.',
+  component: FeatureNumberInput,
+};
+
+export const nearsighted: Feature<number> = {
+  name: 'Nearsightedness from weight',
+  description: 'At what weight do you become nearsighted? 0 disables this.',
   component: FeatureNumberInput,
 };
 
@@ -103,6 +109,18 @@ export const blueberry_max_before_burst: Feature<number> = {
 export const no_neck: Feature<number> = {
   name: 'No neck items',
   description: 'At what weight do you become unable to wear items around your neck? 0 disables this.',
+  component: FeatureNumberInput,
+};
+
+export const waddle: Feature<number> = {
+  name: 'Waddling',
+  description: 'At what weight do you start waddling? 0 disables this.',
+  component: FeatureNumberInput,
+};
+
+export const lisp: Feature<number> = {
+  name: 'Lisping',
+  description: 'At what weight do you start talking with a lisp? 0 disables this.',
   component: FeatureNumberInput,
 };
 

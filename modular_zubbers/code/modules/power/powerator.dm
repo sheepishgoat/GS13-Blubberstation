@@ -185,6 +185,11 @@
 
 	var/money_ratio = round(current_power * divide_ratio) * powerator_penalty_multiplier_list[powerator_faction]
 	var/datum/bank_account/synced_bank_account = SSeconomy.get_dep_account(credits_account)
+	// GS13 EDIT: powerator money adjustment
+	if (credits_account == ACCOUNT_CAR)
+		money_ratio *= GLOB.powerator_cash_modifier
+		GLOB.powerator_cash_made += money_ratio
+	// GS13 END EDIT
 	synced_bank_account.adjust_money(money_ratio)
 	credits_made += money_ratio
 

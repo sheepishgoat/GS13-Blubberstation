@@ -181,14 +181,17 @@
 /datum/sprite_accessory/genital/breasts/alt_GS13/pair
 	name = "Pair (Alt GS13)"
 	icon = 'modular_gs/icons/obj/genitals/breasts_onmob.dmi'
-	icon_state = "pair"
+	icon_state = "pair_gs"
+	max_size = 18
 
 /datum/sprite_accessory/genital/breasts/alt_GS13/pair_smooth //smoother variant, no nipples
 	name = "Pair (Alt GS13, No Nipples)"
 	icon = 'modular_gs/icons/obj/genitals/breasts_smooth_onmob.dmi'
-	icon_state = "pair"
+	icon_state = "pair_gs_smooth"
+	max_size = 18
 
 /datum/sprite_accessory/genital/breasts/alt_GS13/teshari // Teshari only (duh)
 	name = "Pair (Teshari)"
 	icon = 'modular_gs/icons/obj/genitals/teshbreasts.dmi'
-	icon_state = "pair"
+	icon_state = "pair_tesh"
+	max_size = 15

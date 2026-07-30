@@ -38,8 +38,8 @@
 
 //xenoarch main outpost areas
 /area/xenoarch/lavaland/arch
-	name = "Xenoarchaeology"
-	icon_state = "xenoarch"
+	name = "Xenoarchaeology Lab"
+	icon_state = "xenolab"
 
 /area/xenoarch/lavaland/bot
 	name = "Xenoarchaeology Botany"
@@ -51,7 +51,7 @@
 
 /area/xenoarch/lavaland/gen
 	name = "Xenoarchaeology Living Quarters"
-	icon_state = "xenogen"
+	icon_state = "xenodorm"
 
 /area/xenoarch/lavaland/sec
 	name = "Xenoarchaeology Security"
@@ -63,11 +63,11 @@
 
 /area/xenoarch/lavaland/bathroom
 	name = "Xenoarchaeology Bathroom"
-	icon_state = "xenomed"
+	icon_state = "xenobath"
 
 /area/xenoarch/lavaland/construction
 	name = "Xenoarchaeology Construction"
-	icon_state = "xenoeng"
+	icon_state = "xenoconst"
 
 /area/xenoarch/lavaland/foyer
 	name = "Xenoarchaeology Foyer"
@@ -75,27 +75,27 @@
 
 /area/xenoarch/lavaland/gym
 	name = "Xenoarchaeology Gym"
-	icon_state = "xenosec"
+	icon_state = "xenogym"
 
 /area/xenoarch/lavaland/library
 	name = "Xenoarchaeology Library"
-	icon_state = "xenobot"
+	icon_state = "xenolibrary"
 
 /area/xenoarch/lavaland/maint_east
 	name = "Xenoarchaeology East Maintenance"
-	icon_state = "yellow"
+	icon_state = "mainteast"
 
 /area/xenoarch/lavaland/maint_west
 	name = "Xenoarchaeology West Maintenance"
-	icon_state = "yellow"
+	icon_state = "maintwest"
 
 /area/xenoarch/lavaland/public
 	name = "Xenoarchaeology Public Area"
-	icon_state = "xenobot"
+	icon_state = "xenopublic"
 
 /area/xenoarch/lavaland/lowerlevel
 	name = "Xenoarchaeology Lower Level Ruins"
-	icon_state = "xenoarch"
+	icon_state = "xenoruin"
 
 /area/xenoarch/lavaland/public/powered //used primarily for quantum pads
 	name = "Xenoarchaeology Public Area"

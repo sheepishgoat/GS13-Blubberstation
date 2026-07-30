@@ -38129,10 +38129,6 @@
 /obj/structure/railing/corner,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
-"ddF" = (
-/obj/structure/sign/delam_procedure,
-/turf/closed/wall/r_wall,
-/area/station/engineering/supermatter/room)
 "dee" = (
 /obj/machinery/door/airlock/external{
 	name = "External Access"
@@ -68090,10 +68086,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
-"qKs" = (
-/obj/machinery/atmospherics/components/unary/delam_scram/directional/south,
-/turf/open/floor/engine,
-/area/station/engineering/supermatter/engine)
 "qKx" = (
 /obj/machinery/firealarm/directional/east,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -80087,10 +80079,6 @@
 /obj/structure/flora/bush/jungle/b,
 /turf/open/floor/grass,
 /area/station/science/genetics)
-"vYa" = (
-/obj/machinery/button/delam_scram,
-/turf/closed/wall/r_wall,
-/area/station/engineering/supermatter/room)
 "vYr" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=EVA2";
@@ -82816,7 +82804,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/effect/spawner/random/vending/colavend,
+/obj/machinery/vending/starshine,
 /turf/open/floor/iron/dark/side,
 /area/station/commons/fitness)
 "xhN" = (
@@ -114367,7 +114355,7 @@ cqZ
 crt
 nfO
 cAm
-qKs
+cMH
 cMN
 cFO
 eIE
@@ -114872,7 +114860,7 @@ cfb
 ccw
 jjr
 cgR
-ddF
+egk
 cii
 cDp
 cqi
@@ -115129,7 +115117,7 @@ cfb
 cfa
 aiN
 mQK
-vYa
+egk
 cDi
 cDp
 cDw

@@ -17,6 +17,7 @@ GLOBAL_LIST_INIT(ore_vent_minerals_lavaland, list(
 		/datum/material/gold = 5,
 		/datum/material/uranium = 4,
 		/datum/material/plastic = 1,
+		/datum/material/calorite = 7,	// GS13 edit - adds calorite to ore vents
 	))
 
 GLOBAL_LIST_INIT(ore_vent_minerals_triple_z, list(
@@ -28,4 +29,5 @@ GLOBAL_LIST_INIT(ore_vent_minerals_triple_z, list(
 		/datum/material/gold = 8,
 		/datum/material/uranium = 5,
 		/datum/material/plastic = 1,
+		/datum/material/calorite = 10,	// GS13 edit - adds calorite to ore vents
 	))

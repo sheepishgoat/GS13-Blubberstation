@@ -1,5 +1,5 @@
 {
-	"calorite_collar_wear": [
+	"calorite_collar": [
 		{
 			"type": "icon_state",
 			"icon_state": "collar_mob_recolorable",

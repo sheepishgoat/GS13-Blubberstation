@@ -11,8 +11,8 @@
 #define FATTENING_TYPE_RADIATIONS "radiations"
 #define FATTENING_TYPE_MOBS "mobs"
 #define FATTENING_TYPE_WEIGHT_LOSS "weight_loss"
-#define FATTENING_TYPE_ALMIGHTY "almighty" //This ignores prefs, please only use this for smites and other admin controlled instances.
-#define TRANSFORMATION "transformation"
+/// This ignores prefs, please only use this for admin stuff or when you have a VERY good reason.
+#define FATTENING_TYPE_ALMIGHTY "almighty"
 
 #define FATNESS_TO_WEIGHT_RATIO 0.25
 #define MUSCLE_TO_WEIGHT_RATIO 0.5 // Muscle is heavier than fat.

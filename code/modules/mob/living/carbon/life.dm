@@ -21,6 +21,7 @@
 		//Reagent processing needs to come before breathing, to prevent edge cases.
 		handle_dead_metabolization(seconds_per_tick) //Dead metabolization first since it can modify life metabolization.
 		handle_organs(seconds_per_tick)
+		handle_weight_gain() // GS13 EDIT - weight gain
 
 		. = ..()
 		if(QDELETED(src))

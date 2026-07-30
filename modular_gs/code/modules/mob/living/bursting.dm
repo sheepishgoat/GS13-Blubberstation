@@ -145,12 +145,29 @@
 			return BURSTING_PREF_DISABLED
 
 /mob/living/carbon/human
-	var/bursting_capacity_fullness = -1 ///How full is the player according to their bursting prefs
-	var/bursting_capacity_fatness = -1 ///How fat is the player according to their bursting pref
-	var/bursting_capacity_percentage = -1 ///Their highest capacity percentage value to determine if they should burst
+	///How full is the player according to their bursting prefs
+	var/bursting_capacity_fullness = -1
+	///How fat is the player according to their bursting pref
+	var/bursting_capacity_fatness = -1
+	/// Their highest capacity percentage value to determine if they should burst
+	var/bursting_capacity_percentage = -1
 
-///Handles bursting for either eating too much or too high of a BFI, returns a bool for whether or not the character burst or is in the process of doing so
-/mob/living/carbon/human/proc/handle_bursting()
+/** 
+ * Handles bursting for either eating too much or having too high of a BFI. It checks
+ * for preferences, handles bursting capacity, sound and messages. Also responsible for 
+ * triggering the bursting prompt. Returns a bool for whether or not the character 
+ * burst or is in the process of doing so.
+ * 
+ * The proc on carbon is for compatibility reasons; the real magic happens in the one
+ * defined a few lines below on `/mob/living/carbon/human`.
+ * 
+ * Returns TRUE if the character has burst or is in the process of bursting
+ * Returns FALSE otherwise
+ */
+/mob/living/carbon/proc/handle_bursting()
+	return FALSE
+
+/mob/living/carbon/human/handle_bursting()
 
 	//Get prefs
 	var/fullness_bursting_pref = client?.prefs?.read_preference(/datum/preference/numeric/helplessness/glutton_fullness_before_burst)
@@ -300,10 +317,7 @@
 					hider_remove(hider)
 
 			//Call the functions used to update fatness and hiders, since hider apply on its own wont update fatness if the hiders are removed
-			fatness = fatness_real
-			hiders_apply()
-			perma_apply()
-			xwg_resize()
+			calculate_fatness()
 
 			//Start removing weight if needed
 			var/weight_target = fatness_bursting_pref * (1 - BURSTING_FATNESS_MIN_THRESHOLD) - BURSTING_BUFFER_REDUCTION

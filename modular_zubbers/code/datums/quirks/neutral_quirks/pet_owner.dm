@@ -98,6 +98,9 @@ GLOBAL_LIST_INIT(possible_player_pet, list(
 	"Stoat" = /mob/living/basic/stoat,
 	"Tegu" = /mob/living/basic/lizard/tegu,
 	"Tiger" = /mob/living/basic/pet/cat/tiger,
+	//GS13 edit - our pets
+	"Lizard" = /mob/living/basic/lizard,
+	//GS13 edit end
 )) //some of these are too big to be put back into the pet carrier once taken out, so I put a warning on the carrier.
 
 /datum/preference/choiced/pet_owner/init_possible_values()

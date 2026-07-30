@@ -33,12 +33,19 @@
 /obj/item/equipped(mob/user, slot)
 	if(modular_icon_location != null && slot == slot_flags)
 		add_modular_item(user)
+		RegisterSignal(user, COMSIG_HUMAN_TOGGLE_GENITALS, PROC_REF(refresh_modular_item), user)
 	..()
+
+/// deletes all modular overlays and forces them to be reapplied
+/obj/item/proc/refresh_modular_item(mob/user)
+	delete_modular_overlays(user)
+	add_modular_item(user)
 
 //General condition for deactivating modular sprites for an item.
 //When dropped. And/or moved to another slot, works together with equipped checking the approporiate slot
 /obj/item/dropped(mob/user)
 	..()
+	UnregisterSignal(user, COMSIG_HUMAN_TOGGLE_GENITALS)
 	remove_modular_item(user)
 
 //Initialize a modular item by resetting any recorded sprite names and force a sprite update
@@ -54,18 +61,18 @@
 	if(!iscarbon(user))
 		return
 	delete_modular_overlays(user)
-	var/mob/living/carbon/U = user
-	if(src in U.modular_items)
-		U.modular_items -= src
+	var/mob/living/carbon/carbon = user
+	if(src in carbon.modular_items)
+		carbon.modular_items -= src
 
 //The meat of the system, checks the genitals, compares to recorded size and request
 //the sprites if new ones are needed
-/obj/item/proc/update_modular_overlays(mob/user)
+/obj/item/proc/update_modular_overlays(mob/user_mob)
 	if(modular_icon_location == null)
 		return
-	if(!iscarbon(user))
+	if(!iscarbon(user_mob))
 		return
-	var/mob/living/carbon/U = user
+	var/mob/living/carbon/user = user_mob
 
 	var/list/genitals_list
 	var/build_modular = FALSE
@@ -75,56 +82,58 @@
 	//Add it to a list of found genitals to not go through all organs again
 	//Get the sprite name of the sprites needed and compare it to the ones recorded
 	//If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
-	var/obj/item/organ/genital/O
-	for(O in U.organs)
-		if(istype(O, /obj/item/organ/genital/belly))
-			genitals_list += list(O)
-			var/belly = get_modular_belly(O)
+	var/obj/item/organ/organ
+	for(organ in user.organs)
+		if(istype(organ, /obj/item/organ/genital/belly))
+			genitals_list += list(organ)
+			var/belly = get_modular_belly(organ)
 			if(belly != mod_belly_rec)
 				mod_belly_rec = belly
 				build_modular = TRUE
-		if(istype(O, /obj/item/organ/genital/butt))
-			genitals_list += list(O)
-			var/butt = get_modular_butt(O)
+		if(istype(organ, /obj/item/organ/genital/butt))
+			genitals_list += list(organ)
+			var/butt = get_modular_butt(organ)
 			if(butt != mod_butt_rec)
 				mod_butt_rec = butt
 				build_modular = TRUE
-		if(istype(O, /obj/item/organ/genital/breasts))
-			genitals_list += list(O)
-			var/breasts = get_modular_breasts(O)
+		if(istype(organ, /obj/item/organ/genital/breasts))
+			genitals_list += list(organ)
+			var/breasts = get_modular_breasts(organ)
 			if(breasts != mod_breasts_rec)
 				mod_breasts_rec = breasts
 				build_modular = TRUE
 	if(!build_modular)	//Stop early if no new sprites are needed UPDATE: unless we force it
 		return
-	delete_modular_overlays(U)	//Delete the old sprites
+	delete_modular_overlays(user)	//Delete the old sprites
 
-	if(!(src in U.modular_items))	//Make sure the item is inside the user's tracked modular items
-		U.modular_items += src		//used on the first sprite request and to ensure it's being tracked for future updates
+	if(!(src in user.modular_items))	//Make sure the item is inside the user's tracked modular items
+		user.modular_items += src		//used on the first sprite request and to ensure it's being tracked for future updates
 
 	//Go through the list of genitals previously found and for each add the modular sprite overlays to the user
-	var/obj/item/organ/genital/G
-	for(G in genitals_list)
-		if(istype(G, /obj/item/organ/genital/belly))
-			add_modular_overlay(U, mod_belly_rec, MODULAR_BELLY_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
-			add_modular_overlay(U, "[mod_belly_rec]_SOUTH", BELLY_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
-		if(istype(G, /obj/item/organ/genital/butt))
-			add_modular_overlay(U, mod_butt_rec, MODULAR_BUTT_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
-			add_modular_overlay(U, "[mod_butt_rec]_NORTH", BUTT_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
-		if(istype(G, /obj/item/organ/genital/breasts))
-			add_modular_overlay(U, mod_breasts_rec, MODULAR_BREASTS_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
-			add_modular_overlay(U, "[mod_breasts_rec]_NORTH", BREASTS_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
-			add_modular_overlay(U, "[mod_breasts_rec]_SOUTH", BREASTS_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
+	var/obj/item/organ/genital/genital
+	for(genital in genitals_list)
+		if (genital.visibility_preference == GENITAL_ALWAYS_SHOW)
+			continue
+		if(istype(genital, /obj/item/organ/genital/belly))
+			add_modular_overlay(user, mod_belly_rec, MODULAR_BELLY_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
+			add_modular_overlay(user, "[mod_belly_rec]_SOUTH", BELLY_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
+		if(istype(genital, /obj/item/organ/genital/butt))
+			add_modular_overlay(user, mod_butt_rec, MODULAR_BUTT_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
+			add_modular_overlay(user, "[mod_butt_rec]_NORTH", BUTT_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
+		if(istype(genital, /obj/item/organ/genital/breasts))
+			add_modular_overlay(user, mod_breasts_rec, MODULAR_BREASTS_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
+			add_modular_overlay(user, "[mod_breasts_rec]_NORTH", BREASTS_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
+			add_modular_overlay(user, "[mod_breasts_rec]_SOUTH", BREASTS_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
 
 //Remove the previously built modular sprite overlays and empty the list of tracked overlays
 /obj/item/proc/delete_modular_overlays(mob/user)
 	if(!iscarbon(user))
 		return
-	var/mob/living/carbon/U = user
-	if(!(src in U.modular_items))
+	var/mob/living/carbon/carbon_user = user
+	if(!(src in carbon_user.modular_items))
 		return
 	for(var/mutable_appearance/overlay in mod_overlays)
-		U.cut_overlay(overlay)
+		carbon_user.cut_overlay(overlay)
 	mod_overlays -= mod_overlays
 
 //Function to easily add a requested overlay
@@ -136,23 +145,23 @@
 // Why is the layer in mutable appearance entered as its negative version?
 // No. Damn. Clue. SS13, I don't question it further.
 //
-/obj/item/proc/add_modular_overlay(mob/living/carbon/U, modular_icon, modular_layer, sprite_color, organ_slot)
+/obj/item/proc/add_modular_overlay(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
 	var/mutable_appearance/mod_overlay = mutable_appearance(modular_icon_location, modular_icon, -(modular_layer))
 	mod_overlay.color = sprite_color
 	mod_overlays += mod_overlay
-	U.overlays_standing[modular_layer] =  mod_overlay
-	U.apply_overlay(modular_layer)
+	user.overlays_standing[modular_layer] =  mod_overlay
+	user.apply_overlay(modular_layer)
 
 //General function to generate the right icon_state for belly modular sprites
-/obj/item/proc/get_modular_belly(obj/item/organ/genital/G)
-	return "belly_[get_belly_size(G)][get_belly_alt()]"
+/obj/item/proc/get_modular_belly(obj/item/organ/genital/genital)
+	return "belly_[get_belly_size(genital)][get_belly_alt()]"
 
 //General function to get the appropriate shape and size for the belly, accounting for fullness
-/obj/item/proc/get_belly_size(obj/item/organ/genital/G)
-	var/size = G.genital_size
+/obj/item/proc/get_belly_size(obj/item/organ/genital/belly)
+	var/size = belly.genital_size
 	var/shape
-	if(G.owner.fullness <= FULLNESS_LEVEL_BLOATED)
-		switch(G.genital_type)
+	if(belly.owner.fullness <= FULLNESS_LEVEL_BLOATED)
+		switch(belly.genital_type)
 			if("belly")
 				shape = "soft"
 			if("round")
@@ -160,7 +169,7 @@
 	else
 		shape = "stuffed"
 		var/stuffed_modifier = 0
-		switch(G.owner.fullness)
+		switch(belly.owner.fullness)
 			if(FULLNESS_LEVEL_BLOATED to FULLNESS_LEVEL_BEEG) // Take the stuffed sprite of the same size
 				stuffed_modifier = 0
 			if(FULLNESS_LEVEL_BEEG to FULLNESS_LEVEL_NOMOREPLZ) // Take the stuffed sprite of size + 1
@@ -178,20 +187,20 @@
 	return ""
 
 //General function to get the appropriate shape and size for the butt
-/obj/item/proc/get_modular_butt(obj/item/organ/genital/G)
-	return "butt_[(G.genital_size <= 10 ) ? "[G.genital_size]" : "10"][get_butt_alt()]"
+/obj/item/proc/get_modular_butt(obj/item/organ/genital/butt)
+	return "butt_[(butt.genital_size <= 10 ) ? "[butt.genital_size]" : "10"][get_butt_alt()]"
 
 //General function to get the alternate variants for butt sprites, used for digitigrade characters
 /obj/item/proc/get_butt_alt()
 	return "[(supports_variations_flags == CLOTHING_DIGITIGRADE_VARIATION) ? "_l" : ""]"
 
 //General function to get the appropriate size for the breasts
-/obj/item/proc/get_modular_breasts(obj/item/organ/genital/G)
+/obj/item/proc/get_modular_breasts(obj/item/organ/genital/tits)
 	var/size
-	if(G.genital_size <= 15)
-		size = G.genital_size
+	if(tits.genital_size <= 15)
+		size = tits.genital_size
 	else
-		switch(G.genital_size)
+		switch(tits.genital_size)
 			if(16)
 				size = "huge"
 			if(17)

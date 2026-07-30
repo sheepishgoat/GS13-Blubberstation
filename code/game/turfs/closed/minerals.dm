@@ -199,6 +199,7 @@
 		return
 
 	var/obj/item/stack/ore/the_ore = ore_type
+	scan_icon = initial(the_ore.scan_icon)	// GS13 edit - checks for the icon so that we could have calorite overlays
 	scan_state = initial(the_ore.scan_state) // If it has a scan_state, switch to it
 	mineral_type = ore_type // Everything else assumes that this is typed correctly so don't set it to non-ores thanks.
 

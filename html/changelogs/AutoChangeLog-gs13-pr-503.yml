@@ -1,0 +1,10 @@
+author: "evilew"
+delete-after: True
+changes:
+  - rscadd: "added Nefarious Calorite Pen to Waistline Saboteur vendor"
+  - qol: "more areas have 600% sprite size uncapped: xenoarch (gym, construction, lower level, maints, outside, ruins), space hotel, maintenance, persistance outpost"
+  - balance: "made Adipoluri much more potent and made it available in Cargo Goodies"
+  - bugfix: "fixed Calorite Pen's doubling stab notif & clicking breaking sprites"
+  - map: "GATOified following maps: Ouroboros, Pubby, Biodome"
+  - map: "various Xenoarch tweaks: rebalanced access (removed some access requirement or made them multi-department), added a small prison cell beneath the sec outpost, added a new secret room & secret loot, small cosmetic fixes, added water piping, added area icons"
+  - rscadd: "added silver and plasteel to material starter crates, rebalanced some items"

@@ -63,10 +63,6 @@ GLOBAL_LIST_INIT(blueberry_about_to_blow_flavour, list(
 	"<span class='danger'>The juice... it's getting...</span>"
 	))
 
-/mob/living/carbon
-	/// How many times have we bursted?
-	var/times_blueberry_bursted = 0
-
 /datum/reagent/blueberry_juice
 	name = "Blueberry Juice"
 	description = "Totally infectious."
@@ -216,18 +212,6 @@ GLOBAL_LIST_INIT(blueberry_about_to_blow_flavour, list(
 	mid_sounds = list('modular_gs/sound/effects/inflation/berryloop.ogg')
 	mid_length = 8 SECONDS
 	volume = BLUEBERRY_INFLATION_VOLUME
-
-// Add BB Inflation related stuff to carbon
-/mob/living/carbon
-	var/datum/looping_sound/blueberry_inflation/blueberry_inflate_loop
-
-/mob/living/carbon/Initialize(mapload)
-	. = ..()
-	blueberry_inflate_loop = new(src, FALSE)
-
-/mob/living/carbon/Destroy()
-	QDEL_NULL(blueberry_inflate_loop)
-	return ..()
 
 /**
  * Initiates the burst popup. Giving the player the choice between bursting or delaying.

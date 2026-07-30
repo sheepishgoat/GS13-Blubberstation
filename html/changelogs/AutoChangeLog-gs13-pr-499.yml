@@ -1,0 +1,6 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Re-adds nearsightedness as a helplessness mechanic, now separate from the FOV one"
+  - balance: "Nutricious boost quirk has been nerfed. It no longer triggers with nutriment, and the speed boost values from lipo and galbanic were lowered."
+  - bugfix: "Fixes dual tone suits not showing their color in the loadout menu"

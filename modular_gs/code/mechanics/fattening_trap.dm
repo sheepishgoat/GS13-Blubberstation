@@ -3,6 +3,7 @@
 	desc = "A trap that ensures you won't be stepping around for much longer."
 	icon = 'modular_gs/icons/obj/structure/traps.dmi'
 	icon_state = "trap-fattening"
+	max_integrity = 40
 
 	var/fattening_amount = 250 // Using a variable incase we want to have a stronger version.
 	// This is at half of the power of the singe-use cannonshot fatray.
@@ -17,11 +18,12 @@
 	desc = "A trap that forcefully releases all the air in your stomach."
 	icon = 'modular_gs/icons/obj/structure/traps.dmi'
 	icon_state = "trap-belching"
+	max_integrity = 40
 
 /obj/structure/trap/belch/trap_effect(mob/living/crosser)
 	if(crosser?.client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_chems))
 		to_chat(crosser, "<span class='danger'><B>You feel all of the air leave your stomach!</B></span>")
 		crosser.emote(pick("belch","burp"))
 
-	crosser.Knockdown(500)
+	crosser.Knockdown(80)
 

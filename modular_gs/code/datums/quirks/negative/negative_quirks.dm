@@ -3,7 +3,7 @@
 	desc = "Your legs can't carry the heaviest of weights. You will become much slower when fat."
 	icon = "fa-weight-hanging"
 	medical_record_text = "Patients legs cannot carry heavy weights well."
-	value = -4
+	value = -6
 	gain_text = span_notice("You feel your legs tremble under your weight")
 	lose_text = span_notice("Your legs seem to have gotten stronger")
 	quirk_flags = 0
@@ -40,7 +40,7 @@
 
 /datum/quirk/helplessness/big_cheeks
 	name = "Big cheeks"
-	desc = "Your cheeks seem to bloat up exceptionally with weight, reducing your visibility. At 3440 BFI your visibility will dimminish and your face will be hidden. WARNING! PICKING THIS QUIRK WILL MAKE YOU NEARSIGHTED AND HIDE YOUR FACE REGARDLESS OF YOUR NEARSIGHTEDNESS/HIDDEN FACE PREFERENCE!"
+	desc = "Your cheeks seem to bloat up exceptionally with weight, reducing your visibility. At 3440 BFI your visibility will dimminish and your face will be hidden. WARNING! PICKING THIS QUIRK WILL LOWER YOUR FOV AND HIDE YOUR FACE REGARDLESS OF YOUR FOV/HIDDEN FACE PREFERENCE!"
 	icon = "fa-glasses"
 	medical_record_text = "Patients cheeks seem to accumulate significant amount of adipose, leading to worse eyesight at higher weights."
 	value = -4

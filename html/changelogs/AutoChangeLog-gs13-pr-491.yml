@@ -1,0 +1,7 @@
+author: "Swan"
+delete-after: True
+changes:
+  - balance: "increases the maximum slowdown from weight"
+  - balance: "nerfs the strong legs trait (it costs more and makes you resist slowness less), buffs the weak legs trait (it gives you more points and slows you down less). The strong legs quirk is also incompatible with the very weak legs quirk."
+  - bugfix: "fixed weight sprites not updating when the stomach is missing"
+  - code_imp: "refactors fatness"

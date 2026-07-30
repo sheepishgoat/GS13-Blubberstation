@@ -1,0 +1,4 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscdel: "Removes the GS storyteller"

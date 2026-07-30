@@ -7,11 +7,10 @@ GLOBAL_LIST_INIT(stomach_expanding_sounds, list(
 	desc = "A collar containing a miniaturized bluespace whitehole. Other bluespace transmitter collars can connect to this, causing the wearer to receive food from other transmitter collars directly into the stomach. "
 	slot_flags = ITEM_SLOT_NECK
 	var/mob/living/carbon/victim = 0
-	modular_icon_location = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	greyscale_colors = "#303030"			// I like this
-	icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
-	icon_state = "collar_obj"
-	worn_icon_state = "calorite_collar_wear"
+	icon = 'icons/map_icons/clothing/neck.dmi'
+	icon_state = "/obj/item/clothing/neck/human_petcollar/calorite"
+	worn_icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn
@@ -68,9 +67,9 @@ GLOBAL_LIST_INIT(stomach_expanding_sounds, list(
 	var/obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_receiver/linked_receiver = 0
 	modular_icon_location = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	greyscale_colors = "#303030"			// I like this
-	icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
-	icon_state = "collar_obj"
-	worn_icon_state = "calorite_collar_wear"
+	icon = 'icons/map_icons/clothing/neck.dmi'
+	icon_state = "/obj/item/clothing/neck/human_petcollar/calorite"
+	worn_icon = 'modular_gs/icons/mob/clothing/cal_collar.dmi'
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn

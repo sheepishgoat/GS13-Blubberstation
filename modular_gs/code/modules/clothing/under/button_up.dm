@@ -6,18 +6,16 @@
 	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF"
 
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
-	icon = 'modular_gs/icons/obj/clothing/modclothes/button_up.dmi'
-	icon_state = "button_up_preview"
-	worn_icon_state = "button_up"
-	worn_icon_digi = 'modular_gs/icons/mob/modclothes/button_up_digi.dmi'
-	worn_icon_taur_snake = 'modular_gs/icons/mob/modclothes/button_up_taur_snake.dmi'
+	icon = 'icons/map_icons/clothing/under/_under.dmi'
+	icon_state = "/obj/item/clothing/under/dual_tone/button_up"
+	worn_icon = 'modular_gs/icons/mob/modclothes/button_up_worn.dmi'
 	post_init_icon_state = "button_up"		// but why does it have to be this way
 
 	armor_type = /datum/armor/clothing_under
 	greyscale_config = /datum/greyscale_config/button_up
 	greyscale_config_worn = /datum/greyscale_config/button_up/worn
 	greyscale_config_worn_digi = /datum/greyscale_config/button_up/worn/digi
-	greyscale_config_worn_taur_snake = /datum/greyscale_config/button_up/worn/taur/snake
+	greyscale_config_worn_taur_snake = /datum/greyscale_config/button_up/worn/taur_snake
 
 /datum/greyscale_config/button_up
 	name = "Button Up Suit"
@@ -26,13 +24,13 @@
 
 /datum/greyscale_config/button_up/worn
 	name = "Button Up Suit (Worn)"
-	icon_file = 'modular_gs/icons/mob/modclothes/button_up.dmi'
+	icon_file = 'modular_gs/icons/mob/modclothes/button_up_worn.dmi'
 
 /datum/greyscale_config/button_up/worn/digi
 	name = "Button Up Suit (Worn)(Digi)"
 	icon_file = 'modular_gs/icons/mob/modclothes/button_up_digi.dmi'
 
-/datum/greyscale_config/button_up/worn/taur/snake
+/datum/greyscale_config/button_up/worn/taur_snake
 	name = "Button Up Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/button_up_taur_snake.dmi'
 

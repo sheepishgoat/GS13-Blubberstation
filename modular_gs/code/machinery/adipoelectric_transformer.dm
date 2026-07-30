@@ -24,6 +24,10 @@ GLOBAL_LIST_EMPTY(adipoelectric_transformer)
 	var/emp_multiplier = 5
 	var/active = FALSE
 
+// for mapping
+/obj/machinery/power/adipoelectric_transformer/anchored
+	anchored = TRUE
+
 /obj/machinery/power/adipoelectric_transformer/Initialize(mapload)
 	. = ..()
 	if(anchored)
@@ -98,6 +102,8 @@ GLOBAL_LIST_EMPTY(adipoelectric_transformer)
 
 /obj/machinery/power/adipoelectric_transformer/wrench_act(mob/living/user, obj/item/tool)
 	default_unfasten_wrench(user, tool)
+	if (anchored)
+		connect_to_network()
 	return ITEM_INTERACT_SUCCESS
 
 /obj/machinery/power/adipoelectric_transformer/crowbar_act(mob/living/user, obj/item/tool)

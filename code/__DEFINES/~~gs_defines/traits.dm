@@ -15,6 +15,7 @@
 #define TRAIT_WEAK_LUNGS	"fat_lungs"
 #define TRAIT_LOW_FOV "fat_blocking_view"
 #define TRAIT_VERY_LOW_FOV "fat_blocking_view_HARD"
+#define TRAIT_NEARSIGHTED	"nearsighted_from_weight"
 
 #define TRAIT_RADRESONANCE "radresonance" //FIX THIS LATER
 #define COMSIG_MICRO_PICKUP_FEET "micro_force_grabbed"			//From /datum/element/mob_holder/micro
@@ -66,6 +67,11 @@
 #define TRAIT_HELPLESS_STUCKAGE			"stuckage_helpless"
 #define TRAIT_HELPLESS_THICK_NECK		"thick_neck"
 #define TRAIT_HELPLESS_WEAK_LUNGS		"weak_lungs"
+#define TRAIT_HELPLESS_WADDLING         "waddling_helpless"
+#define TRAIT_WADDLE					"waddle"
+#define TRAIT_HELPLESS_LISP				"lisp_helpless"
+#define TRAIT_LISP						"lisp"
+#define TRAIT_HELPLESS_NEARSIGHTED		"nearsighted_from_weight_helpless"
 
 // GS13 positive quirks
 #define TRAIT_BLOB_BED					"blob_bed"

@@ -21,6 +21,10 @@
 	var/emp_timer = 0
 	var/active = FALSE
 
+// for mapping
+/obj/machinery/power/adipoelectric_generator/anchored
+	anchored = TRUE
+
 /obj/machinery/power/adipoelectric_generator/Initialize(mapload)
 	. = ..()
 	if(anchored)
@@ -78,6 +82,8 @@
 
 /obj/machinery/power/adipoelectric_generator/wrench_act(mob/living/user, obj/item/tool)
 	default_unfasten_wrench(user, tool)
+	if (anchored)
+		connect_to_network()
 	return ITEM_INTERACT_SUCCESS
 
 /obj/machinery/power/adipoelectric_generator/crowbar_act(mob/living/user, obj/item/tool)

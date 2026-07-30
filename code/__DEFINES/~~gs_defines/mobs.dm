@@ -24,9 +24,15 @@
 #define MAX_BREASTS_SIZE 18		// HUGE mommy milkers :drooling_face:. Actually, a bit too huge so we limit them
 
 //Math stuff for fatness movement speed
-#define FATNESS_DIVISOR 860
-#define FATNESS_MAX_MOVE_PENALTY 4
-#define FATNESS_WEAKLEGS_MODIFIER 35 // GS13 tweak
+/// Maximum move speed penalty for being fat, if you don't have the weak legs trait
+#define FATNESS_MAX_MOVE_PENALTY 5
+/// Maximum move speed penalty with the weak legs trait
+#define WEAKLEGS_MAX_MOVE_PENALTY 7
+/// effective fatness gets divided by this to figure out how much slowness to apply
+#define FATNESS_DIVISOR (FATNESS_LEVEL_BLOB / FATNESS_MAX_MOVE_PENALTY)
+/// slowness modifier grows this many times faster
+#define FATNESS_WEAKLEGS_MODIFIER (WEAKLEGS_MAX_MOVE_PENALTY / FATNESS_MAX_MOVE_PENALTY)
+/// the slowdown from weight gets multiplied by this, meaning the lower this is, the lower the slowdown
 #define FATNESS_STRONGLEGS_MODIFIER 0.5
 
 #define MAX_PREFS_WEIGHT_GAIN_AND_LOSS_RATE 2
@@ -34,7 +40,10 @@
 #define DEFAULT_PREFS_WEIGHT_GAIN_AND_LOSS_RATE 0.5
 
 // defines for weight gain/loss modifiers
-#define MODIFIER_MAX_VALUE		2
+#define WEIGHT_RATE_MODIFIER_MAX_VALUE		2
+#define WEIGHT_RATE_MODIFIER_MIN_VALUE		-2
+#define UNIVERSAL_GAINER_MINIMUM_WG_RATE	0.2
+#define UNIVERSAL_GAINER_MAXIMUM_WL_RATE	0.5
 
 #define RESIZE_MACRO 6
 #define RESIZE_HUGE 4

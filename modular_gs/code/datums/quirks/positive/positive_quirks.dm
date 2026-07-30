@@ -71,24 +71,20 @@
 
 /datum/movespeed_modifier/nutricious_boost
 	blacklisted_movetypes = (FLYING|FLOATING)
-	// multiplicative_slowdown = -0.5
 	conflicts_with = TRAIT_NUTRICIOUS_BOOST
 
-/datum/movespeed_modifier/nutricious_boost/nutriment	// not actually implemented, we need to have WG from food first...
-	multiplicative_slowdown = -0.3
-
 /datum/movespeed_modifier/nutricious_boost/lipoifier
-	multiplicative_slowdown = -0.5
+	multiplicative_slowdown = -0.1
 
 /datum/movespeed_modifier/nutricious_boost/galbanic
-	multiplicative_slowdown = -0.8
+	multiplicative_slowdown = -0.3
 
 /datum/quirk/strong_legs
 	name = "Strong legs"
 	desc = "Your legs are used to carrying heavy loads. Being fat slows you down less. You can still become immobile, though."
 	icon = "fa-bone"
 	medical_record_text = "Patients legs can carry heavy weights well."
-	value = 1
+	value = 2
 	gain_text = span_notice("Your legs seem to have gotten stronger")
 	lose_text = span_notice("You feel your legs tremble under your weight")
 	quirk_flags = 0

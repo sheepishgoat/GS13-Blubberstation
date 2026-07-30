@@ -198,15 +198,7 @@
 		human.metabolism_efficiency = 1
 
 	//Gs13 EDIT START
-	if(nutrition > NUTRITION_LEVEL_FULL)
-		// fatConversionRate is functionally useless. It seems under normal curcumstances, each tick only processes, at most, 1 nutrition anyway. reducing the value has no effect.
-		var/fatConversionRate = 250 //GS13 what percentage of the excess nutrition should go to fat (total nutrition to transfer can't be under 1)
-		var/nutritionThatBecomesFat = max((nutrition - NUTRITION_LEVEL_FULL)*(fatConversionRate / 100),1)
-		human.adjust_nutrition(-nutritionThatBecomesFat, TRUE) // Force adjust_nutrition to happen ignoring TRAIT_NOHUNGER
-		human.adjust_fatness(nutritionThatBecomesFat, FATTENING_TYPE_FOOD)
-
-	handle_weight_gain(human)
-	human.fullness_adjustment()
+	handle_gaining_weight(human, nutrition)
 	//GS13 EDIT END
 
 	//Hunger slowdown for if mood isn't enabled
