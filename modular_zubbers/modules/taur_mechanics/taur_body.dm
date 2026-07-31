@@ -110,9 +110,10 @@
 	if(accessory.can_lay_down)
 		can_lay_down = TRUE
 		laydown_offset = accessory.laydown_offset
-
-/datum/bodypart_overlay/mutant/taur_body/get_base_icon_state()
-	return "[sprite_datum.icon_state][laying_down ? "_laying" : ""]"
+/* GS13 EDIT fat drake bellies requires me to do this
+// /datum/bodypart_overlay/mutant/taur_body/get_base_icon_state()
+// 	return "[sprite_datum.icon_state][laying_down ? "_laying" : ""]"
+GS13 END EDIT*/
 
 /datum/bodypart_overlay/mutant/taur_body/override_color(rgb_value)
 	return draw_color
