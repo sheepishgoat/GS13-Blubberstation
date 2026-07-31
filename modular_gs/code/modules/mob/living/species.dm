@@ -13,13 +13,6 @@
 		breasts.update_size_from_weight(size_change)
 	if (taur_belly && taur_belly.mutantpart_info[MUTANT_INDEX_NAME] == "Drake")
 		taur_belly.set_size_from_weight(size_change)
-	//((dna.mutant_bodyparts[FEATURE_TAUR] && dna.mutant_bodyparts[FEATURE_TAUR][MUTANT_INDEX_NAME] != "None")
-	// if(tbelly)
-	// 	if(tbelly.max_genital_size > 0)
-	// 		if((tbelly.size + size_change) <= tbelly.max_genital_size)
-	// 			tbelly.set_size(size_change)
-	// 	else
-	// 		tbelly.set_size(size_change)
 	if(breasts)
 		breasts.update_size_from_weight(size_change)
 

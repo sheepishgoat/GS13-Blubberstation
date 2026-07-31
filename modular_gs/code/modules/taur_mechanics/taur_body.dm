@@ -3,13 +3,6 @@
 		stack_trace("set_size_from_weight on a taur body called on a taur that's not a drake.")
 		return
 
-	if (size_change == 0)
-		bodypart_overlay.sprite_datum.icon = initial(bodypart_overlay.sprite_datum.icon)
-		bodypart_overlay.sprite_datum.icon_state = initial(bodypart_overlay.sprite_datum.icon_state)
-		return
-
-	// bodypart_overlay.sprite_datum.icon = 'modular_gs/icons/mob/taur_2.dmi'
-	// bodypart_overlay.sprite_datum.icon_state = "drake_[size_change]"
 	var/datum/bodypart_overlay/mutant/taur_body/our_sprite_overlay = bodypart_overlay
 	if (!istype(our_sprite_overlay))
 		stack_trace("set_size_from_weight on a taur body called bodypart_overlay that's not a taur body.")
