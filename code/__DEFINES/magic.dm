@@ -22,6 +22,8 @@
 #define SCHOOL_TRANSLOCATION "translocation"
 /// Conjuration spells summon items / mobs / etc somehow
 #define SCHOOL_CONJURATION "conjuration"
+/// Weight Related Spells
+#define SCHOOL_LIPOMANCY "fattening"
 
 // EVIL SPELLS (instant smite + banishment)
 /// Necromancy spells, usually involves soul / evil / bad stuff
