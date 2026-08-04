@@ -30,7 +30,7 @@
 
 /obj/item/melee/touch_attack/fatten_up
 	name = "\improper fattening touch"
-	desc = "Until you cant move, fatass!"
+	desc = "Until you can't move, fatass!"
 	icon = 'modular_gs/icons/obj/spells/spell_items.dmi'
 	icon_state = "add-hand"
 	inhand_icon_state = "add-hand"
