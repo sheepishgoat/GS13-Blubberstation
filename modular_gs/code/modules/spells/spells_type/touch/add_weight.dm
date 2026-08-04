@@ -23,7 +23,7 @@
         return TRUE
 
     if (!istype(living_victim))
-        return
+        return FALSE
 
     living_victim.adjust_fatness(100, FATTENING_TYPE_MAGIC)
     return TRUE
