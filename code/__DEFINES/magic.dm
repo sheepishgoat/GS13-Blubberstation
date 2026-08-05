@@ -23,7 +23,6 @@
 /// Conjuration spells summon items / mobs / etc somehow
 #define SCHOOL_CONJURATION "conjuration"
 
-
 // EVIL SPELLS (instant smite + banishment)
 /// Necromancy spells, usually involves soul / evil / bad stuff
 #define SCHOOL_NECROMANCY "necromancy"

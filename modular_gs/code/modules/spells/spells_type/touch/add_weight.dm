@@ -1,7 +1,7 @@
 /datum/action/cooldown/spell/touch/fatten_up
 	name = "Gain"
 	desc = "This spell charges your hand with the power of calorite to make those who are touched fatter"
-	button_icon_state = "hand"
+	button_icon_state = "add-hand"
 	sound = 'sound/effects/blob/attackblob.ogg'
 
 	school = SCHOOL_LIPOMANCY
@@ -22,11 +22,11 @@
 	if(living_victim.can_block_magic(antimagic_flags))
 		return TRUE
 
-	if (!istype(living_victim))
+	if(!istype(living_victim))
 		return FALSE
 
 	living_victim.adjust_fatness(100, FATTENING_TYPE_MAGIC)
-		return TRUE
+	return TRUE
 
 /obj/item/melee/touch_attack/fatten_up
 	name = "\improper fattening touch"
