@@ -29,6 +29,7 @@
 		/obj/item/melee/curator_whip/fattening = 1,
 		/obj/item/clothing/neck/necklace/memento_mori/calori/sprinkled = 1,
 		/obj/item/grenade/chem_grenade/fatmix = 1,
+		/obj/item/book/granter/action/spell/gain = 1,
 		//GS13 EDIT END
 	)
 
