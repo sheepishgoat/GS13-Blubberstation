@@ -6,11 +6,11 @@
 	name = "Book of fattening"
 	desc = "A book made out of calorite holding it alone makes you feel hungry"
 	remarks = list(
-		"\"Calories are actually energy\"",
-		"\"Concentrate energy on my hand\"",
-		"\"Oh so this is what they mean they can't stop gaining\"",
-		"\"Sounds like feeding someone a pizza might be more effective\"",
-		"\"I feel a bit hungry now\"",
+		"\"Calories are actually energy?\"",
+		"\"Concentrate energy on my hand...\"",
+		"\"Oh so this is what they mean they can't stop gaining... huh...\"",
+		"\"Sounds like feeding someone a pizza might be more effective...\"",
+		"\"I feel a bit hungry now.\"",
 	)
 
 /obj/item/book/granter/action/spell/gain/recoil(mob/living/user)
