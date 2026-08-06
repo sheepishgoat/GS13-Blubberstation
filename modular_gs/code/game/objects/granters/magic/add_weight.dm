@@ -4,7 +4,7 @@
 	icon = 'modular_gs/icons/obj/spells/spellbooks.dmi'
 	icon_state = "add_weight"
 	name = "Book of fattening"
-	desc = "A book made out of calorite holding it alone makes you feel hungry"
+	desc = "A book made out of calorite, holding it alone makes you feel hungry."
 	remarks = list(
 		"\"Calories are actually energy?\"",
 		"\"Concentrate energy on my hand...\"",
