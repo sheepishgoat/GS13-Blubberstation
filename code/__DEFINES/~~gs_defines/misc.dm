@@ -41,3 +41,5 @@
 
 /// for interaction datums, defines an interaction which can ONLY be performed on ourselves
 #define INTERACTION_ONLY_SELF "only_self"
+
+#define WIRE_WEIGHT_SCAN "Weight Scan"

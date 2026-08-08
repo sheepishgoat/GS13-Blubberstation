@@ -1,12 +1,14 @@
 /// Prompts the user to select a level of weight.
-/proc/choose_weight(input_text = "Choose a weight.", mob/user)
+/proc/choose_weight(mob/user, input_text = "Choose a weight.")
 	var/chosen_weight = FALSE
 	var/picked_weight_class = input(user,
 		input_text,
 		"Character Preference", "None") as null|anything in list(
-			"None", "Fat", "Fatter", "Very Fat", "Obese", "Morbidly Obese", "Extremely Obese", "Barely Mobile", "Immobile", "Other")
+			"None", "Rounded", "Fat", "Fatter", "Very Fat", "Obese", "Morbidly Obese", "Extremely Obese", "Barely Mobile", "Immobile", "Other")
 
 	switch(picked_weight_class)
+		if ("Rounded")
+			chosen_weight = FATNESS_LEVEL_FAT
 		if("Fat")
 			chosen_weight = FATNESS_LEVEL_FATTER
 		if("Fatter")
