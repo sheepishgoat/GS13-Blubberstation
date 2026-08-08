@@ -51,9 +51,17 @@
 		return TRUE	// if they have no concept of fatness (blasphemous!), we let them through
 	
 	if (check_fatness_below)
-		return carbon_user.fatness >= fatness_to_check
+		if (carbon_user.fatness >= fatness_to_check)
+			return TRUE
+			
+		balloon_alert(user, "ERROR: WEIGHT TOO LOW!")
+		return FALSE
 	else
-		return carbon_user.fatness <= fatness_to_check
+		if (carbon_user.fatness <= fatness_to_check)
+			return TRUE
+			
+		balloon_alert(user, "ERROR: WEIGHT TOO HIGH!")
+		return FALSE
 
 /obj/machinery/door/airlock/multitool_act_secondary(mob/living/user, obj/item/tool)
 	change_fatness_to_check(user)

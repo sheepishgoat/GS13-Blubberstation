@@ -356,7 +356,6 @@
 	PRIVATE_PROC(TRUE)
 	// GS13 EDIT - block doors based on weight
 	if (!enough_fatness(user))
-		balloon_alert(user, "ERROR: WRONG WEIGHT!")
 		return FALSE
 	// GS13 EDIT END
 	if(allowed(user))
