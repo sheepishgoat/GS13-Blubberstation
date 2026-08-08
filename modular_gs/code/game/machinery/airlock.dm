@@ -13,7 +13,7 @@
 /obj/machinery/door/airlock/proc/change_fatness_to_check(mob/user)
 	var/selected_fatness = choose_weight(user, "What level of fatness do you wish to block the door at?")
 	if (selected_fatness <= 0)
-		balloon_alert(user, "Weight check reset")
+		balloon_alert(user, "weight check reset")
 		check_fatness = FALSE
 		fatness_to_check = 0
 		return
@@ -21,7 +21,7 @@
 	var/above_below = input(usr, "Do you wish to block the door when the weight is above or below the given weight?",
 	"Above or below?", NO_CHECK) as null|anything in list(ABOVE, BELOW, NO_CHECK)
 	if (above_below == NO_CHECK)
-		balloon_alert(user, "Weight check reset")
+		balloon_alert(user, "weight check reset")
 		check_fatness = FALSE
 		fatness_to_check = 0
 		return
@@ -29,7 +29,7 @@
 	fatness_to_check = selected_fatness
 	check_fatness = TRUE
 	check_fatness_below = above_below == BELOW
-	balloon_alert(user, "Weight check set")
+	balloon_alert(user, "weight check set")
 
 // hack so we could keep the ACTUAL proc on `/obj/machinery/door/airlock`
 /obj/machinery/door/proc/enough_fatness(mob/user)
@@ -54,13 +54,13 @@
 		if (carbon_user.fatness >= fatness_to_check)
 			return TRUE
 			
-		balloon_alert(user, "ERROR: WEIGHT TOO LOW!")
+		say("ERROR: WEIGHT TOO LOW!")
 		return FALSE
 	else
 		if (carbon_user.fatness <= fatness_to_check)
 			return TRUE
 			
-		balloon_alert(user, "ERROR: WEIGHT TOO HIGH!")
+		say("ERROR: WEIGHT TOO HIGH!")
 		return FALSE
 
 /obj/machinery/door/airlock/multitool_act_secondary(mob/living/user, obj/item/tool)
