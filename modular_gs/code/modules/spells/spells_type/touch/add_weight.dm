@@ -1,6 +1,7 @@
 /datum/action/cooldown/spell/touch/fatten_up
 	name = "Gain"
 	desc = "This spell charges your hand with the power of calorite to make those who are touched fatter"
+	button_icon = 'modular_gs/icons/obj/spells/spell_items.dmi'
 	button_icon_state = "add-hand"
 	sound = 'sound/effects/blob/attackblob.ogg'
 
