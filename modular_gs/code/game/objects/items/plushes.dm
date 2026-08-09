@@ -140,7 +140,7 @@
 	max_plushie_scale = 1.5 // Already pretty huge
 
 /obj/item/toy/plush/gs13/val
-	name = "Abhorrent fen plushie"
+	name = "Abhorrent Fen plushie"
 	desc = "You feel like it's staring at you... it's quite unnerving."
 	icon_state = "val"
 	stuffed_icon_state = "val_stuffed"
@@ -279,6 +279,15 @@
 	desc = "Now back in style with 100% more fur!"
 	icon_state = "remmy"
 	stuffed_icon_state = "remmy_stuffed"
+	pred_plush = TRUE
+	prey_plush = TRUE
+	can_eat_food = TRUE
+
+/obj/item/toy/plush/gs13/duke
+	name = "Small Kitsune Plushie"
+	desc = "This plush really wants to be a good boy."
+	icon_state = "duke"
+	stuffed_icon_state = "duke_stuffed"
 	pred_plush = TRUE
 	prey_plush = TRUE
 	can_eat_food = TRUE

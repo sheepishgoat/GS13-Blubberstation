@@ -42,4 +42,7 @@
 /// for interaction datums, defines an interaction which can ONLY be performed on ourselves
 #define INTERACTION_ONLY_SELF "only_self"
 
+/// Weight Related Spells School
+#define SCHOOL_LIPOMANCY "fattening"
+
 #define WIRE_WEIGHT_SCAN "Weight Scan"

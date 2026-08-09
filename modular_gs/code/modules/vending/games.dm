@@ -36,6 +36,7 @@
 				/obj/item/toy/plush/gs13/blake = 3,
 				/obj/item/toy/plush/gs13/balian = 3,
 				/obj/item/toy/plush/gs13/remmy = 3,
+				/datum/loadout_item/toys/plush/duke_plush = 3,
 			)
 		)
 	)
