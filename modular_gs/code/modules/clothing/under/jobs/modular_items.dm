@@ -12,10 +12,6 @@
 //Many functions of the system can be customized by overloading the various procs
 //If you know what you are doing then I encoourage you to tweak your item to work better for the idea you had in mind
 
-/mob/living/carbon
-	var/modular_items = list()
-
-
 // Called by handle_fatness, this is called periodically to tell all items to check for sprites and, if needed, build new ones
 /mob/living/carbon/proc/handle_modular_items()
 	for(var/obj/item/item in modular_items)
@@ -82,27 +78,32 @@
 	//Add it to a list of found genitals to not go through all organs again
 	//Get the sprite name of the sprites needed and compare it to the ones recorded
 	//If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
-	var/obj/item/organ/organ
-	for(organ in user.organs)
-		if(istype(organ, /obj/item/organ/genital/belly))
-			genitals_list += list(organ)
-			var/belly = get_modular_belly(organ)
-			if(belly != mod_belly_rec)
-				mod_belly_rec = belly
-				build_modular = TRUE
-		if(istype(organ, /obj/item/organ/genital/butt))
-			genitals_list += list(organ)
-			var/butt = get_modular_butt(organ)
-			if(butt != mod_butt_rec)
-				mod_butt_rec = butt
-				build_modular = TRUE
-		if(istype(organ, /obj/item/organ/genital/breasts))
-			genitals_list += list(organ)
-			var/breasts = get_modular_breasts(organ)
-			if(breasts != mod_breasts_rec)
-				mod_breasts_rec = breasts
-				build_modular = TRUE
-	if(!build_modular)	//Stop early if no new sprites are needed UPDATE: unless we force it
+	
+	var/obj/item/organ/genital/belly/belly = get_organ_slot(ORGAN_SLOT_BELLY)
+	if (!isnull(belly))
+		genitals_list += list(belly)
+		var/modular_belly = get_modular_belly(belly)
+		if (modular_belly != mod_belly_rec)
+			mod_belly_rec = modular_belly
+			build_modular = TRUE
+	
+	var/obj/item/organ/genital/butt/butt = get_organ_slot(ORGAN_SLOT_BUTT)
+	if (!isnull(butt))
+		genitals_list += list(butt)
+		var/modular_butt = get_modular_butt(butt)
+		if (modular_butt != mob_butt_rec)
+			mod_butt_rec = modular_butt
+			build_modular = TRUE
+
+	var/obj/item/organ/genital/breasts/breasts = get_organ_slot(ORGAN_SLOT_BREASTS)
+	if (!isnull(breasts))
+		genitals_list += list(breasts)
+		var/modular_tits = get_modular_breasts(breasts)
+		if (modular_tits != mob_breasts_rec)
+			mod_breasts_rec = modular_tits
+			build_modular = TRUE
+
+	if(!build_modular)	//Stop early if no new sprites are needed
 		return
 	delete_modular_overlays(user)	//Delete the old sprites
 
@@ -117,9 +118,11 @@
 		if(istype(genital, /obj/item/organ/genital/belly))
 			add_modular_overlay(user, mod_belly_rec, MODULAR_BELLY_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
 			add_modular_overlay(user, "[mod_belly_rec]_SOUTH", BELLY_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
+			continue
 		if(istype(genital, /obj/item/organ/genital/butt))
 			add_modular_overlay(user, mod_butt_rec, MODULAR_BUTT_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
 			add_modular_overlay(user, "[mod_butt_rec]_NORTH", BUTT_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
+			continue
 		if(istype(genital, /obj/item/organ/genital/breasts))
 			add_modular_overlay(user, mod_breasts_rec, MODULAR_BREASTS_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
 			add_modular_overlay(user, "[mod_breasts_rec]_NORTH", BREASTS_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
