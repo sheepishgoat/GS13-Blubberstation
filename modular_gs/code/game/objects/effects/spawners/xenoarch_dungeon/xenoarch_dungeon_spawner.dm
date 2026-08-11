@@ -4,6 +4,11 @@ GLOBAL_LIST_INIT(xenoarch_dungeon_ruins, list(
 	"dungeon_room_1.dmm",
 	"dungeon_room_2.dmm",
 	"dungeon_room_3.dmm",
+	"dungeon_room_4.dmm",
+	"dungeon_room_5.dmm",
+	"dungeon_room_6.dmm",
+	"dungeon_room_7.dmm",
+	"dungeon_room_8.dmm",
 ))
 
 GLOBAL_LIST_EMPTY(xenoarch_dungeon_spawns)
@@ -21,7 +26,7 @@ GLOBAL_LIST_EMPTY(xenoarch_dungeon_spawns)
 	if (!mapload)
 		stack_trace("Attempted to place a xenoarch dungeon spawner after map load!")
 		return
-	
+
 	GLOB.xenoarch_dungeon_spawns.Add(src)
 
 /datum/controller/subsystem/mapping/proc/setup_xenoarch_dungeon()

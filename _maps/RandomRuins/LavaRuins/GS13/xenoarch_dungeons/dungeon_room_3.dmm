@@ -46,7 +46,7 @@
 /area/lavaland/underground/xenoarch/candyland)
 "p" = (
 /obj/structure/tree/candylight,
-/obj/effect/light_emitter/interlink,
+/obj/effect/light_emitter/tendril,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "s" = (
@@ -99,6 +99,7 @@
 	pixel_x = -5;
 	pixel_y = -17
 	},
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "I" = (
@@ -141,6 +142,7 @@
 	pixel_x = 1;
 	pixel_y = 3
 	},
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "X" = (

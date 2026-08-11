@@ -3,102 +3,80 @@
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "b" = (
-/obj/item/food/candy/triggerfinger{
-	pixel_x = 8;
-	pixel_y = 7
+/obj/item/food/candyheart{
+	pixel_x = -6;
+	pixel_y = -5
 	},
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "c" = (
-/obj/structure/tree/candylight,
-/obj/effect/light_emitter/interlink,
+/obj/effect/turf_decal/candy/redwhite2,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "g" = (
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 4
-	},
-/turf/open/candyfloor,
+/obj/effect/turf_decal/candy/redwhite2,
+/turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "h" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 8
+/obj/item/food/candyheart{
+	pixel_x = 7;
+	pixel_y = -7
 	},
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "i" = (
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/candy/redwhite,
-/turf/open/candyfloor,
-/area/lavaland/underground/xenoarch/candyland)
-"m" = (
-/obj/item/food/candy/hurr_bar{
-	pixel_x = 5;
-	pixel_y = -12
-	},
-/obj/item/food/candy/twink_bar{
-	pixel_x = -3;
-	pixel_y = 9
-	},
-/turf/open/indestructible/bubblegum,
-/area/lavaland/underground/xenoarch/candyland)
-"p" = (
-/obj/structure/tree/candylight,
 /obj/effect/light_emitter/interlink,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
+"m" = (
+/obj/structure/tree/candylight,
+/turf/open/indestructible/bubblegum,
+/area/lavaland/underground/xenoarch/candyland)
+"p" = (
+/obj/effect/light_emitter/tendril,
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
 "s" = (
-/obj/effect/turf_decal/siding/purple/corner,
+/obj/effect/turf_decal/candy/redwhite,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "t" = (
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 8
+/obj/item/food/candyheart{
+	pixel_x = 5;
+	pixel_y = -6
 	},
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/item/food/candyheart{
+	pixel_x = -7;
+	pixel_y = 7
+	},
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "u" = (
-/obj/item/food/candy/kit_catgirl_metaclique_bar{
-	pixel_x = -5;
-	pixel_y = 6
-	},
-/turf/open/indestructible/bubblegum,
+/obj/effect/turf_decal/candy/purplewhite1,
+/turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "w" = (
-/obj/item/food/candy/elon_musk_bar{
-	pixel_x = 5;
-	pixel_y = -10
-	},
-/turf/open/indestructible/bubblegum,
+/obj/effect/turf_decal/candy/redwhite3,
+/turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "x" = (
-/obj/item/food/candy/coconut_joy{
-	pixel_x = 9;
-	pixel_y = -11
+/obj/item/food/candyheart{
+	pixel_x = -6;
+	pixel_y = 3
 	},
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "E" = (
-/obj/item/food/candy/laughter_bar{
-	pixel_x = -7;
-	pixel_y = -3
-	},
-/turf/open/indestructible/bubblegum,
+/obj/structure/tree/candylight,
+/turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "G" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 1
-	},
+/obj/effect/turf_decal/candy/bluewhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "H" = (
-/obj/item/food/candy/malf_way{
-	pixel_x = -5;
-	pixel_y = -17
-	},
+/obj/effect/turf_decal/candy/greenwhite2,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "I" = (
@@ -109,47 +87,41 @@
 /turf/closed/indestructible/candy,
 /area/lavaland/underground/xenoarch/candyland)
 "K" = (
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 8
-	},
-/turf/open/candyfloor,
-/area/lavaland/underground/xenoarch/candyland)
-"M" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 4
-	},
+/obj/effect/turf_decal/candy/greenwhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "N" = (
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/effect/turf_decal/candy/purplewhite1,
+/obj/effect/light_emitter/interlink,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "Q" = (
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "R" = (
-/obj/effect/turf_decal/siding/purple/corner{
-	dir = 1
-	},
-/turf/open/candyfloor,
-/area/lavaland/underground/xenoarch/candyland)
-"U" = (
-/obj/item/food/candy/hundred_credit_bar{
-	pixel_x = 1;
-	pixel_y = 3
+/obj/item/food/candyheart{
+	pixel_x = 5;
+	pixel_y = 5
 	},
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
+"U" = (
+/obj/item/food/candyheart,
+/obj/item/food/candyheart{
+	pixel_x = 9;
+	pixel_y = -11
+	},
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
 "X" = (
-/obj/effect/turf_decal/siding/purple,
+/obj/item/food/candyheart{
+	pixel_x = 3;
+	pixel_y = 7
+	},
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "Z" = (
-/obj/effect/turf_decal/siding/purple/corner,
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/effect/light_emitter/interlink,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 
@@ -166,79 +138,79 @@ J
 "}
 (2,1,1) = {"
 J
-c
-a
+G
+h
 s
-M
-g
 a
+Q
+g
 c
 J
 "}
 (3,1,1) = {"
 J
-a
-Z
-J
 Q
-J
-i
+Z
 a
+w
+m
+i
+X
 J
 "}
 (4,1,1) = {"
 J
-s
-J
-x
-m
 U
-J
-g
+u
+x
+a
+a
+K
+a
 J
 "}
 (5,1,1) = {"
 I
-X
-Q
-b
+a
+E
+a
 p
 u
-Q
+a
 G
 I
 "}
 (6,1,1) = {"
 J
-K
-J
+G
+a
 H
-w
-E
-J
+Q
+a
+a
 R
 J
 "}
 (7,1,1) = {"
 J
-a
-t
-J
 Q
-J
+Z
+b
+Q
+G
 N
 a
 J
 "}
 (8,1,1) = {"
 J
-c
-a
+u
+G
 K
-h
-R
 a
-c
+t
+m
+u
 J
 "}
 (9,1,1) = {"
