@@ -18,8 +18,12 @@
 		fatness_to_check = 0
 		return
 
-	var/above_below = input(usr, "Do you wish to block the door when the weight is above or below the given weight?",
-	"Above or below?", NO_CHECK) as null|anything in list(ABOVE, BELOW, NO_CHECK)
+	var/above_below = tgui_input_list(
+		user,
+		"Do you wish to block the door when the weight is above or below the given weight?",
+		"Above or below?",
+		list(ABOVE, BELOW, NO_CHECK)
+	)
 	if (above_below == NO_CHECK)
 		balloon_alert(user, "weight check reset")
 		check_fatness = FALSE

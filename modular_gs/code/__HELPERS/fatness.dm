@@ -4,11 +4,11 @@
 		user,
 		input_text,
 		"Choose a weight.",
-		GLOB.fatness_stage_to_BFI
+		GLOB.fatness_stage_to_BFI_labeled
 	)
 
 	if(!isnull(picked_weight))
-		return GLOB.fatness_stage_to_BFI[picked_weight]
+		return GLOB.fatness_stage_to_BFI_labeled[picked_weight]
 
 	picked_weight = tgui_input_number(user, "Input the desired BFI value", "Choose a weight", max_value = INFINITY)
 	if(isnull(picked_weight))
