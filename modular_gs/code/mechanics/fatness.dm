@@ -24,7 +24,7 @@
 	if(max_weight && !HAS_TRAIT(src, TRAIT_UNIVERSAL_GAINER))
 		fatness_real = min(fatness_real, (max_weight - 1))
 
-	handle_weight_gain()
+	calculate_fatness()
 
 	SEND_SIGNAL(src, COMSIG_FATNESS_REAL_CHANGED, fatness_real)
 	return adjustment_amount
@@ -55,7 +55,7 @@
 	if(max_weight && !HAS_TRAIT(src, TRAIT_UNIVERSAL_GAINER))
 		fatness_perma = min(fatness_perma, (max_weight - 1))
 
-	handle_weight_gain()
+	calculate_fatness()
 
 	SEND_SIGNAL(src, COMSIG_FATNESS_PERMA_CHANGED, fatness_perma)
 	return adjustment_amount
@@ -191,6 +191,7 @@
 /mob/living/carbon/proc/handle_weight_gain()
 	calculate_fatness()
 
+	handle_fatness_speed_modifier()
 	handle_fatness()
 	handle_helplessness()
 	handle_modular_items()

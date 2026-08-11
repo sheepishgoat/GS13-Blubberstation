@@ -79,7 +79,7 @@
 	//Get the sprite name of the sprites needed and compare it to the ones recorded
 	//If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
 	
-	var/obj/item/organ/genital/belly/belly = get_organ_slot(ORGAN_SLOT_BELLY)
+	var/obj/item/organ/genital/belly/belly = user_mob.get_organ_slot(ORGAN_SLOT_BELLY)
 	if (!isnull(belly))
 		genitals_list += list(belly)
 		var/modular_belly = get_modular_belly(belly)
@@ -87,19 +87,19 @@
 			mod_belly_rec = modular_belly
 			build_modular = TRUE
 	
-	var/obj/item/organ/genital/butt/butt = get_organ_slot(ORGAN_SLOT_BUTT)
+	var/obj/item/organ/genital/butt/butt = user_mob.get_organ_slot(ORGAN_SLOT_BUTT)
 	if (!isnull(butt))
 		genitals_list += list(butt)
 		var/modular_butt = get_modular_butt(butt)
-		if (modular_butt != mob_butt_rec)
+		if (modular_butt != mod_butt_rec)
 			mod_butt_rec = modular_butt
 			build_modular = TRUE
 
-	var/obj/item/organ/genital/breasts/breasts = get_organ_slot(ORGAN_SLOT_BREASTS)
+	var/obj/item/organ/genital/breasts/breasts = user_mob.get_organ_slot(ORGAN_SLOT_BREASTS)
 	if (!isnull(breasts))
 		genitals_list += list(breasts)
 		var/modular_tits = get_modular_breasts(breasts)
-		if (modular_tits != mob_breasts_rec)
+		if (modular_tits != mod_breasts_rec)
 			mod_breasts_rec = modular_tits
 			build_modular = TRUE
 

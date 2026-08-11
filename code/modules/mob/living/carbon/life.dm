@@ -25,6 +25,7 @@
 		fullness_adjustment()
 		handle_helplessness()
 		handle_bursting()
+		handle_fatness()
 		// GS13 END EDIT
 
 		. = ..()

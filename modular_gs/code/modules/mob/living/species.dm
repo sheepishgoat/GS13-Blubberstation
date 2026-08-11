@@ -95,8 +95,7 @@
 	fatness_delay = min(fatness_delay, delay_cap)
 	return fatness_delay
 
-/// handles applying fatness slowdown penalties and preparing weight stage traits for application via `handle_fatness_trait`
-/mob/living/carbon/proc/handle_fatness()
+/mob/living/carbon/proc/handle_fatness_speed_modifier()
 	var/effective_fatness = calculate_effective_fatness()
 	// update movement speed
 	var/fatness_delay = 0
@@ -116,6 +115,8 @@
 	else
 		remove_movespeed_modifier(/datum/movespeed_modifier/fatness)
 
+/// handles applying fatness slowdown penalties and preparing weight stage traits for application via `handle_fatness_trait`
+/mob/living/carbon/proc/handle_fatness()
 	if(HAS_TRAIT(src, TRAIT_BLOB))
 		handle_fatness_trait(
 			TRAIT_BLOB,

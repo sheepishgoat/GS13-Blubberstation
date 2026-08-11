@@ -46,16 +46,6 @@
 	ph = 9
 	metabolization_rate = REAGENTS_METABOLISM / 4
 
-/datum/reagent/drug/munchies/on_mob_add(mob/living/L, amount)
-	. = ..()
-	if(iscarbon(L))
-		var/mob/living/carbon/C = L
-
-/datum/reagent/drug/munchies/on_mob_delete(mob/living/L)
-	. = ..()
-	if(iscarbon(L))
-		var/mob/living/carbon/C = L
-
 /datum/reagent/drug/munchies/on_mob_life(mob/living/carbon/person)
 	. = ..()
 	if(prob(10))
