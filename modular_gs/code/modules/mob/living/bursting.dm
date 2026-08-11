@@ -144,14 +144,6 @@
 		else
 			return BURSTING_PREF_DISABLED
 
-/mob/living/carbon/human
-	///How full is the player according to their bursting prefs
-	var/bursting_capacity_fullness = -1
-	///How fat is the player according to their bursting pref
-	var/bursting_capacity_fatness = -1
-	/// Their highest capacity percentage value to determine if they should burst
-	var/bursting_capacity_percentage = -1
-
 /** 
  * Handles bursting for either eating too much or having too high of a BFI. It checks
  * for preferences, handles bursting capacity, sound and messages. Also responsible for 

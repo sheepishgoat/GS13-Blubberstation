@@ -1,6 +1,3 @@
-/mob/living/carbon
-	var/nutri_mult = 1
-
 /obj/item/seeds/cannabis
 	mutatelist = list(
 		/obj/item/seeds/cannabis/anti,
@@ -53,13 +50,11 @@
 	. = ..()
 	if(iscarbon(L))
 		var/mob/living/carbon/C = L
-		C.nutri_mult += 0.5
 
 /datum/reagent/drug/munchies/on_mob_delete(mob/living/L)
 	. = ..()
 	if(iscarbon(L))
 		var/mob/living/carbon/C = L
-		C.nutri_mult -= 0.5
 
 /datum/reagent/drug/munchies/on_mob_life(mob/living/carbon/person)
 	. = ..()

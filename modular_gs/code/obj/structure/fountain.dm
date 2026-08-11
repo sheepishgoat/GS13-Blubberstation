@@ -8,10 +8,6 @@
 	density = TRUE
 	var/curse_given = FALSE
 
-/mob/living/carbon/human
-	var/cursed_fat = 0 //decides whether the user is cursed at all (also makes for a fun admin switch)
-	var/fattening_steps_left = 0 //decides on the lenght of the curse
-
 /obj/structure/cursedfatfountain/attack_hand(mob/living/user)
 	. = ..()
 	var/mob/living/carbon/human/toucher = user
