@@ -1,18 +1,259 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/candyfloor,
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"b" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = 12;
+	pixel_y = 0
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"c" = (
+/obj/structure/fans/tiny/invisible,
+/obj/structure/mineral_door/chocolate,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"f" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = -12;
+	pixel_y = 0
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"g" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"h" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = 0;
+	pixel_y = -11
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"i" = (
+/obj/effect/light_emitter/tendril,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"j" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 2
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = 12;
+	pixel_y = 0
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"k" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/food/chocolatebunny,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"q" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"r" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"s" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/item/food/chocolatebunny,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"u" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"v" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"w" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = -12;
+	pixel_y = 0
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"y" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"A" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"B" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/chocolateriver,
+/area/lavaland/underground/xenoarch/candyland)
+"C" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/chocolateriver,
+/area/lavaland/underground/xenoarch/candyland)
+"D" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/food/chocolatebunny,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"E" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/chocolateriver,
+/area/lavaland/underground/xenoarch/candyland)
+"F" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"G" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/item/food/chocolatebunny,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"H" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
 /area/lavaland/underground/xenoarch/candyland)
 "I" = (
-/obj/structure/mineral_door/calorite,
-/obj/structure/fans/tiny,
-/turf/open/indestructible/bubblegum,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 2
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = 0;
+	pixel_y = -11
+	},
+/turf/open/indestructible/chocolate,
 /area/lavaland/underground/xenoarch/candyland)
 "J" = (
-/turf/closed/indestructible/candy,
+/turf/closed/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"K" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"M" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/item/food/chocolateegg{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"N" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/chocolateriver,
+/area/lavaland/underground/xenoarch/candyland)
+"P" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"R" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"S" = (
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/turf/open/chocolateriver,
 /area/lavaland/underground/xenoarch/candyland)
 "U" = (
-/obj/effect/turf_decal/vg_decals/numbers/two,
-/turf/open/candyfloor,
+/turf/open/chocolateriver,
+/area/lavaland/underground/xenoarch/candyland)
+"W" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"Y" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 2
+	},
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
 /area/lavaland/underground/xenoarch/candyland)
 
 (1,1,1) = {"
@@ -20,7 +261,7 @@ J
 J
 J
 J
-I
+c
 J
 J
 J
@@ -28,79 +269,79 @@ J
 "}
 (2,1,1) = {"
 J
+q
 a
-a
-a
-a
-a
-a
-a
+A
+g
+P
+A
+F
 J
 "}
 (3,1,1) = {"
 J
 a
-a
-a
-a
-a
-a
-a
+i
+j
+D
+b
+i
+A
 J
 "}
 (4,1,1) = {"
 J
-a
-a
-a
-a
-a
-a
-a
+W
+I
+C
+U
+E
+M
+K
 J
 "}
 (5,1,1) = {"
-I
-a
-a
-a
+c
+v
+s
 U
-a
-a
-a
-I
+S
+U
+k
+R
+c
 "}
 (6,1,1) = {"
 J
-a
-a
-a
-a
-a
-a
-a
+P
+h
+N
+U
+B
+y
+A
 J
 "}
 (7,1,1) = {"
 J
 a
-a
-a
-a
-a
-a
-a
+i
+f
+G
+w
+i
+K
 J
 "}
 (8,1,1) = {"
 J
+r
 a
-a
-a
-a
-a
-a
-a
+Y
+H
+W
+K
+u
 J
 "}
 (9,1,1) = {"
@@ -108,7 +349,7 @@ J
 J
 J
 J
-I
+c
 J
 J
 J

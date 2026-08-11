@@ -2,13 +2,49 @@
 "a" = (
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
-"h" = (
-/obj/effect/turf_decal/vg_decals/numbers/one,
+"d" = (
+/obj/effect/turf_decal/candy/redwhite3,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
+"h" = (
+/obj/effect/turf_decal/candy/bluewhite1,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"n" = (
+/obj/structure/lollipop{
+	icon_state = "lollipop_tree_red"
+	},
+/turf/open/indestructible/bubblegum,
+/area/lavaland/underground/xenoarch/candyland)
+"o" = (
+/obj/structure/lollipop{
+	icon_state = "lollipop_tree_red"
+	},
+/obj/effect/light_emitter/interlink,
+/turf/open/indestructible/bubblegum,
+/area/lavaland/underground/xenoarch/candyland)
+"B" = (
+/obj/effect/turf_decal/candy/redwhite,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"E" = (
+/obj/item/food/candyheart,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"I" = (
+/obj/effect/light_emitter/interlink,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"L" = (
+/obj/effect/turf_decal/candy/redwhite2,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"P" = (
+/obj/structure/lollipop,
+/turf/open/indestructible/bubblegum,
+/area/lavaland/underground/xenoarch/candyland)
 "R" = (
-/obj/structure/mineral_door/calorite,
-/obj/structure/fans/tiny,
+/obj/structure/fans/tiny/invisible,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "Y" = (
@@ -28,79 +64,79 @@ Y
 "}
 (2,1,1) = {"
 Y
+P
+h
+B
 a
+E
 a
-a
-a
-a
-a
-a
+P
 Y
 "}
 (3,1,1) = {"
 Y
 a
+n
 a
+o
 a
-a
-a
-a
+L
 a
 Y
 "}
 (4,1,1) = {"
 Y
+E
+d
 a
+h
 a
-a
-a
-a
-a
-a
+E
+d
 Y
 "}
 (5,1,1) = {"
 R
 a
+I
+P
 a
-a
-h
-a
-a
+n
+I
 a
 R
 "}
 (6,1,1) = {"
 Y
 a
+n
+E
 a
 a
 a
-a
-a
-a
+n
 Y
 "}
 (7,1,1) = {"
 Y
+d
 a
 a
+o
+h
 a
-a
-a
-a
-a
+h
 Y
 "}
 (8,1,1) = {"
 Y
 a
+P
+d
+E
 a
-a
-a
-a
-a
-a
+P
+E
 Y
 "}
 (9,1,1) = {"
