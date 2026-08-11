@@ -4,7 +4,7 @@
 	// -fatness is the value a mob is being displayed and calculated as by most things. Changes to fatness are not permanent
 	// -fatness_real is the value a mob is actually at, even if it's being hidden. For permanent changes, use this one
 	// -fatness_perma is the fatness that cannot be hidden/removen via ordinary means. If you wanna fuck em up, use this
-	// PLEASE NOTE - If you add more fatness variables and you want them to show on scales, please add them to `modular_gs\code\modules\mob\living\carbon\weight_helpers.dm`!
+	// PLEASE NOTE - If you add more fatness/muscle variables and you want them to show on scales, please add them to `modular_gs\code\modules\mob\living\carbon\weight_helpers.dm`!
 
 	///What level of fatness is the parent mob currently at?
 	var/fatness = 0
@@ -14,6 +14,15 @@
 	var/fatness_perma = 0
 	/// What is the maximum amount of weight we can put on?
 	var/max_weight
+
+	/// How much total muscle mass does our mob have?
+	var/muscle = 0
+	/// How much real muscle mass does our mob have?
+	var/muscle_real = 0
+	/// How fast do we lose muscle?
+	var/muscle_gain_rate = 0.5
+	/// How fast do we gain muscle?
+	var/muscle_loss_rate = 1
 	
 	///The list of items/effects that are being added/subtracted from our real fatness
 	var/fat_hiders = list()
@@ -43,3 +52,6 @@
 	/// How many times have we bursted?
 	var/times_blueberry_bursted = 0
 	var/datum/looping_sound/blueberry_inflation/blueberry_inflate_loop
+
+	/// List of modular items applied to the mob
+	var/modular_items = list()

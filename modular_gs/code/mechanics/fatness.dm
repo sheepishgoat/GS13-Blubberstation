@@ -193,6 +193,7 @@
 
 	handle_fatness_speed_modifier()
 	handle_fatness()
+	fullness_adjustment()
 	handle_helplessness()
 	handle_modular_items()
 
