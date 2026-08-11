@@ -23,3 +23,14 @@
 /// adjusts the mob hunger - essentially just reduces fullness. Calling this is preferred to doint it manually since it adjusts for the default hunger reduction rate
 /mob/living/carbon/proc/adjust_hunger(amount)
 	fullness_adjustment -= (15 + amount)
+
+/mob/living/carbon/proc/handle_fullness_alert()
+	switch(get_fullness())
+		if(0 to FULLNESS_LEVEL_BLOATED)
+			clear_alert("fullness")
+		if(FULLNESS_LEVEL_BLOATED to FULLNESS_LEVEL_BEEG)
+			throw_alert("fullness", /atom/movable/screen/alert/gs13/bloated)
+		if(FULLNESS_LEVEL_BEEG to FULLNESS_LEVEL_NOMOREPLZ)
+			throw_alert("fullness", /atom/movable/screen/alert/gs13/stuffed)
+		if(FULLNESS_LEVEL_NOMOREPLZ to INFINITY)
+			throw_alert("fullness", /atom/movable/screen/alert/gs13/beegbelly)
