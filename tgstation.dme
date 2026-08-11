@@ -7202,6 +7202,7 @@
 #include "modular_gs\code\__DEFINES\status_effects.dm"
 #include "modular_gs\code\__HELPERS\fatness.dm"
 #include "modular_gs\code\_globalvars\powerator.dm"
+#include "modular_gs\code\_globalvars\lists\fatness.dm"
 #include "modular_gs\code\_globalvars\lists\quirks.dm"
 #include "modular_gs\code\clothing\accessory.dm"
 #include "modular_gs\code\clothing\bluespace_collar.dm"

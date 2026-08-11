@@ -11,7 +11,7 @@
 	var/check_fatness_below = FALSE
 
 /obj/machinery/door/airlock/proc/change_fatness_to_check(mob/user)
-	var/selected_fatness = choose_weight(user, "What level of fatness do you wish to block the door at?")
+	var/selected_fatness = choose_weight(user, "What level of fatness do you wish to block the door at? Cancel to input the number manually.")
 	if (selected_fatness <= 0)
 		balloon_alert(user, "weight check reset")
 		check_fatness = FALSE

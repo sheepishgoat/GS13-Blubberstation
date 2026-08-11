@@ -1,0 +1,12 @@
+GLOBAL_LIST_INIT(fatness_stage_to_BFI, list(
+	"None" = FATNESS_LEVEL_NONE,
+	"Rounded" = FATNESS_LEVEL_FAT,
+	"Fat" = FATNESS_LEVEL_FATTER,
+	"Very fat" = FATNESS_LEVEL_VERYFAT,
+	"Obese" = FATNESS_LEVEL_OBESE,
+	"Morbidly obese" = FATNESS_LEVEL_MORBIDLY_OBESE,
+	"Extremely obese" = FATNESS_LEVEL_EXTREMELY_OBESE,
+	"Barely mobile" = FATNESS_LEVEL_BARELYMOBILE,
+	"Immobile" = FATNESS_LEVEL_IMMOBILE,
+	"Fatty blob" = FATNESS_LEVEL_BLOB,
+))

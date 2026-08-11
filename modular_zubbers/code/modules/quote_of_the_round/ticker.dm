@@ -40,6 +40,6 @@
 	[pick(strings("quote_of_the_round.json", "workers"))] [pick(strings("quote_of_the_round.json", "action"))] [pick(strings("quote_of_the_round.json", "message"))] that occured during said shift:\n\
 	> *[quote_of_the_round_text]*\n \\- *[quote_of_the_round_attribution]*"
 	*/
-	return "[pick(strings("quote_of_the_round.json", "workers"))] [pick(strings("quote_of_the_round.json", "action"))] [pick(strings("quote_of_the_round.json", "message"))] that occured during said shift:\n\
+	return "[pick(strings("quote_of_the_round.json", "workers"))] [pick(strings("quote_of_the_round.json", "action"))] [pick(strings("quote_of_the_round.json", "message"))] that occured during last shift:\n\
 	> *[quote_of_the_round_text]*\n \\- *[quote_of_the_round_attribution]*"
 	// GS13 END EDIT
