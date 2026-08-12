@@ -354,6 +354,10 @@
 /// Used in try_to_activate_door
 /obj/machinery/door/proc/user_can_activate_door(mob/user)
 	PRIVATE_PROC(TRUE)
+	// GS13 EDIT - block doors based on weight
+	if (!enough_fatness(user))
+		return FALSE
+	// GS13 EDIT END
 	if(allowed(user))
 		return TRUE
 	for(var/mob/living/human_backpack in user.buckled_mobs)

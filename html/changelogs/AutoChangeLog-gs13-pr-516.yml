@@ -1,0 +1,4 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Airlocks can now refuse access based on weight. Configurable via the AI access view or right clicking with the multitool"

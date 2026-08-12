@@ -24,7 +24,7 @@ export const AiAirlock = (props) => {
   const statusBackup = dangerMap[data.power.backup] || dangerMap[0];
   const statusElectrify = dangerMap[data.shock] || dangerMap[0];
   return (
-    <Window width={500} height={390}>
+    <Window width={500} height={430}/*GS13 EDIT: needs to be higher for our options */>
       <Window.Content>
         <Section title="Power Status">
           <LabeledList>
@@ -186,6 +186,38 @@ export const AiAirlock = (props) => {
             >
               {!data.wires.timing && '[Wires have been cut!]'}
             </LabeledList.Item>
+            {/* GS13 EDIT weight scan for airlocks */}
+            <LabeledList.Item
+              label="Weight Scan"
+              color="bad"
+              buttons={
+                <Button
+                  icon={data.weight_scan ? 'power-off' : 'times'}
+                  content={data.weight_scan ? 'Enabled' : 'Disabled'}
+                  selected={data.weight_scan}
+                  disabled={!data.wires.weight_scan}
+                  onClick={() => act('weight_scan-toggle')}
+                />
+              }
+            >
+                Blocking when weight is {data.weight_scan_above_below ? "below " : "above "}{data.weight_scan_value}
+                {!data.wires.weight_scan && '[Wires have been cut!]'}
+            </LabeledList.Item>
+            <LabeledList.Item
+              label="Set weight scan"
+              color="bad"
+              buttons={
+                <Button
+                  icon="lightbulb-o"
+                  content="Set"
+                  disabled={!data.wires.weight_scan}
+                  onClick={() => act('set_weight_scan')}
+                />
+              }
+            >
+              {!data.wires.weight_scan && '[Wires have been cut!]'}
+            </LabeledList.Item>
+            {/* GS13 END EDIT*/}
             <LabeledList.Divider />
             <LabeledList.Item
               label="Door Control"

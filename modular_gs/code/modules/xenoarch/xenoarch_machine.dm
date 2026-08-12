@@ -1,7 +1,8 @@
 //GS13 Edit - GS13 xenoarch rewards here
 /obj/machinery/xenoarch/researcher/proc/gato_rewards(mob/user)
-	//var/turf/src_turf = get_turf(src)
-	var/choice = tgui_input_list(user, "Choose which reward you would like!", "Reward Choice", list("Seeds (15)"))
+	var/turf/src_turf = get_turf(src)
+	var/choice = tgui_input_list(user, "Choose which reward you would like!", "Reward Choice", list("Seeds (15)",
+																									"Book of fattening (200)"))
 	if(!choice)
 		return
 
@@ -10,6 +11,13 @@
 	switch(choice)
 		if("Seeds (15)")
 			seed_rewards(user)
+
+		if("Book of fattening (200)")
+			if(current_research < 200)
+				balloon_alert(user, "insufficient research!")
+				return
+			current_research -= 200
+			new /obj/item/book/granter/action/spell/gain(src_turf)
 
 //GS13 Edit - GS13 xenoarch seed rewards here
 /obj/machinery/xenoarch/researcher/proc/seed_rewards(mob/user)

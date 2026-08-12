@@ -34,6 +34,12 @@
 	. = ..()
 
 /datum/controller/subsystem/ticker/proc/generate_quote_of_the_round()
+	// GS13 EDIT don't do this on qotr qotr doesn't appear 100% of the time
+	/*
 	return "The shift has ended. Get ready, a new round on **[SSmap_vote.next_map_config.map_name]** starts soon! <@&[CONFIG_GET(string/game_alert_role_id)]>\n\
 	[pick(strings("quote_of_the_round.json", "workers"))] [pick(strings("quote_of_the_round.json", "action"))] [pick(strings("quote_of_the_round.json", "message"))] that occured during said shift:\n\
 	> *[quote_of_the_round_text]*\n \\- *[quote_of_the_round_attribution]*"
+	*/
+	return "[pick(strings("quote_of_the_round.json", "workers"))] [pick(strings("quote_of_the_round.json", "action"))] [pick(strings("quote_of_the_round.json", "message"))] that occured during last shift:\n\
+	> *[quote_of_the_round_text]*\n \\- *[quote_of_the_round_attribution]*"
+	// GS13 END EDIT
