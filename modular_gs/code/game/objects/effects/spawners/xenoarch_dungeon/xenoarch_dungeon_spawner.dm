@@ -1,3 +1,4 @@
+//ordinary rooms, usually just filler or a fight and snacks at most
 GLOBAL_LIST_INIT(xenoarch_dungeon_rooms, list(
 	"dungeon_room_1.dmm",
 	"dungeon_room_2.dmm",
@@ -7,13 +8,24 @@ GLOBAL_LIST_INIT(xenoarch_dungeon_rooms, list(
 	"dungeon_room_6.dmm",
 ))
 
+//rooms guaranteeing a boss spawn or a fight
 GLOBAL_LIST_INIT(xenoarch_dungeon_boss_rooms, list(
 	"dungeon_room_7.dmm",
 ))
 
+//rooms containing some valuables or loot
 GLOBAL_LIST_INIT(xenoarch_dungeon_loot_rooms, list(
 	"dungeon_room_8.dmm",
 ))
+
+//big room segments meant to connect with each other
+GLOBAL_LIST_INIT(xenoarch_dungeon_big_rooms, list(
+	"large_dungeon_room_1.dmm",
+	"large_dungeon_room_2.dmm",
+	"large_dungeon_room_3.dmm",
+	"large_dungeon_room_4.dmm",
+))
+
 
 GLOBAL_LIST_EMPTY(xenoarch_dungeon_spawns)
 
@@ -52,3 +64,11 @@ GLOBAL_LIST_EMPTY(xenoarch_dungeon_spawns)
 /obj/effect/landmark/xenoarch_dungeon_spawner/loot_room/Initialize(mapload)
 	. = ..()
 	room_list = GLOB.xenoarch_dungeon_loot_rooms
+
+/obj/effect/landmark/xenoarch_dungeon_spawner/big_room //big room segments meant to connect with each other
+	name = "Xenoarch dungeon big room spawner"
+	icon_state = "loot"
+
+/obj/effect/landmark/xenoarch_dungeon_spawner/big_room/Initialize(mapload)
+	. = ..()
+	room_list = GLOB.xenoarch_dungeon_big_rooms

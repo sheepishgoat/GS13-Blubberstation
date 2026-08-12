@@ -1,0 +1,180 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"c" = (
+/obj/effect/light_emitter/interlink,
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"g" = (
+/obj/effect/turf_decal/siding/wood,
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"h" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/bed/double,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"i" = (
+/turf/open/indestructible/chocolate{
+	icon_state = "choclit_3"
+	},
+/area/lavaland/underground/xenoarch/candyland)
+"o" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/item/clothing/neck/necklace/memento_mori/calori/sprinkled,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"u" = (
+/obj/structure/mineral_door/chocolate,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"E" = (
+/turf/closed/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"I" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"J" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"K" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"S" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"T" = (
+/mob/living/simple_animal/hostile/feed/chocolate_slime,
+/obj/effect/light_emitter/tendril,
+/turf/open/floor/wood/large,
+/area/lavaland/underground/xenoarch/candyland)
+"X" = (
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+
+(1,1,1) = {"
+X
+X
+X
+X
+X
+X
+X
+X
+X
+"}
+(2,1,1) = {"
+X
+c
+i
+i
+i
+i
+i
+c
+X
+"}
+(3,1,1) = {"
+X
+i
+E
+E
+u
+E
+E
+i
+X
+"}
+(4,1,1) = {"
+X
+i
+E
+K
+S
+I
+E
+i
+X
+"}
+(5,1,1) = {"
+X
+i
+E
+J
+T
+g
+E
+i
+X
+"}
+(6,1,1) = {"
+X
+i
+E
+b
+h
+o
+E
+i
+X
+"}
+(7,1,1) = {"
+X
+i
+E
+E
+E
+E
+E
+i
+X
+"}
+(8,1,1) = {"
+X
+c
+i
+i
+i
+i
+i
+c
+X
+"}
+(9,1,1) = {"
+X
+X
+X
+X
+X
+X
+X
+X
+X
+"}

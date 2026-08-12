@@ -1,0 +1,121 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"c" = (
+/turf/closed/indestructible/candy,
+/area/lavaland/underground/xenoarch/candyland)
+"g" = (
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"i" = (
+/turf/open/indestructible/bubblegum,
+/area/lavaland/underground/xenoarch/candyland)
+"E" = (
+/obj/effect/light_emitter/interlink,
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+"I" = (
+/obj/effect/light_emitter/interlink,
+/turf/open/candyfloor,
+/area/lavaland/underground/xenoarch/candyland)
+"X" = (
+/turf/open/indestructible/chocolate,
+/area/lavaland/underground/xenoarch/candyland)
+
+(1,1,1) = {"
+E
+X
+X
+X
+X
+X
+X
+X
+E
+"}
+(2,1,1) = {"
+X
+c
+c
+c
+i
+c
+c
+c
+X
+"}
+(3,1,1) = {"
+X
+c
+I
+i
+g
+i
+I
+c
+X
+"}
+(4,1,1) = {"
+X
+c
+i
+g
+i
+g
+i
+c
+X
+"}
+(5,1,1) = {"
+X
+i
+g
+i
+I
+i
+g
+i
+X
+"}
+(6,1,1) = {"
+X
+c
+i
+g
+i
+g
+i
+c
+X
+"}
+(7,1,1) = {"
+X
+c
+I
+i
+g
+i
+I
+c
+X
+"}
+(8,1,1) = {"
+X
+c
+c
+c
+i
+c
+c
+c
+X
+"}
+(9,1,1) = {"
+E
+X
+X
+X
+X
+X
+X
+X
+E
+"}
