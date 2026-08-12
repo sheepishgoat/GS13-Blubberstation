@@ -399,6 +399,10 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/lowerlevel)
+"anb" = (
+/obj/effect/landmark/xenoarch_dungeon_spawner/loot_room,
+/turf/open/genturf,
+/area/lavaland/underground/xenoarch/dungeon)
 "anc" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
@@ -34701,6 +34705,10 @@
 	},
 /turf/open/floor/mineral/sandstone_floor,
 /area/lavaland/underground/xenoarch/donut_factory)
+"xNf" = (
+/obj/effect/landmark/xenoarch_dungeon_spawner/boss_room,
+/turf/open/genturf,
+/area/lavaland/underground/xenoarch/dungeon)
 "xNg" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -64958,7 +64966,7 @@ hkn
 hkn
 hkn
 hkn
-dWH
+anb
 hkn
 hkn
 hkn
@@ -64970,7 +64978,7 @@ hkn
 hkn
 hkn
 hkn
-dWH
+xNf
 hkn
 hkn
 hkn
