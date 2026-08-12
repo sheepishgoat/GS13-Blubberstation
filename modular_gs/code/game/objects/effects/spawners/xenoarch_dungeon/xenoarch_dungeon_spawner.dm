@@ -1,5 +1,3 @@
-#define XENOARCH_RUIN_DIRECTORY "_maps/RandomRuins/LavaRuins/GS13/xenoarch_dungeons/"
-
 GLOBAL_LIST_INIT(xenoarch_dungeon_rooms, list(
 	"dungeon_room_1.dmm",
 	"dungeon_room_2.dmm",
@@ -54,5 +52,3 @@ GLOBAL_LIST_EMPTY(xenoarch_dungeon_spawns)
 /obj/effect/landmark/xenoarch_dungeon_spawner/loot_room/Initialize(mapload)
 	. = ..()
 	room_list = GLOB.xenoarch_dungeon_loot_rooms
-
-#undef XENOARCH_RUIN_DIRECTORY

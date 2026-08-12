@@ -1,3 +1,5 @@
+#define XENOARCH_RUIN_DIRECTORY "_maps/RandomRuins/LavaRuins/GS13/xenoarch_dungeons/"
+
 // we only want to load xenoarch when we aren't unit testing OR we are NOT on the gateway test map
 // xenoarch is much too fat to fit in memory alongside all the away missions, and as such
 // it causes the gateway test map CI to fail
@@ -22,3 +24,5 @@
 		var/turf/spawn_area = get_turf(landmark)
 		dungeon.load(spawn_area, TRUE)
 		qdel(landmark)
+
+#undef XENOARCH_RUIN_DIRECTORY
