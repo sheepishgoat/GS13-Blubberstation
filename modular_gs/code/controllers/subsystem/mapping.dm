@@ -1,3 +1,5 @@
+#define XENOARCH_RUIN_DIRECTORY "_maps/RandomRuins/LavaRuins/GS13/xenoarch_dungeons/"
+
 // we only want to load xenoarch when we aren't unit testing OR we are NOT on the gateway test map
 // xenoarch is much too fat to fit in memory alongside all the away missions, and as such
 // it causes the gateway test map CI to fail
@@ -14,3 +16,13 @@
 	log_world("Loading Xenoarch with no unit tests running.")
 	LoadGroup(FailedZs, "Lavaland_Xenoarch", "map_files/GS_Xenoarch", "Lavaland_Xenoarch.dmm", default_traits = ZTRAITS_LAVALAND_XENOARCH)
 #endif
+
+/datum/controller/subsystem/mapping/proc/setup_xenoarch_dungeon()
+	for (var/obj/effect/landmark/xenoarch_dungeon_spawner/landmark as anything in GLOB.xenoarch_dungeon_spawns)
+		var/map_file = pick(landmark.room_list)
+		var/datum/map_template/dungeon = new /datum/map_template((XENOARCH_RUIN_DIRECTORY + map_file), map_file)
+		var/turf/spawn_area = get_turf(landmark)
+		dungeon.load(spawn_area, TRUE)
+		qdel(landmark)
+
+#undef XENOARCH_RUIN_DIRECTORY

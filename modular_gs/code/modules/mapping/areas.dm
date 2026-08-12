@@ -30,11 +30,14 @@
 	icon_state = "xenogen"
 	always_unpowered = FALSE
 
+/area/lavaland/underground/xenoarch/dungeon
+	name = "Xenoarch Dungeon"
+	icon_state = "xeno_dungeon"
+
 /area/xenoarch/lavaland
 	icon = 'modular_gs/icons/turf/areas.dmi'
 	icon_state = "xenogen"
 	default_gravity = STANDARD_GRAVITY
-
 
 //xenoarch main outpost areas
 /area/xenoarch/lavaland/arch
