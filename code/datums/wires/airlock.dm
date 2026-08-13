@@ -59,8 +59,9 @@
 		WIRE_UNRESTRICTED_EXIT,
 		WIRE_ZAP1,
 		WIRE_ZAP2,
+		WIRE_WEIGHT_SCAN,	// GS13 EDIT
 	)
-	add_duds(2)
+	add_duds(1)	// GS13 EDIT - the 2 duds are LITERALLY maxing out the wire color count
 	..()
 
 /datum/wires/airlock/interact(mob/user)

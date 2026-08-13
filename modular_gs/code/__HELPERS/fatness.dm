@@ -1,37 +1,20 @@
 /// Prompts the user to select a level of weight.
-/proc/choose_weight(input_text = "Choose a weight.", mob/user)
-	var/chosen_weight = FALSE
-	var/picked_weight_class = input(user,
+/proc/choose_weight(mob/user, input_text = "Choose a weight. Cancel to input the number manually.")
+	var/picked_weight = tgui_input_list(
+		user,
 		input_text,
-		"Character Preference", "None") as null|anything in list(
-			"None", "Fat", "Fatter", "Very Fat", "Obese", "Morbidly Obese", "Extremely Obese", "Barely Mobile", "Immobile", "Other")
+		"Choose a weight.",
+		GLOB.fatness_stage_to_BFI_labeled
+	)
 
-	switch(picked_weight_class)
-		if("Fat")
-			chosen_weight = FATNESS_LEVEL_FATTER
-		if("Fatter")
-			chosen_weight = FATNESS_LEVEL_VERYFAT
-		if("Very Fat")
-			chosen_weight = FATNESS_LEVEL_OBESE
-		if("Obese")
-			chosen_weight = FATNESS_LEVEL_MORBIDLY_OBESE
-		if("Morbidly Obese")
-			chosen_weight = FATNESS_LEVEL_EXTREMELY_OBESE
-		if("Extremely Obese")
-			chosen_weight = FATNESS_LEVEL_BARELYMOBILE
-		if("Barely Mobile")
-			chosen_weight = FATNESS_LEVEL_IMMOBILE
-		if("Immobile")
-			chosen_weight = FATNESS_LEVEL_BLOB
+	if(!isnull(picked_weight))
+		return GLOB.fatness_stage_to_BFI_labeled[picked_weight]
 
-	if(picked_weight_class != "Other")
-		return chosen_weight
+	picked_weight = tgui_input_number(user, "Input the desired BFI value", "Choose a weight", max_value = INFINITY)
+	if(isnull(picked_weight))
+		picked_weight = 0
 
-	var/custom_fatness = input(user, "What fatness level (BFI) would you like to use?", "Character Preference")  as null|num
-	if(isnull(custom_fatness))
-		custom_fatness = FALSE
-
-	return custom_fatness
+	return picked_weight
 
 /// Returns the amount of fatness it would take to get to the next fatness stage
 /proc/get_weight_delta_positive(input_fatness)

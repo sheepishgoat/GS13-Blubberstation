@@ -44,3 +44,5 @@
 
 /// Weight Related Spells School
 #define SCHOOL_LIPOMANCY "fattening"
+
+#define WIRE_WEIGHT_SCAN "Weight Scan"
