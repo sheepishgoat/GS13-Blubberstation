@@ -3,18 +3,16 @@
 	var/obj/item/organ/genital/butt/butt = get_organ_slot(ORGAN_SLOT_BUTT)
 	var/obj/item/organ/genital/belly/belly = get_organ_slot(ORGAN_SLOT_BELLY)
 	var/obj/item/organ/genital/breasts/breasts = get_organ_slot(ORGAN_SLOT_BREASTS)
-	// var/obj/item/organ/genital/taur_belly/tbelly = get_organ_slot(ORGAN_SLOT_TAUR_BELLY)
+	var/obj/item/organ/taur_body/horselike/taur_belly = get_organ_slot(ORGAN_SLOT_EXTERNAL_TAUR)
 
 	if(butt)
 		butt.update_size_from_weight(size_change)
 	if(belly)
 		belly.update_size_from_weight(size_change)
-	// if(tbelly)
-	// 	if(tbelly.max_genital_size > 0)
-	// 		if((tbelly.size + size_change) <= tbelly.max_genital_size)
-	// 			tbelly.set_size(size_change)
-	// 	else
-	// 		tbelly.set_size(size_change)
+	if(breasts)
+		breasts.update_size_from_weight(size_change)
+	if (taur_belly && taur_belly.mutantpart_info[MUTANT_INDEX_NAME] == "Drake")
+		taur_belly.set_size_from_weight(size_change)
 	if(breasts)
 		breasts.update_size_from_weight(size_change)
 

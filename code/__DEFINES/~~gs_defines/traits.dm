@@ -5,7 +5,6 @@
 #define TRAIT_NO_MISC "no_misc"
 #define TRAIT_NO_BELT "no_belt"
 #define TRAIT_NO_BACKPACK "no_backpack"
-#define TRAIT_NO_BUCKLE "no_buckle"
 #define TRAIT_DOCILE "docile"
 #define TRAIT_LIVESTOCK "livestock"
 #define TRAIT_NO_FAT_SLOWDOWN "no_fat_slowdown"

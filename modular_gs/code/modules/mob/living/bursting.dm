@@ -367,7 +367,7 @@
 
 	//Return their transform back to normal with a short animation
 	SEND_SIGNAL(src, COMSIG_LIVING_BURSTING_BURST) //send signal that player burst to remove pixel shifts
-	var/matrix/original_transform = matrix(dna.current_body_size, 0, 0, 0, dna.current_body_size, 16 * dna.current_body_size - 16)
+	var/matrix/original_transform = matrix(current_size, 0, 0, 0, current_size, 16 * current_size - 16)
 	animate(src, time = 1 SECONDS, transform = original_transform * matrix(lying_angle, MATRIX_ROTATE), easing = SINE_EASING)
 
 //The smoke used for bursting
