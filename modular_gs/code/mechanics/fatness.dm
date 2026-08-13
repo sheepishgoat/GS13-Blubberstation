@@ -192,10 +192,14 @@
 	calculate_fatness()
 
 	handle_fatness_speed_modifier()
-	handle_fatness()
+	// `handle_fatness` returns the return value of `handle_fatness_trait`,
+	// which returns `TRUE` if the weight has changed and `FALSE` if it hasn't
+	// as such, we only update modular items sprites if the weight stage has changed
+	if (handle_fatness())
+		handle_modular_items()
+
 	fullness_adjustment()
 	handle_helplessness()
-	handle_modular_items()
 
 	if (handle_bursting()) //We want to skip the rest if we exploded
 		return

@@ -26,7 +26,13 @@
 	else
 		set_size(size_change + set_genital_size)
 
-/// Handles applying and removing the appropriate weight stage trait
+/**
+ * Handles applying and removing the appropriate weight stage trait
+ * 
+ * Returns TRUE if the weight stage has changed
+ * 
+ * Returne FALSE otherwise
+ */
 /mob/living/carbon/proc/handle_fatness_trait(trait, trait_lose, trait_gain, fatness_lose, fatness_gain, chat_lose, chat_gain, weight_stage)
 	if(fatness < fatness_lose)
 		if (chat_lose)
@@ -36,6 +42,7 @@
 		if (trait_lose)
 			ADD_TRAIT(src, trait_lose, OBESITY)
 		update_body_size(weight_stage - 1)
+		return TRUE
 	else if(fatness >= fatness_gain)
 		if (chat_gain)
 			to_chat(src, chat_gain)
@@ -44,6 +51,9 @@
 		if (trait_gain)
 			ADD_TRAIT(src, trait_gain, OBESITY)
 		update_body_size(weight_stage + 1)
+		return TRUE
+
+	return FALSE
 
 /// Handles applying and removing helplessness mechanics
 /mob/living/carbon/proc/handle_helplessness()
@@ -114,10 +124,10 @@
 	else
 		remove_movespeed_modifier(/datum/movespeed_modifier/fatness)
 
-/// handles preparing weight stage traits for application via `handle_fatness_trait`
+/// handles preparing weight stage traits for application via `handle_fatness_trait`. Returns the return value of `handle_fatness_trait`
 /mob/living/carbon/proc/handle_fatness()
 	if(HAS_TRAIT(src, TRAIT_BLOB))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_BLOB,
 			TRAIT_IMMOBILE,
 			null,
@@ -126,9 +136,8 @@
 			span_notice("You feel like you've regained some mobility!"),
 			null,
 			9)
-		return
 	if(HAS_TRAIT(src, TRAIT_IMMOBILE))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_IMMOBILE,
 			TRAIT_BARELYMOBILE,
 			TRAIT_BLOB,
@@ -137,9 +146,8 @@
 			span_notice("You feel less restrained by your fat!"),
 			span_danger("You feel like you've become a mountain of fat!"),
 			8)
-		return
 	if(HAS_TRAIT(src, TRAIT_BARELYMOBILE))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_BARELYMOBILE,
 			TRAIT_EXTREMELYOBESE,
 			TRAIT_IMMOBILE,
@@ -148,9 +156,8 @@
 			span_notice("You feel less restrained by your fat!"),
 			span_danger("You feel your belly smush against the floor!"),
 			7)
-		return
 	if(HAS_TRAIT(src, TRAIT_EXTREMELYOBESE))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_EXTREMELYOBESE,
 			TRAIT_MORBIDLYOBESE,
 			TRAIT_BARELYMOBILE,
@@ -159,9 +166,8 @@
 			span_notice("You feel less restrained by your fat!"),
 			span_danger("You feel like you can barely move!"),
 			6)
-		return
 	if(HAS_TRAIT(src, TRAIT_MORBIDLYOBESE))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_MORBIDLYOBESE,
 			TRAIT_OBESE,
 			TRAIT_EXTREMELYOBESE,
@@ -170,9 +176,8 @@
 			span_notice("You feel a bit less fat!"),
 			span_danger("You feel your belly rest heavily on your lap!"),
 			5)
-		return
 	if(HAS_TRAIT(src, TRAIT_OBESE))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_OBESE,
 			TRAIT_VERYFAT,
 			TRAIT_MORBIDLYOBESE,
@@ -181,9 +186,8 @@
 			span_notice("You feel like you've lost weight!"),
 			span_danger("Your thighs begin to rub against each other."),
 			4)
-		return
 	if(HAS_TRAIT(src, TRAIT_VERYFAT))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_VERYFAT,
 			TRAIT_FATTER,
 			TRAIT_OBESE,
@@ -192,9 +196,8 @@
 			span_notice("You feel like you've lost weight!"),
 			span_danger("You feel like you're starting to get really heavy."),
 			3)
-		return
 	if(HAS_TRAIT(src, TRAIT_FATTER))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_FATTER,
 			TRAIT_ROUNDED,
 			TRAIT_VERYFAT,
@@ -203,9 +206,8 @@
 			span_notice("You feel like you've lost weight!"),
 			span_danger("Your clothes creak quietly!"),
 			2)
-		return
 	if(HAS_TRAIT(src, TRAIT_ROUNDED))
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			TRAIT_ROUNDED,
 			null,
 			TRAIT_FATTER,
@@ -215,7 +217,7 @@
 			span_danger("You feel even plumper!"),
 			1)
 	else
-		handle_fatness_trait(
+		return handle_fatness_trait(
 			null,
 			null,
 			TRAIT_ROUNDED,
