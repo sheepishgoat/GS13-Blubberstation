@@ -104,6 +104,7 @@
 	always_color_customizable = TRUE
 	has_skintone_shading = TRUE
 	relevent_layers = list(BODY_FRONT_LAYER, BODY_BEHIND_LAYER)
+	genital_location = CHEST	// GS13 EDIT - so it shows when clothing is adjusted
 
 /datum/sprite_accessory/genital/belly/none
 	icon_state = "none"
