@@ -70,14 +70,16 @@
 		return
 	var/mob/living/carbon/user = user_mob
 
+	/// holder for the genitals which we have and need updating
 	var/list/genitals_list
+	/// do we even have to update our sprites?
 	var/build_modular = FALSE
 
-	//Before requesting sprites we must make sure new ones are actually needed
-	//Go through the genitals of the user to detect belly, butt and breasts (individually, not all 3 are needed)
-	//Add it to a list of found genitals to not go through all organs again
-	//Get the sprite name of the sprites needed and compare it to the ones recorded
-	//If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
+	// Before requesting sprites we must make sure new ones are actually needed
+	// Find the belly, butt and breasts of the user (individually, not all 3 are needed)
+	// Add it to a list of found genitals
+	// Get the sprite name of the sprites needed and compare it to the ones recorded
+	// If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
 	
 	var/obj/item/organ/genital/belly/belly = user_mob.get_organ_slot(ORGAN_SLOT_BELLY)
 	if (!isnull(belly))
