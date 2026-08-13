@@ -651,10 +651,10 @@ SUBSYSTEM_DEF(gamemode)
 		return
 	var/list/decoded = json_decode(file2text(json_file))
 	for(var/event_text_path in decoded)
-		//GS13 EDIT - ORIGINAL var/event_path = text2path(event_text_path)
+		var/event_path = text2path(event_text_path)
 		var/datum/round_event_control/event
 		for(var/datum/round_event_control/iterated_event as anything in control)
-			if(iterated_event.name == event_text_path) // GS13 EDIT - Original : if(iterated_event.type == event_path)
+			if(iterated_event.type == event_path)
 				event = iterated_event
 				break
 		if(!event)
@@ -758,13 +758,11 @@ SUBSYSTEM_DEF(gamemode)
 		QDEL_NULL(vote_datum)
 
 	// Notify discord about the round's selected storyteller
-	/* GS13 EDIT - this kind of doesn't work for us due to how long our votes are
 	for(var/channel_tag in CONFIG_GET(str_list/channel_announce_new_game))
 		send2chat(
 			new /datum/tgs_message_content("The storyteller selected for this round is [storyteller.name]!"),
 			channel_tag,
 		)
-	GS13 END EDIT*/
 
 /**
  * set_storyteller
