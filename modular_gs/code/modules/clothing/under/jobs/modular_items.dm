@@ -235,12 +235,14 @@
 /obj/item/clothing/under/color/grey/service
 	name = "service grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/service"
 	greyscale_colors = "#6AD427"
 	flags_1 = 0		// make it non-recolorable
 
 /obj/item/clothing/under/color/grey/medical
 	name = "medical grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/medical"
 	greyscale_colors = "#5A96BB"
 	armor_type = /datum/armor/clothing_under/rank_medical
 	flags_1 = 0		// make it non-recolorable
@@ -248,6 +250,7 @@
 /obj/item/clothing/under/color/grey/cargo
 	name = "cargo grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/cargo"
 	greyscale_colors = "#BB9042"
 	armor_type = /datum/armor/clothing_under/cargo_miner
 	flags_1 = 0		// make it non-recolorable
@@ -255,6 +258,7 @@
 /obj/item/clothing/under/color/grey/engi
 	name = "engineering grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/engi"
 	greyscale_colors = "#FF8800"
 	armor_type = /datum/armor/clothing_under/rank_engineering
 	flags_1 = 0		// make it non-recolorable
@@ -262,6 +266,7 @@
 /obj/item/clothing/under/color/grey/science
 	name = "science grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/science"
 	greyscale_colors = "#9900FF"
 	armor_type = /datum/armor/clothing_under/science
 	flags_1 = 0		// make it non-recolorable
@@ -269,13 +274,21 @@
 /obj/item/clothing/under/color/grey/security
 	name = "security grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/security"
 	greyscale_colors = "#F4080C"
 	armor_type = /datum/armor/clothing_under/rank_security
 	flags_1 = 0		// make it non-recolorable
 
+/obj/item/clothing/under/color/grey/security/blue
+	name = "blue security grey jumpsuit (Modular)"
+	desc = "\"blue security grey\". You came up with that yourself?"
+	icon_state = "/obj/item/clothing/under/color/grey/security/blue"
+	greyscale_colors = "#00386e"
+
 /obj/item/clothing/under/color/grey/command
 	name = "command grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/command"
 	greyscale_colors = "#004B8F"
 	armor_type = /datum/armor/clothing_under/rank_captain
 	flags_1 = 0		// make it non-recolorable

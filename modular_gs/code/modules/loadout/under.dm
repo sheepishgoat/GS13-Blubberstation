@@ -27,8 +27,12 @@
 	item_path = /obj/item/clothing/under/color/grey/security
 	restricted_roles = list(ALL_JOBS_SEC)
 
+/datum/loadout_item/uniform/jumpsuit/gs13/security/blue
+	name = "Blue Security Jumpsuit (Modular)"
+	item_path = /obj/item/clothing/under/color/grey/security/blue
+
 /datum/loadout_item/uniform/jumpsuit/gs13/command
-	name = "Security Jumpsuit (Modular)"
+	name = "Command Jumpsuit (Modular)"
 	item_path = /obj/item/clothing/under/color/grey/command
 	restricted_roles = list(ALL_JOBS_CENTRAL, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER, JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_QUARTERMASTER, JOB_RESEARCH_DIRECTOR)
 
