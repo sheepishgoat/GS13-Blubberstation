@@ -97,6 +97,7 @@ GLOBAL_VAR(restart_counter)
 	logger = new
 
 	// THAT'S IT, WE'RE DONE, THE. FUCKING. END.
+	log_world("Initializing master")
 	Master = new
 
 /**

@@ -98,6 +98,7 @@ GLOBAL_REAL(Master, /datum/controller/master)
 		rand_seed(random_seed)
 
 	var/list/_subsystems = list()
+	log_world("master new call 1")
 	subsystems = _subsystems
 	if (Master != src)
 		if (istype(Master)) //If there is an existing MC take over his stuff and delete it
@@ -124,6 +125,7 @@ GLOBAL_REAL(Master, /datum/controller/master)
 				else
 					_subsystems += new I
 
+	log_world("master new call 2")
 	if(!GLOB)
 		new /datum/controller/global_vars
 
