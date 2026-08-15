@@ -264,15 +264,17 @@
 
 	update_appearance(UPDATE_ICON)
 
-/datum/iv_drip_attachment/milker/New(obj/machinery/iv_drip/iv_drip, atom/attached_to)
-	. = ..()
-	beam.override_origin_pixel_x = 11
-	beam.override_origin_pixel_y = -3
+/datum/iv_drip_attachment/milker
+// /datum/iv_drip_attachment/milker/Initialize(obj/machinery/iv_drip/iv_drip, atom/attached_to)
+// 	// . = ..()
+// 	beam.override_origin_pixel_x = 11
+// 	beam.override_origin_pixel_y = -3
 
-/datum/iv_drip_attachment/feeder/New(obj/machinery/iv_drip/iv_drip, atom/attached_to)
-	. = ..()
-	beam.override_origin_pixel_x = 13
-	beam.override_origin_pixel_y = -3
+/datum/iv_drip_attachment/feeder
+// /datum/iv_drip_attachment/feeder/Initialize(obj/machinery/iv_drip/iv_drip, atom/attached_to)
+// 	// . = ..()
+// 	beam.override_origin_pixel_x = 13
+// 	beam.override_origin_pixel_y = -3
 
 #undef IV_TAKING
 #undef MIN_IV_TRANSFER_RATE

@@ -39,7 +39,7 @@
 	examine_text += span_cyan("[source] has a soulcatcher attached to it, <b>Ctrl+Shift+Click</b> to use it.")
 	examine_text += span_abductor("This object will [tf_mode_enabled ? "" : "not"] attempt to transform people. <b>Alt+Right-Click</b> to toggle this.")
 
-/datum/component/carrier/soulcatcher/attachable/transformation/New()
+/datum/component/carrier/soulcatcher/attachable/transformation/Initialize()
 	. = ..()
 	RegisterSignal(parent, COMSIG_ITEM_ATTACK, PROC_REF(try_to_capture))
 	RegisterSignal(parent, COMSIG_CLICK_ALT_SECONDARY, PROC_REF(toggle_tf))
