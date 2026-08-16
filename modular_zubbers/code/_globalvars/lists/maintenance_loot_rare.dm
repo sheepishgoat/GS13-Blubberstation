@@ -140,6 +140,7 @@ GLOBAL_LIST_INIT(rarity_loot, list(//rare: really good items - TODO: FIND THE NE
 		/obj/item/pizzabox/mushroom = 1,
 		/obj/item/pizzabox/pineapple = 1,
 		/obj/item/pizzabox/vegetable = 1,
+		/obj/item/pizzabox/random = 3 //Mothic.
 	) = 20,
 	list(
 		/obj/item/quickdeploy/barricade = 50,

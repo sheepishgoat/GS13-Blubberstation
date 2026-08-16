@@ -25,6 +25,7 @@ GLOBAL_LIST_INIT(uncommon_loot, list(//uncommon: useful items
 	/obj/item/assembly/shock_kit = 25,
 	/obj/item/autopsy_scanner = 10,
 	list(
+		/obj/item/ballistic_broken = 1,
 		/obj/item/corpsman_broken = 1,
 		/obj/item/pointman_broken = 1,
 	) = 1,
@@ -125,6 +126,7 @@ GLOBAL_LIST_INIT(uncommon_loot, list(//uncommon: useful items
 		/obj/item/storage/box/fountainpens = 50,
 		/obj/item/storage/box/gloves = 100,
 		/obj/item/storage/box/handcuffs = 1,
+		/obj/item/storage/box/hecu_rations = 100,
 		/obj/item/storage/box/hug = 100,
 		/obj/item/storage/box/hug/black = 25,
 		/obj/item/storage/box/hug/medical = 100,

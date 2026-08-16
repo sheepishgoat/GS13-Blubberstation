@@ -3,7 +3,7 @@
 	desc = "Architector tools for free!"
 	max_integrity = 99999
 	products = list(
-		// /obj/item/crowbar/freeman/ultimate = 999,
+		/obj/item/crowbar/freeman/ultimate = 999,
 		/obj/item/clothing/suit/space/hev_suit = 999,
 		/obj/item/clothing/head/helmet/space/hev_suit = 999,
 		/obj/item/gun/ballistic/automatic/pistol = 999,

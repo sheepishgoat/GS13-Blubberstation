@@ -13,8 +13,7 @@
 	faction = list(NEST_FACTION)
 	var/spawn_delay = 0
 	/// What mob to spawn
-	// var/list/monster_types = list(/mob/living/basic/blackmesa/xen/headcrab)
-	var/list/monster_types
+	var/list/monster_types = list(/mob/living/basic/blackmesa/xen/headcrab)
 	/// How many mobs can we spawn?
 	var/max_mobs = 3
 	var/spawned_mobs = 0

@@ -138,9 +138,9 @@
 	name = "Ten Cloth Sheets"
 	item_path = /obj/item/stack/sheet/cloth/ten
 
-// /datum/loadout_item/pocket_items/random_pizza
-// 	name = "Random Pizza Box"
-// 	item_path = /obj/item/pizzabox/random
+/datum/loadout_item/pocket_items/random_pizza
+	name = "Random Pizza Box"
+	item_path = /obj/item/pizzabox/random
 
 /datum/loadout_item/pocket_items/deforest_frontiermedkit
 	name = "Empty Frontier Medical Kit"
