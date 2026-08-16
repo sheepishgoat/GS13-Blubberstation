@@ -941,8 +941,8 @@
 	knockdown = 20
 	armor_flag = BIO
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/neurotoxin
-	hitsound = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
-	hitsound_wall = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
+	// hitsound = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
+	// hitsound_wall = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
 
 /obj/projectile/treader/on_hit(atom/target, blocked, pierce_hit)
 	new /obj/effect/decal/cleanable/greenglow(target.loc)

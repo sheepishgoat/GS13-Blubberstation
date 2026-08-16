@@ -205,7 +205,8 @@
 	/// Are we open(FALSE), or are we closed(TRUE)?
 	var/door_state = TRUE
 	/// The sound we play when changing states
-	var/door_sound = 'modular_skyrat/modules/black_mesa/sound/xen_door.ogg'
+	var/door_sound
+	// var/door_sound = 'modular_skyrat/modules/black_mesa/sound/xen_door.ogg'
 
 /obj/structure/fleshmind/structure/wireweed_door/Initialize(mapload)
 	. = ..()
@@ -784,5 +785,5 @@
 	damage = 30
 	damage_type = BURN
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/neurotoxin
-	hitsound = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
-	hitsound_wall = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
+	// hitsound = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
+	// hitsound_wall = 'modular_skyrat/modules/black_mesa/sound/mobs/bullsquid/splat1.ogg'
