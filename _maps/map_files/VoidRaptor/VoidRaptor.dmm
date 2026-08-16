@@ -5225,7 +5225,7 @@
 "bzu" = (
 /obj/structure/table,
 /obj/item/food/grown/wheat,
-/obj/item/food/grown/watermelon,
+/obj/item/food/grown/melonlike/watermelon,
 /obj/item/food/grown/citrus/orange,
 /obj/item/food/grown/grapes,
 /obj/item/food/grown/cocoapod,
@@ -20970,7 +20970,7 @@
 	id = "Barshutters";
 	name = "Bar Shutters"
 	},
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/large,
 /area/station/service/bar)
