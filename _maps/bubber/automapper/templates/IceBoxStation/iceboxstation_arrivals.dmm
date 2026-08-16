@@ -46,9 +46,8 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "bE" = (
-/obj/structure/sign/gato{
-	pixel_x = 32;
-	pixel_y = -1
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
@@ -667,6 +666,9 @@
 	},
 /area/station/hallway/secondary/entry)
 "Ck" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32
+	},
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 10
 	},
@@ -909,10 +911,11 @@
 /turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "Nz" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/sign/gato,
-/turf/open/floor/plating,
-/area/station/hallway/secondary/entry)
+/obj/structure/sign/nanotrasen{
+	pixel_y = 32
+	},
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "Ot" = (
 /obj/structure/fence{
 	dir = 4
@@ -1065,8 +1068,14 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "SQ" = (
-/obj/structure/billboard/gato,
-/turf/open/misc/asteroid/snow/icemoon,
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/snowed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "SS" = (
 /obj/effect/turf_decal/siding/thinplating_new{
@@ -1868,7 +1877,7 @@ Jj
 jT
 IC
 ej
-SQ
+ej
 ej
 kz
 ej
@@ -2077,7 +2086,7 @@ iy
 iy
 iy
 iy
-Nz
+IC
 IC
 IC
 IC
@@ -2123,8 +2132,8 @@ LL
 LB
 IC
 IC
+IC
 Nz
-ej
 OJ
 ej
 ej
@@ -2397,7 +2406,7 @@ iy
 iy
 iy
 iy
-Nz
+IC
 IC
 IC
 LB
@@ -2411,8 +2420,8 @@ pq
 LB
 IC
 IC
+IC
 Nz
-ej
 OJ
 OJ
 OJ
@@ -2429,7 +2438,7 @@ iy
 iy
 Tq
 iy
-Gw
+SQ
 xd
 cp
 cp

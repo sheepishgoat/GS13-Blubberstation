@@ -22,7 +22,9 @@
 "bR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/item/banner/gato,
+/obj/item/banner{
+	inspiration_available = 0
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
 "ck" = (
@@ -32,7 +34,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/item/banner/gato,
+/obj/item/banner{
+	inspiration_available = 0
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "da" = (
@@ -136,10 +140,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
-/obj/structure/sign/gato{
-	pixel_x = 0;
-	pixel_y = 31
-	},
+/obj/structure/sign/nanotrasen/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "mX" = (
@@ -164,7 +165,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/item/banner/gato,
+/obj/item/banner{
+	inspiration_available = 0
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "nI" = (
@@ -513,10 +516,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/structure/sign/gato{
-	pixel_x = -1;
-	pixel_y = -33
-	},
+/obj/structure/sign/nanotrasen/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
 "HN" = (
@@ -563,14 +563,12 @@
 "KV" = (
 /obj/machinery/vending/boozeomat,
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
-/obj/structure/sign/flag/gato{
-	pixel_x = -32;
-	pixel_y = 0
-	},
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/nt_rep)
 "Ll" = (
-/obj/item/banner/gato,
+/obj/item/banner{
+	inspiration_available = 0
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
 "Lv" = (

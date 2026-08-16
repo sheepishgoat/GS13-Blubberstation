@@ -798,13 +798,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate)
-"Tr" = (
-/obj/machinery/porta_turret/syndicate/energy/heavy{
-	faction = list("pirate","Syndicate");
-	max_integrity = 10000
-	},
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/pirate)
 "Ur" = (
 /obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
 	dir = 8
@@ -963,7 +956,7 @@ aj
 aj
 aa
 aj
-Tr
+aO
 "}
 (8,1,1) = {"
 vz
@@ -1035,7 +1028,7 @@ aj
 aj
 DD
 aj
-Tr
+aO
 "}
 (12,1,1) = {"
 af

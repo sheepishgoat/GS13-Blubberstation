@@ -180,7 +180,7 @@
 /area/station/service/barber)
 "x" = (
 /obj/structure/hedge,
-/obj/structure/sign/poster/gato/loveian/directional/north,
+/obj/structure/sign/poster/official/love_ian/directional/north,
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1

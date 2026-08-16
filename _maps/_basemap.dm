@@ -5,7 +5,11 @@
 #define LOWMEMORYMODE
 #endif
 
+#ifndef ABSOLUTE_MINIMUM
 #include "map_files\generic\CentCom.dmm"
+#else
+#include "map_files\generic\CentCom_minimal.dmm"
+#endif
 
 #ifndef LOWMEMORYMODE
 	#ifdef ALL_MAPS
@@ -29,9 +33,6 @@
 		#include "map_files\BoxStation\BoxStation.dmm"
 		#include "map_files\Ouroboros\Ouroboros.dmm"
 		// BUBBER EDIT ADDITION END
-		//GS13 EDIT
-		#include "map_files\GS_Xenoarch\Lavaland_Xenoarch.dmm"
-		//GS13 EDIT END
 	#endif
 	#ifdef ALL_TEMPLATES
 		#include "templates.dm"

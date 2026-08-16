@@ -45,6 +45,10 @@
 "gV" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/asteroid)
+"hs" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/grass,
+/area/station/asteroid)
 "hz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/event_spawn,
@@ -320,7 +324,7 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Medical Maintenance Access"
 	},
-/obj/effect/mapping_helpers/airlock/unres,
+/obj/effect/mapping_helpers/airlock/unres/delayed,
 /obj/effect/mapping_helpers/airlock/access/any/medical/morgue,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /obj/modular_map_connector,
@@ -393,6 +397,9 @@
 "Yq" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
+/area/station/asteroid)
+"YV" = (
+/turf/closed/wall,
 /area/station/asteroid)
 "Zs" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1268,8 +1275,8 @@ XJ
 XJ
 fd
 rJ
-jx
-jx
+hs
+YV
 nm
 nm
 gV

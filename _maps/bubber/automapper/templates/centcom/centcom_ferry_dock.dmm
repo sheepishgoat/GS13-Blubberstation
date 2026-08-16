@@ -144,8 +144,13 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/ferry)
 "md" = (
-/obj/effect/decal/big_gato,
-/turf/open/floor/iron,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/sign/directions/engineering{
+	desc = "A sign that shows there are doors here. There are doors everywhere!";
+	icon_state = "doors";
+	name = "WARNING: BLAST DOORS"
+	},
+/turf/open/floor/plating,
 /area/centcom/central_command_areas/ferry)
 "mj" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -187,6 +192,20 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/ferry)
+"oW" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/centcom{
+	name = "CentCom Security"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/all/admin/general,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/ferry)
 "pT" = (
@@ -573,8 +592,8 @@ fv
 lv
 sB
 Ia
-iE
-iE
+pT
+MC
 "}
 (9,1,1) = {"
 pT
@@ -586,8 +605,8 @@ iE
 iq
 uQ
 uQ
-mj
-Yy
+ff
+pT
 iE
 "}
 (10,1,1) = {"
@@ -600,8 +619,8 @@ iE
 iq
 uQ
 uQ
-uQ
-ff
+mj
+Yy
 iE
 "}
 (11,1,1) = {"
@@ -613,10 +632,10 @@ zr
 iE
 iq
 uQ
-md
 uQ
-ff
-By
+uQ
+bO
+iE
 "}
 (12,1,1) = {"
 pT
@@ -630,7 +649,7 @@ uQ
 uQ
 uQ
 ff
-iE
+By
 "}
 (13,1,1) = {"
 iE
@@ -654,9 +673,9 @@ SP
 iE
 iE
 iE
-iE
-iE
-iE
+oW
+md
+oW
 iE
 Hv
 "}
