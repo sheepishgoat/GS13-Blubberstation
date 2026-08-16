@@ -65,6 +65,7 @@ GLOBAL_VAR(restart_counter)
 /world/proc/Genesis(tracy_initialized = FALSE)
 	RETURN_TYPE(/datum/controller/master)
 
+	SEND_TEXT(world.log, "TEST")
 	if(!tracy_initialized)
 		Tracy = new
 #ifdef USE_BYOND_TRACY
