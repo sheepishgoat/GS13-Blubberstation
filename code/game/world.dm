@@ -65,6 +65,7 @@ GLOBAL_VAR(restart_counter)
 /world/proc/Genesis(tracy_initialized = FALSE)
 	RETURN_TYPE(/datum/controller/master)
 
+	SEND_TEXT(world.log, "Initializing Tracy")
 	if(!tracy_initialized)
 		Tracy = new
 #ifdef USE_BYOND_TRACY
@@ -84,15 +85,19 @@ GLOBAL_VAR(restart_counter)
 			return
 #endif
 
+	SEND_TEXT(world.log, "Initializing profiling")
 	Profile(PROFILE_RESTART)
 	Profile(PROFILE_RESTART, type = "sendmaps")
 
+	SEND_TEXT(world.log, "Initializing log data")
 	// Write everything to this log file until we get to SetupLogs() later
 	_initialize_log_files("data/logs/config_error.[GUID()].log")
 
 	// Init the debugger first so we can debug Master
+	SEND_TEXT(world.log, "Initializing debugger")
 	Debugger = new
 
+	SEND_TEXT(world.log, "Initializing logger")
 	// Create the logger
 	logger = new
 
