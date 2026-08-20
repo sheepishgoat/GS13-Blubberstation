@@ -106,6 +106,7 @@
 	desc = "A pre-built GATO mobility exoskeleton, designed to support high weights, favor movement and weight loss."
 	theme = /datum/mod_theme/exoskeleton
 	applied_cell = /obj/item/stock_parts/power_store/cell/high
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*10, /datum/material/glass = SHEET_MATERIAL_AMOUNT*5, /datum/material/plasma = SHEET_MATERIAL_AMOUNT*2.5)
 
 /obj/item/mod/control/pre_equipped/exoskeleton/locked
 	name = "MOD control unit (locked)"

@@ -167,6 +167,9 @@
 
 	SEND_SIGNAL(src, COMSIG_IV_ATTACH, target)
 
+/obj/machinery/iv_drip/gs13/on_deconstruction(disassembled)
+	return
+
 /obj/machinery/iv_drip/gs13/plumbing_feeder
 	name = "automated feeder"
 	desc = "A streamlined pluming machine whose sole function is to take all chemicals inside the connected ducts and feed them to whoever is attached to the other end."
@@ -201,6 +204,11 @@
 		return
 
 	if(drip_reagents.total_volume)
+		var/mob/living/carbon/carbon = attached_to
+		if (istype(carbon))
+			var/obj/item/organ/stomach/stomach = carbon.get_organ_slot(ORGAN_SLOT_STOMACH)
+			if (istype(stomach))
+				attached_to = stomach
 		drip_reagents.trans_to(attached_to, transfer_rate * seconds_per_tick, methods = INJECT, show_message = FALSE) //make reagents reacts, but don't spam messages
 		update_appearance(UPDATE_ICON)
 
@@ -247,7 +255,7 @@
 
 	var/atom/movable/target = use_internal_storage ? src : reagent_container
 	var/mob/living/attached_mob = attached_to
-	attached_mob.reagents.trans_to(target, amount)
+	// attached_mob.reagents.trans_to(target, amount)	// idk why we ever took stuff from the bloodstream
 
 	var/obj/item/organ/genital/breasts/breasts = attached_mob.get_organ_slot(ORGAN_SLOT_BREASTS)
 	if(breasts && breasts.is_exposed() && breasts.lactates)

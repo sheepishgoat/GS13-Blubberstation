@@ -6118,7 +6118,7 @@
 /area/station/service/chapel/office)
 "che" = (
 /obj/effect/spawner/random/structure/table,
-/obj/item/food/grown/watermelon,
+/obj/item/food/grown/melonlike/watermelon,
 /turf/open/floor/iron/kitchen,
 /area/station/maintenance/aft)
 "chi" = (
@@ -37358,7 +37358,7 @@
 /turf/open/floor/wood,
 /area/station/security/courtroom)
 "mYl" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /obj/structure/railing{
 	dir = 4
 	},
@@ -62085,7 +62085,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
 "vtH" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /turf/open/floor/iron/checker,
 /area/station/service/bar/backroom)
 "vtP" = (

@@ -38,7 +38,7 @@
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn
-
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 3)
 
 /obj/item/clothing/neck/human_petcollar/locked/calorite
 	name = "locked calorite collar"

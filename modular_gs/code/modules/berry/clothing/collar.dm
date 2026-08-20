@@ -9,6 +9,7 @@
 	greyscale_config_inhand_right = /datum/greyscale_config/collar/gps/righthand
 	greyscale_colors = "#0B2A8F#0A0F1D"
 	resistance_flags = FIRE_PROOF | UNACIDABLE // It's made for containing walking biohazards, of course it's 100% acid proof.
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/calorite = SHEET_MATERIAL_AMOUNT *0.5, /datum/material/bluespace = SHEET_MATERIAL_AMOUNT * 0.25)
 	/// The default signaller code of the toy
 	var/code = 2
 	/// The default frequency of the toy

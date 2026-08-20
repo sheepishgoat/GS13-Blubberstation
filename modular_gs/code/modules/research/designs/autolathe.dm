@@ -10,7 +10,7 @@
 	name = "Small Gulp Cup"
 	id = "Small_Gulp"
 	build_type = AUTOLATHE
-	materials = list(/datum/material/plastic=200)
+	materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.2)
 	build_path = /obj/item/reagent_containers/cup/paper_cup/small
 	category = list("initial","Dinnerware")
 
@@ -18,15 +18,15 @@
 	name = "Medium Gulp Cup"
 	id = "Medium_Gulp"
 	build_type = AUTOLATHE
-	materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.3)
+	materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.4)
 	build_path = /obj/item/reagent_containers/cup/paper_cup/medium
 	category = list("initial","Dinnerware")
 
-/datum/design/small_cup
+/datum/design/big_cup
 	name = "Big Gulp Cup"
 	id = "Big_Gulp"
 	build_type = AUTOLATHE
-	materials = list(/datum/material/plastic = HALF_SHEET_MATERIAL_AMOUNT)
+	materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.6)
 	build_path = /obj/item/reagent_containers/cup/paper_cup/big
 	category = list("initial","Dinnerware")
 
@@ -34,7 +34,7 @@
 	name = "Extra Big Gulp Cup"
 	id = "Extra_Big_Gulp"
 	build_type = AUTOLATHE
-	materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.6)
+	materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.8)
 	build_path = /obj/item/reagent_containers/cup/paper_cup/extra_big
 	category = list("initial","Dinnerware")
 

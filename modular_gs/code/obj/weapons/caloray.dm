@@ -9,6 +9,11 @@
 	desc = "A miniaturised and perfected combination of the adipoelectric generator and transformer, this device allows the user to convert energy into fat, and vice versa, at range."
 	icon = 'modular_gs/icons/obj/weapons/caloray.dmi'
 	icon_state = "caloray"
+	custom_materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4,
+		/datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.8
+		)
 
 	var/mode = MODE_FATTEN
 	var/beam_color = "#eb6e00"

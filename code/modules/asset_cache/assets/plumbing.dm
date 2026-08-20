@@ -35,6 +35,7 @@
 			"synthesizer_booze",
 			"tap_output",
 		),
+		'modular_gs/icons/obj/plumping.dmi' = list("feed", "milk"),	// GS13 EDIT: makes our icons work in the plumbing device
 	)
 
 	for(var/icon_file in essentials)

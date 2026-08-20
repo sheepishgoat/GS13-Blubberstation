@@ -7,7 +7,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	throw_speed = 2
 	throw_range = 3
-	custom_materials = list(/datum/material/iron=10)
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT / 10)
 	pressure_resistance = 2
 	var/reps = 0
 	var/using = FALSE
@@ -115,7 +115,7 @@
 	name = "Treadmill Board"
 	id = "treadmill"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
-	materials = list(/datum/material/glass = SHEET_MATERIAL_AMOUNT)
+	materials = list(/datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT)
 	build_path = /obj/item/circuitboard/machine/treadmill
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SERVICE
 	category = list(
@@ -127,7 +127,7 @@
 	name = "Dumbbell"
 	id = "dumbbell"
 	build_type = AUTOLATHE
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT / 10)
 	build_path = /obj/item/dumbbell
 	category = list("initial", "Tools")
 /*

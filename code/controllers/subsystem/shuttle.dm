@@ -473,7 +473,7 @@ SUBSYSTEM_DEF(shuttle)
 	if(isnull(emergency) || emergency.mode != SHUTTLE_CALL)
 		return FALSE
 
-	var/is_admin = !!user.client?.holder
+	var/is_admin = !!user?.client?.holder	// GS13 EDIT: for some reason this fails for us but not for bubber. Had to add a second null check for the client
 	if(is_admin)
 		return admin_recall(user)
 

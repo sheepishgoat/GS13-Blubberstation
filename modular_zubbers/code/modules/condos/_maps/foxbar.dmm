@@ -304,7 +304,7 @@
 /turf/open/floor/wood/large,
 /area/misc/condo)
 "xo" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /obj/machinery/light/small/dim/directional/west,
 /turf/open/floor/wood/large,
 /area/misc/condo)

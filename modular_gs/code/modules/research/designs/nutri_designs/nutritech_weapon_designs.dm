@@ -2,7 +2,7 @@
 	name = "Basic Fatoray"
 	id = "fatoray_weak"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 40, /datum/material/glass = 30, /datum/material/calorite = 50)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.3, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.5)
 	construction_time = 75
 	build_path = /obj/item/gun/energy/fatoray/weak
 	category = list(
@@ -14,7 +14,7 @@
 	name = "Basic Cannonshot Fatoray"
 	id = "fatoray_cannon_weak"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 50, /datum/material/glass = 40, /datum/material/calorite = 100)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT)
 	construction_time = 200
 	build_path = /obj/item/gun/energy/fatoray/cannon_weak
 	category = list(
@@ -26,7 +26,7 @@
 	name = "AL-T-Ray: Metabolism"
 	id = "alter_ray_metabolism"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 50, /datum/material/glass = 40, /datum/material/calorite = 130)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 1.3)
 	construction_time = 200
 	build_path = /obj/item/gun/energy/laser/alter_ray/gainrate
 	category = list(
@@ -39,7 +39,7 @@
 	name = "AL-T-Ray: Reverser"
 	id = "alter_ray_reverser"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 50, /datum/material/glass = 40, /datum/material/calorite = 130)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 1.3)
 	construction_time = 200
 	build_path = /obj/item/gun/energy/laser/alter_ray/noloss
 	category = list(
@@ -81,7 +81,11 @@
 	name = "Caloray"
 	id = "caloray"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 50, /datum/material/glass = 40, /datum/material/calorite = 80)
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4,
+		/datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.8
+		)
 	construction_time = 200
 	build_path = /obj/item/gun/medbeam/caloray
 	category = list(

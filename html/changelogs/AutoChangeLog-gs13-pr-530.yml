@@ -1,0 +1,5 @@
+author: "Icepick200"
+delete-after: True
+changes:
+  - rscadd: "Added a set of ears and tail named \"Alien Slug\"."
+  - bugfix: "fixed the mootant (larger) ears from being offset from the base head."

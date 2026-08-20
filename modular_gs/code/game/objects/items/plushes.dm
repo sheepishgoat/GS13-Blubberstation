@@ -1,3 +1,8 @@
+/obj/item/toy/plush/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
+	if(attempt_to_feed(tool, user))
+		return
+	
+	return ..()
 
 /obj/item/toy/plush/gs13
 	name = "gs13 plush"

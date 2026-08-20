@@ -10,7 +10,7 @@
 	name = "Chunky Twin Buns"
 	icon_state = "hair_twinbun_chunky"
 
-/datum/sprite_accessory/hair/twinbun_chunky
+/datum/sprite_accessory/hair/twinbun_chunky_quad
 	icon = 'modular_gs/icons/customization/hair.dmi'
 	name = "Chunky Quad Buns"
 	icon_state = "hair_quadbun_chunky"

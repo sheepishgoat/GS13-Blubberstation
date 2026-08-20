@@ -546,7 +546,7 @@
 /* GS13 EDIT
 // these are bugged for now, and can only be fixed by BYOND fixing their shit.
 // as such, I am disabling them because FUCK THE FLOATIES ON THE CE'S WINTERCOAT
-/obj/item/clothing/suit/hooded/wintercoat/engineering/worn_overlays(mutable_appearance/standing, isinhands, icon_file)
+/obj/item/clothing/suit/hooded/wintercoat/engineering/worn_overlays(mutable_appearance/standing, isinhands, icon_file, bodyshape = NONE)
 	. = ..()
 	if(!isinhands)
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha, effect_type = EMISSIVE_SPECULAR)
@@ -562,7 +562,7 @@ GS13 END EDIT */
 /* GS13 EDIT
 // these are bugged for now, and can only be fixed by BYOND fixing their shit.
 // as such, I am disabling them because FUCK THE FLOATIES ON THE CE'S WINTERCOAT
-/obj/item/clothing/head/hooded/winterhood/engineering/worn_overlays(mutable_appearance/standing, isinhands, icon_file)
+/obj/item/clothing/head/hooded/winterhood/engineering/worn_overlays(mutable_appearance/standing, isinhands, icon_file, bodyshape = NONE)
 	. = ..()
 	if(!isinhands)
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha, effect_type = EMISSIVE_SPECULAR)
@@ -765,7 +765,7 @@ GS13 END EDIT */
 	hood_down_overlay_suffix = ""
 	hood_up_affix = "_t"
 
-/obj/item/clothing/suit/hooded/wintercoat/zipup/worn_overlays(mutable_appearance/standing, isinhands, icon_file)
+/obj/item/clothing/suit/hooded/wintercoat/zipup/worn_overlays(mutable_appearance/standing, isinhands, icon_file, bodyshape = NONE)
 	. = ..()
 	if(isinhands || (hood && hood.loc != src))
 		return

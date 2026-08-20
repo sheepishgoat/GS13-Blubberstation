@@ -4,7 +4,7 @@
 
 /obj/item/organ/genital/breasts/build_from_dna(datum/dna/DNA, associated_key)
 	. = ..()
-	var/breasts_capacity = 0
+	var/breasts_capacity = 1	// GS13 EDIT makes breasts produce reagents immediately
 	var/size = 0.5
 	if(DNA.features["breasts_size"] > 0)
 		size = DNA.features["breasts_size"]

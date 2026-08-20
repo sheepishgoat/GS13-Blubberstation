@@ -83,7 +83,6 @@
 	affected_carbon.adjust_hunger(1)
 	// affected_carbon.nutrition = max(0, affected_carbon.nutrition-1)
 	if(addiction_mults < 1)
-		// affected_carbon.nutri_mult += 0.5 commenting out since I can't be bothered for now
 		affected_carbon.add_weight_gain_modifier("galbanic", 0.25)
 		addiction_mults = 1
 
@@ -95,7 +94,6 @@
 	affected_carbon.adjust_hunger(2)
 	// affected_carbon.nutrition = max(0, affected_carbon.nutrition-2)
 	if(addiction_mults < 2)
-		// affected_carbon.nutri_mult += 0.5
 		affected_carbon.add_weight_gain_modifier("galbanic", 0.25)
 		addiction_mults = 2
 
@@ -107,14 +105,12 @@
 	affected_carbon.adjust_hunger(4)
 	// affected_carbon.nutrition = max(0, affected_carbon.nutrition-4)
 	if(addiction_mults < 4)
-		// affected_carbon.nutri_mult += 0.5
 		affected_carbon.add_weight_gain_modifier("galbanic", 0.25)
 		addiction_mults = 4
 
 /datum/addiction/fermi_fat/end_withdrawal(mob/living/carbon/carbon)
 	. = ..()
 	if(addiction_mults > 0)
-		// C.nutri_mult = max(1, 0.5 * addiction_mults)
 		carbon.set_weight_gain_modifier("galbanic", 0.25 * addiction_mults)
 
 

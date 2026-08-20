@@ -175,7 +175,6 @@ SUBSYSTEM_DEF(gamemode)
 
 	return SS_INIT_SUCCESS
 
-
 /datum/controller/subsystem/gamemode/fire(resumed = FALSE)
 	if(!resumed)
 		src.currentrun = running.Copy()
@@ -253,7 +252,6 @@ SUBSYSTEM_DEF(gamemode)
 	list/restricted_roles,
 	list/restricted_species,
 	)
-
 
 	var/list/candidates = list()
 	var/list/candidate_candidates = list() //lol
@@ -461,10 +459,7 @@ SUBSYSTEM_DEF(gamemode)
 /datum/controller/subsystem/gamemode/proc/resetFrequency()
 	event_frequency_multiplier = 1
 
-/* /client/proc/forceEvent()
-	set name = "Trigger Event"
-	set category = "Admin.Events"
-
+/* ADMIN_VERB(forceEvent, R_FUN, "Trigger Event", "Triggers an event of your choosing.", ADMIN_CATEGORY_EVENTS)
 	if(!holder ||!check_rights(R_FUN))
 		return
 
@@ -472,7 +467,6 @@ SUBSYSTEM_DEF(gamemode)
 
 /* /datum/admins/forceEvent(mob/user)
 	SSgamemode.event_panel(user) */
-
 
 //////////////
 // HOLIDAYS //
@@ -492,7 +486,6 @@ SUBSYSTEM_DEF(gamemode)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //ALSO, MOST IMPORTANTLY: Don't add stupid stuff! Discuss bonus content with Project-Heads first please!//
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 //sets up the holidays and holidays list
 /datum/controller/subsystem/gamemode/proc/getHoliday()
@@ -566,7 +559,6 @@ SUBSYSTEM_DEF(gamemode)
 	pop_data_cached = FALSE // Uncache it because we'd still wrongly consider it cached from lobby pops
 	return TRUE
 
-
 ///Handles late-join antag assignments
 /datum/controller/subsystem/gamemode/proc/make_antag_chance(mob/living/carbon/human/character)
 	return
@@ -595,7 +587,6 @@ SUBSYSTEM_DEF(gamemode)
 
 		if(L.ckey && !GLOB.directory[L.ckey])
 			msg += "<b>[L.name]</b> ([L.key]), the [L.job] (<font color='#ffcc00'><b>Disconnected</b></font>)\n"
-
 
 		if(L.ckey && L.client)
 			var/failed = FALSE
@@ -630,7 +621,6 @@ SUBSYSTEM_DEF(gamemode)
 						msg += "<b>[L.name]</b> ([ckey(D.mind.key)]), the [L.job] ([span_boldannounce("Ghosted")])\n"
 						continue //Ghosted while alive
 
-
 	for (var/C in GLOB.admins)
 		to_chat(C, msg.Join())
 
@@ -651,7 +641,7 @@ SUBSYSTEM_DEF(gamemode)
 		return
 	var/list/decoded = json_decode(file2text(json_file))
 	for(var/event_text_path in decoded)
-		//GS13 EDIT - ORIGINAL var/event_path = text2path(event_text_path)
+		// var/event_path = text2path(event_text_path)	// GS13 EDIT removal to not have to edit all configs
 		var/datum/round_event_control/event
 		for(var/datum/round_event_control/iterated_event as anything in control)
 			if(iterated_event.name == event_text_path) // GS13 EDIT - Original : if(iterated_event.type == event_path)
@@ -758,13 +748,11 @@ SUBSYSTEM_DEF(gamemode)
 		QDEL_NULL(vote_datum)
 
 	// Notify discord about the round's selected storyteller
-	/* GS13 EDIT - this kind of doesn't work for us due to how long our votes are
 	for(var/channel_tag in CONFIG_GET(str_list/channel_announce_new_game))
 		send2chat(
 			new /datum/tgs_message_content("The storyteller selected for this round is [storyteller.name]!"),
 			channel_tag,
 		)
-	GS13 END EDIT*/
 
 /**
  * set_storyteller
@@ -793,7 +781,6 @@ SUBSYSTEM_DEF(gamemode)
  *
  * Used to halt/unhalt and properly log storyteller
  */
-
 /datum/controller/subsystem/gamemode/proc/halt_storyteller(mob/user)
 	storyteller_halted = !storyteller_halted
 	if(isnull(user))

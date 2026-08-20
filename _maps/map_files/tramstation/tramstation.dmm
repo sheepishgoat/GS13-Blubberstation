@@ -1922,7 +1922,7 @@
 /area/station/commons/vacant_room)
 "agH" = (
 /obj/machinery/power/apc/auto_name/directional/west,
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)

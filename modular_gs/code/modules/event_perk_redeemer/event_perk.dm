@@ -210,11 +210,7 @@ GLOBAL_DATUM(event_perk_tgui_holder, /datum/event_perk)
 		else 
 			message_admins("Error loading event perk from file: '[file_path]'. Inform coders. And provide them with plenty of info.")
 
-/mob/living/verb/redeem_event_perk()
-	set category = "OOC"
-	set name = "Redeem event perk"
-	set desc = "Redeem an event perk for an event you participated in."
-
+GAME_VERB_DESC(/mob/living, redeem_event_perk, "Redeem event perk", "Redeem an event perk for an event you participated in.", "OOC")
 	GLOB.event_perk_tgui_holder.ui_interact(src)
 
 // -----------------------ADMIN SHIT--------------------------------

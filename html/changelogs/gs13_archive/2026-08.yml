@@ -1,0 +1,37 @@
+2026-08-15:
+  GraremKosziriji:
+  - code_imp: Gave limb alpha pref more control over player's alpha
+  Icepick200:
+  - rscadd: Ported 6 hairstyles from nova.
+  - bugfix: fixed the Chunky Twin Buns hairstyle not appearing.
+  Newbie-n-Stupid:
+  - rscadd: Gain Spell- a spell that makes the victim gain weight, linked to a book
+      that can be obtained through lavaland chests and xenoarcheology rewards.
+  Swan:
+  - rscadd: Adds drake (and only drake) bellies changing with weight
+  - rscadd: Airlocks can now refuse access based on weight. Configurable via the AI
+      access view or right clicking with the multitool
+  - rscadd: Chairs can now break when someone gains weight while buckled to them,
+      instead of only on buckling to them
+  - bugfix: fixes bellies not showing when the outfits are worn casually
+  - bugfix: fixes grey modular clothing not being colored in the loadout menu. Also
+      fixes one wrongly named modular jumpsuit.
+  - code_imp: Adds signals which are emitted whenever the players weight changes
+  evilew:
+  - rscadd: 'duke donator plush: available in loadouts and in toy vendor'
+2026-08-19:
+  Swan:
+  - code_imp: updates to the newest version of bubber
+2026-08-20:
+  Swan:
+  - rscadd: Enables the handheld weight analyzer - basically a scale which you can
+      hold and use in your hands.
+  - rscadd: The plumbing feeder and milker will no longer put/take reagents from the
+      bloodstream
+  - bugfix: fixes the plumbing feeder and milker not having sprites in the plumbing
+      constructor
+  - bugfix: fixes the plumbing feeder and milker droping iron when collected with
+      the plumbing constructor
+  - bugfix: fixes the weighing scale sometimes not tracking the weight of its occupant
+      correctly. The "last reading" will now also update in real time as weight changes.
+  - bugfix: fixes breasts sometimes not producing reagents after spawning

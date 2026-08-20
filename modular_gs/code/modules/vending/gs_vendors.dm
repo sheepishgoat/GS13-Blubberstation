@@ -127,6 +127,7 @@
 				/obj/item/reagent_containers/cup/beaker/flatulose = 99,
 				/obj/item/seeds/lipoplant = 99,
 				/obj/item/food/grown/lipofruit = 99,
+				/obj/item/portable_weight_scanner = 99,
 				)
 
 	refill_canister = /obj/item/vending_refill/fattywank
@@ -153,7 +154,8 @@
 				/obj/item/reagent_containers/cup/beaker/lipoifier = 2,
 				/obj/item/reagent_containers/cup/beaker/micro_calorite = 1,
 				/obj/item/dnainjector/fatfang = 2,
-				/obj/item/pen/calorite/syndicate = 4
+				/obj/item/pen/calorite/syndicate = 4,
+				/obj/item/portable_weight_scanner = 3,
 				)
 
 /obj/item/vending_refill/fattywank

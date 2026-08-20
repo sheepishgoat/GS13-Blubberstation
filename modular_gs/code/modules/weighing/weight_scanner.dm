@@ -1,12 +1,16 @@
 /obj/item/portable_weight_scanner
 	name = "weight analyzer"
+	desc = "A hand-held body scanner capable of distinguishing the exact composition of someone's body mass."
 	icon = 'modular_gs/icons/obj/items/devices.dmi' //Sprites made by @greeenwoman
 	icon_state = "weight-analyzer"
 	inhand_icon_state = "healthanalyzer"
 	worn_icon_state = "healthanalyzer"
 	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
-	desc = "A hand-held body scanner capable of distinguishing the exact composition of someone's body mass."
+	custom_materials = list(
+		/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5,
+		/datum/material/glass = SMALL_MATERIAL_AMOUNT * 0.5
+		)
 	var/datum/component/weigh_out/weight_component
 
 /obj/item/portable_weight_scanner/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)

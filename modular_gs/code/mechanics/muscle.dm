@@ -1,15 +1,3 @@
-/mob/living/carbon
-	// PLEASE NOTE - If you add more muscle variables and you want them to show on scales, please add them to `modular_gs\code\modules\mob\living\carbon\weight_helpers.dm`!
-	/// How much total muscle mass does our mob have?
-	var/muscle = 0
-	/// How much real muscle mass does our mob have?
-	var/muscle_real = 0
-	/// How fast do we lose muscle?
-	var/muscle_gain_rate = 0.5
-	/// How fast do we gain muscle?
-	var/muscle_loss_rate = 1
-
-
 /// Adjusts the muscle mass of the parent mob.
 /mob/living/carbon/proc/adjust_muscle(amount, ignore_rate = FALSE)
 	if(!client?.prefs?.read_preference(/datum/preference/toggle/muscle_gain))

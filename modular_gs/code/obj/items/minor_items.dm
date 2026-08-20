@@ -223,7 +223,7 @@
 	name = "Small Gulp Cup"
 	desc = "A paper cup. It can hold up to 50 units. It's not very strong."
 	icon_state = "small"
-	custom_materials = list(/datum/material/plastic=200)
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.2)
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/cup/paper_cup/medium
@@ -231,7 +231,7 @@
 	desc = "It's a paper cup, but you wouldn't call it 'medium' though. It can hold up to 75 units. It's not very strong."
 	icon_state = "medium"
 	volume = 75
-	custom_materials = list(/datum/material/plastic=300)
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.4)
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/reagent_containers/cup/paper_cup/big
@@ -239,7 +239,7 @@
 	desc = "A huge paper cup, a normal person would struggle to drink it all in one sitting. It can hold up to 120 units. It's not very strong."
 	icon_state = "big"
 	volume = 120
-	custom_materials = list(/datum/material/plastic=500)
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.6)
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/reagent_containers/cup/paper_cup/extra_big
@@ -247,7 +247,7 @@
 	desc = "A comically large paper cup. It can hold up to 160 units. It's not very strong."
 	icon_state = "extra_big"
 	volume = 160
-	custom_materials = list(/datum/material/plastic=600)
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 0.8)
 	w_class = WEIGHT_CLASS_BULKY
 
 /obj/item/reagent_containers/cup/paper_cup/super_extra_big
@@ -255,7 +255,7 @@
 	desc = "Its called a paper 'cup', but it looks more like an oversized bucket to you. It can hold up to 250 units. It's not very strong."
 	icon_state = "super_extra_big"
 	volume = 250
-	custom_materials = list(/datum/material/plastic=1000)
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT)
 	w_class = WEIGHT_CLASS_HUGE
 
 

@@ -12,10 +12,6 @@
 //Many functions of the system can be customized by overloading the various procs
 //If you know what you are doing then I encoourage you to tweak your item to work better for the idea you had in mind
 
-/mob/living/carbon
-	var/modular_items = list()
-
-
 // Called by handle_fatness, this is called periodically to tell all items to check for sprites and, if needed, build new ones
 /mob/living/carbon/proc/handle_modular_items()
 	for(var/obj/item/item in modular_items)
@@ -74,35 +70,42 @@
 		return
 	var/mob/living/carbon/user = user_mob
 
+	/// holder for the genitals which we have and need updating
 	var/list/genitals_list
+	/// do we even have to update our sprites?
 	var/build_modular = FALSE
 
-	//Before requesting sprites we must make sure new ones are actually needed
-	//Go through the genitals of the user to detect belly, butt and breasts (individually, not all 3 are needed)
-	//Add it to a list of found genitals to not go through all organs again
-	//Get the sprite name of the sprites needed and compare it to the ones recorded
-	//If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
-	var/obj/item/organ/organ
-	for(organ in user.organs)
-		if(istype(organ, /obj/item/organ/genital/belly))
-			genitals_list += list(organ)
-			var/belly = get_modular_belly(organ)
-			if(belly != mod_belly_rec)
-				mod_belly_rec = belly
-				build_modular = TRUE
-		if(istype(organ, /obj/item/organ/genital/butt))
-			genitals_list += list(organ)
-			var/butt = get_modular_butt(organ)
-			if(butt != mod_butt_rec)
-				mod_butt_rec = butt
-				build_modular = TRUE
-		if(istype(organ, /obj/item/organ/genital/breasts))
-			genitals_list += list(organ)
-			var/breasts = get_modular_breasts(organ)
-			if(breasts != mod_breasts_rec)
-				mod_breasts_rec = breasts
-				build_modular = TRUE
-	if(!build_modular)	//Stop early if no new sprites are needed UPDATE: unless we force it
+	// Before requesting sprites we must make sure new ones are actually needed
+	// Find the belly, butt and breasts of the user (individually, not all 3 are needed)
+	// Add it to a list of found genitals
+	// Get the sprite name of the sprites needed and compare it to the ones recorded
+	// If they are different, record the sprites and build_modular to TRUE to signal that new sprites are needed
+	
+	var/obj/item/organ/genital/belly/belly = user_mob.get_organ_slot(ORGAN_SLOT_BELLY)
+	if (!isnull(belly))
+		genitals_list += list(belly)
+		var/modular_belly = get_modular_belly(belly)
+		if (modular_belly != mod_belly_rec)
+			mod_belly_rec = modular_belly
+			build_modular = TRUE
+	
+	var/obj/item/organ/genital/butt/butt = user_mob.get_organ_slot(ORGAN_SLOT_BUTT)
+	if (!isnull(butt))
+		genitals_list += list(butt)
+		var/modular_butt = get_modular_butt(butt)
+		if (modular_butt != mod_butt_rec)
+			mod_butt_rec = modular_butt
+			build_modular = TRUE
+
+	var/obj/item/organ/genital/breasts/breasts = user_mob.get_organ_slot(ORGAN_SLOT_BREASTS)
+	if (!isnull(breasts))
+		genitals_list += list(breasts)
+		var/modular_tits = get_modular_breasts(breasts)
+		if (modular_tits != mod_breasts_rec)
+			mod_breasts_rec = modular_tits
+			build_modular = TRUE
+
+	if(!build_modular)	//Stop early if no new sprites are needed
 		return
 	delete_modular_overlays(user)	//Delete the old sprites
 
@@ -117,9 +120,11 @@
 		if(istype(genital, /obj/item/organ/genital/belly))
 			add_modular_overlay(user, mod_belly_rec, MODULAR_BELLY_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
 			add_modular_overlay(user, "[mod_belly_rec]_SOUTH", BELLY_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
+			continue
 		if(istype(genital, /obj/item/organ/genital/butt))
 			add_modular_overlay(user, mod_butt_rec, MODULAR_BUTT_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
 			add_modular_overlay(user, "[mod_butt_rec]_NORTH", BUTT_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
+			continue
 		if(istype(genital, /obj/item/organ/genital/breasts))
 			add_modular_overlay(user, mod_breasts_rec, MODULAR_BREASTS_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
 			add_modular_overlay(user, "[mod_breasts_rec]_NORTH", BREASTS_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
@@ -230,12 +235,14 @@
 /obj/item/clothing/under/color/grey/service
 	name = "service grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/service"
 	greyscale_colors = "#6AD427"
 	flags_1 = 0		// make it non-recolorable
 
 /obj/item/clothing/under/color/grey/medical
 	name = "medical grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/medical"
 	greyscale_colors = "#5A96BB"
 	armor_type = /datum/armor/clothing_under/rank_medical
 	flags_1 = 0		// make it non-recolorable
@@ -243,6 +250,7 @@
 /obj/item/clothing/under/color/grey/cargo
 	name = "cargo grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/cargo"
 	greyscale_colors = "#BB9042"
 	armor_type = /datum/armor/clothing_under/cargo_miner
 	flags_1 = 0		// make it non-recolorable
@@ -250,6 +258,7 @@
 /obj/item/clothing/under/color/grey/engi
 	name = "engineering grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/engi"
 	greyscale_colors = "#FF8800"
 	armor_type = /datum/armor/clothing_under/rank_engineering
 	flags_1 = 0		// make it non-recolorable
@@ -257,6 +266,7 @@
 /obj/item/clothing/under/color/grey/science
 	name = "science grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/science"
 	greyscale_colors = "#9900FF"
 	armor_type = /datum/armor/clothing_under/science
 	flags_1 = 0		// make it non-recolorable
@@ -264,13 +274,21 @@
 /obj/item/clothing/under/color/grey/security
 	name = "security grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/security"
 	greyscale_colors = "#F4080C"
 	armor_type = /datum/armor/clothing_under/rank_security
 	flags_1 = 0		// make it non-recolorable
 
+/obj/item/clothing/under/color/grey/security/blue
+	name = "blue security grey jumpsuit (Modular)"
+	desc = "\"blue security grey\". You came up with that yourself?"
+	icon_state = "/obj/item/clothing/under/color/grey/security/blue"
+	greyscale_colors = "#00386e"
+
 /obj/item/clothing/under/color/grey/command
 	name = "command grey jumpsuit (Modular)"
 	desc = "Grey only in name"
+	icon_state = "/obj/item/clothing/under/color/grey/command"
 	greyscale_colors = "#004B8F"
 	armor_type = /datum/armor/clothing_under/rank_captain
 	flags_1 = 0		// make it non-recolorable

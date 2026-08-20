@@ -11,6 +11,7 @@
 	charge_delay = 5
 	ammo_x_offset = 2
 	clumsy_check = 1
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 1.3)
 
 /obj/item/gun/energy/laser/alter_ray/gainrate
 	name = "AL-T-Ray: Metabolism"

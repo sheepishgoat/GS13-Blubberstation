@@ -120,3 +120,27 @@
   - balance: Sec officers no longer get forced into a department with another officer
       when an empty department is available, making the dept preference system make
       sense.
+2026-08-12:
+  CentralSmith:
+  - bugfix: Mr. Fluff now recognises his owner and responds to pet commands.
+  Odairu:
+  - rscadd: a station trait that allows heads of staff to be antags
+2026-08-15:
+  LT3:
+  - bugfix: Neurectomy and blessed neurectomy trauma surgeries can now be selected
+  - bugfix: Fixed dorms not being protected from radiation storms. Yes, that's what
+      we said last time but this time it's real.
+  Odairu:
+  - bugfix: latejoin AIs claim charging borgs
+  Robwo:
+  - bugfix: Teshari can now get properly bloody and bruised.
+  ibexgoetia:
+  - bugfix: The Blueshield's Fax on Void Raptor no has the same ID as the Bridge's.
+  xPokee:
+  - rscdel: Removed the loose limbs quirk (the component it used was removed by /tg/).
+  - balance: Borg part and some ammo material costs reverted to TG base
+2026-08-18:
+  Odairu:
+  - bugfix: implanted items are no longer valid heirloom targets for non-random heirlooms
+  thegrb93:
+  - bugfix: Fix digitigrade leg augments

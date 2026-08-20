@@ -79,6 +79,7 @@
 	icon_state = "fatoray_weak"
 	pin = /obj/item/firing_pin
 	ammo_type = list(/obj/item/ammo_casing/energy/fattening/weak)
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.3, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.5)
 
 /obj/item/ammo_casing/energy/fattening/weak
 	name = "budget fattening weapon lens"
@@ -108,6 +109,7 @@
 	// charge_sections = 3
 	weapon_weight = WEAPON_HEAVY
 	ammo_type = list(/obj/item/ammo_casing/energy/fattening/cannon_weak)
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT)
 
 /obj/item/ammo_casing/energy/fattening/cannon_weak
 	name = "one-shot fattening weapon lens"

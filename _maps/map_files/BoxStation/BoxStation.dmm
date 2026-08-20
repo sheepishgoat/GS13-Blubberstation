@@ -8609,7 +8609,7 @@
 	c_tag = "Bar Storage"
 	},
 /obj/structure/sink/kitchen/directional/south,
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /obj/structure/mirror/directional/north,
 /turf/open/floor/wood,
 /area/station/service/bar)
@@ -62269,7 +62269,7 @@
 /area/station/service/hydroponics)
 "oac" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /turf/open/floor/wood,
 /area/station/maintenance/abandon_cafeteria)
 "oaK" = (
@@ -79159,10 +79159,10 @@
 /obj/item/food/grown/cocoapod,
 /obj/item/food/grown/grapes,
 /obj/item/food/grown/citrus/orange,
-/obj/item/food/grown/watermelon,
-/obj/item/food/grown/watermelon,
+/obj/item/food/grown/melonlike/watermelon,
+/obj/item/food/grown/melonlike/watermelon,
 /obj/item/food/grown/wheat,
-/obj/item/food/grown/watermelon,
+/obj/item/food/grown/melonlike/watermelon,
 /obj/item/food/grown/citrus/lime,
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4

@@ -12,10 +12,10 @@
 	)
 
 /datum/gas_reaction/lipoifium_formation/react(datum/gas_mixture/air, datum/holder)
-	var/list/cached_gases = air.gases
-	var/list/plasma = cached_gases[/datum/gas/plasma]
-	var/list/tritium = cached_gases[/datum/gas/tritium]
-	if (plasma[MOLES] < MINIMUM_MOLE_COUNT || tritium[MOLES] < MINIMUM_MOLE_COUNT)
+	var/list/cached_moles = air.moles
+	var/plasma_moles = cached_moles[/datum/gas/plasma]
+	var/tritium_moles = cached_moles[/datum/gas/tritium]
+	if (plasma_moles < MINIMUM_MOLE_COUNT || tritium_moles < MINIMUM_MOLE_COUNT)
 		return NO_REACTION
 
 	var/temperature = air.temperature
@@ -27,16 +27,14 @@
 	else
 		reaction_efficiency = -((temperature - 5) / 95) + 1		// will equal 1 at 5 kelvin, and will linearly fall until 0 at 100k
 
-
 	var/old_heat_capacity = air.heat_capacity()
 
-	var/used_moles = min((reaction_efficiency * min(plasma[MOLES], tritium[MOLES]) * 0.5), 10)
+	var/used_moles = min((reaction_efficiency * min(plasma_moles, tritium_moles) * 0.5), 10)
 	var/energy_released = used_moles * FIRE_CARBON_ENERGY_RELEASED
 
-	ASSERT_GAS(/datum/gas/lipoifium, air)
-	cached_gases[/datum/gas/lipoifium][MOLES] += used_moles
-	cached_gases[/datum/gas/plasma][MOLES] -= used_moles
-	cached_gases[/datum/gas/tritium][MOLES] -= used_moles
+	cached_moles[/datum/gas/lipoifium] += used_moles
+	cached_moles[/datum/gas/plasma] -= used_moles
+	cached_moles[/datum/gas/tritium] -= used_moles
 	var/new_heat_capacity = air.heat_capacity()
 	if(new_heat_capacity > MINIMUM_HEAT_CAPACITY)
 		air.temperature = (max((temperature * old_heat_capacity + energy_released) / new_heat_capacity, TCMB))
@@ -57,10 +55,10 @@
 	)
 
 /datum/gas_reaction/galbanium_formation/react(datum/gas_mixture/air, datum/holder)
-	var/list/cached_gases = air.gases
-	var/list/lipoifium = cached_gases[/datum/gas/lipoifium]
-	var/list/bz = cached_gases[/datum/gas/bz]
-	if (lipoifium[MOLES] < MINIMUM_MOLE_COUNT || bz[MOLES] < MINIMUM_MOLE_COUNT)
+	var/list/cached_moles = air.moles
+	var/lipoifium_moles = cached_moles[/datum/gas/lipoifium]
+	var/bz_moles = cached_moles[/datum/gas/bz]
+	if (lipoifium_moles < MINIMUM_MOLE_COUNT || bz_moles < MINIMUM_MOLE_COUNT)
 		return NO_REACTION
 
 	var/temperature = air.temperature
@@ -72,16 +70,14 @@
 	else
 		reaction_efficiency = (temperature / 5000) - 1
 
-
 	var/old_heat_capacity = air.heat_capacity()
 
-	var/used_moles = min((reaction_efficiency * min(lipoifium[MOLES], bz[MOLES]) * 0.5), 10)
+	var/used_moles = min((reaction_efficiency * min(lipoifium_moles, bz_moles) * 0.5), 10)
 	var/consumed = used_moles * FIRE_CARBON_ENERGY_RELEASED / 2
 
-	ASSERT_GAS(/datum/gas/galbanium, air)
-	cached_gases[/datum/gas/galbanium][MOLES] += used_moles
-	cached_gases[/datum/gas/lipoifium][MOLES] -= used_moles
-	cached_gases[/datum/gas/bz][MOLES] -= used_moles
+	cached_moles[/datum/gas/galbanium] += used_moles
+	cached_moles[/datum/gas/lipoifium] -= used_moles
+	cached_moles[/datum/gas/bz] -= used_moles
 	var/new_heat_capacity = air.heat_capacity()
 	if(new_heat_capacity > MINIMUM_HEAT_CAPACITY)
 		air.temperature = (max((temperature * old_heat_capacity - consumed) / new_heat_capacity, TCMB))

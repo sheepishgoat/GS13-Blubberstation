@@ -19566,7 +19566,7 @@
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "nzh" = (
-/obj/structure/reagent_dispensers/beerkeg,
+/obj/structure/reagent_dispensers/keg/beer,
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/lowerlevel)
 "nzF" = (

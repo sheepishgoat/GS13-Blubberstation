@@ -14,6 +14,7 @@ GLOBAL_LIST_INIT(stomach_expanding_sounds, list(
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 1.25, /datum/material/bluespace = SHEET_MATERIAL_AMOUNT * 0.125)
 
 /obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_receiver/Initialize(mapload)
 	. = ..()
@@ -73,6 +74,7 @@ GLOBAL_LIST_INIT(stomach_expanding_sounds, list(
 	post_init_icon_state = "calorite_collar"
 	greyscale_config = /datum/greyscale_config/calorite_collar
 	greyscale_config_worn = /datum/greyscale_config/calorite_collar/worn
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/bluespace = SHEET_MATERIAL_AMOUNT * 0.25)
 
 /obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_transmitter/Initialize(mapload)
 	. = ..()

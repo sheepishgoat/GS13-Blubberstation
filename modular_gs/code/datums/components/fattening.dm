@@ -96,10 +96,10 @@
  */
 /datum/component/fattening/proc/touch(atom/parent, mob/user)
 	SIGNAL_HANDLER
-	if (!iscarbon(user))
+	if (!ishuman(user))
 		return FALSE
 
-	var/mob/living/carbon/fatty = user
+	var/mob/living/carbon/human/fatty = user
 	// if we have gloves on, don't fatten. Unless we can fatten through items, then fuckem
 	if (!isnull(fatty.gloves) && !item_touch)
 		return FALSE

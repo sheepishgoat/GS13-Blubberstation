@@ -12,6 +12,7 @@
 	idle_power_cost = 5
 	var/amount = -2
 	var/modifier_name = "hydraulic_mod"
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*2.5, /datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/mod/module/hydraulic_movement/locked
 	name = "MOD hydraulic movement assistance module (locked)"
@@ -75,6 +76,7 @@
 	complexity = 1
 	incompatible_modules = list(/obj/item/mod/module/calovoltaic)
 	var/rate = 10
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5, /datum/material/plasma = SHEET_MATERIAL_AMOUNT * 2.5)
 
 /obj/item/mod/module/calovoltaic/locked
 	name = "MOD calovoltaic generator module (locked)"

@@ -26,6 +26,7 @@
 
 	calculate_fatness()
 
+	SEND_SIGNAL(src, COMSIG_FATNESS_REAL_CHANGED, fatness_real)
 	return adjustment_amount
 
 /**
@@ -54,6 +55,9 @@
 	if(max_weight && !HAS_TRAIT(src, TRAIT_UNIVERSAL_GAINER))
 		fatness_perma = min(fatness_perma, (max_weight - 1))
 
+	calculate_fatness()
+
+	SEND_SIGNAL(src, COMSIG_FATNESS_PERMA_CHANGED, fatness_perma)
 	return adjustment_amount
 
 /**
@@ -181,6 +185,86 @@
 	hiders_apply()
 	perma_apply()
 	xwg_resize()
+	SEND_SIGNAL(src, COMSIG_FATNESS_CHANGED, fatness)
+
+/// Handles weight gain from digesting food/stomach contents
+/mob/living/carbon/proc/handle_weight_gain()
+	calculate_fatness()
+
+	handle_fatness_speed_modifier()
+	// `handle_fatness` returns the return value of `handle_fatness_trait`,
+	// which returns `TRUE` if the weight has changed and `FALSE` if it hasn't
+	// as such, we only update modular items sprites if the weight stage has changed
+	if (handle_fatness())
+		handle_modular_items()
+
+	fullness_adjustment()
+	handle_helplessness()
+
+	if (handle_bursting()) //We want to skip the rest if we exploded
+		return
+
+	switch(fatness)
+		if(FATNESS_LEVEL_BLOB to INFINITY)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/blob)
+
+		if(FATNESS_LEVEL_IMMOBILE to FATNESS_LEVEL_BLOB)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/immobile)
+
+		if(FATNESS_LEVEL_BARELYMOBILE to FATNESS_LEVEL_IMMOBILE)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/barelymobile)
+
+		if(FATNESS_LEVEL_EXTREMELY_OBESE to FATNESS_LEVEL_BARELYMOBILE)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/extremelyobese)
+
+		if(FATNESS_LEVEL_MORBIDLY_OBESE to FATNESS_LEVEL_EXTREMELY_OBESE)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/morbidlyobese)
+
+		if(FATNESS_LEVEL_OBESE to FATNESS_LEVEL_MORBIDLY_OBESE)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/obese)
+
+		if(FATNESS_LEVEL_VERYFAT to FATNESS_LEVEL_OBESE)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/veryfat)
+
+		if(FATNESS_LEVEL_FATTER to FATNESS_LEVEL_VERYFAT)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/fatter)
+
+		if(FATNESS_LEVEL_FAT to FATNESS_LEVEL_FATTER)
+			throw_alert("fatness", /atom/movable/screen/alert/gs13/fat)
+
+		if(0 to FATNESS_LEVEL_FAT)
+			clear_alert("fatness")
+
+	switch(muscle)
+		if(FATNESS_LEVEL_BLOB to INFINITY)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/mountainous)
+
+		if(FATNESS_LEVEL_IMMOBILE to FATNESS_LEVEL_BLOB)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/titanic)
+
+		if(FATNESS_LEVEL_BARELYMOBILE to FATNESS_LEVEL_IMMOBILE)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/hulking)
+
+		if(FATNESS_LEVEL_EXTREMELY_OBESE to FATNESS_LEVEL_BARELYMOBILE)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/herculean)
+
+		if(FATNESS_LEVEL_MORBIDLY_OBESE to FATNESS_LEVEL_EXTREMELY_OBESE)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/beefy)
+
+		if(FATNESS_LEVEL_OBESE to FATNESS_LEVEL_MORBIDLY_OBESE)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/muscular)
+
+		if(FATNESS_LEVEL_VERYFAT to FATNESS_LEVEL_OBESE)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/athletic)
+
+		if(FATNESS_LEVEL_FATTER to FATNESS_LEVEL_VERYFAT)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/sporty)
+
+		if(FATNESS_LEVEL_FAT to FATNESS_LEVEL_FATTER)
+			throw_alert("muscle", /atom/movable/screen/alert/gs13/toned)
+
+		if(0 to FATNESS_LEVEL_FAT)
+			clear_alert("muscle")
 
 /proc/get_fatness_level_name(fatness_amount)
 	if(fatness_amount < FATNESS_LEVEL_FAT)

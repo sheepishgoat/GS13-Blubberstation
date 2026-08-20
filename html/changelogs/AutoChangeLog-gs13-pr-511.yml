@@ -1,4 +1,0 @@
-author: "Swan"
-delete-after: True
-changes:
-  - rscadd: "Adds drake (and only drake) bellies changing with weight"
