@@ -1,1 +1,3 @@
 #define COLOR_THEME_GATO "#ff79ff"
+#define COLOR_THEME_GATO_DARK_PINK "#ee2cb4"
+#define COLOR_THEME_GATO_DARK "#1a1a20"
