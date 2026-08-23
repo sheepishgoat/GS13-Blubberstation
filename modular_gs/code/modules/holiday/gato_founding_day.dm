@@ -20,11 +20,11 @@
 	return "Happy GATO founding day! Today we celebrate the birthday of GATO corporation, the benevolent benefactor of GS13!"
 
 /datum/holiday/gato/get_station_prefix()
-	if prob(1)
+	if (prob(1))
 		return "Belchalicious"
 	return pick("Kitty", "Pink", "Meow Meow", "Corporate")
 
 /datum/holiday/gato/get_station_name()
-	if prob(1)
+	if (prob(1))
 		return "Buffet"
 	return pick("Cat", "Gatito")
