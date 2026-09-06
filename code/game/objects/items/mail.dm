@@ -92,7 +92,7 @@
 
 	if(postmarked == TRUE)
 		var/image/postmark_image = image(
-			icon = icon,
+			icon = 'modular_gs/icons/obj/service/bureaucracy.dmi',	// GS13 EDIT: original: icon = icon
 			icon_state = "postmark"
 		)
 		postmark_image.pixel_w = stamp_offset_x + rand(-3, 1)

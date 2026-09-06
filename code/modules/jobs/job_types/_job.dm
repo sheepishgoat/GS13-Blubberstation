@@ -725,6 +725,10 @@
 	if(!icon_state || icon_state == SECHUD_UNKNOWN)
 		CRASH("[src.type] has no job icon state.")
 
+	// GS13 EDIT - centcom GATO HUD
+	if (icon_state == SECHUD_CENTCOM)
+		return icon('modular_gs/icons/mob/huds/hud.dmi', SECHUD_CENTCOM)
+	// GS13 END EDIT
 	return icon('icons/mob/huds/hud.dmi', icon_state)
 
 /datum/job/proc/display_order_with_department()
