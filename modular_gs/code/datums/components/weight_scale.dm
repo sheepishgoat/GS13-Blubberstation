@@ -57,10 +57,14 @@
 			message += span_notice("[last_reading]Lbs.")
 		if (FATNESS_LEVEL_OBESE to FATNESS_LEVEL_EXTREMELY_OBESE)
 			message += span_alert("[last_reading]Lbs!")
-		if (FATNESS_LEVEL_EXTREMELY_OBESE to FATNESS_LEVEL_IMMOBILE)
+		if (FATNESS_LEVEL_EXTREMELY_OBESE to FATNESS_LEVEL_BLOB)
 			message += span_bolddanger("[last_reading]Lbs!")
-		if (FATNESS_LEVEL_IMMOBILE to INFINITY)
-			message += span_userdanger(span_big("[round(last_reading/2000, 0.01)]TONS!!!"))
+		if (FATNESS_LEVEL_BLOB to INFINITY)
+			var/tons = round(last_reading/2000, 0.01)
+			if (tons < 0.5)
+				message += span_userdanger(span_big("[last_reading]Lbs!!!"))
+			else
+				message += span_userdanger(span_big("[round(last_reading/2000, 0.01)]TONS!!!"))
 	
 	return message
 

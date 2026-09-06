@@ -33,8 +33,8 @@
 	active_owner = null
 	to_chat(stored_owner, span_userdanger("You feel your weight rapidly returning to you!"))
 	stored_owner.hider_remove(src)
-	stored_owner.adjust_fatness(stored_owner.fatness_real + 3500, FATTENING_TYPE_MAGIC, TRUE)
-	stored_owner.adjust_perma(stored_owner.fatness_perma + 3500, FATTENING_TYPE_MAGIC, TRUE)
+	stored_owner.adjust_fatness(FATNESS_LEVEL_OBESE, FATTENING_TYPE_MAGIC, TRUE)
+	stored_owner.adjust_perma(FATNESS_LEVEL_OBESE, FATTENING_TYPE_MAGIC, TRUE)
 
 /obj/item/clothing/neck/necklace/memento_mori/calori/proc/fat_hide(mob/living/carbon/user)
 	var/amount_to_hide = user.fatness_real + user.fatness_perma

@@ -1,5 +1,8 @@
 /obj/item/organ/lungs/Initialize(mapload)
 	. = ..()
+	add_gas_reaction(/datum/gas/lipoifium, while_present = PROC_REF(consume_lipoifium))
+	add_gas_reaction(/datum/gas/galbanium, while_present = PROC_REF(consume_galbanium))
+	add_gas_reaction(/datum/gas/water_vapor, while_present = PROC_REF(consume_water_vapor))
 	if(!safe_nitro_min)
 		add_gas_reaction(/datum/gas/nitrogen, while_present = PROC_REF(consume_nitrogen))
 

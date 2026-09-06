@@ -7357,6 +7357,7 @@
 #include "modular_gs\code\datums\components\fattening_door.dm"
 #include "modular_gs\code\datums\components\weight_scale.dm"
 #include "modular_gs\code\datums\debuffs\burpslurring.dm"
+#include "modular_gs\code\datums\diseases\advance\presets.dm"
 #include "modular_gs\code\datums\diseases\advance\symptoms\berry.dm"
 #include "modular_gs\code\datums\diseases\advance\symptoms\weight_gain.dm"
 #include "modular_gs\code\datums\helplessness\helplessness.dm"

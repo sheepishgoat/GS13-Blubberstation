@@ -197,9 +197,9 @@
 			to_chat(human, span_notice("You no longer feel vigorous."))
 		human.metabolism_efficiency = 1
 
-	//Gs13 EDIT START
-	handle_gaining_weight(human, nutrition)
-	//GS13 EDIT END
+	// GS13 EDIT START
+	handle_gaining_weight(human, nutrition, seconds_per_tick)
+	// GS13 EDIT END
 
 	//Hunger slowdown for if mood isn't enabled
 	if(CONFIG_GET(flag/disable_human_mood))

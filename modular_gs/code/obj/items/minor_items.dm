@@ -58,6 +58,16 @@
 	name = "macerinic compound beaker"
 	list_reagents = list(/datum/reagent/fermi_slim = 50)
 
+/obj/item/reagent_containers/cup/bottle/weight_gain_virus
+	name = "Weight gain virus culture bottle"
+	desc = "A small bottle. Contains WG culture virus in synthblood medium."
+	spawned_disease = /datum/disease/advance/weight_gain
+
+/obj/item/reagent_containers/cup/bottle/berry_virus
+	name = "Berry virus culture bottle"
+	desc = "A small bottle. Contains berry culture virus in synthblood medium."
+	spawned_disease = /datum/disease/advance/berry
+
 /*
 //evil fucking donut
 
@@ -267,7 +277,7 @@
 	icon = 'modular_gs/icons/obj/weapons/fat_weapons.dmi'
 	icon_state = "calorite_whip"
 	damtype = FAT
-	force = 40
+	force = 25
 
 /obj/item/melee/curator_whip/permafattening
 	name = "Galbanic Whip"
@@ -275,7 +285,7 @@
 	icon = 'modular_gs/icons/obj/weapons/fat_weapons.dmi'
 	icon_state = "galbanic_whip"
 	damtype = PERMA_FAT
-	force = 30
+	force = 25
 
 /obj/item/gavelhammer/fattening
 	name = "Calorite Hammer"
@@ -285,8 +295,8 @@
 	// righthand_file = 'modular_gs/icons/mob/inhands/melee_righthand_64.dmi'
 	icon_state = "calorite_hammer"
 	damtype = FAT
-	throwforce = 40
-	force = 60
+	throwforce = 25
+	force = 30
 
 /obj/item/gavelhammer/permafattening
 	name = "Galbanic Hammer"
@@ -294,8 +304,8 @@
 	icon = 'modular_gs/icons/obj/weapons/fat_weapons.dmi'
 	icon_state = "galbanic_hammer"
 	damtype = PERMA_FAT
-	throwforce = 10
-	force = 20
+	throwforce = 25
+	force = 30
 
 
 //i'm ngl these don't work :/ (putting in the sprites just in case)

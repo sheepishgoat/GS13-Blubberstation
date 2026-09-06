@@ -34,23 +34,18 @@
 	///How much fat is added to the target mob?
 	fat_added = 200
 
-
-
 ////// Fatoray - cannon variant, strong but can be charged
 
 /obj/item/gun/energy/fatoray/cannon
 	name = "Fatoray Cannon"
-	desc = "An energy gun that fattens up anyone it hits. This version functions as a glass cannon of some sorts. It cannot be recharged."
-	icon = 'modular_gs/icons/obj/weapons/fatoray.dmi'
+	desc = "An energy gun that fattens up anyone it hits. This version functions as a glass cannon of some sorts."
 	icon_state = "fatoray_cannon"
 	recoil = 3
-	can_charge = 1
+	can_charge = TRUE
 	slowdown = 1
 	pin = /obj/item/firing_pin
-	// charge_sections = 3
 	weapon_weight = WEAPON_HEAVY
 	ammo_type = list(/obj/item/ammo_casing/energy/fattening/cannon)
-
 
 /obj/item/ammo_casing/energy/fattening/cannon
 	name = "one-shot fattening weapon lens"
@@ -63,9 +58,7 @@
 	icon = 'modular_gs/icons/obj/weapons/fatoray.dmi'
 	icon_state = "cannon_ray"
 	///How much fat is added to the target mob?
-	fat_added = 1200
-
-
+	fat_added = 800
 
 ////////////////////////////////////////////////////////////////////
 ////////FATORAYS THAT CAN BE MADE BY LATHES OR RESEARCHED///////////
@@ -75,9 +68,7 @@
 /obj/item/gun/energy/fatoray/weak
 	name = "Basic Fatoray"
 	desc = "An energy gun that fattens up anyone it hits. This version is considerably weaker than its original counterpart, the technology behind it seemingly still not  perfected."
-	icon = 'modular_gs/icons/obj/weapons/fatoray.dmi'
 	icon_state = "fatoray_weak"
-	pin = /obj/item/firing_pin
 	ammo_type = list(/obj/item/ammo_casing/energy/fattening/weak)
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.3, /datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.5)
 
@@ -97,24 +88,16 @@
 ///////////////////////////////////////////////////
 
 ///Single shot glass cannon fatoray
-/obj/item/gun/energy/fatoray/cannon_weak
+/obj/item/gun/energy/fatoray/cannon/weak
 	name = "Basic Fatoray Cannon"
-	desc = "An energy gun that fattens up anyone it hits. This version functions as a glass cannon of some sorts. It cannot be recharged."
-	icon = 'modular_gs/icons/obj/weapons/fatoray.dmi'
 	icon_state = "fatoray_cannon_weak"
-	can_charge = 0
-	recoil = 3
-	slowdown = 1
-	pin = /obj/item/firing_pin
-	// charge_sections = 3
-	weapon_weight = WEAPON_HEAVY
 	ammo_type = list(/obj/item/ammo_casing/energy/fattening/cannon_weak)
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT)
 
 /obj/item/ammo_casing/energy/fattening/cannon_weak
 	name = "one-shot fattening weapon lens"
 	select_name = "fatten"
-	e_cost = 2500
+	e_cost = 1600
 	projectile_type = /obj/projectile/beam/fattening/cannon_weak
 
 /obj/projectile/beam/fattening/cannon_weak
@@ -122,7 +105,7 @@
 	icon = 'modular_gs/icons/obj/weapons/fatoray.dmi'
 	icon_state = "cannon_ray"
 	///How much fat is added to the target mob?
-	fat_added = 600
+	fat_added = 400
 
 ///////////////////////////////////////
 //////PROJECTILE MECHANICS/////////////

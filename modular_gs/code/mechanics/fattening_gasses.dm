@@ -1,24 +1,12 @@
-/obj/item/organ/lungs/Initialize(mapload)
-	. = ..()
-	add_gas_reaction(/datum/gas/lipoifium, while_present = PROC_REF(consume_lipoifium))
-	add_gas_reaction(/datum/gas/galbanium, while_present = PROC_REF(consume_galbanium))
-
 /obj/item/organ/lungs/proc/consume_lipoifium(mob/living/carbon/breather, datum/gas_mixture/breath, lipoifium_pp, old_lipoifium_pp)
-	var/total_moles = breath.total_moles()
 	var/lipoifium_moles = breathe_gas_volume(breath, /datum/gas/lipoifium)
-	var/lipoifium_ratio = lipoifium_moles / total_moles
 
 	if (lipoifium_pp < 0.1)	// less than 0.1 KPa of lipo
 		return
 
-	var/fatness_to_add = lipoifium_moles * 1500	// each mole gives 1500 BFI. Now, you may think that that's A METRIC FUCKTON, but in reality, because lungs by default are 0.5 liters, at 20C 101.325 kPa that's just 0.02 moles
-	if (lipoifium_ratio > 0.75 && lipoifium_pp > 16)	// if more than 75% of the air we breathe is lipo and we breathe at least 16 kPa of it
-		if (lipoifium_ratio >= 0.96)	// if this is an internal and you're not suffocating them, means you're using pluox. Here, have a buff.
-			fatness_to_add *= 1.5
-		else
-			fatness_to_add *= 1.1	// because fat you, that's why
+	var/fatness_to_add = lipoifium_moles * 750	// each mole gives 750 BFI. Now, you may think that that's A METRIC FUCKTON, but in reality, because lungs by default are 0.5 liters, at 20C 101.325 kPa that's just 0.02 moles
 
-	breather.adjust_fatness(fatness_to_add + 5, FATTENING_TYPE_ATMOS) // +5, so that we always get some decent BFI in
+	breather.adjust_fatness(fatness_to_add, FATTENING_TYPE_ATMOS)
 
 /obj/item/organ/lungs/proc/consume_galbanium(mob/living/carbon/breather, datum/gas_mixture/breath, galbanium_pp, old_galbanium_pp)
 	var/total_moles = breath.total_moles()
@@ -28,11 +16,8 @@
 	if (galbanium_pp < 0.1)	// less than 0.1 KPa of galb
 		return
 
-	var/fatness_to_add = galbanium_moles * 750	// each mole gives 750 perma BFI. Now, you may think that that's A METRIC FUCKTON, but in reality, because lungs by default are 0.5 liters, at 20C 101.325 kPa that's just 0.02 moles
-	if (galbanium_ratio > 0.75 && galbanium_pp > 16)	// if more than 75% of the air we breathe is lipo and we breathe at least 16 kPa of it
-		if (galbanium_ratio >= 0.96)	// if this is an internal and you're not suffocating them, means you're using pluox. Here, have a buff.
-			fatness_to_add *= 1.5
-		else
-			fatness_to_add *= 1.1	// because fat you, that's why
+	var/fatness_to_add = galbanium_moles * 300	// each mole gives 300 perma BFI. Now, you may think that that's A METRIC FUCKTON, but in reality, because lungs by default are 0.5 liters, at 20C 101.325 kPa that's just 0.02 moles
+	if (galbanium_ratio >= 0.96 && galbanium_pp > 16)	// if more than 96% of the air we breathe is galbanium and we breathe at least 16 kPa of it
+		fatness_to_add *= 1.2
 
 	breather.adjust_perma(fatness_to_add, FATTENING_TYPE_ATMOS)

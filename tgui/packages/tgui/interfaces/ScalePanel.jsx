@@ -11,6 +11,7 @@ export const ScalePanel = (props) => {
     most_recent_carbon,
     total_weight,
     total_weight_pounds,
+    bmi,
     total_muscle,
     total_muscle_pounds,
     total_fatness,
@@ -31,7 +32,8 @@ export const ScalePanel = (props) => {
             <b>{most_recent_carbon ? most_recent_carbon : 'None'}</b>
           </Box>
           <Box textAlign="center" fontSize="15px">
-            Total Weight: <b>{total_weight_pounds} Pounds</b>
+            Total Weight: <b>{total_weight_pounds} Pounds</b><br/>
+            BMI: <b>{bmi}</b>
           </Box>
         </Section>
 

@@ -162,7 +162,7 @@
 //should probably put this in elsewhere or whatever, but for now it'll do
 
 /mob/living/simple_animal/hostile/fatten
-	var/fat_per_hit = 30
+	var/fat_per_hit = 20
 
 /mob/living/simple_animal/hostile/fatten/magehand
 	name = "Magehand"
@@ -202,13 +202,13 @@
 	maxbodytemp = INFINITY
 	faction = list(ROLE_WIZARD, FACTION_FEEDER)
 
-/mob/living/simple_animal/hostile/fatten/AttackingTarget()
+/mob/living/simple_animal/hostile/fatten/AttackingTarget(atom/attacked_target)
 	. = ..()
-	var/mob/living/carbon/L = target
-	if(!istype(L))
+	var/mob/living/carbon/carbon = attacked_target
+	if(!istype(carbon))
 		return FALSE
 
-	L.adjust_fatness(fat_per_hit, FATTENING_TYPE_MAGIC)
+	carbon.adjust_fatness(fat_per_hit, FATTENING_TYPE_MOBS)
 
 /mob/living/simple_animal/hostile/fatten/CanAttack(atom/the_target)
 	var/mob/living/carbon/target = the_target

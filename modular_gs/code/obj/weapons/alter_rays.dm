@@ -7,6 +7,7 @@
 	icon = 'modular_gs/icons/obj/weapons/alter_ray.dmi'
 	icon_state = "alter_ray"
 	desc = "This weapon is capable of altering one's body capabilities."
+	w_class = WEIGHT_CLASS_NORMAL
 	selfcharge = TRUE
 	charge_delay = 5
 	ammo_x_offset = 2

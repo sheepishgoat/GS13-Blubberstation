@@ -38,10 +38,6 @@
 				var/mob/living/carbon/living = moveable_atom
 				living.reagents.add_reagent(/datum/reagent/water, 3 * seconds_per_tick)
 
-/obj/item/organ/lungs/Initialize(mapload)
-	. = ..()
-	add_gas_reaction(/datum/gas/water_vapor, while_present = PROC_REF(consume_water_vapor))
-
 /obj/item/organ/lungs/proc/consume_water_vapor(mob/living/carbon/breather, datum/gas_mixture/breath, water_vapor_pp, old_water_vapor_pp)
 	if(HAS_TRAIT(breather, TRAIT_WATER_SPONGE))
 		if(breath)

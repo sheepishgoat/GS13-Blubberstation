@@ -8,7 +8,7 @@ GLOBAL_LIST_INIT(no_random_cure_symptoms, list(/datum/symptom/berry, /datum/symp
 	stage_speed = 1
 	transmittable = 6
 	level = 7
-	severity = 5
+	severity = 4
 	base_message_chance = 100
 	symptom_delay_min = 15
 	symptom_delay_max = 45

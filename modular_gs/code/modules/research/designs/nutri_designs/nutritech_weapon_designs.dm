@@ -16,7 +16,7 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.5, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.4, /datum/material/calorite = SHEET_MATERIAL_AMOUNT)
 	construction_time = 200
-	build_path = /obj/item/gun/energy/fatoray/cannon_weak
+	build_path = /obj/item/gun/energy/fatoray/cannon/weak
 	category = list(
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_RANGED
 	)

@@ -4,6 +4,7 @@
 /datum/component/weigh_out
 	var/total_weight_pounds = 0
 	var/total_weight = 0
+	var/bmi = 0
 
 	var/fatness_total_pounds = 0
 	var/fatness_real_pounds = 0
@@ -58,6 +59,7 @@
 	most_recent_carbon = target_mob
 	total_weight_pounds = target_mob.calculate_weight_in_pounds()
 	total_weight = (target_mob.fatness + target_mob.muscle)
+	bmi = target_mob.calculate_bmi_from_weight(total_weight_pounds)
 
 	fatness_total = target_mob.fatness
 	fatness_real = target_mob.fatness_real
@@ -101,6 +103,7 @@
 	data["total_fatness_pounds"] = fatness_total_pounds
 	data["total_muscle"] = muscle_total
 	data["total_muscle_pounds"] = muscle_total_pounds
+	data["bmi"] = bmi
 
 	data["wg_rate"] = "[weight_gain_rate * 100]%"
 	data["wl_rate"] = "[weight_loss_rate * 100]%"

@@ -6,7 +6,7 @@
 	/// how severe is their calorite poisoning? 100 = 100%
 	var/micro_calorite_poisoning = 0
 
-/mob/living/carbon/proc/handle_calorite_poisoning()
+/mob/living/carbon/proc/handle_calorite_poisoning(seconds_per_tick)
 	micro_calorite_poisoning = clamp(micro_calorite_poisoning, 0, 100)
 
 	if (micro_calorite_poisoning < 0.1)	// sanity to make sure we aren't applying stupid effects for very low doses
@@ -16,7 +16,7 @@
 		return
 
 	var/calorite_poisoning = micro_calorite_poisoning / 100	// we assume 100 micro calorite poisoning is 100%, so we divide by 100 to get the percentage value
-	adjust_calorite_poisoning(-0.0001)
+	adjust_calorite_poisoning(-0.0001 * seconds_per_tick)
 
 	if (isnull(client))
 		return
@@ -32,7 +32,7 @@
 	set_weight_gain_modifier(CALORITE_POISONING, calorite_poisoning)
 	set_weight_loss_modifier(CALORITE_POISONING, -calorite_poisoning)
 
-	adjust_hunger(calorite_poisoning * 2)
+	adjust_hunger(calorite_poisoning * seconds_per_tick)
 
 	if (calorite_poisoning > 0.3)
 		if (prob(5))
@@ -61,10 +61,11 @@
 		remove_movespeed_modifier(/datum/movespeed_modifier/calorite_poisoning)
 
 	if (calorite_poisoning > 0.9)
-		adjust_fatness(10 * (calorite_poisoning - 0.9), FATTENING_TYPE_MAGIC)
+		var/fat_to_add = 3 * (calorite_poisoning - 0.9)
+		adjust_fatness(fat_to_add * seconds_per_tick, FATTENING_TYPE_MAGIC)
 	
 	if (calorite_poisoning > 0.97)
-		adjust_perma(1, FATTENING_TYPE_MAGIC, TRUE)
+		adjust_perma(1 * seconds_per_tick, FATTENING_TYPE_MAGIC, TRUE)
 
 /// returns true if we changed it, false if we didn't
 /mob/living/carbon/proc/adjust_calorite_poisoning(amount)

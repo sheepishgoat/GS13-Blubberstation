@@ -8,11 +8,18 @@
 	color = "#e2e1b1"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	process_flags = REAGENT_ORGANIC | REAGENT_SYNTHETIC | REAGENT_PROTEAN // Allow all kinds of humanoids to process the chem
-	var/fat_to_add = 15
+	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
+	/// amount of fat added per second
+	var/fat_to_add = 6
+
+/datum/reagent/consumable/lipoifier/weak
+	name = "Weak lipoifier"
+	description = "A weaker variant of lipoifier. Causes those that ingest it to build up fat cells."
+	fat_to_add = 3
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
-/datum/reagent/consumable/lipoifier/on_mob_life(mob/living/carbon/M)
-	M.adjust_fatness(fat_to_add, FATTENING_TYPE_CHEM)
+/datum/reagent/consumable/lipoifier/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
+	affected_mob.adjust_fatness(fat_to_add * seconds_per_tick, FATTENING_TYPE_CHEM)
 	return ..()
 
 /datum/reagent/consumable/lipoifier/on_mob_metabolize(mob/living/affected_mob)
@@ -97,12 +104,6 @@
 	L.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/stimulants)
 	..()
 
-/datum/reagent/consumable/lipoifier/weak
-	name = "Weak lipoifier"
-	description = "A weaker variant of lipoifier. Causes those that ingest it to build up fat cells."
-	fat_to_add = 6
-	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
-
 /datum/reagent/micro_calorite
 	name = "Micro calorite"
 	description = "Tiny pieces of grinded calorite, shining with a strange, orange glow. They cause living beings to accumulate fat faster, as well as increase hunger, at high concentrations causing passive weight gain. Metabolizes very slowly."
@@ -132,8 +133,8 @@
 		return
 
 	var/mob/living/carbon/affected_carbon = affected_mob
-	affected_carbon.set_weight_gain_modifier("micro_calorite", 0)
-	affected_carbon.set_weight_loss_modifier("micro_calorite", 0)
+	affected_carbon.remove_weight_gain_modifier("micro_calorite")
+	affected_carbon.remove_weight_loss_modifier("micro_calorite")
 
 /datum/reagent/micro_calorite/overdose_start(mob/living/affected_mob)
 	..()
@@ -141,15 +142,15 @@
 		return
 
 	var/mob/living/carbon/affected_carbon = affected_mob
-	affected_carbon.add_weight_gain_modifier("micro_calorite", 0.6)
-	affected_carbon.add_weight_loss_modifier("micro_calorite", -0.6)
+	affected_carbon.add_weight_gain_modifier("micro_calorite", 0.3)
+	affected_carbon.add_weight_loss_modifier("micro_calorite", -0.3)
 
-/datum/reagent/micro_calorite/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
+/datum/reagent/micro_calorite/overdose_process(mob/living/affected_mob, seconds_per_tick, metabolization_ratio)
 	if (!iscarbon(affected_mob))
 		return
 
 	var/mob/living/carbon/affected_carbon = affected_mob
-	affected_carbon.adjust_fatness(5, FATTENING_TYPE_CHEM)
+	affected_carbon.adjust_fatness(1 * seconds_per_tick, FATTENING_TYPE_CHEM)
 
 /datum/reagent/consumable/alien_honey	// for use in breasts, doesn't heal nor add sugar
 	name = "Alien Honey"
@@ -160,3 +161,6 @@
 	taste_description = "sweetness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 	default_container = /obj/item/reagent_containers/condiment/alien_honey
+
+/datum/reagent/consumable/cream
+	nutriment_factor = 9

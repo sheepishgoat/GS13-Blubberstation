@@ -21,7 +21,7 @@
 	// the hallway. Lore reason is that it's calorite and glass so not as potent
 	AddComponent(\
 		/datum/component/fattening,\
-		15,\
+		5,\
 		FATTENING_TYPE_ITEM,\
 		item_touch = TRUE\
 	)

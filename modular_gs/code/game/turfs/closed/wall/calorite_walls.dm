@@ -13,7 +13,7 @@
 /turf/closed/wall/mineral/calorite/Initialize(mapload)
 	AddComponent(\
 		/datum/component/fattening,\
-		30,\
+		10,\
 		FATTENING_TYPE_ITEM,\
 		item_touch = TRUE\
 	)

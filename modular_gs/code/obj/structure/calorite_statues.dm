@@ -22,7 +22,7 @@
 /obj/structure/statue/calorite/fatty/Initialize(mapload)
 	AddComponent(\
 		/datum/component/fattening,\
-		25,\
+		75,\
 		FATTENING_TYPE_ITEM,\
 		item_touch = TRUE,\
 		)

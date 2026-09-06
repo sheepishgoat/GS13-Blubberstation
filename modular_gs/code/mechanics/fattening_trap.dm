@@ -5,8 +5,7 @@
 	icon_state = "trap-fattening"
 	max_integrity = 40
 
-	var/fattening_amount = 250 // Using a variable incase we want to have a stronger version.
-	// This is at half of the power of the singe-use cannonshot fatray.
+	var/fattening_amount = 150 // Using a variable incase we want to have a stronger version.
 
 /obj/structure/trap/fattening/trap_effect(mob/living/carbon/crosser)
 	if(ishuman(crosser))
