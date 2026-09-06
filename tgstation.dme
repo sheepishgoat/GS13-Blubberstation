@@ -7390,6 +7390,7 @@
 #include "modular_gs\code\game\objects\effects\spawners\decals.dm"
 #include "modular_gs\code\game\objects\granters\magic\add_weight.dm"
 #include "modular_gs\code\game\objects\items\AI_modules.dm"
+#include "modular_gs\code\game\objects\items\cards_ids.dm"
 #include "modular_gs\code\game\objects\items\choice_beacon.dm"
 #include "modular_gs\code\game\objects\items\fat_plushies.dm"
 #include "modular_gs\code\game\objects\items\plushes.dm"
