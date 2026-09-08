@@ -7415,6 +7415,7 @@
 #include "modular_gs\code\game\turfs\open.dm"
 #include "modular_gs\code\game\turfs\closed\wall\calorite_walls.dm"
 #include "modular_gs\code\game\turfs\open\calorite_floor.dm"
+#include "modular_gs\code\game\turfs\open\effect_water.dm"
 #include "modular_gs\code\game\turfs\simulated\floor\fancy_floor.dm"
 #include "modular_gs\code\machinery\adipoelectric_generator.dm"
 #include "modular_gs\code\machinery\adipoelectric_transformer.dm"
