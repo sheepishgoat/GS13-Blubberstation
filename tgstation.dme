@@ -585,6 +585,7 @@
 #include "code\__DEFINES\~~gs_defines\declarations.dm"
 #include "code\__DEFINES\~~gs_defines\DNA.dm"
 #include "code\__DEFINES\~~gs_defines\effective_weight_skip_tags.dm"
+#include "code\__DEFINES\~~gs_defines\food.dm"
 #include "code\__DEFINES\~~gs_defines\misc.dm"
 #include "code\__DEFINES\~~gs_defines\mobs.dm"
 #include "code\__DEFINES\~~gs_defines\muscle.dm"

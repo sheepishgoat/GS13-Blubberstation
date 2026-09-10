@@ -23,7 +23,7 @@
 	delete_on_harvest = TRUE
 
 /obj/structure/flora/candy/get_potential_products()
-	return LIPO_CANDY
+	return CANDY_WITH_LIPO
 
 /obj/structure/flora/candy/redwhite
 	icon_state = "candy_decal1"

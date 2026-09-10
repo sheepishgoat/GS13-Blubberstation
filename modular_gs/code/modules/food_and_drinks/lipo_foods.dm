@@ -1,16 +1,4 @@
 #define LIPO_PER_CANDY_AMOUNT 2
-#define LIPO_CANDY list( \
-	/obj/item/food/lollipop/lipo, \
-	/obj/item/food/chocolatebar/lipo, \
-	/obj/item/food/bonbon/peanut_butter_cup/lipo, \
-	/obj/item/food/gumball/lipo, \
-	/obj/item/food/candy_corn/lipo, \
-	/obj/item/food/candiedapple/lipo, \
-	/obj/item/food/chococoin/lipo, \
-	/obj/item/food/bonbon/lipo, \
-	/obj/item/food/candyheart/lipo, \
-)
-
 // Foods that come with extra lipo
 /obj/item/food/lollipop/lipo
 	food_reagents = list(
