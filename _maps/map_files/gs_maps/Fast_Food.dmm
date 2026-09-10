@@ -1,0 +1,361 @@
+"ac" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"ad" = (/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"ag" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"ah" = (/obj/machinery/vending/coffee,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"ai" = (/obj/structure/lattice,/turf/open/space/basic,/area/space/nearstation)
+"ak" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/external,/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"al" = (/obj/structure/rack/shelf,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"am" = (/obj/structure/table/wood,/obj/item/flashlight/seclite,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"ar" = (/obj/structure/lattice/catwalk,/turf/open/space/basic,/area/space/nearstation)
+"as" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on,/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"at" = (/obj/structure/reagent_dispensers/water_cooler,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"av" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"aw" = (/obj/structure/table,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"az" = (/obj/structure/chair/sofa/right{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aA" = (/obj/structure/lattice/catwalk,/turf/open/space/basic,/area/ruin/space/has_grav/fastfood_employee)
+"aB" = (/obj/structure/chair/stool/bar,/obj/item/trash/popcorn,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/fastfood_main)
+"aC" = (/obj/effect/turf_decal/bot,/obj/structure/closet/crate/trashcart,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aE" = (/obj/machinery/vending/gato{free = 1},/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/fastfood_main)
+"aG" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aH" = (/obj/structure/table/reinforced,/obj/structure/table/reinforced,/obj/item/storage/fancy/donut_box{pixel_y = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aL" = (/obj/structure/chair/stool/bar{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"aM" = (/turf/open/space,/area/space)
+"aN" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"aO" = (/obj/item/kirbyplants,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"aP" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aQ" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aR" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"aU" = (/obj/machinery/power/smes{charge = 5e+006},/obj/structure/cable,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"aV" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"aX" = (/obj/structure/flora/rock,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"aY" = (/obj/structure/sink/kitchen{dir = 4; pixel_x = -11},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"aZ" = (/obj/structure/reagent_dispensers/cooking_oil,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"ba" = (/obj/structure/closet/crate/freezer,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"be" = (/obj/structure/table,/obj/machinery/reagentgrinder,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bf" = (/obj/structure/table,/obj/machinery/microwave{pixel_x = 1; pixel_y = 6},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bj" = (/obj/structure/cable{icon_state = "0-2"; pixel_y = 1},/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"bk" = (/obj/structure/disposalpipe/segment{dir = 10},/obj/structure/sink/kitchen/directional/south,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bn" = (/obj/structure/rack/shelf,/obj/item/storage/bag/trash{pixel_x = -6},/obj/item/storage/bag/trash/bluespace{pixel_x = -12},/obj/item/lightreplacer{pixel_x = 6},/obj/item/storage/box/lights/mixed,/obj/item/soap/nanotrasen,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"bo" = (/obj/structure/table/wood,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bp" = (/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/fastfood_main)
+"bu" = (/obj/item/stack/marker_beacon{anchored = 1; icon_state = "markerburgundy-on"; light_color = "#FA644B"; light_power = 3; light_range = 2; name = "landing marker"; picked_color = "Burgundy"},/obj/effect/turf_decal/stripes/box,/turf/open/floor/plating/airless,/area/space/nearstation)
+"bw" = (/obj/structure/lattice,/turf/open/space/basic,/area/ruin/space/has_grav/fastfood_main)
+"by" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bz" = (/obj/structure/table/wood,/obj/item/flashlight/lamp{pixel_y = 8},/obj/item/cigbutt/cigarbutt,/turf/open/floor/carpet/black,/area/ruin/space/has_grav/fastfood_employee)
+"bA" = (/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bB" = (/obj/machinery/processor,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bE" = (/obj/structure/chair/sofa/corner{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bJ" = (/obj/structure/table/reinforced,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"bK" = (/obj/structure/reagent_dispensers/fueltank,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"bN" = (/obj/structure/chair/sofa/corp{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"bW" = (/obj/structure/reagent_dispensers/watertank,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"cu" = (/obj/structure/sign/departments/cargo,/turf/closed/wall,/area/ruin/space/has_grav/fastfood_employee)
+"cz" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/external{name = "EMPLOYEE AREA"},/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"cU" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"da" = (/obj/structure/closet/crate/trashcart,/obj/effect/turf_decal/stripes/line,/obj/item/trash/cheesie,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"dl" = (/obj/machinery/door/airlock/public{dir = 4},/obj/structure/fans/tiny,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"dE" = (/obj/structure/closet/wardrobe/mixed,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"dG" = (/obj/effect/turf_decal/bot,/obj/machinery/iv_drip/feeding_tube,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"eb" = (/obj/machinery/door/airlock/public{name = "EMPLOYEE AREA"},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"ei" = (/obj/machinery/jukebox{req_one_access = null},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"et" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"eG" = (/obj/structure/rack,/obj/item/circuitboard/computer/slot_machine,/obj/item/circuitboard/machine/biogenerator,/obj/item/circuitboard/machine/chem_dispenser,/obj/item/circuitboard/machine/dish_drive,/obj/item/circuitboard/machine/hydroponics,/obj/item/circuitboard/machine/microwave,/obj/item/circuitboard/machine/hydroponics,/obj/item/circuitboard/machine/hydroponics,/obj/item/circuitboard/machine/hydroponics,/obj/item/circuitboard/machine/seed_extractor,/obj/item/circuitboard/machine/dish_drive,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"eK" = (/obj/machinery/vending/cigarette{free = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"eS" = (/obj/machinery/door/airlock/external,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"fc" = (/obj/effect/turf_decal/stripes/line,/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"fi" = (/obj/structure/chair/sofa/corp/left{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"fB" = (/obj/structure/closet/firecloset/full,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"fN" = (/obj/structure/closet/emcloset/anchored,/obj/item/clothing/suit/space/eva,/obj/item/clothing/head/helmet/space/eva,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"fR" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable{icon_state = "0-2"; pixel_y = 1},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"fX" = (/obj/structure/lattice,/turf/open/space/basic,/area/space)
+"fY" = (/turf/closed/mineral/random,/area/space/nearstation)
+"fZ" = (/obj/item/clothing/head/helmet/skull,/obj/item/stack/sheet/bone{pixel_x = 16},/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"gq" = (/obj/structure/chair/sofa/right{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"gA" = (/obj/machinery/telecomms/relay/preset/mining,/turf/open/floor/bluespace,/area/ruin/space/has_grav/fastfood_employee)
+"gI" = (/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"gP" = (/obj/machinery/disposal/bin{pixel_x = -8},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"gQ" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line{dir = 8},/turf/open/floor/plating/airless,/area/space/nearstation)
+"hv" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line,/obj/item/trash/tray,/turf/open/floor/plating/airless,/area/space/nearstation)
+"hI" = (/obj/machinery/computer/arcade/amputation,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/fastfood_main)
+"hM" = (/obj/structure/barricade/wooden,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"hY" = (/obj/structure/closet/crate/large,/obj/effect/turf_decal/bot,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"iq" = (/turf/closed/wall,/area/ruin/space/has_grav/fastfood_employee)
+"iB" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"iF" = (/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"iL" = (/obj/structure/rack/shelf,/obj/item/vending_refill/mealdor,/obj/item/vending_refill/boozeomat,/obj/item/vending_refill/coffee,/obj/item/vending_refill/hydroseeds,/obj/item/vending_refill/hydronutrients,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"jh" = (/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"km" = (/obj/structure/lattice/catwalk,/turf/open/floor/plating/airless,/area/space/nearstation)
+"kr" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/external{name = "EMPLOYEE AREA"},/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"kB" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"kI" = (/obj/structure/rack/shelf,/obj/item/storage/box/ingredients/wildcard,/obj/item/storage/box/ingredients/wildcard,/obj/item/storage/box/ingredients/wildcard,/obj/item/storage/box/ingredients/wildcard,/obj/item/storage/box/ingredients/wildcard,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"kQ" = (/obj/structure/table,/obj/item/storage/box/donkpockets/donkpocketpizza{pixel_y = 9; pixel_x = 9},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"kS" = (/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"lb" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"lc" = (/obj/effect/decal/medium_gato,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"lm" = (/obj/structure/chair/stool/bar,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"ls" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "0-2"; pixel_y = 1},/obj/item/storage/toolbox/mechanical,/obj/item/multitool,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"lu" = (/obj/machinery/vending/wardrobe/bar_wardrobe,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"lA" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/rack/shelf,/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = -7},/obj/item/stack/cable_coil{pixel_x = 3; pixel_y = -7},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/rods/twentyfive,/obj/item/stack/rods/twentyfive,/obj/item/stack/rods/twentyfive,/obj/item/storage/part_replacer,/obj/item/storage/box/stockparts/deluxe,/obj/item/storage/box/stockparts/deluxe,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"lF" = (/obj/structure/sign/warning,/turf/closed/wall,/area/ruin/space/has_grav/fastfood_employee)
+"mb" = (/obj/machinery/vending/wardrobe/chef_wardrobe,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"mi" = (/obj/machinery/vending/dinnerware{free = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"mn" = (/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"no" = (/obj/machinery/conveyor{dir = 8; id = "fastfood_trash"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"ns" = (/obj/machinery/atmospherics/components/unary/outlet_injector/on{dir = 8},/turf/open/floor/plating/airless,/area/ruin/space/has_grav/fastfood_employee)
+"nJ" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line{dir = 6},/obj/item/trash/can,/obj/item/poster/random_contraband,/turf/open/floor/plating/airless,/area/space/nearstation)
+"nS" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"nZ" = (/obj/machinery/vending/mealdor,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"oe" = (/obj/structure/table,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"oi" = (/obj/effect/turf_decal/bot,/obj/structure/closet/crate/wooden,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"oL" = (/obj/item/trash/boritos,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"oR" = (/obj/machinery/vending/mealdor,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"oW" = (/obj/effect/turf_decal/stripes/corner,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"pi" = (/obj/structure/sign/warning/vacuum,/turf/closed/wall,/area/ruin/space/has_grav/fastfood_employee)
+"pu" = (/obj/machinery/iv_drip/feeding_tube,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"pw" = (/obj/structure/trash_pile,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"pG" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"pU" = (/obj/machinery/computer/security/telescreen/entertainment,/turf/closed/wall,/area/ruin/space/has_grav/fastfood_employee)
+"pW" = (/obj/structure/table,/obj/item/storage/box/beakers{pixel_x = 5; pixel_y = 6},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"pX" = (/obj/machinery/door/airlock/public{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"pZ" = (/obj/structure/table/reinforced,/obj/machinery/chem_dispenser/drinks/fullupgrade,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"qd" = (/obj/structure/disposalpipe/segment{dir = 5},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"qj" = (/obj/structure/table/reinforced,/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"qr" = (/obj/machinery/deepfryer,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"qF" = (/obj/item/toy/plush/gs13/rose{pixel_y = 2},/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"rm" = (/obj/item/mop/advanced,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"rs" = (/obj/structure/closet/emcloset,/obj/item/storage/toolbox/emergency,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"rJ" = (/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"rT" = (/obj/structure/toilet{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"sx" = (/obj/structure/cable{icon_state = "2-4"},/obj/effect/turf_decal/stripes/line{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"sY" = (/obj/machinery/meter,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"tb" = (/obj/effect/turf_decal/stripes/line{dir = 9},/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"tu" = (/obj/structure/rack/shelf,/obj/item/storage/box/drinkingglasses,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"uC" = (/obj/machinery/teleport/hub,/obj/effect/turf_decal/stripes{dir = 5},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"uM" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"vq" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"vB" = (/obj/machinery/teleport/station,/obj/effect/turf_decal/stripes{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"vG" = (/obj/structure/lattice/catwalk,/turf/open/space/basic,/area/ruin/space/has_grav/fastfood_main)
+"vI" = (/obj/structure/chair/sofa/corp{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"wb" = (/obj/structure/reagent_dispensers/cooking_oil,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"wc" = (/turf/open/floor/plating/airless,/area/space/nearstation)
+"wj" = (/obj/item/trash/candle,/turf/open/floor/plating/airless,/area/space/nearstation)
+"wt" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"wG" = (/obj/structure/window/fulltile,/turf/open/floor/grass,/area/ruin/space/has_grav/fastfood_main)
+"wN" = (/obj/structure/chair/beanbag/gato{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"xi" = (/obj/item/toy/plush/gs13/tertia{pixel_x = -16},/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"xA" = (/obj/structure/chair/sofa/corp/left{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"xB" = (/obj/machinery/smartfridge/food,/area/ruin/space/has_grav/fastfood_employee)
+"xD" = (/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"xT" = (/obj/structure/closet/crate/trashcart,/obj/effect/turf_decal/stripes/line{dir = 9},/obj/item/trash/can,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"xW" = (/obj/structure/window/fulltile,/turf/open/floor/light,/area/ruin/space/has_grav/fastfood_main)
+"ys" = (/obj/structure/closet/firecloset/full,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"yw" = (/obj/machinery/door/airlock/public{dir = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"yz" = (/obj/structure/table,/obj/item/reagent_containers/spray/cleaner{pixel_x = -8},/obj/item/grenade/chem_grenade/cleaner,/obj/item/grenade/chem_grenade/cleaner{pixel_x = 8},/obj/machinery/cell_charger,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"yE" = (/obj/structure/sign/warning{name = "TRASH DUMP ZONE"},/turf/closed/wall,/area/space/nearstation)
+"yJ" = (/obj/machinery/space_heater,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"yK" = (/obj/structure/flora/rock/pile,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"yM" = (/obj/machinery/door/airlock/public,/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"yX" = (/obj/machinery/atmospherics/components/unary/vent_pump/on,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"yZ" = (/obj/structure/chair/comfy/shuttle,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"zh" = (/obj/structure/disposalpipe/segment,/obj/effect/turf_decal/stripes/line,/obj/structure/trash_pile,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"zm" = (/obj/structure/barricade/wooden,/obj/structure/barricade/wooden/crude,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"zL" = (/obj/structure/filingcabinet,/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"Ae" = (/obj/effect/decal/cleanable/glass,/turf/open/floor/plating/airless,/area/space/nearstation)
+"At" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"AR" = (/obj/machinery/disposal/bin{pixel_x = -8},/obj/structure/disposalpipe/trunk{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Bp" = (/obj/item/shard,/turf/open/floor/plating/airless,/area/space/nearstation)
+"Bs" = (/obj/item/stack/sheet/bone,/obj/item/stack/sheet/bone,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"BI" = (/obj/machinery/bluespace_beacon,/obj/effect/decal/big_gato,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"BQ" = (/obj/structure/disposalpipe/trunk{dir = 1},/obj/structure/disposaloutlet{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"BZ" = (/obj/structure/trash_pile,/turf/open/floor/plating/airless,/area/space/nearstation)
+"Ck" = (/obj/structure/disposalpipe/junction/yjunction{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"CG" = (/obj/structure/cable{icon_state = "1-4"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"CL" = (/obj/structure/closet/emcloset/anchored,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"CR" = (/obj/structure/closet/crate,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/plating/airless,/area/space/nearstation)
+"Dh" = (/turf/open/space/basic,/area/space)
+"Dk" = (/obj/machinery/icecream_vat,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Dl" = (/obj/structure/lattice/catwalk,/turf/open/floor/plating/airless,/area/ruin/space/has_grav/fastfood_employee)
+"DX" = (/obj/structure/chair/sofa/corp/right{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"DY" = (/obj/machinery/door/airlock/public,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Ec" = (/obj/structure/disposalpipe/segment{dir = 6},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Ee" = (/obj/effect/turf_decal/stripes/line{dir = 6},/obj/structure/trash_pile,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Eu" = (/obj/effect/turf_decal/stripes/line{dir = 6},/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"Fa" = (/obj/machinery/door/airlock/public{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Fi" = (/obj/structure/closet/crate,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Fm" = (/obj/effect/turf_decal/arrows/white{dir = 1},/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Ft" = (/obj/structure/toilet{dir = 4},/obj/effect/decal/cleanable/blood/gibs,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Fw" = (/obj/item/trash/can,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"FZ" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Gf" = (/obj/structure/table,/obj/item/kitchen/rollingpin{pixel_x = 12},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Gg" = (/obj/structure/disposalpipe/segment{dir = 9},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Gk" = (/obj/structure/safe,/obj/item/stack/spacecash/c1000,/obj/item/stack/spacecash/c1000,/obj/item/stack/spacecash/c1000,/obj/item/stack/spacecash/c1000,/obj/item/stack/spacecash/c200,/obj/item/stack/spacecash/c200,/obj/item/stack/spacecash/c500,/obj/item/stack/spacecash/c500,/obj/item/stack/spacecash/c100,/obj/item/stack/spacecash/c100,/obj/item/stack/spacecash/c1,/obj/item/stack/spacecash/c1,/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"Gl" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Gx" = (/obj/machinery/conveyor{dir = 8; id = "fastfood_trash"},/obj/machinery/recycler{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"GP" = (/obj/effect/turf_decal/stripes/line{dir = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"GW" = (/obj/machinery/door/airlock/public{dir = 4; name = "EMPLOYEE AREA"},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"HU" = (/obj/structure/falsewall/calorite,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"HW" = (/obj/effect/turf_decal/arrows/white{dir = 1},/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Ia" = (/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"IH" = (/obj/structure/rack/shelf,/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/obj/item/stack/sheet/cardboard{amount = 3},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"IL" = (/obj/structure/sign/warning/vacuum,/turf/closed/wall,/area/ruin/space/has_grav/fastfood_main)
+"Jl" = (/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plating/airless,/area/space/nearstation)
+"JG" = (/obj/machinery/food_cart,/obj/effect/turf_decal/bot,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Kd" = (/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Kk" = (/obj/item/toy/plush/gs13/primus{pixel_x = 16},/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"Ks" = (/obj/effect/turf_decal/stripes/box,/obj/item/stack/marker_beacon{anchored = 1; icon_state = "markerburgundy-on"; light_color = "#FA644B"; light_power = 3; light_range = 2; name = "landing marker"; picked_color = "Burgundy"},/turf/open/floor/plating/airless,/area/space/nearstation)
+"KA" = (/obj/effect/turf_decal/stripes/line{dir = 1},/obj/item/trash/can,/turf/open/floor/plating/airless,/area/space/nearstation)
+"Ll" = (/obj/structure/window/fulltile,/obj/machinery/light/floor,/turf/open/floor/grass,/area/ruin/space/has_grav/fastfood_main)
+"Lo" = (/obj/structure/noticeboard/directional/east,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"LD" = (/obj/machinery/autolathe/hacked,/obj/item/stack/sheet/glass/fifty,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"LE" = (/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Ma" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Me" = (/obj/item/fireaxe/boneaxe,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"Mi" = (/obj/structure/closet/crate/trashcart,/obj/effect/turf_decal/stripes/line,/obj/item/trash/tray,/obj/item/trash/sosjerky,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"Mr" = (/obj/structure/fans/tiny,/obj/machinery/door/poddoor/shutters,/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"My" = (/obj/effect/turf_decal/stripes/line{dir = 1},/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"MD" = (/obj/structure/chair/sofa/corp/right{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"MY" = (/turf/open/floor/carpet/black,/area/ruin/space/has_grav/fastfood_employee)
+"Na" = (/obj/structure/chair/stool/bar,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/fastfood_main)
+"Nh" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 4},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"NH" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line{dir = 1},/obj/item/poster/random_contraband,/obj/item/poster/random_contraband,/obj/item/poster/random_contraband,/turf/open/floor/plating/airless,/area/space/nearstation)
+"NS" = (/obj/structure/kitchenspike,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"NV" = (/obj/structure/closet/crate,/obj/effect/turf_decal/stripes/line{dir = 1},/obj/item/trash/can,/obj/item/trash/boritos,/turf/open/floor/plating/airless,/area/space/nearstation)
+"NW" = (/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/circuit/telecomms,/area/ruin/space/has_grav/fastfood_employee)
+"Oa" = (/obj/item/trash/blueberry_gum,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"OY" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_main)
+"Pe" = (/obj/machinery/atmospherics/components/unary/vent_pump/on{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Pl" = (/obj/machinery/computer/arcade,/turf/open/floor/carpet/orange,/area/ruin/space/has_grav/fastfood_main)
+"Pq" = (/obj/structure/window/reinforced{dir = 8},/turf/open/floor/grass,/area/ruin/space/has_grav/fastfood_main)
+"PF" = (/obj/structure/chair/beanbag/gato{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"PM" = (/obj/structure/rack,/obj/item/storage/bag/ore,/obj/item/t_scanner/adv_mining_scanner/lesser,/obj/item/pickaxe/mini,/obj/item/shovel,/obj/item/clothing/suit/space/eva,/obj/item/clothing/head/helmet/space/eva,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"PU" = (/obj/machinery/door/airlock/public{dir = 4; name = "EMPLOYEE AREA"},/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"PV" = (/obj/effect/turf_decal/arrows/white{dir = 1},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Qr" = (/obj/machinery/door/airlock/external,/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Qu" = (/obj/machinery/computer/teleporter{dir = 4},/obj/effect/turf_decal/stripes{dir = 6},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"QA" = (/obj/effect/turf_decal/stripes/line{dir = 8},/obj/effect/decal/cleanable/glass,/turf/open/floor/plating/airless,/area/space/nearstation)
+"QJ" = (/obj/structure/scale,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"QP" = (/turf/closed/wall,/area/ruin/space/has_grav/fastfood_main)
+"QZ" = (/obj/structure/lattice,/obj/structure/sign/warning{name = "TRASH DUMP ZONE"},/turf/closed/wall,/area/space/nearstation)
+"Ri" = (/obj/structure/disposalpipe/segment{dir = 10},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Rx" = (/obj/item/cigbutt,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"RB" = (/obj/machinery/chem_master/condimaster,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"RZ" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_main)
+"Sc" = (/obj/structure/closet/wardrobe,/obj/item/clothing/neck/tie/black,/obj/item/clothing/under/suit/red,/obj/item/clothing/under/suit/navy,/obj/item/clothing/under/suit/burgundy,/obj/item/clothing/under/suit/charcoal,/obj/item/crowbar/large/heavy,/turf/open/floor/wood,/area/ruin/space/has_grav/fastfood_employee)
+"SE" = (/obj/structure/cursedfatfountain,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"SK" = (/obj/item/trash/tray,/obj/structure/table/reinforced/plastitaniumglass,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Te" = (/obj/structure/sink/kitchen{dir = 4; pixel_x = -11; pixel_y = 5},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Tm" = (/obj/structure/bed/double,/obj/item/restraints/handcuffs/cable/zipties{pixel_y = 6},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Tv" = (/obj/machinery/chem_dispenser/drinks/fullupgrade{dir = 8},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"TA" = (/obj/machinery/conveyor{dir = 2; id = "fastfood_trash"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"TC" = (/obj/item/trash/sosjerky,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"TF" = (/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"TK" = (/obj/machinery/conveyor{dir = 10; id = "fastfood_trash"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Ug" = (/obj/structure/urinal/directional/north,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Uz" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"UJ" = (/obj/item/stack/sheet/bone,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"US" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on{dir = 8},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"UW" = (/obj/effect/turf_decal/stripes/corner{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"Vc" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line{dir = 5},/turf/open/floor/plating/airless,/area/space/nearstation)
+"Vm" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc{name = "Customer APC"; pixel_y = 28},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_main)
+"Vo" = (/obj/machinery/gibber,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Vt" = (/obj/structure/table/reinforced/plastitaniumglass,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"VR" = (/obj/structure/closet/crate/trashcart,/obj/effect/turf_decal/stripes/line,/obj/item/trash/sosjerky,/turf/open/floor/plating/airless,/area/space/nearstation)
+"Wg" = (/obj/machinery/conveyor_switch{id = "fastfood_trash"},/obj/effect/turf_decal/stripes/line,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Wv" = (/obj/item/trash/candy{pixel_x = 10; pixel_y = -3},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"WN" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line{dir = 10},/turf/open/floor/plating/airless,/area/space/nearstation)
+"WZ" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on,/obj/machinery/button/door{pixel_x = -28; id = "fastfood_bar"},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Xg" = (/obj/item/trash/tray{pixel_y = -5; pixel_x = -10},/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Xt" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable{icon_state = "0-2"; pixel_y = 1},/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/obj/item/stack/sheet/mineral/uranium,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Xy" = (/obj/machinery/door/airlock/public{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"XF" = (/obj/structure/table/wood,/obj/item/paper_bin{pixel_x = -3; pixel_y = -4},/obj/item/pen,/turf/open/floor/carpet/black,/area/ruin/space/has_grav/fastfood_employee)
+"XP" = (/obj/item/flashlight/lamp,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"Yk" = (/obj/structure/rack/shelf,/obj/item/tank/internals/emergency_oxygen/engi,/obj/item/tank/internals/emergency_oxygen/engi,/obj/item/clothing/mask/gas,/obj/item/clothing/mask/gas,/obj/item/crowbar/red,/obj/item/crowbar/red,/obj/item/crowbar/red,/obj/item/clothing/mask/gas,/obj/item/tank/internals/emergency_oxygen/engi,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_employee)
+"Ys" = (/obj/machinery/door/airlock/public,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+"YL" = (/obj/item/trash/can,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"Zf" = (/obj/item/trash/fatoray_scrap1,/turf/open/misc/asteroid/airless,/area/space/nearstation)
+"Zn" = (/obj/structure/closet/emcloset,/turf/open/floor/iron/dark/herringbone,/area/ruin/space/has_grav/fastfood_main)
+"ZG" = (/obj/structure/trash_pile,/obj/effect/turf_decal/stripes/line{dir = 4},/obj/item/trash/boritos,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/airless,/area/space/nearstation)
+"ZH" = (/obj/structure/falsewall,/turf/open/floor/plating,/area/ruin/space/has_grav/fastfood_employee)
+
+(1,1,1) = {"
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaMDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhKsaiQZxTKANHNVCRVcyEfYfYfYfYfYfYDhDh
+DhDhDhDhDhDhDhfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhkmgQOaAenSBpUWJlfYfYfYfYfYfYDhDh
+DhDhDhDhDhfYfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhkmQAwcnSwjpwwcZGfYfYfYfYfYfYDhDh
+DhDhDhDhfYfYfYfYyKadfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhkmiFnSnSpwBZoWnJfYfYfYfYfYfYDhDh
+DhDhDhDhfYfYfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhKsaiQZWNhvMiVRdaGPyEfYfYfYfYfYfYfYDh
+DhDhDhDhfYKkqFxifYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYfYfYDh
+DhDhDhDhfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYfYfYDh
+DhDhDhDhaXfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhbuDhDhDhbuDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaiDhDhDhaiDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDharDhDhDharDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYDh
+DhDhDhDhDhDhDhDhDhfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDharDhDhDharDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhbuaiaiaibuaiaiaiararariqavaviqDhDhDhDhDhDhDhaADhDhDhaADhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYDhDh
+DhDhDhDhfYDhfYadDhDhDhDhDhDhDhDhfYfYDhDhDhDhDhDhDhDhDhDhaiDhDhDhaiDhDhDharDlkmiqSczLiqiqiqiqiqiqiqfXlFMrMrMrlFfXDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYDhDhDh
+DhDhDhadfYDhyKadDhDhDhDhDhfYfYfYfYfYfYfYDhDhDhDhDhDhDhDhaiDhDhDhaiDhDhDhiqiqcziqetkSasGkiqeGalIHiqiqiqbAbAbAiqiqiqiqiqiqiqDhDhDhfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhyKadfYDhDhDhDhDhDhDhadadyKfYfYfYfYfYfYDhDhDhDhDhDhDhaiDhDhDhaiDhDhDhiqCLKdiqMYbzMYkSiqbAbAbAhYdGJGbAbAbAbAoRiqnZyZTviqDhDhDhfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDh
+DhDhfYfYDhDhDhDhDhDhadadadadadadfYfYfYfYfYfYDhDhDhDhDhDhaiaiiqiqiqiqiqaiiqPMKdiqMYXFMYkSiqTebAbAyXbAUSbAlcbAbAiLiqoLKdpuiqDhDhfYfYadyKfYfYDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhadadadadadadaXfYfYfYfYfYfYDhDhDhDhDhaiiqiqbAYkbAiqiqiqpiQriqavaviqyMiqbAbAbAbAbAbAbAbAbAiqiqiqKdQJwbiqDhDhfYadadadfYfYDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhfYadadadadadyKadadadfYfYfYfYfYfYfYDhDhDhDhiqiqatbAbAbAbAbAbAbAbAbAbAbAbAbAbAbAbAcuoihYalaCbAbAGWbjZHKdTmXPiqDhDhDhDhadfYfYDhDhfYfYDhDhDhDhDhDhDhDh
+DhDhDhDhfYfYfYfYaXadadadadadadadadfYfYfYfYfYfYfYfYDhDhDhiqmbbAaQbAaRbAbAbAbAbAbAbAbAbAbAbAbAbAiqiqiqiqiqiqDYiqLEiqFwWvKdiqDhDhDhDhDhDhDhDhfYfYfYDhDhDhDhDhDhDhDh
+DhDhDhDhfYfYfYfYfYfYfYyKadadadadadfYfYfYfYfYadfYfYDhDhDhiqlubAbAbAbAbAiqiqiqiqiqiqiqiqiqiqbAbAiqaZbaNSkIVobAiqLEiqiqiqiqiqDhDhDhDhDhDhDhDhfYfYDhDhDhDhDhDhDhDhDh
+DhDhDhDhfYfYfYfYfYfYfYfYfYadadyKfYfYfYfYfYyKadadDhDhDhDhiqeKbAbAambogqiqmnbkawbebfbfaGaGiqbAbAiqaZbAbAbAFZbAiqLEyJavDhDhaiDhDhDhDhfYfYfYDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhfYfYfYfYfYfYfYfYfYaXfYfYfYfYfYfYadadDhDhDhDhDhiqdEbAbAbobobAiqqrbyXgbAbAbAbAbAxBbAbApXbAbAbAUSbAbAiqLEyJavDhDhaiDhDhDhfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYfYaXadDhDhDhDhDhDhiqiqbAbAazbAbEiqmibybAFZbAcUbAbApXbAbAiqbARBDkUzUzUziqLEiqiqaiaiKsDhDhfYfYfYyKadadadDhDhDhDhfYDhDhDhDhDh
+DhDhfYfYDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYDhDhDhDhDhDhDhfXiqebiqiqiqiqiqiqbybAbAbAbAbBLoiqiqebiqbAiqiqiqiqiqiqLEavDhDhDhaiDhDhfYadadadadfYfYDhDhDhDhDhDhDhDhDhDh
+DhDhfYfYDhDhDhDhDhfYfYfYyKadadfYfYfYfYDhDhDhDhDhDhDhDhDhfXiqbAtuqjpZbAahiqCkAtGfoepWoeAtaHRibAiqiqiqgPsxXyaNTFwtiqDhDhDhaiDhDhadadadyKfYfYfYDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhfYaXadadadadadaXfYfYDhDhDhDhDhDhDhDhDhiqiqWZbAbAbAbAEcywGgbAkQawawawbAbJbybAiqrmbnNhLEiqLEiqiqiqaiaiaiKsDhDhadadadfYfYfYDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhfYDhDhDhDhDhadadadadadadfYDhDhDhDhDhDhDhDhDhDhiqARaPAtAtAtAtGgiqbAbAbAbAbAbAbAbJlbrJZHaYKdKdlAZHLEavnsDhDhDhDhaiDhDhDhaXfYfYfYfYDhfYfYDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPQPQPQPQPebiqbAbAbAbAiqbAbAiqbJbJbJbJpUlbrJiqyzXtagaUiqLEiqiqiqiqiqiqiqDhDhDhfYfYfYfYDhDhfYfYDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPhIPlPlQPrJrJrJrJrJrJrJrJrJrJrJrJrJrJrJlbrJiqbWlsKdfRiqLELDKdiqtbMyNWiqDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPaBNaNaaErJrJrJrJrJrJrJrJuMrJrJrJrJrJrJlblmiqKdCGTFwtiqLEsYKddlxDgAgIiqDhDhDhDhDhDhDhfYfYDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPbpbpbpbprJrJrJlmwGfiVtDXwGfiVtDXwGlmrJlbVtiqrsysbKKdiqLEvqKdiqIafcEuiqDhDhDhDhDhDhfYfYfYfYDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPQPQPQPQPrJrJrJVtLlbNVtvILlbNVtvILlVtrJlbaLQPQPQPiqYsiqLEiqiqiqiqiqiqiqDhDhDhDhDhDhyKfYfYfYDhDhfYDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaiDhDhOYVtrJrJrJaLwGMDVtxAwGMDVtxAwGaLrJqdiBPUVmRZMaacacGlaVaVpGKdjhFiiqDhDhDhDhDhDhadadadadDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaiDhDhOYVtrJrJrJrJrJrJrJrJkBrJrJrJrJrJrJrJrJQPQPQPQPQPQPeSiqiqzhWgEeTAiqDhDhDhDhDhfYZfaXfYfYDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaiDhDhOYVtrJrJrJrJrJrJrJrJrJrJrJrJrJrJrJrJrJQPaOUgUgUgQPKdfNiqBQnoGxTKiqDhDhDhDhDhfYfYfYfYDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaiDhDhQPrJrJrJrJQPwGfiSKDXwGfiVtDXwGYLrJrJrJFarJTCrJPeQPkriqiqiqiqiqiqiqDhDhDhDhDhfYfYfYfYDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhaiDhDhQPaOrJrJaOQPLlbNVtvILlbNVtvILlPFrJwNeiQPQPQPRxuMQPkmDlarDhDhDhDhaiDhDhDhDhDhfYfYfYDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhbuaiaiarvGQPQPQPrJrJQPQPQPOYOYOYQPOYOYOYQPOYOYOYQPQPrTFarJrJQParararDhDhDhDhaiDhDhDhDhDhDhfYDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDharkmakrJYLPVPVPqQPaiDhDhDhaiDhDhDhaiDhDhDhaiQPQPQPrJrJQPDhDhaiDhDhDhDhaiDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDharkmakrJrJrJrJPqQPaiDhDhDhaiDhDhDhaiDhDhDhaiQPFtFarJrJQPDhDhaiDhDhDhDhaiDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhbuaiaiarvGQPILQPrJrJQPQPbwxWxWxWbwxWxWxWbwxWxWxWbwQPQPQPQPQPQPaiaibuaiaiaiaibuDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPaOrJHWFmfBQPDhDhDhDhaiDhDhDhaiDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYzmfYfYDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhOYuCrJrJrJrJOYDhDhDhDhKsDhDhDhKsDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYhMhMfYfYfYfYDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhOYvBrJBIrJrJOYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYyKadadadadaXfYfYfYfYDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhOYQurJrJrJrJOYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYDhDhDhDhDhDhDhDhDhfYfYfYadadadadyKadadyKaXfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPaOrJrJrJZnQPDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYDhDhDhDhDhDhDhDhfYfYadadadadadadadadadadadfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhQPQPOYOYOYQPQPDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYaXyKfYDhDhDhDhDhDhDhfYfYaXadadadadfYfYBsadadadadfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYadadadfYDhDhDhDhDhDhDhfYfYadadyKadfYfYfYfYadadadadfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYadDhDhDhDhDhDhDhDhDhDhDhDhfYadadadDhDhDhDhDhDhDhDhfYfYfYadadadfYfYfYfYfYadadadyKfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYDhDhfYadaXDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYadadadfYfYfYyKadadadadaXfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYadadadDhDhfYfYDhDhDhDhDhDhDhDhDhDhfYDhDhDhDhDhDhDhDhDhDhfYfYfYfYadadadyKadadaXadadadadadfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYadyKadadDhDhDhDhDhDhDhDhDhDhfYfYDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYadadadfZadadadadadadadfYfYfYfYfYDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYadadDhDhfYDhDhDhDhDhDhDhfYfYDhDhDhDhDhDhDhDhfYfYfYfYfYfYyKadadadMeadadadadadyKfYfYfYfYfYDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYadadfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYadadadadaXadadadadadfYfYfYfYfYfYDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYaXfYDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYHUSEHUfYadadadadadadadadadadadfYfYfYfYDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYUJadadadadadadyKadadadadadyKfYfYfYfYfYDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYaXadadadadadaXadadadadadaXfYfYfYfYfYfYfYDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYadadadadadadadadadadadadfYfYfYfYfYfYfYDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYyKadadadadadadadadadfYhMhMfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYaXyKadadadfYfYfYfYfYzmfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYfYfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhfYfYfYfYfYfYfYfYfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhfYDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+DhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDhDh
+"}
