@@ -36,12 +36,6 @@
 	desc = "A deck of GATO-branded space-grade playing cards."
 	icon = 'modular_gs/icons/obj/toy.dmi'
 
-/obj/structure/sign/gato
-	name = "GATO Logo"
-	desc = "A sign with the GATO Logo on it. Glory to GATO!"
-	icon = 'modular_gs/icons/obj/gatofication.dmi'
-	icon_state = "gato"
-
 /obj/structure/sign/gatofull_1
 	name = "GATO"
 	desc = "GATO - expand your horizons!"

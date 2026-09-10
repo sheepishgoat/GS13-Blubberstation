@@ -7613,7 +7613,6 @@
 #include "modular_gs\code\structures\chair.dm"
 #include "modular_gs\code\structures\sink.dm"
 #include "modular_gs\code\structures\trapped_items.dm"
-#include "modular_gs\gatofication\obj\signs.dm"
 #include "modular_gs\modules\modular_items\code\fan.dm"
 #include "modular_gs\modules\peering\code\peering.dm"
 #include "modular_gs\modules\plumbing\plumbing_machines.dm"
