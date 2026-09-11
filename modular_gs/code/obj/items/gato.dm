@@ -153,6 +153,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gatofull_3, 32)
 	icon_state = "flag_gt"
 	item_flag = /obj/item/sign/flag/gato
 
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/gato, 32)
+
 /obj/item/bedsheet/gato
 	name = "GATO Bedsheet"
 	desc = "Extra padding, for extra comfiness."
