@@ -2663,7 +2663,7 @@
 /area/station/hallway/primary/central)
 "blB" = (
 /turf/closed/wall/r_wall,
-/area/station/engineering/outpost/one)
+/area/station/engineering/outpost/two)
 "blM" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -3924,9 +3924,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
-"bSZ" = (
-/turf/closed/wall/r_wall,
-/area/station/engineering/outpost/two)
 "bTg" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/machinery/airalarm/directional/west,
@@ -6730,13 +6727,8 @@
 /turf/open/floor/wood,
 /area/station/service/library)
 "deg" = (
-/obj/machinery/camera{
-	c_tag = "Communications Relay";
-	dir = 8;
-	network = list("mine")
-	},
-/turf/open/floor/circuit,
-/area/mine/maintenance)
+/turf/closed/wall/r_wall,
+/area/station/engineering/outpost/one)
 "des" = (
 /obj/structure/cable,
 /obj/structure/extinguisher_cabinet{
@@ -7456,9 +7448,6 @@
 "dsU" = (
 /obj/machinery/chem_master/condimaster{
 	name = "HoochMaster 2000"
-	},
-/obj/machinery/camera{
-	c_tag = "Bar Storage"
 	},
 /turf/open/floor/wood,
 /area/station/service/bar)
@@ -9466,6 +9455,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons/lounge)
+"ejw" = (
+/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2,
+/turf/open/floor/plating,
+/area/station/engineering/outpost/two)
 "ejU" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -16642,6 +16635,11 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
+"hvL" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/full,
+/turf/open/floor/plating,
+/area/station/engineering/outpost/one)
 "hvR" = (
 /obj/structure/table,
 /obj/item/stack/sheet/mineral/plasma,
@@ -23377,10 +23375,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
-"kvF" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/engineering/outpost/one)
 "kvW" = (
 /obj/machinery/light{
 	dir = 4
@@ -25448,6 +25442,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/science/research,
 /obj/machinery/door/firedoor,
+/turf/open/floor/iron/white,
 /area/station/science/lab)
 "lsl" = (
 /obj/machinery/light,
@@ -31514,11 +31509,6 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
-"obI" = (
-/obj/structure/cable,
-/obj/machinery/power/smes/full,
-/turf/open/floor/plating,
-/area/station/engineering/outpost/two)
 "obN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
@@ -38007,7 +37997,7 @@
 "rhE" = (
 /obj/machinery/atmospherics/components/binary/valve/digital/on/layer2,
 /turf/open/floor/plating,
-/area/station/engineering/outpost/two)
+/area/station/engineering/outpost/one)
 "rhT" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/red,
@@ -38289,11 +38279,7 @@
 /obj/item/reagent_containers/blood/random,
 /obj/item/reagent_containers/blood/random,
 /obj/item/reagent_containers/blood/random,
-/obj/machinery/camera{
-	c_tag = "Sleeper Room";
-	dir = 1;
-	network = list("mine")
-	},
+/obj/machinery/camera/autoname/mine/directional/east,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
@@ -49545,10 +49531,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
-"wrf" = (
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2,
-/turf/open/floor/plating,
-/area/station/engineering/outpost/one)
 "wsq" = (
 /obj/machinery/mass_driver{
 	dir = 4;
@@ -50890,7 +50872,7 @@
 /obj/structure/cable,
 /obj/machinery/power/smes/full,
 /turf/open/floor/plating,
-/area/station/engineering/outpost/one)
+/area/station/engineering/outpost/two)
 "wWG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -51594,6 +51576,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/science/lab)
+"xpm" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
+	name = "scrubbers pipe"
+	},
+/turf/open/floor/plating,
+/area/station/engineering/outpost/one)
 "xpB" = (
 /obj/item/kirbyplants{
 	icon_state = "applebush"
@@ -51842,14 +51832,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
-"xvr" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
-	name = "scrubbers pipe"
-	},
-/turf/open/floor/plating,
-/area/station/engineering/outpost/one)
 "xvD" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
@@ -52968,6 +52950,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/yellow/visible,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
+"xWK" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/engineering/outpost/one)
 "xWM" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -167779,7 +167765,7 @@ xjG
 cfC
 kIU
 dXO
-deg
+qYJ
 kIU
 uIZ
 sks
@@ -202248,12 +202234,12 @@ wBZ
 fWz
 uzQ
 uCp
-bSZ
+blB
 jhM
 xlZ
 xlZ
-bSZ
-bSZ
+blB
+blB
 kUn
 nSp
 nSp
@@ -202510,7 +202496,7 @@ lSz
 ndC
 iSX
 oms
-bSZ
+blB
 rpG
 nSp
 nSp
@@ -203279,7 +203265,7 @@ grT
 xlZ
 tGy
 bIt
-rhE
+ejw
 uDl
 rkX
 civ
@@ -203533,12 +203519,12 @@ hpQ
 xQr
 caS
 grT
-bSZ
+blB
 eOz
 ycy
-obI
+wWq
 tcd
-bSZ
+blB
 pDn
 dIn
 aNx
@@ -203790,12 +203776,12 @@ tBa
 lOt
 vNB
 jLG
-bSZ
-bSZ
-bSZ
-bSZ
-bSZ
-bSZ
+blB
+blB
+blB
+blB
+blB
+blB
 pDn
 dIn
 aNx
@@ -215873,12 +215859,12 @@ nhp
 nhp
 nhp
 nhp
-blB
-blB
-blB
-blB
-blB
-blB
+deg
+deg
+deg
+deg
+deg
+deg
 bik
 bik
 bik
@@ -216130,9 +216116,9 @@ nhp
 nhp
 nhp
 nhp
-blB
+deg
 pXw
-wWq
+hvL
 qAd
 xES
 qOa
@@ -216389,7 +216375,7 @@ ido
 cvF
 dsc
 nDU
-wrf
+rhE
 oAA
 mwz
 azg
@@ -216644,7 +216630,7 @@ ciP
 ciP
 ciP
 ciP
-xvr
+xpm
 qox
 qgm
 bbD
@@ -216901,7 +216887,7 @@ nhp
 nhp
 nhp
 nhp
-kvF
+xWK
 rfo
 eyY
 ogE
@@ -217158,7 +217144,7 @@ eKi
 nhp
 nhp
 nhp
-blB
+deg
 cvM
 oiE
 hXO
@@ -217415,7 +217401,7 @@ nhp
 nhp
 nhp
 qTw
-blB
+deg
 sjr
 azg
 azg
