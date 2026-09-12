@@ -9,7 +9,7 @@
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
 	icon_state = "/obj/item/clothing/under/dual_tone/turtleneck"
 	worn_icon = 'modular_gs/icons/mob/modclothes/turtleneck_worn.dmi'
-	post_init_icon_state = "turtleneck"		// but why does it have to be this way
+	post_init_icon_state = "turtleneck"
 
 	armor_type = /datum/armor/clothing_under
 	greyscale_config = /datum/greyscale_config/turtleneck
