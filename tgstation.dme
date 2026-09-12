@@ -7472,6 +7472,7 @@
 #include "modular_gs\code\modules\clothing\under\button_up.dm"
 #include "modular_gs\code\modules\clothing\under\dual_tone_jumpsuit.dm"
 #include "modular_gs\code\modules\clothing\under\jobs\modular_items.dm"
+#include "modular_gs\code\modules\clothing\under\jobs\turtleneck.dm"
 #include "modular_gs\code\modules\clothing\under\jobs\modular_clothing\button_up.dm"
 #include "modular_gs\code\modules\clothing\under\jobs\modular_clothing\dual_tone.dm"
 #include "modular_gs\code\modules\condos\condo_templates.dm"
