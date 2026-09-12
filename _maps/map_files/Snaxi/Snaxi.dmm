@@ -129,6 +129,10 @@
 /obj/machinery/flasher/portable,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
+"acN" = (
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron/dark,
+/area/station/service/chapel/office)
 "acW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -182,7 +186,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -666,7 +672,9 @@
 	dir = 8;
 	name = "west facing firelock"
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/iron,
 /area/station/maintenance/aft/greater)
 "apj" = (
@@ -1119,7 +1127,10 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "Departure Lounge Airlock";
+	space_dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "ayv" = (
@@ -2338,7 +2349,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
@@ -2471,7 +2484,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "bfZ" = (
@@ -2543,7 +2558,10 @@
 /turf/open/floor/carpet/royalblue,
 /area/station/commons/dorms)
 "bhj" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
@@ -4112,10 +4130,6 @@
 	name = "Station Intercom (General)";
 	pixel_y = 28
 	},
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
-/obj/machinery/disposal/bin,
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "bWI" = (
@@ -4666,7 +4680,10 @@
 	dir = 4;
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/mining/glass,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Warehouse"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "chd" = (
@@ -6684,7 +6701,9 @@
 /area/station/hallway/secondary/entry)
 "ddv" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "ddB" = (
@@ -7075,7 +7094,9 @@
 /area/station/command/eva)
 "dkb" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Emitter Room"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -8259,9 +8280,10 @@
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/department/science/xenobiology)
 "dJu" = (
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron/dark,
-/area/station/service/chapel/office)
+/obj/structure/cable,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/primary/port)
 "dJG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
@@ -9819,7 +9841,9 @@
 /turf/open/floor/mineral/sandstone_floor,
 /area/station/common/pool)
 "eqG" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "SMES Banks"
+	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -10474,7 +10498,9 @@
 /turf/open/floor/iron,
 /area/station/maintenance/aft)
 "eHl" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -11741,7 +11767,9 @@
 /obj/machinery/door/firedoor/border_only{
 	name = "south facing firelock"
 	},
-/obj/machinery/door/airlock/command/glass,
+/obj/machinery/door/airlock/command/glass{
+	name = "EVA Storage"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -11915,7 +11943,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/effect/landmark/navigate_destination,
 /obj/effect/mapping_helpers/airlock/access/any/science/ordnance_storage,
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/research{
+	name = "Genetics"
+	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white/corner{
 	dir = 1
@@ -12126,7 +12156,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/any/medical/paramedic,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -12214,7 +12246,10 @@
 /turf/open/floor/carpet,
 /area/station/command/corporate_showroom)
 "fvn" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
@@ -12320,7 +12355,9 @@
 "fwR" = (
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medbay Southern Outpost"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -12633,12 +12670,8 @@
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors)
 "fGb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/turf/open/floor/plating,
+/area/station/commons/lounge)
 "fGc" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/fans/tiny,
@@ -13197,7 +13230,9 @@
 /turf/open/floor/carpet,
 /area/station/service/chapel)
 "fSz" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark,
@@ -13655,7 +13690,9 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
 "gdQ" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Supermatter Engine Room"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -14223,7 +14260,9 @@
 /area/station/command/teleporter)
 "gpA" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/iron,
 /area/station/cargo/warehouse)
 "gpQ" = (
@@ -14291,10 +14330,13 @@
 	name = "air supply pipe"
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/mining/glass,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Office"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "grl" = (
@@ -14306,7 +14348,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/pool_maintenance)
 "grw" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -14429,7 +14473,9 @@
 /turf/open/floor/iron,
 /area/station/maintenance/aft/greater)
 "guO" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Auxiliary Tool Storage"
+	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
@@ -14979,7 +15025,9 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/external,
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
@@ -15752,7 +15800,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "Departure Lounge Airlock"
+	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "gZf" = (
@@ -16258,13 +16308,12 @@
 /turf/open/floor/iron,
 /area/station/maintenance/aft/greater)
 "hlB" = (
-/obj/machinery/door/airlock,
-/obj/machinery/door/firedoor/border_only{
-	name = "south facing firelock"
+/obj/effect/turf_decal/tile/red,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/white/corner{
+	dir = 8
 	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
-/area/station/service/janitor)
+/area/station/hallway/primary/aft)
 "hlJ" = (
 /obj/machinery/chem_master,
 /obj/effect/turf_decal/tile/yellow{
@@ -16719,7 +16768,9 @@
 /area/station/science/lab)
 "hwu" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer"
+	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/iron,
 /area/station/engineering/main)
@@ -17070,7 +17121,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "hHs" = (
@@ -17316,7 +17369,10 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 8
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay"
+	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
@@ -17491,7 +17547,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "Arrivals Dock"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	dir = 10;
 	name = "scrubbers pipe"
@@ -17692,13 +17750,17 @@
 /turf/open/floor/wood/large,
 /area/station/security/courtroom)
 "hVp" = (
-/obj/machinery/door/airlock/atmos,
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics"
+	},
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/atmos,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "hVy" = (
-/obj/machinery/door/airlock/atmos,
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -18408,7 +18470,9 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "imw" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Primary Tool Storage"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -18798,7 +18862,9 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/paramedic,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/iron/white,
@@ -20021,7 +20087,9 @@
 /area/icemoon/surface/outdoors)
 "iXy" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -20382,7 +20450,9 @@
 	dir = 4;
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/atmos,
+/obj/machinery/door/airlock/atmos{
+	name = "Engineering North Western Outpost"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	dir = 4;
 	name = "scrubbers pipe"
@@ -20643,7 +20713,9 @@
 /turf/open/floor/iron,
 /area/station/engineering/supermatter/room)
 "jmo" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
@@ -21012,11 +21084,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/violet/visible,
 /turf/open/floor/iron,
 /area/station/science/explab)
-"jtP" = (
-/obj/structure/cable,
-/obj/machinery/firealarm/directional/west,
-/turf/open/floor/iron,
-/area/station/hallway/primary/port)
 "jtY" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -21262,7 +21329,9 @@
 /turf/open/floor/plating,
 /area/station/hallway/primary/fore)
 "jzp" = (
-/obj/machinery/door/airlock/engineering,
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering Break Room"
+	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -21294,7 +21363,9 @@
 /turf/open/floor/iron/grimy,
 /area/station/commons/fitness/recreation)
 "jzE" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Supermatter Engine Room"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
@@ -21597,7 +21668,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
@@ -22047,7 +22120,9 @@
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
 "jPc" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Bar"
+	},
 /obj/machinery/door/firedoor/border_only{
 	name = "south facing firelock"
 	},
@@ -22081,7 +22156,9 @@
 /turf/closed/wall,
 /area/station/hallway/primary/aft)
 "jPZ" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Chapel Office"
+	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
@@ -22198,7 +22275,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -22874,7 +22953,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Airlock"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "khk" = (
@@ -22957,7 +23038,9 @@
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
 "kiT" = (
-/obj/machinery/door/airlock/engineering,
+/obj/machinery/door/airlock/engineering{
+	name = "Tech Storage"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
@@ -23028,7 +23111,9 @@
 	dir = 4
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "kkd" = (
@@ -23687,7 +23772,9 @@
 /turf/open/floor/iron/dark,
 /area/station/security/brig)
 "kAW" = (
-/obj/machinery/door/airlock/atmos,
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -23770,7 +23857,10 @@
 /area/station/service/janitor)
 "kCl" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay"
+	},
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
 	},
@@ -24508,9 +24598,12 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "kUu" = (
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/wood,
-/area/station/service/library)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/station/commons/lounge)
 "kUN" = (
 /obj/machinery/vending/wardrobe/law_wardrobe,
 /obj/item/radio/intercom{
@@ -26007,7 +26100,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
 "lFS" = (
@@ -26511,7 +26606,9 @@
 /turf/open/floor/wood,
 /area/station/common/pool/sauna)
 "lRV" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
@@ -26669,7 +26766,9 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "lUI" = (
@@ -26797,7 +26896,9 @@
 	dir = 4;
 	name = "scrubbers pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
@@ -26940,7 +27041,9 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
 "lZc" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -27145,7 +27248,9 @@
 	dir = 4;
 	name = "scrubbers pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "mfV" = (
@@ -27644,7 +27749,10 @@
 	dir = 1
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "Access Airlock";
+	space_dir = 2
+	},
 /turf/open/floor/iron,
 /area/station/maintenance/aft)
 "mqt" = (
@@ -28729,7 +28837,9 @@
 /turf/open/floor/carpet/royalblue,
 /area/station/command/bridge)
 "mPH" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -28992,9 +29102,6 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "mVf" = (
@@ -29170,7 +29277,9 @@
 	dir = 4;
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/mining,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mining Dock"
+	},
 /obj/structure/fans/tiny,
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
@@ -29183,7 +29292,9 @@
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "mZh" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 2"
+	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/station/hallway/primary/port)
@@ -29557,7 +29668,9 @@
 /area/station/hallway/secondary/entry)
 "nfk" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer"
+	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -30044,7 +30157,9 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "nrC" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
@@ -30416,7 +30531,9 @@
 /turf/open/floor/iron,
 /area/station/science/ordnance/office)
 "nBj" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -30730,8 +30847,12 @@
 /turf/open/floor/wood,
 /area/station/service/theater)
 "nHd" = (
-/turf/open/floor/plating,
-/area/station/commons/lounge)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "nHu" = (
 /turf/closed/wall,
 /area/station/cargo/miningdock)
@@ -31203,7 +31324,10 @@
 	dir = 4;
 	name = "scrubbers pipe"
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medbay North Eastern Outpost"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/outpost/two)
 "nSQ" = (
@@ -32906,7 +33030,9 @@
 /area/station/service/lawoffice)
 "oHS" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Pharmacy"
+	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
@@ -33930,7 +34056,9 @@
 /area/station/service/kitchen)
 "piM" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -34074,7 +34202,9 @@
 /turf/closed/wall,
 /area/station/commons/fitness)
 "pmw" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -34655,7 +34785,9 @@
 	dir = 4;
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
 "pAk" = (
@@ -35086,7 +35218,9 @@
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "pLc" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Primary Tool Storage"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
@@ -35115,7 +35249,9 @@
 /turf/open/floor/catwalk_floor,
 /area/station/engineering/supermatter/room)
 "pLK" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -35386,7 +35522,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Bar"
+	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1;
 	name = "north facing firelock"
@@ -35398,7 +35536,10 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	space_dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "pUa" = (
@@ -35491,7 +35632,9 @@
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
 "pWW" = (
-/obj/machinery/door/airlock/mining/glass,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mining Dock"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
@@ -36989,7 +37132,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/mining/glass,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "qFf" = (
@@ -37120,7 +37266,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "Arrivals Dock"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -37613,7 +37761,9 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "qUb" = (
-/obj/machinery/door/airlock/freezer,
+/obj/machinery/door/airlock/freezer{
+	name = "Freezer"
+	},
 /obj/machinery/door/firedoor/border_only{
 	name = "south facing firelock"
 	},
@@ -38096,7 +38246,9 @@
 /turf/open/floor/wood,
 /area/station/maintenance/abandon_cafeteria)
 "rfM" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Supermatter Engine Room"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible,
 /obj/machinery/door/firedoor/heavy,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
@@ -38142,7 +38294,9 @@
 /area/station/ai/satellite/chamber)
 "rhl" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "Access Airlock"
+	},
 /turf/open/floor/iron,
 /area/station/maintenance/aft)
 "rhn" = (
@@ -39077,12 +39231,12 @@
 /turf/open/floor/iron/white,
 /area/station/science/explab)
 "rBd" = (
-/obj/effect/turf_decal/tile/red,
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron/white/corner{
-	dir = 8
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod 1"
 	},
-/area/station/hallway/primary/aft)
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/station/hallway/primary/port)
 "rBp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
@@ -39685,7 +39839,10 @@
 	dir = 4;
 	name = "scrubbers pipe"
 	},
-/obj/machinery/door/airlock/mining/glass,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Delivery Office"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "rTq" = (
@@ -40335,7 +40492,9 @@
 	name = "air supply pipe"
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
 "sjM" = (
@@ -40391,7 +40550,9 @@
 /area/station/hallway/primary/port)
 "skX" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -40738,7 +40899,10 @@
 /area/station/commons/fitness)
 "stF" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Airlock";
+	space_dir = 8
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "stN" = (
@@ -41112,10 +41276,17 @@
 /area/station/service/hydroponics)
 "sBg" = (
 /obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/firealarm/directional/west,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
+	dir = 4;
+	name = "air supply pipe"
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
+	dir = 4;
+	name = "scrubbers pipe"
+	},
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
-/area/station/hallway/primary/port)
+/area/station/hallway/primary/aft)
 "sBn" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -41479,7 +41650,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/atmos,
+/obj/machinery/door/airlock/atmos{
+	name = "Engineering Southern Outpost"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -41781,7 +41954,9 @@
 	dir = 4;
 	name = "scrubbers pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /turf/open/floor/wood,
 /area/station/commons/lounge)
 "sPg" = (
@@ -42793,7 +42968,10 @@
 /turf/open/floor/wood/tile,
 /area/station/command/heads_quarters/captain)
 "tpp" = (
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay"
+	},
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
 	},
@@ -43045,7 +43223,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "tvn" = (
@@ -43402,12 +43582,11 @@
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors)
 "tEW" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/firealarm/directional/north,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
-/area/station/commons/lounge)
+/area/station/hallway/primary/port)
 "tFr" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -43705,7 +43884,9 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "tKw" = (
@@ -43830,7 +44011,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	dir = 4;
 	name = "scrubbers pipe"
@@ -44231,7 +44415,9 @@
 /area/station/science/robotics/lab)
 "tZm" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Chapel"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -44253,7 +44439,9 @@
 /area/station/command/corporate_showroom)
 "tZF" = (
 /obj/structure/cable,
-/obj/machinery/door/airlock/freezer,
+/obj/machinery/door/airlock/freezer{
+	name = "Freezer"
+	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1;
 	name = "north facing firelock"
@@ -44424,7 +44612,10 @@
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
 "udE" = (
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	id_tag = "MedbayFoyer";
+	name = "Medbay"
+	},
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
 	},
@@ -44559,7 +44750,9 @@
 /area/station/cargo/miningdock)
 "ufT" = (
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -44578,7 +44771,10 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	space_dir = 4
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "ugf" = (
@@ -44697,7 +44893,9 @@
 /turf/open/floor/iron/dark,
 /area/station/command/eva)
 "uhO" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
@@ -44891,10 +45089,13 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "unr" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external/glass{
+	name = "Supply Door Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "unv" = (
@@ -45077,7 +45278,9 @@
 /turf/open/floor/plating,
 /area/station/service/library)
 "urX" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -45103,7 +45306,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/paramedic,
 /turf/open/floor/iron/white,
 /area/station/medical/paramedic)
@@ -45931,7 +46136,9 @@
 "uJP" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/external,
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
@@ -46099,7 +46306,6 @@
 	dir = 4
 	},
 /obj/effect/landmark/blobstart,
-/obj/effect/landmark/firealarm_sanity,
 /turf/open/floor/plating,
 /area/station/commons/storage/primary)
 "uOr" = (
@@ -46298,8 +46504,11 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "uST" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external/glass{
+	name = "Supply Door Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /turf/open/floor/plating,
 /area/station/cargo/storage)
 "uTd" = (
@@ -47231,7 +47440,9 @@
 	dir = 1;
 	name = "north facing firelock"
 	},
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medbay North Eastern Outpost"
+	},
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/iron/white,
 /area/station/medical/outpost/two)
@@ -47393,7 +47604,9 @@
 	dir = 8;
 	name = "west facing firelock"
 	},
-/obj/machinery/door/airlock/research,
+/obj/machinery/door/airlock/research{
+	name = "Auxillary Bomb Testing Site"
+	},
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
 	name = "air supply pipe"
@@ -47677,7 +47890,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Bar"
+	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1;
 	name = "north facing firelock"
@@ -47768,18 +47983,16 @@
 /turf/open/floor/wood,
 /area/icemoon/surface/outdoors)
 "vzf" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
-	dir = 4;
-	name = "air supply pipe"
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
-	dir = 4;
-	name = "scrubbers pipe"
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external{
+	name = "Arrivals Dock";
+	space_dir = 8
 	},
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron,
-/area/station/hallway/primary/aft)
+/turf/open/floor/plating,
+/area/station/hallway/secondary/exit/departure_lounge)
 "vzo" = (
 /obj/structure/disposalpipe/sorting/mail{
 	dir = 8;
@@ -47961,7 +48174,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "vDp" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark,
@@ -48509,7 +48724,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
@@ -48822,7 +49039,9 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "vYn" = (
-/obj/machinery/door/airlock/ce,
+/obj/machinery/door/airlock/ce{
+	name = "Chief Engineer's Office"
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -48842,6 +49061,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/ce,
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "vYt" = (
@@ -49218,7 +49438,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Glass Airlock"
+	},
 /turf/open/floor/wood,
 /area/station/commons/lounge)
 "wgl" = (
@@ -49253,7 +49475,9 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Auxiliary Tool Storage"
+	},
 /turf/open/floor/iron,
 /area/station/commons/storage/tools)
 "wgO" = (
@@ -50218,7 +50442,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "wFV" = (
-/obj/machinery/door/airlock/medical/glass,
+/obj/machinery/door/airlock/external/glass{
+	name = "Paramedic External Access"
+	},
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/any/medical/paramedic,
 /turf/open/floor/pod/dark,
@@ -50785,7 +51011,9 @@
 	dir = 8
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external/glass,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
 "wRs" = (
@@ -50868,7 +51096,9 @@
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "wSO" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "SMES Banks"
+	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	dir = 4;
@@ -51193,7 +51423,9 @@
 	dir = 8;
 	icon_state = "door_closed"
 	},
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Access"
+	},
 /turf/open/floor/iron,
 /area/station/maintenance/aft/greater)
 "xen" = (
@@ -51345,7 +51577,9 @@
 /turf/open/floor/carpet/gato,
 /area/station/commons/dorms)
 "xhR" = (
-/obj/machinery/door/airlock/engineering/glass,
+/obj/machinery/door/airlock/engineering/glass{
+	name = "Engineering Foyer"
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -52726,7 +52960,6 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/effect/landmark/firealarm_sanity,
 /turf/open/floor/plating,
 /area/station/engineering/engine_smes)
 "xQr" = (
@@ -52766,7 +52999,9 @@
 /turf/open/floor/plating,
 /area/station/engineering/atmos)
 "xQI" = (
-/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Secure Tech Storage"
+	},
 /obj/effect/mapping_helpers/airlock/access/all/command,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tech_storage,
 /turf/open/floor/iron/dark,
@@ -53157,6 +53392,10 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
+"xZA" = (
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/wood,
+/area/station/service/library)
 "xZT" = (
 /obj/structure/cable,
 /obj/machinery/light{
@@ -53326,6 +53565,10 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron,
 /area/station/commons/lounge)
+"yez" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron,
+/area/station/cargo/sorting)
 "yeR" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1;
@@ -53394,7 +53637,9 @@
 	dir = 4
 	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	name = "External Airlock"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "yga" = (
@@ -199957,7 +200202,7 @@ yjU
 eHr
 tft
 sku
-jtP
+dJu
 rTv
 oVc
 rup
@@ -202539,7 +202784,7 @@ iOM
 dds
 dMb
 dds
-fGb
+nHd
 gey
 laZ
 lSz
@@ -205862,7 +206107,7 @@ bRJ
 deJ
 rsS
 ulF
-sBg
+tEW
 cXE
 olf
 wLA
@@ -206110,7 +206355,7 @@ rIA
 rIA
 rIA
 qFA
-mZh
+rBd
 xzC
 bEy
 jIv
@@ -213900,7 +214145,7 @@ rIA
 bCX
 nhp
 vWc
-dJu
+acN
 qiD
 qiD
 ocT
@@ -214893,8 +215138,8 @@ rIA
 rIA
 bik
 tbQ
-kjQ
-kjQ
+vzf
+vzf
 tbQ
 nhp
 nhp
@@ -223918,7 +224163,7 @@ iSD
 iSD
 eCp
 amW
-kUu
+xZA
 nzQ
 iBb
 dvi
@@ -224079,10 +224324,10 @@ kyV
 dAt
 oaJ
 rZK
-nHd
-nHd
+fGb
+fGb
 iwZ
-nHd
+fGb
 osI
 wgc
 sPa
@@ -224091,7 +224336,7 @@ oGp
 wAp
 sgg
 hXZ
-hlB
+oGp
 mVd
 mmM
 oJS
@@ -224337,11 +224582,11 @@ sXS
 gQY
 rZK
 uyS
-nHd
+fGb
 szc
-nHd
+fGb
 osI
-tEW
+kUu
 axl
 tRK
 kLc
@@ -224594,7 +224839,7 @@ tln
 ifb
 rZK
 jDQ
-nHd
+fGb
 szc
 iUf
 osI
@@ -224850,10 +225095,10 @@ loc
 rTL
 viy
 rZK
-nHd
-nHd
+fGb
+fGb
 szc
-nHd
+fGb
 osI
 ruh
 coh
@@ -225107,8 +225352,8 @@ gdH
 gdH
 smn
 rZK
-nHd
-nHd
+fGb
+fGb
 szc
 qZi
 osI
@@ -225893,7 +226138,7 @@ fBN
 vhX
 pbp
 ppa
-mLW
+yez
 brf
 kXN
 vWs
@@ -229225,7 +229470,7 @@ fIe
 pNS
 lIQ
 xFD
-vzf
+sBg
 msO
 xBw
 piO
@@ -230525,7 +230770,7 @@ kcd
 msO
 aLi
 sII
-rBd
+hlB
 qYv
 fZO
 fZO
@@ -232576,9 +232821,9 @@ qiu
 ceX
 nHu
 jPO
-dyC
-dyC
-dyC
+usN
+usN
+usN
 jPO
 rxl
 mzd
