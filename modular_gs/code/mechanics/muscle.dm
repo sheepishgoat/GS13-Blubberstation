@@ -44,3 +44,6 @@
 
 	adjust_muscle(muscle_gained)
 	return TRUE
+
+/mob/living/carbon/proc/handle_muscle_gain()
+	muscle = muscle_real

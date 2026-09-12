@@ -22,6 +22,7 @@
 		handle_dead_metabolization(seconds_per_tick) //Dead metabolization first since it can modify life metabolization.
 		handle_organs(seconds_per_tick)
 		handle_weight_gain() // GS13 EDIT - weight gain
+		handle_muscle_gain() // GS13 EDIT - muscle gain
 
 		. = ..()
 		if(QDELETED(src))
@@ -119,7 +120,7 @@
 						return FALSE
 					breath = null // uh oh where'd the air go
 					check_breath(breath)
-					if(oxyloss <= OXYGEN_DAMAGE_CHOKING_THRESHOLD && stat == CONSCIOUS)
+					if(oxyloss <= OXYGEN_DAMAGE_CHOKING_THRESHOLD && !IS_UNCONSCIOUS_OR_CRIT(src))
 						to_chat(src, "<span class='userdanger'>You hold in your breath!</span>")
 					else
 						//Try and drink water
@@ -474,7 +475,7 @@
 /mob/living/carbon/proc/handle_blood(seconds_per_tick)
 	return
 
-/mob/living/carbon/reagent_tick(datum/reagent/chem, seconds_per_tick)
+/mob/living/carbon/reagent_tick(datum/reagent/chem, seconds_per_tick, metabolization_ratio)
 	. = ..()
 	if(. & COMSIG_MOB_STOP_REAGENT_TICK)
 		return
@@ -515,8 +516,8 @@
 			// A simple weighted average that simplifies down to "total synth volume / total blood volume" i.e. "how much of our blood is synthetic"
 			AddComponent(/datum/component/synth_blood, (added_synth_volume + existing_synth_volume) / (blood_added + cached_blood_volume))
 
-	if(chem.data?["blood_type"])
-		var/datum/blood_type/donor_type = chem.data["blood_type"]
+	if(chem.data?[BLOOD_DATA_TYPE])
+		var/datum/blood_type/donor_type = chem.data[BLOOD_DATA_TYPE]
 		if(!(donor_type.type_key() in blood_type.compatible_types))
 			reagents.add_reagent(/datum/reagent/toxin, reac_volume * 0.5)
 			return COMPONENT_NO_EXPOSE_REAGENTS

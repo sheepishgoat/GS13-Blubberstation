@@ -30,12 +30,6 @@
 	clawfootstep = FOOTSTEP_WOOD_CLAW
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
 
-/turf/open/floor/concrete/
-	name = "concrete"
-	icon = 'modular_gs/icons/turf/floors.dmi'
-	icon_state = "concrete"
-	baseturfs = /turf/open/misc/asteroid
-
 /turf/open/floor/concrete/smooth
 	icon = 'modular_gs/icons/turf/floors.dmi'
 	icon_state = "concrete2"

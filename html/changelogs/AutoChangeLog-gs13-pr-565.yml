@@ -1,0 +1,4 @@
+author: "Yeeny"
+delete-after: True
+changes:
+  - rscadd: "Makes the Metal Cruncher Quirk inaccesible to proteans"

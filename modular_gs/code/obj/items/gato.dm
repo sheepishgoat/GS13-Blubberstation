@@ -157,10 +157,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gatofull_3, 32)
 	desc = "The official corporate flag of GATO. Mostly flown as a ceremonial piece, or to mark land on a new frontier."
 	icon = 'modular_gs/icons/obj/gatofication.dmi'
 	icon_state = "flag_gt"
+	item_flag = /obj/item/sign/flag/gato
 
-
-//gs13 - bedsheets
-/obj/item/bedsheet/gato //GS13
+/obj/item/bedsheet/gato
 	name = "GATO Bedsheet"
 	desc = "Extra padding, for extra comfiness."
 	icon_state = "sheetgato"
@@ -168,7 +167,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gatofull_3, 32)
 	icon = 'modular_gs/icons/obj/bedsheets.dmi'
 	worn_icon_state = "sheetpurple"
 
-/obj/item/bedsheet/double_gato //GS13
+/obj/item/bedsheet/double_gato
 	name = "Double GATO Bedsheet"
 	desc = "Extra padding, for extra comfiness. Mega sized, for mega cuddles."
 	icon_state = "doublesheet_gato"
@@ -208,6 +207,3 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gatofull_3, 32)
 
 /obj/machinery/requests_console
 	icon = 'modular_gs/icons/obj/machines/wallmounts.dmi'
-
-/obj/item/folder
-	icon = 'modular_gs/icons/obj/service/bureaucracy.dmi'

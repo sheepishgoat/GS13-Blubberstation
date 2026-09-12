@@ -29,8 +29,7 @@
 	set_slime_type(/datum/slime_type/calorite)
 
 /mob/living/basic/slime/calorite/reproduce()
-
-	if(stat != CONSCIOUS)
+	if(IS_UNCONSCIOUS(src))
 		balloon_alert(src, "not conscious!")
 		return
 

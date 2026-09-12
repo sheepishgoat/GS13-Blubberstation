@@ -2,7 +2,7 @@
 /datum/ai_controller/basic_controller/feedermob
 	blackboard = list(
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/feedermob,
-		BB_TARGET_MINIMUM_STAT = UNCONSCIOUS,
+		BB_TARGET_MINIMUM_STAT = HARD_CRIT,
 		BB_EMOTE_KEY = "glunk",
 		BB_EMOTE_CHANCE = 40,
 	)
