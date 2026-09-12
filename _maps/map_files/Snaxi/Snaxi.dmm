@@ -4220,6 +4220,7 @@
 	id_tag = "repdo"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/cent_com/rep_door,
+/obj/structure/cable,
 /turf/open/floor/wood/parquet,
 /area/station/command/heads_quarters/nt_rep)
 "bZc" = (
