@@ -22,10 +22,10 @@
 /datum/targeting_strategy/feedermob/is_valid_target(mob/living/living_mob, atom/target, vision_range, datum/ai_controller/controller = null)
 	if isanimal_or_basicmob(target)
 		return FALSE
-	
+
 	if(!..())
 		return FALSE
-	
+
 	return ishuman(target)
 
 /mob/living/simple_animal/hostile/feed
@@ -158,8 +158,39 @@
 	L.fullness += (fullness_add)
 
 
+/obj/projectile/beam/fattening/icecream/strong
+	ricochets_max = 1
+	ricochet_chance = 50
+	food_fed = /datum/reagent/consumable/lipoifier
+	fullness_add = 60
 
-//should probably put this in elsewhere or whatever, but for now it'll do
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon
+	name = "Cream Demon"
+	desc = "A strange mass of thick, creamy ice cream given some sense of instinct. This one seems better put together, as though it was sculpted by an artist, and it glows with a demonic power."
+	icon_state = "creamdemon"
+	icon_living = "creamdemon"
+	move_to_delay = 7
+	projectiletype = /obj/projectile/beam/fattening/icecream/strong
+	speak = list("Come here.", "Come closer.", "Accept my blessing.")
+	ranged_cooldown_time = 40
+	speed = 3
+	maxHealth = 250
+	health = 250
+	vision_range = 7
+
+/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon/AttackingTarget(atom/target)
+	. = ..()
+	var/mob/living/carbon/fatty = target
+	if(!istype(fatty))
+		return FALSE
+
+	if((fatty.fatness_real < 25) || !fatty?.client?.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent))
+		fatty.adjust_tox_loss(5)
+		return
+
+	fatty.adjust_fatness(-25, FATTENING_TYPE_WEIGHT_LOSS)
+	fatty.adjust_perma(5)
+	to_chat(target, span_warning("You feel your fat grow denser"))
 
 /mob/living/simple_animal/hostile/fatten
 	var/fat_per_hit = 20

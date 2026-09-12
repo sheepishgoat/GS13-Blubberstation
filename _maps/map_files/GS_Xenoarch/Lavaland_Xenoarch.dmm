@@ -1322,7 +1322,7 @@
 /turf/open/floor/iron,
 /area/xenoarch/lavaland/eng)
 "aOX" = (
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /obj/effect/light_emitter/tendril,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
@@ -1367,8 +1367,8 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/lavaland/public)
 "aPv" = (
-/obj/structure/lollipop,
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/structure/flora/lollipop,
+/obj/structure/flora/candy/redwhite3,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -3035,7 +3035,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/xenoarch/lavaland/public)
 "bZi" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "bZE" = (
@@ -3165,7 +3165,7 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cfB" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "cfQ" = (
@@ -4239,7 +4239,7 @@
 /area/lavaland/underground/xenoarch/candy_outpost)
 "cPK" = (
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "cQb" = (
@@ -4741,7 +4741,7 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
 "dht" = (
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -6043,7 +6043,7 @@
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "efe" = (
-/obj/structure/lollipop,
+/obj/structure/flora/lollipop,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "efA" = (
@@ -6999,7 +6999,7 @@
 /turf/open/floor/iron/dark/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "eRE" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
 /obj/effect/light_emitter/tendril,
@@ -7038,7 +7038,7 @@
 /obj/effect/turf_decal{
 	dir = 1
 	},
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "eSz" = (
@@ -7571,7 +7571,7 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
 "foI" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
 /turf/open/indestructible/bubblegum,
@@ -8838,7 +8838,7 @@
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "gjp" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /obj/effect/light_emitter/tendril,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
@@ -10475,7 +10475,7 @@
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "hsL" = (
-/obj/effect/turf_decal/candy/redwhite,
+/obj/structure/flora/candy/redwhite,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "htb" = (
@@ -11156,7 +11156,7 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/arch)
 "hMF" = (
-/obj/effect/turf_decal/candy/redwhite,
+/obj/structure/flora/candy/redwhite,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "hMQ" = (
@@ -11983,7 +11983,7 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_east)
 "inD" = (
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /obj/effect/light_emitter,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -12094,7 +12094,7 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/arch)
 "isX" = (
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -12369,7 +12369,7 @@
 	},
 /area/xenoarch/lavaland/bot)
 "iBx" = (
-/obj/effect/turf_decal/candy/purplewhite1,
+/obj/structure/flora/candy/purplewhite1,
 /obj/effect/light_emitter,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -13010,7 +13010,7 @@
 /turf/closed/wall/mineral/iron,
 /area/lavaland/underground)
 "jeg" = (
-/obj/structure/lollipop,
+/obj/structure/flora/lollipop,
 /obj/effect/light_emitter/tendril,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
@@ -13110,7 +13110,7 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "jiD" = (
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "jiY" = (
@@ -13293,10 +13293,10 @@
 /turf/closed/wall/r_wall,
 /area/xenoarch/lavaland/sec)
 "jos" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "jov" = (
@@ -13459,7 +13459,7 @@
 /turf/open/floor/iron/white,
 /area/xenoarch/lavaland/bot)
 "jtW" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /turf/open/indestructible/chocolate,
 /area/lavaland/underground/xenoarch/candyland)
 "jtZ" = (
@@ -13903,7 +13903,7 @@
 	},
 /area/xenoarch/lavaland/lowerlevel)
 "jKh" = (
-/obj/effect/turf_decal/candy/greenwhite2,
+/obj/structure/flora/candy/greenwhite2,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "jKs" = (
@@ -15823,7 +15823,7 @@
 /turf/open/floor/iron/large,
 /area/xenoarch/lavaland/gym)
 "lbX" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -15882,7 +15882,7 @@
 /turf/open/floor/iron/freezer,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "leo" = (
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "ler" = (
@@ -18401,7 +18401,7 @@
 	},
 /area/xenoarch/lavaland/public)
 "mNd" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
 /turf/open/candyfloor,
@@ -19218,7 +19218,7 @@
 /turf/open/floor/iron/smooth,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "nlM" = (
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/structure/flora/candy/redwhite3,
 /obj/structure/fans/tiny/invisible,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -20060,7 +20060,7 @@
 /turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "nRk" = (
-/obj/structure/lollipop,
+/obj/structure/flora/lollipop,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "nRl" = (
@@ -20940,7 +20940,7 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "osn" = (
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "osA" = (
@@ -21142,7 +21142,7 @@
 /turf/open/floor/iron,
 /area/xenoarch/lavaland/eng)
 "oxv" = (
-/obj/structure/lollipop,
+/obj/structure/flora/lollipop,
 /obj/effect/light_emitter,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -21786,7 +21786,7 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/lowerlevel)
 "oWe" = (
-/obj/effect/turf_decal/candy/purplewhite1,
+/obj/structure/flora/candy/purplewhite1,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -22316,7 +22316,7 @@
 /turf/open/floor/iron/smooth,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "prH" = (
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/structure/flora/candy/redwhite3,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "prQ" = (
@@ -22950,7 +22950,7 @@
 "pLN" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/light/small/directional/west,
-/obj/effect/turf_decal/candy/redwhite,
+/obj/structure/flora/candy/redwhite,
 /obj/structure/closet/crate/secure/freezer,
 /obj/item/food/cake/pavlova,
 /turf/open/floor/iron/freezer,
@@ -22975,7 +22975,7 @@
 /turf/open/floor/iron/dark,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "pOk" = (
-/obj/effect/turf_decal/candy/greenwhite2,
+/obj/structure/flora/candy/greenwhite2,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "pOt" = (
@@ -23351,7 +23351,7 @@
 /turf/closed/wall,
 /area/xenoarch/lavaland/foyer)
 "qdB" = (
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/structure/flora/candy/redwhite3,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "qdL" = (
@@ -23546,7 +23546,7 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/lavaland/construction)
 "qlI" = (
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "qlU" = (
@@ -24608,7 +24608,7 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/donut_factory)
 "raT" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
 /turf/open/indestructible/chocolate,
@@ -25503,7 +25503,7 @@
 /turf/open/floor/iron/white/small,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "rEo" = (
-/obj/effect/turf_decal/candy/purplewhite1,
+/obj/structure/flora/candy/purplewhite1,
 /obj/item/food/candy_corn,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -25604,7 +25604,7 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "rGC" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /obj/effect/light_emitter,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -27562,8 +27562,8 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/donut_factory)
 "tau" = (
-/obj/structure/lollipop,
-/obj/effect/turf_decal/candy/redwhite,
+/obj/structure/flora/lollipop,
+/obj/structure/flora/candy/redwhite,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -27885,7 +27885,7 @@
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "tlw" = (
-/obj/structure/lollipop,
+/obj/structure/flora/lollipop,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -28330,7 +28330,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tHz" = (
 /obj/effect/turf_decal/box,
-/obj/effect/turf_decal/candy/greenwhite2,
+/obj/structure/flora/candy/greenwhite2,
 /obj/machinery/airalarm/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -28692,7 +28692,7 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "tRp" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
 /obj/effect/light_emitter/tendril,
@@ -29234,7 +29234,7 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "ugR" = (
-/obj/effect/turf_decal/candy/purplewhite1,
+/obj/structure/flora/candy/purplewhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "ugV" = (
@@ -29547,7 +29547,7 @@
 	},
 /area/lavaland/underground)
 "upI" = (
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/structure/flora/candy/redwhite3,
 /obj/effect/light_emitter/tendril,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
@@ -31072,7 +31072,7 @@
 /turf/open/indestructible/chocolate,
 /area/lavaland/underground/xenoarch/candyland)
 "vmX" = (
-/obj/effect/turf_decal/candy/purplewhite1,
+/obj/structure/flora/candy/purplewhite1,
 /turf/open/indestructible/bubblegum,
 /area/lavaland/underground/xenoarch/candyland)
 "vno" = (
@@ -31495,7 +31495,7 @@
 /turf/open/floor/plating/lavaland_baseturf,
 /area/xenoarch/lavaland/public)
 "vDq" = (
-/obj/effect/turf_decal/candy/greenwhite1,
+/obj/structure/flora/candy/greenwhite1,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
 "vDR" = (
@@ -33429,7 +33429,7 @@
 /turf/open/floor/iron/large,
 /area/xenoarch/lavaland/gym)
 "wVJ" = (
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /obj/effect/light_emitter,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -34667,7 +34667,7 @@
 /turf/open/floor/iron/smooth,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xMM" = (
-/obj/effect/turf_decal/candy/redwhite3,
+/obj/structure/flora/candy/redwhite3,
 /obj/effect/light_emitter,
 /turf/open/candyfloor,
 /area/lavaland/underground/xenoarch/candyland)
@@ -34966,7 +34966,7 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xXN" = (
-/obj/structure/tree/candylight,
+/obj/structure/flora/candy/candylight,
 /obj/effect/light_emitter,
 /turf/open/indestructible/chocolate,
 /area/lavaland/underground/xenoarch/candyland)
