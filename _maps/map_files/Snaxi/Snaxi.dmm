@@ -491,10 +491,10 @@
 	name = "scrubbers pipe"
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/white/corner{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
@@ -764,7 +764,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/machinery/meter,
 /turf/open/floor/engine,
@@ -3419,7 +3419,7 @@
 "bFS" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -5389,7 +5389,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/red,
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -5482,8 +5482,8 @@
 /area/station/science/xenobiology)
 "cyY" = (
 /obj/structure/cable,
-/obj/machinery/computer/secure_data{
-	dir = 1
+/obj/machinery/computer/records/security{
+	dir = 4
 	},
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/carpet/red,
@@ -5808,7 +5808,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /obj/machinery/meter,
 /turf/open/floor/engine,
@@ -6559,11 +6559,10 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/machinery/computer/monitor{
-	dir = 1;
-	name = "bridge power monitoring console"
-	},
 /obj/structure/cable,
+/obj/machinery/computer/station_alert{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "cYD" = (
@@ -6681,10 +6680,10 @@
 /area/station/engineering/main)
 "ddb" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/white/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
@@ -7230,7 +7229,7 @@
 /area/station/service/library)
 "dnz" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/machinery/firealarm/directional/west,
 /obj/structure/cable,
@@ -7328,6 +7327,7 @@
 /obj/structure/fans/tiny,
 /obj/structure/cable,
 /obj/machinery/door/airlock/external/glass,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/hallway/primary/fore)
 "dpI" = (
@@ -7921,7 +7921,7 @@
 /area/station/maintenance/aft)
 "dAi" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	dir = 4;
@@ -8294,6 +8294,7 @@
 /obj/machinery/door/airlock/external{
 	name = "External Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "dJG" = (
@@ -10565,7 +10566,7 @@
 /turf/open/floor/plating,
 /area/station/commons/dorms)
 "eJo" = (
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue{
@@ -12690,6 +12691,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external/glass,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "fGt" = (
@@ -14560,7 +14562,7 @@
 /turf/open/floor/glass/reinforced,
 /area/station/hallway/primary/port)
 "gww" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
@@ -14687,7 +14689,7 @@
 	id = "snaxi_rescue"
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -14861,6 +14863,7 @@
 	},
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external/glass,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/hallway/primary/fore)
 "gEA" = (
@@ -15447,6 +15450,7 @@
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/external/glass,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "gQY" = (
@@ -16119,6 +16123,7 @@
 "heV" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "hff" = (
@@ -16670,7 +16675,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /obj/machinery/meter,
 /turf/open/floor/engine,
@@ -17157,6 +17162,7 @@
 /obj/machinery/door/airlock/external{
 	name = "External Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "hHs" = (
@@ -18201,7 +18207,7 @@
 /area/station/common/pool/sauna)
 "ieJ" = (
 /obj/structure/window/reinforced/spawner/directional/east,
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 8
 	},
 /obj/effect/turf_decal/bot_white,
@@ -18946,6 +18952,7 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "ivS" = (
@@ -22111,7 +22118,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/obj/machinery/computer/med_data{
+/obj/machinery/computer/records/medical{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
@@ -22998,6 +23005,7 @@
 /obj/machinery/door/airlock/external{
 	name = "External Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "khk" = (
@@ -23075,7 +23083,7 @@
 /area/station/hallway/primary/central)
 "kiO" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/station/science/robotics/lab)
@@ -23126,7 +23134,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
 "kjl" = (
-/obj/machinery/atmospherics/pipe/layer_manifold{
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/visible{
 	dir = 4
 	},
 /turf/closed/wall/r_wall,
@@ -25093,9 +25101,7 @@
 /obj/item/radio/intercom{
 	pixel_y = 25
 	},
-/obj/machinery/computer/secure_data{
-	dir = 2
-	},
+/obj/machinery/computer/records/security,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/office)
@@ -26825,6 +26831,7 @@
 /obj/machinery/door/airlock/external{
 	name = "External Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "lUI" = (
@@ -27343,8 +27350,7 @@
 /area/station/commons/lounge)
 "mhi" = (
 /obj/machinery/computer/camera_advanced/xenobio{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -29953,7 +29959,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -31726,22 +31732,8 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
-/obj/machinery/shower{
-	dir = 4
-	},
-/obj/effect/turf_decal/loading_area{
-	dir = 8;
-	icon_state = "drain";
-	name = "drain"
-	},
-/obj/effect/turf_decal/loading_area{
-	dir = 4;
-	icon_state = "steel_decals9"
-	},
-/obj/effect/turf_decal/loading_area{
-	dir = 2;
-	icon_state = "steel_decals9"
-	},
+/obj/machinery/shower/directional/east,
+/obj/effect/turf_decal/box/white,
 /turf/open/floor/iron,
 /area/station/engineering/lobby)
 "oam" = (
@@ -31968,8 +31960,7 @@
 "oeE" = (
 /obj/structure/cable,
 /obj/machinery/computer/camera_advanced/xenobio{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -34329,9 +34320,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/shower{
-	dir = 4
-	},
+/obj/machinery/shower/directional/east,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "poD" = (
@@ -37640,7 +37629,7 @@
 	pixel_x = 6;
 	pixel_y = 36
 	},
-/obj/machinery/computer/med_data/laptop,
+/obj/machinery/computer/records/medical/laptop,
 /turf/open/floor/carpet/red,
 /area/station/security/detectives_office)
 "qOG" = (
@@ -40354,6 +40343,12 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/command/teleporter)
+"sfv" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/visible{
+	dir = 4
+	},
+/turf/closed/wall/r_wall,
+/area/station/engineering/atmos)
 "sfC" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 8;
@@ -43266,6 +43261,7 @@
 /obj/machinery/door/airlock/external{
 	name = "External Access"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "tvn" = (
@@ -44935,6 +44931,8 @@
 	},
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/engine_equipment,
 /turf/open/floor/plating,
 /area/station/engineering/engine_smes)
 "uio" = (
@@ -45320,6 +45318,8 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/engine_equipment,
 /turf/open/floor/plating,
 /area/station/engineering/engine_smes)
 "usa" = (
@@ -45683,7 +45683,7 @@
 /area/station/commons/dorms)
 "uzd" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
 	name = "scrubbers pipe"
@@ -49849,7 +49849,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/obj/machinery/computer/secure_data{
+/obj/machinery/computer/records/security{
 	dir = 1
 	},
 /obj/structure/cable,
@@ -50665,7 +50665,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /obj/vehicle/ridden/atv/snowmobile{
 	dir = 8
@@ -50870,9 +50870,10 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/machinery/computer/station_alert{
+/obj/machinery/modular_computer/preset/engineering{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "wNu" = (
@@ -53723,6 +53724,7 @@
 /obj/machinery/door/airlock/external{
 	name = "External Airlock"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/engineering/external,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "yga" = (
@@ -231880,7 +231882,7 @@ bii
 tYd
 xKP
 jJf
-akY
+neL
 mzd
 bFV
 jYk
@@ -232394,7 +232396,7 @@ ddb
 foA
 foA
 foA
-neL
+akY
 mzd
 bFV
 fVf
@@ -233645,7 +233647,7 @@ qXE
 qXE
 kjl
 mJo
-kjl
+sfv
 mJo
 mJo
 hVp

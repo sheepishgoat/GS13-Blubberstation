@@ -10,7 +10,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gato, 32)
 	icon = 'modular_gs/icons/obj/decals.dmi'
 
 // have to do this here because we don't have icons for those
-/obj/structure/sign/departments/med
+/obj/structure/sign/departments/medbay
 	icon = 'icons/obj/signs.dmi'
 
 /obj/structure/sign/carts
