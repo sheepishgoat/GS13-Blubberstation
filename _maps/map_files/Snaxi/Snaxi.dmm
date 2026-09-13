@@ -4702,16 +4702,16 @@
 "chp" = (
 /obj/machinery/computer/shuttle/ferry,
 /obj/structure/sign/directions/supply{
-	dir = 4;
+	dir = 6;
 	pixel_y = 40
 	},
 /obj/structure/sign/directions/engineering{
-	dir = 4;
+	dir = 6;
 	pixel_y = 32
 	},
 /obj/structure/sign/directions/service{
 	pixel_y = 24;
-	dir = 4
+	dir = 6
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
@@ -9231,11 +9231,11 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "eed" = (
 /obj/structure/sign/directions/engineering{
-	dir = 4;
+	dir = 6;
 	pixel_y = 40
 	},
 /obj/structure/sign/directions/supply{
-	dir = 4;
+	dir = 6;
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/tile/neutral,
@@ -9260,7 +9260,7 @@
 	},
 /obj/structure/sign/directions/service{
 	pixel_y = 24;
-	dir = 4
+	dir = 6
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
@@ -10140,6 +10140,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
+"exe" = (
+/mob/living/basic/bot/medbot/kerfus,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/central)
 "exl" = (
 /obj/structure/table/reinforced,
 /obj/item/assembly/signaler{
@@ -13806,11 +13810,11 @@
 "geJ" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/structure/sign/directions/medical{
-	dir = 8;
+	dir = 6;
 	pixel_y = 36
 	},
 /obj/structure/sign/directions/science{
-	dir = 8;
+	dir = 6;
 	pixel_y = 28
 	},
 /obj/effect/turf_decal/bot,
@@ -19524,15 +19528,18 @@
 "iJx" = (
 /obj/structure/sign/directions/evac{
 	pixel_x = -32;
-	pixel_y = -24
+	pixel_y = -24;
+	dir = 4
 	},
 /obj/structure/sign/directions/security{
 	pixel_x = -32;
-	pixel_y = -32
+	pixel_y = -32;
+	dir = 4
 	},
 /obj/structure/sign/directions/command{
 	pixel_x = -32;
-	pixel_y = -40
+	pixel_y = -40;
+	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral,
@@ -21808,20 +21815,6 @@
 /obj/item/toy/figure/ian,
 /turf/open/floor/carpet/green,
 /area/station/service/library)
-"jIM" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
-	name = "air supply pipe"
-	},
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -27
-	},
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
-	name = "scrubbers pipe"
-	},
-/turf/open/floor/iron,
-/area/station/hallway/primary/fore)
 "jIR" = (
 /obj/machinery/light{
 	dir = 4
@@ -26758,15 +26751,15 @@
 	map_pad_link_id = "2";
 	name = "Northwest Sector Pad"
 	},
-/obj/structure/sign/directions/medical{
-	dir = 8;
-	pixel_y = 36
+/obj/structure/sign/directions/snaxi/north_west/directional/north,
+/obj/structure/sign/directions/medical/directional/west{
+	pixel_y = 4;
+	dir = 4
 	},
-/obj/structure/sign/directions/science{
-	dir = 8;
-	pixel_y = 28
+/obj/structure/sign/directions/science/directional/west{
+	pixel_y = -4;
+	dir = 4
 	},
-/obj/structure/sign/directions/snaxi/north_west/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "lUa" = (
@@ -29975,6 +29968,7 @@
 	name = "air supply pipe"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "njL" = (
@@ -32831,6 +32825,11 @@
 	dir = 4;
 	name = "scrubbers pipe"
 	},
+/obj/structure/sign/directions/engineering/directional/south{
+	dir = 6;
+	pixel_y = -24
+	},
+/obj/structure/sign/directions/service/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "oBB" = (
@@ -34051,16 +34050,7 @@
 	map_pad_link_id = "6";
 	name = "South Sector Pad"
 	},
-/obj/structure/sign/directions/evac{
-	pixel_y = 40
-	},
-/obj/structure/sign/directions/security{
-	pixel_y = 32
-	},
-/obj/structure/sign/directions/command{
-	pixel_y = 24
-	},
-/obj/structure/sign/directions/snaxi/south/directional/east,
+/obj/structure/sign/directions/snaxi/south/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "phv" = (
@@ -47333,6 +47323,23 @@
 	},
 /turf/open/floor/iron,
 /area/station/service/janitor)
+"vjA" = (
+/obj/machinery/space_heater,
+/obj/effect/turf_decal/bot,
+/obj/structure/sign/directions/evac{
+	pixel_y = 40;
+	dir = 6
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = 32;
+	dir = 6
+	},
+/obj/structure/sign/directions/command{
+	pixel_y = 24;
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "vjI" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -50901,12 +50908,12 @@
 	},
 /obj/structure/sign/directions/supply{
 	pixel_x = 32;
-	pixel_y = -36
+	pixel_y = -40
 	},
 /obj/structure/sign/directions/engineering{
 	dir = 4;
 	pixel_x = 32;
-	pixel_y = -28
+	pixel_y = -24
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
@@ -50915,6 +50922,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
 	dir = 8
+	},
+/obj/structure/sign/directions/service/directional/southeast{
+	dir = 2
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
@@ -202070,7 +202080,7 @@ qqs
 uQh
 qIb
 hWD
-hWD
+exe
 kOC
 xtZ
 vdu
@@ -226697,7 +226707,7 @@ rIA
 rIA
 rIA
 dzw
-fSP
+vjA
 oEG
 des
 iye
@@ -231326,7 +231336,7 @@ vpI
 dWt
 oEG
 xPQ
-jIM
+lYj
 btg
 bAP
 jAg

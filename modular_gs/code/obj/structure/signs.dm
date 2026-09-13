@@ -9,6 +9,10 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gato, 32)
 /obj/structure/sign/departments
 	icon = 'modular_gs/icons/obj/decals.dmi'
 
+// have to do this here because we don't have icons for those
+/obj/structure/sign/departments/med
+	icon = 'icons/obj/signs.dmi'
+
 /obj/structure/sign/carts
 	name = "CARTS"
 	desc = "You are entering a motorized cart area."
@@ -22,6 +26,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/gato, 32)
 	icon_state = "direction_service"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/service, 32)
+
+MAPPING_DIAGONAL_HELPERS(/obj/structure/sign/directions/service, 32)
 
 /obj/structure/sign/directions/snaxi
 	icon = 'modular_gs/icons/obj/decals.dmi'
