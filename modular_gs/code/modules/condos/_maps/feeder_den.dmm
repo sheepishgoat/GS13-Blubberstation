@@ -226,7 +226,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "bV" = (
 /obj/machinery/vending/hydroseeds{
@@ -289,7 +289,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "ct" = (
 /obj/structure/rack/shelf,
@@ -305,7 +305,7 @@
 	pixel_x = -3;
 	pixel_y = 7
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "cx" = (
 /obj/effect/turf_decal/trimline/dark_red/corner{
@@ -406,7 +406,7 @@
 "dW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/box,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "ea" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -447,7 +447,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "eo" = (
 /obj/structure/chair/sofa/corp/left{
@@ -643,7 +643,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "gy" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -880,7 +880,7 @@
 	},
 /obj/effect/turf_decal/siding/dark/corner,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "iw" = (
 /obj/machinery/vending/hydronutrients,
@@ -914,7 +914,7 @@
 /area/misc/condo)
 "jm" = (
 /obj/structure/cable,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "jn" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -944,7 +944,7 @@
 /obj/structure/cable,
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/trimline/dark_red,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "jO" = (
 /obj/structure/gs13_fluff/brokenhose{
@@ -1120,9 +1120,9 @@
 "lv" = (
 /obj/machinery/power/apc{
 	name = "Base Power Controller";
-	pixel_x = -28
+	pixel_x = -25
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "lB" = (
 /obj/structure/rack/shelf,
@@ -1499,7 +1499,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/box,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "oX" = (
 /obj/item/reagent_containers/cup/bottle/succubus_milk{
@@ -1706,7 +1706,7 @@
 /obj/item/storage/box/stockparts/deluxe,
 /obj/item/storage/box/stockparts/deluxe,
 /obj/structure/cable,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "qO" = (
 /obj/structure/disposalpipe/segment,
@@ -1814,7 +1814,7 @@
 	},
 /obj/machinery/plumbing/synthesizer/water_synth,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "ro" = (
 /obj/machinery/door/airlock/hatch{
@@ -2124,7 +2124,7 @@
 /obj/machinery/cell_charger,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/dark/corner,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "ug" = (
 /obj/structure/cable,
@@ -2226,7 +2226,7 @@
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/stripes/red/corner,
 /obj/effect/turf_decal/bot,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "vQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2255,7 +2255,7 @@
 /obj/structure/closet/firecloset/full,
 /obj/effect/turf_decal/box,
 /obj/machinery/light/small/dim/directional/west,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "ww" = (
 /obj/structure/ore_box,
@@ -2307,7 +2307,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 1
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "xc" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -2496,7 +2496,7 @@
 /obj/item/reagent_containers/cup/soda_cans/air,
 /obj/item/reagent_containers/cup/soda_cans/beer,
 /obj/item/reagent_containers/cup/soda_cans/beer/rice,
-/obj/item/reagent_containers/cup/soda_cans/blood_tea,
+/obj/item/reagent_containers/cup/soda_cans/bubber/blood_tea,
 /obj/item/reagent_containers/cup/soda_cans/canned_laughter,
 /obj/item/reagent_containers/cup/soda_cans/cola,
 /obj/item/reagent_containers/cup/soda_cans/dr_gibb,
@@ -2524,7 +2524,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "yN" = (
 /obj/machinery/recharger,
@@ -2867,13 +2867,13 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/red/line,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "BX" = (
 /obj/machinery/suit_storage_unit/industrial/syndicatecontractor,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/small/dim/directional/west,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "BY" = (
 /obj/machinery/cryopod/quiet{
@@ -3208,7 +3208,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Fl" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -3582,13 +3582,13 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Je" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/bot,
 /obj/structure/extinguisher_cabinet/directional/north,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Jh" = (
 /obj/item/plate{
@@ -3736,7 +3736,7 @@
 "KG" = (
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/trimline/dark_red,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "KQ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -3752,7 +3752,7 @@
 	dir = 4
 	},
 /obj/item/holosign_creator/atmos,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "KR" = (
 /obj/structure/rack,
@@ -3853,7 +3853,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Ly" = (
 /obj/structure/chair/sofa/corp,
@@ -4092,7 +4092,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Nv" = (
 /obj/structure/rack/shelf,
@@ -4134,7 +4134,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/bot,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "NS" = (
 /obj/effect/turf_decal/stripes/line{
@@ -4298,7 +4298,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Qj" = (
 /obj/effect/turf_decal/trimline/dark_red/corner{
@@ -4323,7 +4323,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Ql" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4432,7 +4432,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Rp" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -4544,7 +4544,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "SC" = (
 /turf/closed/indestructible/hotelwall{
@@ -4681,7 +4681,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "TH" = (
 /obj/structure/disposalpipe/segment{
@@ -4704,7 +4704,7 @@
 	dir = 4
 	},
 /obj/structure/sign/warning/radiation/directional/south,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "Uk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4732,7 +4732,7 @@
 /area/misc/condo)
 "UB" = (
 /obj/item/bodybag/bluespace,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "UE" = (
 /obj/item/storage/toolbox/syndicate,
@@ -4742,7 +4742,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/box,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "UF" = (
 /obj/structure/flora/bush/jungle/b/style_3,
@@ -4847,7 +4847,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/box,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "VA" = (
 /obj/structure/fans/tiny,
@@ -4965,7 +4965,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "WV" = (
 /obj/machinery/vending/fatty_items,
@@ -5097,7 +5097,7 @@
 /obj/effect/turf_decal/siding/dark/corner,
 /obj/effect/turf_decal/bot,
 /obj/item/disk/design_disk/advanced_parts,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "XY" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -5172,7 +5172,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/box,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium/pod/dark,
 /area/misc/condo)
 "YF" = (
 /obj/item/construction/plumbing{

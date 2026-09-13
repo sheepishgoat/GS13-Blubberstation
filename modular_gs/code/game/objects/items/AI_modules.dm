@@ -1,4 +1,4 @@
-/obj/item/ai_module/core/full/cfc
+/obj/item/ai_module/law/core/full/cfc
 	name = "CFC sponsored Core AI Module"
 	law_id = "CFC"
 
@@ -13,7 +13,7 @@
 		"You must protect your own existence."
 	)
 
-/obj/item/ai_module/core/full/feeder_den
+/obj/item/ai_module/law/core/full/feeder_den
 	name = "Feeders den Core AI Module"
 	law_id = "Feeder_den"
 
