@@ -25,7 +25,7 @@
 	#include "map_files\Ouroboros\Ouroboros.dmm"
 	// BUBBER EDIT ADDITION END
 	//GS13 EDIT
-	#include "map_files\GS_Xenoarch\Lavaland_Xenoarch.dmm"
+	#include "map_files\gs_maps\Lavaland_Xenoarch.dmm"
 	//GS13 EDIT END
 #endif
 #ifdef ALL_TEMPLATES

@@ -9,8 +9,8 @@
 		return
 
 	log_world("Loading Xenoarch with unit tests running.")
-	LoadGroup(FailedZs, "Lavaland_Xenoarch", "map_files/GS_Xenoarch", "Lavaland_Xenoarch.dmm", default_traits = ZTRAITS_LAVALAND_XENOARCH)
+	LoadGroup(FailedZs, "Lavaland_Xenoarch", "map_files/gs_maps", "Lavaland_Xenoarch.dmm", default_traits = ZTRAITS_LAVALAND_XENOARCH)
 #else
 	log_world("Loading Xenoarch with no unit tests running.")
-	LoadGroup(FailedZs, "Lavaland_Xenoarch", "map_files/GS_Xenoarch", "Lavaland_Xenoarch.dmm", default_traits = ZTRAITS_LAVALAND_XENOARCH)
+	LoadGroup(FailedZs, "Lavaland_Xenoarch", "map_files/gs_maps", "Lavaland_Xenoarch.dmm", default_traits = ZTRAITS_LAVALAND_XENOARCH)
 #endif
