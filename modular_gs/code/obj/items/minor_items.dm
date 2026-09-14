@@ -144,32 +144,6 @@
 	icon = 'modular_gs/icons/obj/holosign.dmi'
 	icon_state = "holosign_closed"
 
-//ID for fastfood wagies so they can use the tele
-/obj/item/card/id/silver/restaurant
-	name = "silver identification card"
-	desc = "A silver ID, given to the GATO's fast food restaurant workers. Doesn't grant much besides teleporter access."
-	access = list(ACCESS_MAINT_TUNNELS, ACCESS_TELEPORTER)
-
-//gato decal, should be moved elsewhere tbh
-/obj/effect/decal/big_gato //96x96 px sprite
-	name = "GATO"
-	desc = "Your employer! Probably."
-	icon = 'modular_gs/icons/turf/96x96.dmi'
-	icon_state = "gato"
-	layer = ABOVE_OPEN_TURF_LAYER
-	pixel_x = -32
-	pixel_y = -32
-
-/obj/effect/decal/medium_gato //64x64 px sprite
-	name = "GATO"
-	desc = "Your employer! Probably."
-	icon = 'modular_gs/icons/turf/64x64.dmi'
-	icon_state = "gato"
-	layer = ABOVE_OPEN_TURF_LAYER
-	pixel_y = -16
-	pixel_x = -16
-
-
 //collar voice modulators, based on cow/pig masks
 
 /obj/item/clothing/mask/pig/gag //this one only lets you say "oink" and similar
@@ -270,6 +244,7 @@
 
 
 //weapon prefabs
+//put these into a weapon file sometime pls
 
 /obj/item/melee/curator_whip/fattening
 	name = "Calorite Whip"

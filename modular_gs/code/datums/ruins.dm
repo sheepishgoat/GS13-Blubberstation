@@ -82,8 +82,8 @@
 /datum/map_template/ruin/space/gato_fastfood
 	name = "GATO Fast Food Restaurant"
 	id = "gato_fastfood"
-	description = "A long since abandoned forge, recently unearthed by one unlucky scientist."
-	prefix = "_maps/map_files/gs_maps/"
+	description = "The beloved, pink-slathered, grease-smelling GATO Fast Food Restaurant."
+	prefix = "_maps/RandomRuins/SpaceRuins/GS13/"
 	suffix = "GATO_FastFood.dmm"
 	cost = 2
 	allow_duplicates = FALSE

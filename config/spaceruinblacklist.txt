@@ -95,11 +95,3 @@ _maps/RandomRuins/SpaceRuins/onehalf.dmm
 #_maps/RandomRuins/SpaceRuins/bubberstation/infested_frigate.dmm
 #_maps/RandomRuins/SpaceRuins/bubberstation/onehalf.dmm
 #_maps/RandomRuins/SpaceRuins/dragoontomb.dmm
-
-##GS13 MAPS
-
-#_maps/RandomRuins/SpaceRuins/GS13/SpaceCaloriteForge.dmm
-#_maps/RandomRuins/SpaceRuins/GS13/SpaceCandyMaze.dmm
-#_maps/map_files/gs_maps/GATO_FastFood.dmm
-
-##GS13 MAPS END

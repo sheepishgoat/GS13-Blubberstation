@@ -10,10 +10,6 @@
 	computer_area = /area/ruin/space/has_grav/bubbers/persistance/sec/prison
 	give_exploitables = FALSE
 
-/datum/outfit/persistence/prisoner/feedee
-	name = "Persistence Syndicate Feedee"
-	uniform = /obj/item/clothing/under/dual_tone/prisonner
-
 /obj/effect/mob_spawn/ghost_role/human/persistence/syndicate/feeder
 	name = "Syndicate Feeder"
 	prompt_name = "a Syndicate Feeder"
@@ -38,38 +34,6 @@
 	outfit = /datum/outfit/gato_fastfood
 	allow_custom_character = ALL
 
-/datum/outfit/gato_fastfood
-	name = "GATO Fast Food Worker"
-	uniform = /obj/item/clothing/under/dual_tone/centcom/civilian
-	shoes = /obj/item/clothing/shoes/sneakers/black
-	head = /obj/item/clothing/head/soft/black
-	l_pocket = /obj/item/modular_computer/pda
-	id = /obj/item/card/id/advanced/gato_fastfood
-	skillchips = list(/obj/item/skillchip/job/chef)
-	ears = /obj/item/radio/headset/headset_srv
-
-/datum/outfit/gato_fastfood/post_equip(mob/living/carbon/human/clerk, visualsOnly = FALSE)
-	var/obj/item/card/id/id_card = clerk.wear_id
-	if(istype(id_card))
-		id_card.registered_name = clerk.real_name
-		id_card.update_label()
-		id_card.update_icon()
-	handlebank(clerk)
-	return ..()
-
-/datum/id_trim/away/gato_fastfood
-	assignment = "GATO Fast Food Worker"
-	access = list(ACCESS_FACTION_PUBLIC, ACCESS_TELEPORTER, ACCESS_MAINT_TUNNELS)
-	big_pointer = TRUE
-
-/obj/item/card/id/advanced/gato_fastfood
-	name = "GATO Fast Food Worker Card"
-	desc = "A slightly greasy, GATO-colored access card."
-	icon_state = "card_centcom"
-	icon = 'modular_gs/icons/obj/card.dmi'
-	trim = /datum/id_trim/away/gato_fastfood
-	wildcard_slots = WILDCARD_LIMIT_GREY
-
 /obj/effect/mob_spawn/ghost_role/human/gato_fastfood/manager
 	name = "GATO Fast Food Manager"
 	prompt_name = "a GATO fast food manager"
@@ -78,23 +42,3 @@
 	important_text = "Manage your workplace, employees and do not abandon either. You may come aboard the station to advertise. Try to work alongside station's kitchen staff instead of rivaling with them."
 	outfit = /datum/outfit/gato_fastfood/manager
 
-/datum/outfit/gato_fastfood/manager
-	name = "GATO Fast Food Manager"
-	uniform = /obj/item/clothing/under/dual_tone/button_up/service/curator
-	shoes = /obj/item/clothing/shoes/sneakers/brown
-	l_pocket = /obj/item/modular_computer/pda
-	id = /obj/item/card/id/advanced/gato_fastfood/manager
-	neck = /obj/item/clothing/neck/tie/allamerican
-	skillchips = list(/obj/item/skillchip/job/chef)
-	ears = /obj/item/radio/headset/headset_srv
-
-/obj/item/card/id/advanced/gato_fastfood/manager
-	name = "GATO Fast Food Manager Card"
-	desc = "A slightly greasy, GATO-colored access card."
-	icon_state = "card_centcom"
-	icon = 'modular_gs/icons/obj/card.dmi'
-	trim = /datum/id_trim/away/gato_fastfood/manager
-	wildcard_slots = WILDCARD_LIMIT_GREY
-
-/datum/id_trim/away/gato_fastfood/manager
-	assignment = "GATO Fast Food Manager"
