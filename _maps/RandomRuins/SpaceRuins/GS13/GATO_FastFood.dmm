@@ -3573,6 +3573,10 @@
 /obj/item/card/id/advanced/gato_fastfood,
 /obj/item/card/id/advanced/gato_fastfood,
 /obj/item/card/id/advanced/gato_fastfood,
+/obj/item/storage/toolbox/guncase/skyrat/pistol/pepperball,
+/obj/item/melee/baton,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/fastfood_employee)
 "JP" = (
