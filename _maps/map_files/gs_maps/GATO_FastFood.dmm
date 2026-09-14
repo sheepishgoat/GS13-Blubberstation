@@ -991,13 +991,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/fastfood_employee)
-"lo" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/crate/large,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/floor,
-/turf/open/floor/iron/large,
-/area/ruin/space/has_grav/fastfood_employee)
 "lt" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt,
@@ -2904,6 +2897,7 @@
 /area/ruin/space/has_grav/fastfood_employee)
 "DS" = (
 /obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/large,
 /turf/open/floor/iron/large,
 /area/ruin/space/has_grav/fastfood_employee)
 "DZ" = (
@@ -6812,7 +6806,7 @@ Vl
 lR
 wt
 bC
-lo
+RW
 Mk
 LV
 bT
