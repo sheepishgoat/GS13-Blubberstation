@@ -82,7 +82,6 @@
 	return TRUE
 
 /turf/open/water/effect/reagent
-	mob_type_to_apply_to = /mob/living/carbon
 	continous_effect = TRUE
 
 	/// What kind of reagent is being added to the mob?

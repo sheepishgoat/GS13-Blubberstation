@@ -16,7 +16,6 @@
 		/obj/structure/trap/belch,
 	)
 
-
 /datum/action/cooldown/spell/conjure/the_traps/gs13_random
 	name = "Fattywank Traps!" 	// Put a name here if you can think of somethincg creative.
 	spell_requirements = NONE

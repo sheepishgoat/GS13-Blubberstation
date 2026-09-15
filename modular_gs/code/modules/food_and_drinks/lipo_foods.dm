@@ -4,7 +4,8 @@
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
 		/datum/reagent/consumable/nutriment/vitamin = 1,
-		/datum/reagent/iron = 10, /datum/reagent/consumable/sugar = 5,
+		/datum/reagent/iron = 10,
+		/datum/reagent/consumable/sugar = 5,
 		/datum/reagent/medicine/omnizine = 2,
 		/datum/reagent/consumable/lipoifier = LIPO_PER_CANDY_AMOUNT,
 	)

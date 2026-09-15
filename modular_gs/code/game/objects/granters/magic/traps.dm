@@ -13,11 +13,9 @@
 		"\"I feel a bit hungry now.\"",
 	)
 
-
 /obj/item/book/granter/action/spell/traps_belch
 	granted_action = /datum/action/cooldown/spell/conjure/the_traps/belch
 	icon_state = "booksmoke"
 	name = "Belch trap tome"
 	desc = "A book that teaches you how to summon belch traps."
-
 
