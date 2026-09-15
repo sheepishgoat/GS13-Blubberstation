@@ -54,6 +54,13 @@ export const severe_fatness_penalty: FeatureToggle = {
   component: CheckboxInput,
 };
 
+export const Hardcore_fatty: FeatureToggle = {
+  name: 'Hardcore Fatty',
+  description:
+    'USE WITH CAUTION!!!! Severly lowers WG and WL rates, enables most (except for bursting) fat prefs, and makes being fat far more punishing. Using this will let you get on a leaderboard along with other perks. Only reccomended for those looking for a challenge',
+  component: CheckboxInput,
+};
+
 export const safe_bursting: FeatureToggle = {
   name: 'Safe bursting',
   description:

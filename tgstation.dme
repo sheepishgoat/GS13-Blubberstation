@@ -7485,6 +7485,7 @@
 #include "modular_gs\code\modules\client\preferences\flavor_text.dm"
 #include "modular_gs\code\modules\client\preferences\genital_layering.dm"
 #include "modular_gs\code\modules\client\preferences\genitals.dm"
+#include "modular_gs\code\modules\client\preferences\hardcore.dm"
 #include "modular_gs\code\modules\client\preferences\helplessness_prefs.dm"
 #include "modular_gs\code\modules\client\preferences\noise_preferences.dm"
 #include "modular_gs\code\modules\client\preferences\size.dm"
