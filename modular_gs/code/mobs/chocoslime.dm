@@ -177,6 +177,13 @@
 	maxHealth = 250
 	health = 250
 	vision_range = 7
+	/// How much fattening does it apply on melee?
+	var/fatness_on_melee = 50
+	/// How much fatness does it take to add permafat?
+	var/fatness_needed_for_permafat = 250
+	/// How much permafat is added on conversion?
+	var/permafat_on_convert = 50
+
 
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon/AttackingTarget(atom/target)
 	. = ..()
@@ -184,12 +191,14 @@
 	if(!istype(fatty))
 		return FALSE
 
-	if((fatty.fatness_real < 25) || !fatty?.client?.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent))
-		fatty.adjust_tox_loss(5)
+	if((fatty.fatness_real < fatness_needed_for_permafat) || !fatty?.client?.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent))
+		if(!fatty.adjust_fatness(fatness_on_melee, FATTENING_TYPE_MOBS))
+			fatty.adjust_tox_loss(1)
+
 		return
 
-	fatty.adjust_fatness(-25, FATTENING_TYPE_WEIGHT_LOSS)
-	fatty.adjust_perma(5)
+	fatty.adjust_fatness(fatness_needed_for_permafat, FATTENING_TYPE_WEIGHT_LOSS)
+	fatty.adjust_perma(permafat_on_convert)
 	to_chat(target, span_warning("You feel your fat grow denser"))
 
 /mob/living/simple_animal/hostile/fatten

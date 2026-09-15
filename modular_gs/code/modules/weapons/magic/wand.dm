@@ -2,6 +2,7 @@
 	name = "Wand of Gluttony"
 	desc = "Summons delicious fattening foods"
 	icon = 'modular_gs/icons/obj/magic.dmi'
+	base_icon_state = "food_wand"
 	icon_state = "food_wand"
 	max_charges = 15
 	ammo_type = /obj/item/ammo_casing/magic/food
