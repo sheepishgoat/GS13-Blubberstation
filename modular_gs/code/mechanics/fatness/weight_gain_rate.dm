@@ -34,7 +34,7 @@
  * Sets a weight gain modifier in the modifier list
  *
  * Will always set the modifier to the set value, regardless of the previously stored value
- * 
+ *
  * Arguments:
  * * source - value containing the identifier of the source, IDEALLY a string
  * * value - value to add to the modifier
@@ -62,7 +62,7 @@
  * Sets a weight loss modifier in the modifier list
  *
  * Will always set the modifier to the set value, regardless of the previously stored value
- * 
+ *
  * Arguments:
  * * source - value containing the identifier of the source, IDEALLY a string
  * * value - value to add to the modifier
@@ -115,6 +115,10 @@
 
 	local_gain_rate += get_weight_gain_modifiers()
 
+	if(client?.prefs.read_preference(/datum/preference/toggle/hardcore_fatty))
+		local_gain_rate = clamp(local_gain_rate, HARDCORE_FATTY_MINIMUM_WG_RATE, HARDCORE_FATTY_MAXIMUM_WG_RATE)
+		return local_gain_rate // haha, weight loss is not going to be that easy for you >:p
+
 	if (flip_gain_rate)
 		local_gain_rate = -local_gain_rate
 
@@ -128,6 +132,9 @@
 		local_loss_rate = min(UNIVERSAL_GAINER_MAXIMUM_WL_RATE, local_loss_rate)
 
 	local_loss_rate += get_weight_loss_modifiers()
+	if(client?.prefs.read_preference(/datum/preference/toggle/hardcore_fatty))
+		local_loss_rate = clamp(local_loss_rate, HARDCORE_FATTY_MINIMUM_WL_RATE, HARDCORE_FATTY_MAXIMUM_WL_RATE)
+
 
 	if (flip_loss_rate)
 		local_loss_rate = -local_loss_rate

@@ -20,11 +20,11 @@
 
 	if (isnull(client))
 		return
-	
+
 	if (isnull(client.prefs))
 		return
 
-	if (!client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
+	if (!client.prefs.read_preference(/datum/preference/toggle/hardcore_fatty) && !client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
 		remove_weight_gain_modifier(CALORITE_POISONING)
 		remove_weight_loss_modifier(CALORITE_POISONING)
 		remove_movespeed_modifier(/datum/movespeed_modifier/calorite_poisoning)
@@ -63,7 +63,7 @@
 	if (calorite_poisoning > 0.9)
 		var/fat_to_add = 3 * (calorite_poisoning - 0.9)
 		adjust_fatness(fat_to_add * seconds_per_tick, FATTENING_TYPE_MAGIC)
-	
+
 	if (calorite_poisoning > 0.97)
 		adjust_perma(1 * seconds_per_tick, FATTENING_TYPE_MAGIC, TRUE)
 
@@ -71,11 +71,11 @@
 /mob/living/carbon/proc/adjust_calorite_poisoning(amount)
 	if (isnull(client))
 		return FALSE
-	
+
 	if (isnull(client.prefs))
 		return FALSE
 
-	if (!client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
+	if (!client.prefs.read_preference(/datum/preference/toggle/hardcore_fatty) && !client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
 		return FALSE
 
 	micro_calorite_poisoning += amount
