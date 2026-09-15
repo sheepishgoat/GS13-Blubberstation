@@ -9,8 +9,7 @@
 	severity = 3
 	base_message_chance = 10
 	// don't delay it so calcs are easy
-	symptom_delay_min = 0
-	symptom_delay_max = 0
+	symptom_delay = 0
 	threshold_descs = list(
 		"Stage Speed 7" = "Increases the rate of cell replication.",
 		"Stage Speed 12" = "Increases the rate of cell replication further"

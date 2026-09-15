@@ -66,8 +66,8 @@
 /datum/id_trim/job/nanotrasen_consultant
 	assignment = "GATO Consultant" //GS13 EDIT Change Nanotrasen to GATO
 	trim_state = "trim_centcom"
-	department_color = COLOR_GREEN
-	subdepartment_color = COLOR_GREEN
+	department_color = COLOR_THEME_GATO_BLEAK_PINK	// GS13 EDIT
+	subdepartment_color = COLOR_THEME_GATO_BLEAK_PINK	//GS13 EDIT
 	sechud_icon_state = SECHUD_NT_CONSULTANT
 	extra_access = list()
 	minimal_access = list(

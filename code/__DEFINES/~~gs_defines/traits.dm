@@ -22,7 +22,6 @@
 
 #define TRAIT_MACROPHILE		"macrophile" //likes the big
 #define TRAIT_MICROPHILE		"microphile" //likes the small
-#define TRAIT_COLD_BLOODED		"cold_blooded"
 
 #define TRAIT_ROUNDED			"rounded"
 #define TRAIT_FATTER			"fatter"

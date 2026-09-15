@@ -17,3 +17,24 @@
   - rscadd: Scales now show the players BMI value (the real life one)
   - balance: 'Changed the rate at which weight is gained. For more info, check PR
       #538'
+2026-09-09:
+  Swan:
+  - rscadd: GATOifies the NT consultant, some mail, tickets, and a bunch'a other stuff
+  - bugfix: fixes the GATO flag being blank after taking it off the wall
+2026-09-10:
+  evilew:
+  - map: fixed a few broken pipes, shutters, doors etc on Space Hotel
+2026-09-11:
+  Yeeny, Swan:
+  - rscadd: Adds muscle stages having default examine texts
+2026-09-13:
+  Icepick200:
+  - rscadd: Added the modular turtleneck to loadouts, and clothesmates. Credit to
+      Agent Legit 22 for the spritework.
+  Yeeny:
+  - rscadd: Makes the Metal Cruncher Quirk inaccesible to proteans
+2026-09-15:
+  evilew:
+  - map: Ported the GATO Fast Food Map - a new and updated ghost role for managing
+      a GATO-themed restaurant
+  - rscadd: 'added 2 ghost roles: GATO Fast Food Worker & Manager'

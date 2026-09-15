@@ -60,3 +60,6 @@
 // Body Sizes
 #define BODY_SIZE_MAX 2	// GS13 EDIT, larger max body sizes, original: 1.5
 #define BODY_SIZE_MIN 0.8
+
+///Checks if a mob is in crit specifically
+#define IS_CRITICAL(mob) (mob.stat >= SOFT_CRIT && mob.stat != DEAD)

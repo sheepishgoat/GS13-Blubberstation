@@ -172,3 +172,7 @@
 /datum/loadout_item/uniform/jumpsuit/gs13/bunny_suit
 	name = "Bunny suit (Modular)"
 	item_path = /obj/item/clothing/under/dual_tone/bunny_suit
+
+/datum/loadout_item/uniform/jumpsuit/gs13/turtleneck
+	name = "Turtleneck Shirt (Modular)"
+	item_path = /obj/item/clothing/under/dual_tone/button_up/turtleneck

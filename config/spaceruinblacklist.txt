@@ -94,3 +94,4 @@ _maps/RandomRuins/SpaceRuins/onehalf.dmm
 #modular_skyrat/modules/ruins/maps/space/dangerous_research.dmm
 #_maps/RandomRuins/SpaceRuins/bubberstation/infested_frigate.dmm
 #_maps/RandomRuins/SpaceRuins/bubberstation/onehalf.dmm
+#_maps/RandomRuins/SpaceRuins/dragoontomb.dmm
