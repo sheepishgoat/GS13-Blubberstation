@@ -9,7 +9,7 @@
 
 /datum/action/cooldown/spell/conjure/the_traps/belch
 	name = "Belch Traps!"
-	desc = "Summon a number of traps around you. They will make any enemies that step on them blech."
+desc = "Summon a number of traps around you. They will make any enemies that step on them belch."
 	spell_requirements = NONE
 
 	summon_type = list(
