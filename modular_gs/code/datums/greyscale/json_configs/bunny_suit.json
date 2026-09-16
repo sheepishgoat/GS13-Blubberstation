@@ -17,6 +17,24 @@
 			"icon_state": "bunny_suit-4",
 			"blend_mode": "overlay",
 			"color_ids": [3]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "bunny_suit-5",
+			"blend_mode": "overlay",
+			"color_ids": [4]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "bunny_suit-6",
+			"blend_mode": "overlay",
+			"color_ids": [5]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "bunny_suit-7",
+			"blend_mode": "overlay",
+			"color_ids": [6]
 		}
 	]
 }

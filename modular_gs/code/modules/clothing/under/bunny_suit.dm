@@ -3,7 +3,7 @@
 	desc = "A particularly stretchy bunny suit."
 
 	modular_icon_location = 'modular_gs/icons/mob/modclothes/bunny_suit.dmi'
-	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF"
+	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFFFFF"
 
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
 	icon_state = "/obj/item/clothing/under/dual_tone/bunny_suit"
@@ -41,10 +41,10 @@
 	var/color = organ.bodypart_overlay.draw_color
 	if (islist(color))
 		color = color[1]
-	
+
 	modular_icon_state = (modular_icon + "-1")
 	add_modular_overlay(user, modular_icon_state, modular_layer, color)
 
-	for (var/i = 2, i < 5, i++)
+	for (var/i = 2, i < 8, i++)
 		modular_icon_state = modular_icon + "-" + num2text(i)
 		add_modular_overlay(user, modular_icon_state, modular_layer, suit_colors[i-1])
