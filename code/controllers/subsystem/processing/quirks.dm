@@ -57,6 +57,19 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	list(/datum/quirk/weak_legs, /datum/quirk/strong_legs),
 	list(/datum/quirk/helplessness/immobile, /datum/quirk/strong_legs),
 	list(/datum/quirk/helplessness/chair_breakage, /datum/quirk/helplessness/no_buckle),
+	/// Hardcore fatty
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/weak_legs),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/strong_legs),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/big_cheeks),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/immobile),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/immobile_arms),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/chair_breakage),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/stuckage),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/thick_neck),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/belts),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/clothing_back),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/no_buckle),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/clumsy),
 	// GS13 END EDIT
 ))
 

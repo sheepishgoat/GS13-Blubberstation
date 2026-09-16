@@ -24,7 +24,7 @@
 	if (isnull(client.prefs))
 		return
 
-	if (!client.prefs.read_preference(/datum/preference/toggle/hardcore_fatty) && !client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
+	if (!HAS_TRAIT(src,TRAIT_HARDCORE_FATTY) && !client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
 		remove_weight_gain_modifier(CALORITE_POISONING)
 		remove_weight_loss_modifier(CALORITE_POISONING)
 		remove_movespeed_modifier(/datum/movespeed_modifier/calorite_poisoning)
@@ -75,7 +75,7 @@
 	if (isnull(client.prefs))
 		return FALSE
 
-	if (!client.prefs.read_preference(/datum/preference/toggle/hardcore_fatty) && !client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
+	if (!HAS_TRAIT(src,TRAIT_HARDCORE_FATTY) && !client.prefs.read_preference(/datum/preference/toggle/severe_fatness_penalty))
 		return FALSE
 
 	micro_calorite_poisoning += amount

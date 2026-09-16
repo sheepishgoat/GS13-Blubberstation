@@ -115,7 +115,7 @@
 
 	local_gain_rate += get_weight_gain_modifiers()
 
-	if(client?.prefs.read_preference(/datum/preference/toggle/hardcore_fatty))
+	if(HAS_TRAIT(src,TRAIT_HARDCORE_FATTY))
 		local_gain_rate = clamp(local_gain_rate, HARDCORE_FATTY_MINIMUM_WG_RATE, HARDCORE_FATTY_MAXIMUM_WG_RATE)
 		return local_gain_rate // haha, weight loss is not going to be that easy for you >:p
 
@@ -132,7 +132,7 @@
 		local_loss_rate = min(UNIVERSAL_GAINER_MAXIMUM_WL_RATE, local_loss_rate)
 
 	local_loss_rate += get_weight_loss_modifiers()
-	if(client?.prefs.read_preference(/datum/preference/toggle/hardcore_fatty))
+	if(HAS_TRAIT(src,TRAIT_HARDCORE_FATTY))
 		local_loss_rate = clamp(local_loss_rate, HARDCORE_FATTY_MINIMUM_WL_RATE, HARDCORE_FATTY_MAXIMUM_WL_RATE)
 
 

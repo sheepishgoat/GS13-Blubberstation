@@ -20,7 +20,7 @@
 
 	var/datum/preferences/prefs = client.prefs
 
-	if (prefs.read_preference(/datum/preference/toggle/hardcore_fatty)) // You get all of the fun!
+	if (HAS_TRAIT(src,TRAIT_HARDCORE_FATTY)) // You get all of the fun!
 		fatness_real = persistence.real_fat
 		fatness_perma = persistence.perma_fat
 		micro_calorite_poisoning = persistence.micro_calorite_poisoning

@@ -331,7 +331,7 @@
 	if (isnull(client))
 		return
 
-	if(!client.prefs.read_preference(/datum/preference/toggle/hardcore_fatty) && !client.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent)) // If we cant apply permafat, apply regular fat
+	if(!HAS_TRAIT(src, TRAIT_HARDCORE_FATTY) && !client.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent)) // If we cant apply permafat, apply regular fat
 		return apply_fatness_damage(amount)
 
 	var/fat_to_add = ((amount * CONFIG_GET(number/damage_multiplier)) * PERMA_FAT_DAMAGE_TO_FATNESS)
