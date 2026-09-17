@@ -23,3 +23,6 @@
 /area/station/engineering/outpost/two
 	name = "Engineering outpost 2"
 	icon_state = "engineering_outpost_two"
+
+/area/shuttle/snowtaxi
+	name = "Snow Taxi"

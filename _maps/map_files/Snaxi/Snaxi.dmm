@@ -17337,8 +17337,8 @@
 /area/station/medical/medbay/central)
 "iEd" = (
 /obj/docking_port/stationary/random{
-	shuttle_id = "pod_lavaland2";
-	name = "lavaland"
+	name = "lavaland";
+	shuttle_id = "pod_3_lavaland"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -27866,13 +27866,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
 "nKq" = (
-/obj/docking_port/stationary{
-	dir = 2;
-	dwidth = 2;
-	height = 13;
-	shuttle_id = "ferry_home";
-	name = "port bay 2";
-	width = 5
+/obj/docking_port/stationary/random{
+	name = "lavaland";
+	shuttle_id = "pod_2_lavaland"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -29950,9 +29946,9 @@
 /area/station/engineering/main)
 "oPv" = (
 /obj/docking_port/stationary/random{
-	dir = 8;
-	shuttle_id = "pod_lavaland2";
-	name = "lavaland"
+	name = "lavaland";
+	shuttle_id = "pod_lavaland";
+	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -33252,13 +33248,7 @@
 /turf/open/floor/iron/grimy,
 /area/station/tcommsat/computer)
 "qFA" = (
-/obj/docking_port/stationary{
-	dwidth = 1;
-	height = 4;
-	name = "escape pod loader";
-	roundstart_template = /datum/map_template/shuttle/escape_pod/default;
-	width = 3
-	},
+/obj/docking_port/stationary/escape_pod,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "qFB" = (
@@ -44914,13 +44904,8 @@
 /turf/open/floor/plating,
 /area/station/engineering/storage/tech)
 "wBm" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 1;
-	height = 4;
-	name = "escape pod loader";
-	roundstart_template = /datum/map_template/shuttle/escape_pod/default;
-	width = 3
+/obj/docking_port/stationary/escape_pod{
+	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -201724,7 +201709,7 @@ nhp
 nhp
 nhp
 nhp
-iEd
+nKq
 rIA
 rIA
 rIA
@@ -216210,7 +216195,7 @@ kUi
 rhl
 kUi
 mqr
-nKq
+rIA
 rIA
 rIA
 rIA
