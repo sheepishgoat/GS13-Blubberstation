@@ -8,9 +8,3 @@
 	lose_text = span_notice("You feel a little warmer")
 	quirk_flags = 0
 	mob_trait = TRAIT_COLD_BLOODED
-
-/datum/species/body_temperature_core(mob/living/carbon/human/humi, seconds_per_tick, times_fired)
-	if (HAS_TRAIT(humi, TRAIT_COLD_BLOODED))
-		return
-
-	. = ..()	// only regulate our temperature if we aren't cold blooded

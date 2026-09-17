@@ -14,7 +14,7 @@ SUBSYSTEM_DEF(ticker)
 	/// or a "round-ending" event, like summoning Nar'Sie, a blob victory, the nuke going off, etc. ([FORCE_END_ROUND])
 	var/force_ending = END_ROUND_AS_NORMAL
 	/// If TRUE, there is no lobby phase, the game starts immediately.
-	#ifdef ABSOLUTE_MINIMUM
+	#ifdef AUTOSTART_GAME
 	var/start_immediately = TRUE
 	#else
 	var/start_immediately = FALSE
@@ -37,8 +37,8 @@ SUBSYSTEM_DEF(ticker)
 
 	/// Time left until the round starts after all subsystems initialize
 	var/timeLeft = 120 SECONDS
-	/// value used to initialize `timeLeft` when the master subsystem finishes initializing. 
-	/// We do this to allow for the timer to be set manually before all subsystems initialize, 
+	/// value used to initialize `timeLeft` when the master subsystem finishes initializing.
+	/// We do this to allow for the timer to be set manually before all subsystems initialize,
 	/// while also making sure that when the timer does start, it does so at the value we have set.
 	/// This is set to the config value when SSticker initializes, so setting this only makes sense after that point.
 	var/start_at = 120 SECONDS
@@ -402,11 +402,11 @@ SUBSYSTEM_DEF(ticker)
 			if(L.client.inactivity >= GLOB.logout_timer_set) //Connected, but inactive (alt+tabbed or something)
 				msg += "<b>[L.name]</b> ([L.key]), the [L.job] (<font color='#ffcc00'><b>Connected, Inactive</b></font>)\n"
 				failed = TRUE //AFK client
-			if(!failed && L.stat)
+			if(!failed && IS_UNCONSCIOUS_OR_CRIT(L))
 				if(HAS_TRAIT(L, TRAIT_SUICIDED)) //Suicider
 					msg += "<b>[L.name]</b> ([L.key]), the [L.job] ([span_bolddanger("Suicide")])\n"
 					failed = TRUE //Disconnected client
-				if(!failed && (L.stat == UNCONSCIOUS || L.stat == HARD_CRIT))
+				if(!failed && (L.stat == HARD_CRIT))
 					msg += "<b>[L.name]</b> ([L.key]), the [L.job] (Dying)\n"
 					failed = TRUE //Unconscious
 				if(!failed && L.stat == DEAD)
@@ -623,6 +623,8 @@ SUBSYSTEM_DEF(ticker)
 				var/atom/movable/screen/splash/fade_out = new(null, null, living.client, TRUE)
 				fade_out.fade(TRUE)
 				living.client.init_verbs()
+				living.client.show_spawn_text_overlay()
+
 			livings += living
 	if(livings.len)
 		addtimer(CALLBACK(src, PROC_REF(release_characters), livings), 3 SECONDS, TIMER_CLIENT_TIME)

@@ -5526,19 +5526,19 @@
 /area/station/command/corporate_showroom)
 "bRq" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/harebell{
+/obj/item/food/grown/flower/harebell{
 	pixel_x = -6;
 	pixel_y = 10
 	},
-/obj/item/food/grown/harebell{
+/obj/item/food/grown/flower/harebell{
 	pixel_x = 8;
 	pixel_y = 12
 	},
-/obj/item/food/grown/harebell{
+/obj/item/food/grown/flower/harebell{
 	pixel_x = 6;
 	pixel_y = 6
 	},
-/obj/item/food/grown/harebell{
+/obj/item/food/grown/flower/harebell{
 	pixel_y = 7
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -19287,7 +19287,6 @@
 "gAU" = (
 /obj/structure/table,
 /obj/item/aicard,
-/obj/item/ai_module/reset,
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
 /obj/item/flashlight{
@@ -19472,11 +19471,11 @@
 /turf/closed/wall,
 /area/station/security/execution/education)
 "gEk" = (
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -19537,19 +19536,19 @@
 /obj/structure/sign/plaques/kiddie/badger{
 	pixel_y = 32
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
 /obj/machinery/light/small/directional/north,
@@ -21388,9 +21387,6 @@
 /obj/machinery/door/window/brigdoor/left/directional/west{
 	name = "High-Risk Modules";
 	req_access = list("captain")
-	},
-/obj/item/ai_module/reset/purge{
-	pixel_y = 11
 	},
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/circuit/red,
@@ -33578,11 +33574,11 @@
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_x = 7;
 	pixel_y = 7
 	},
@@ -37196,11 +37192,11 @@
 "mBW" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_x = -8;
 	pixel_y = 7
 	},
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 2
 	},
 /turf/open/floor/iron/dark,
@@ -39612,13 +39608,13 @@
 	},
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/item/food/grown/poppy{
+/obj/item/food/grown/flower/poppy{
 	pixel_y = 11
 	},
 /obj/item/book/bible{
 	pixel_y = 3
 	},
-/obj/item/food/grown/harebell{
+/obj/item/food/grown/flower/harebell{
 	pixel_x = -11;
 	pixel_y = 2
 	},
@@ -40011,7 +40007,6 @@
 /turf/closed/wall,
 /area/station/engineering/atmos/pumproom)
 "nwL" = (
-/obj/machinery/computer/upload/ai,
 /obj/machinery/door/window/right/directional/south{
 	name = "Upload Console Window";
 	req_access = list("ai_upload")
@@ -40019,6 +40014,7 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/ai_law_rack/base/core,
 /turf/open/floor/iron/dark,
 /area/station/ai/upload/chamber)
 "nwT" = (
@@ -63079,7 +63075,6 @@
 /turf/open/floor/iron/dark,
 /area/station/command/vault)
 "viF" = (
-/obj/machinery/computer/upload/borg,
 /obj/machinery/door/window/left/directional/south{
 	name = "Cyborg Upload Console Window";
 	req_access = list("ai_upload")
@@ -63087,6 +63082,7 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/ai_law_rack/base/core,
 /turf/open/floor/iron/dark,
 /area/station/ai/upload/chamber)
 "viH" = (
@@ -64134,11 +64130,7 @@
 /obj/machinery/flasher/directional/south{
 	id = "AI"
 	},
-/obj/item/ai_module/reset{
-	pixel_x = 2;
-	pixel_y = 8
-	},
-/obj/item/ai_module/supplied/freeform,
+/obj/item/ai_module/law/supplied/freeform,
 /turf/open/floor/iron/dark,
 /area/station/ai/upload/chamber)
 "vyy" = (
@@ -66466,10 +66458,10 @@
 /obj/machinery/hydroponics/soil{
 	pixel_y = 8
 	},
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
-/obj/item/food/grown/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
+/obj/item/food/grown/flower/harebell,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/cult,
 /area/station/service/chapel/funeral)

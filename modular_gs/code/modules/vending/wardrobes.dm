@@ -8,6 +8,7 @@
 				/obj/item/clothing/under/dual_tone = 5,
 				/obj/item/clothing/under/dual_tone/button_up = 5,
 				/obj/item/clothing/under/dual_tone/bunny_suit = 5,
+				/obj/item/clothing/under/dual_tone/button_up/turtleneck = 5,
 				),
 			),
 	)
@@ -33,6 +34,7 @@
 	gs_premium = list(
 		/obj/item/clothing/under/dual_tone/medbay/psychologist = 3,
 		/obj/item/clothing/under/dual_tone/button_up/psychologist = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/psychologist = 3,
 	)
 
 /obj/machinery/vending/wardrobe/engi_wardrobe
@@ -53,6 +55,7 @@
 		/obj/item/clothing/under/color/grey/cargo = 3,
 		/obj/item/clothing/under/dual_tone/cargo = 3,
 		/obj/item/clothing/under/dual_tone/button_up/cargo = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/cargo = 3,
 	)
 	gs_premium = list(
 		/obj/item/clothing/under/dual_tone/cargo/bitrunner = 3,
@@ -76,6 +79,7 @@
 		/obj/item/clothing/under/color/grey/science = 3,
 		/obj/item/clothing/under/dual_tone/science = 3,
 		/obj/item/clothing/under/dual_tone/button_up/science = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/science = 3,
 	)
 
 /obj/machinery/vending/wardrobe/hydro_wardrobe
@@ -89,6 +93,7 @@
 		/obj/item/clothing/under/color/grey/service = 3,
 		/obj/item/clothing/under/dual_tone/service/curator = 3,
 		/obj/item/clothing/under/dual_tone/button_up/service/curator = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/service/curator = 3,
 	)
 
 /obj/machinery/vending/wardrobe/bar_wardrobe
@@ -96,6 +101,7 @@
 		/obj/item/clothing/under/color/grey/service = 3,
 		/obj/item/clothing/under/dual_tone/service/bartender = 3,
 		/obj/item/clothing/under/dual_tone/button_up/service/bartender = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/service/bartender = 3,
 	)
 
 /obj/machinery/vending/wardrobe/chef_wardrobe
@@ -103,6 +109,7 @@
 		/obj/item/clothing/under/color/grey/service = 3,
 		/obj/item/clothing/under/dual_tone/service/chef = 3,
 		/obj/item/clothing/under/dual_tone/button_up/service/chef = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/service/chef = 3,
 	)
 
 /obj/machinery/vending/wardrobe/jani_wardrobe
@@ -117,6 +124,7 @@
 		/obj/item/clothing/under/dual_tone/service/lawyer = 3,
 		/obj/item/clothing/under/dual_tone/medbay/psychologist = 3,
 		/obj/item/clothing/under/dual_tone/button_up/service/lawyer = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/service/lawyer = 3,
 	)
 
 /obj/machinery/vending/wardrobe/chap_wardrobe
@@ -124,6 +132,7 @@
 		/obj/item/clothing/under/color/grey/service = 3,
 		/obj/item/clothing/under/dual_tone/service/chaplain = 3,
 		/obj/item/clothing/under/dual_tone/button_up/service/chaplain = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/service/chaplain = 3,
 	)
 
 /obj/machinery/vending/wardrobe/chem_wardrobe
@@ -149,12 +158,14 @@
 		/obj/item/clothing/under/color/grey/security = 3,
 		/obj/item/clothing/under/dual_tone/security/detective = 3,
 		/obj/item/clothing/under/dual_tone/button_up/security/detective = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/security/detective = 3,
 	)
 
 /obj/machinery/vending/wardrobe/cent_wardrobe
 	gs_products = list(
 		/obj/item/clothing/under/dual_tone/centcom = 3,
 		/obj/item/clothing/under/dual_tone/button_up/centcom = 3,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/centcom = 3,
 	)
 
 /obj/machinery/vending/access/command/proc/build_gs13_access_list(list/access_lists)
@@ -162,41 +173,50 @@
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/command/captain = 1,
 		/obj/item/clothing/under/dual_tone/button_up/command/captain = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/command/captain = 1,
 		/obj/item/clothing/under/dual_tone/command/blueshield = 1,
 		/obj/item/clothing/under/dual_tone/button_up/command/blueshield = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/command/blueshield = 1,
 	)
 	access_lists["[ACCESS_HOP]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/service/head_of_personnel = 1,
 		/obj/item/clothing/under/dual_tone/button_up/service/head_of_personnel = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/service/head_of_personnel = 1,
 	)
 	access_lists["[ACCESS_CMO]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/medbay/chief_medical_officer = 1,
 		/obj/item/clothing/under/dual_tone/button_up/chief_medical_officer = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/chief_medical_officer = 1,
 	)
 	access_lists["[ACCESS_RD]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/science/research_director = 1,
 		/obj/item/clothing/under/dual_tone/button_up/science/research_director = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/science/research_director = 1,
 	)
 	access_lists["[ACCESS_CE]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/engineering/chief = 1,
 		/obj/item/clothing/under/dual_tone/button_up/chief_engineer = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/chief_engineer = 1,
 	)
 	access_lists["[ACCESS_HOS]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/security/head_of_security = 1,
 		/obj/item/clothing/under/dual_tone/button_up/security/head_of_security = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/security/head_of_security = 1,
 	)
 	access_lists["[ACCESS_HOS]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/security/head_of_security = 1,
 		/obj/item/clothing/under/dual_tone/button_up/security/head_of_security = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/security/head_of_security = 1,
 	)
 	access_lists["[ACCESS_QM]"] += list(
 		/obj/item/clothing/under/color/grey/command = 3,
 		/obj/item/clothing/under/dual_tone/cargo/quartermaster = 1,
 		/obj/item/clothing/under/dual_tone/button_up/cargo/quartermaster = 1,
+		/obj/item/clothing/under/dual_tone/button_up/turtleneck/cargo/quartermaster = 1,
 	)

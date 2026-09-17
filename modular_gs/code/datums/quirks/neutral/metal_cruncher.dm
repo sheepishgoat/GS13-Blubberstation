@@ -7,6 +7,9 @@
 	lose_text = "<span class='notice'>Your teeth hurt too much...</span>"
 	medical_record_text = "Patient is able to devour metal."
 	mob_trait = TRAIT_METAL_CRUNCHER
+	species_blacklist = list(
+			SPECIES_PROTEAN
+	)
 
 /obj/item/stack
 	var/crunch_value = 0

@@ -34,26 +34,19 @@
 	name = "Button Up Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/button_up_taur_snake.dmi'
 
-/obj/item/clothing/under/dual_tone/button_up/add_modular_overlay(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
+/obj/item/clothing/under/dual_tone/button_up/add_modular_overlays(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
 	var/list/suit_colors = SSgreyscale.ParseColorString(greyscale_colors)
-	var/mutable_appearance/mod_overlay = mutable_appearance(modular_icon_location, modular_icon, -(modular_layer))
-	mod_overlays += mod_overlay
-	user.overlays_standing[modular_layer] =  mod_overlay
-	user.apply_overlay(modular_layer)
-	for (var/i = 1, i < 4, i++)
-		mod_overlay = mutable_appearance(modular_icon_location, (modular_icon + "-" + num2text(i)), -(modular_layer))
-		mod_overlay.color = suit_colors[i]
-		mod_overlays += mod_overlay
-		user.overlays_standing[modular_layer] =  mod_overlay
-		user.apply_overlay(modular_layer)
-
+	var/modular_icon_state
+	
+	add_modular_overlay(user, modular_icon, modular_layer, "#FFFFFF")
 	var/obj/item/organ/genital/organ = user.get_organ_slot(organ_slot)
 	var/color = organ.bodypart_overlay.draw_color
 	if (islist(color))
 		color = color[1]
+	
+	modular_icon_state = (modular_icon + "-4")
+	add_modular_overlay(user, modular_icon_state, modular_layer, color)
 
-	mod_overlay = mutable_appearance(modular_icon_location, (modular_icon + "-4"), -(modular_layer))
-	mod_overlay.color = color
-	mod_overlays += mod_overlay
-	user.overlays_standing[modular_layer] =  mod_overlay
-	user.apply_overlay(modular_layer)
+	for (var/i = 1, i < 4, i++)
+		modular_icon_state = modular_icon + "-" + num2text(i)
+		add_modular_overlay(user, modular_icon_state, modular_layer, suit_colors[i])

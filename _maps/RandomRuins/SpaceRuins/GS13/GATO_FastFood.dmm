@@ -1,0 +1,8127 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white,
+/obj/structure/sign/poster/gato/helpothers/directional/west,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"ah" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/structure/sign/gatofull_2/directional/north,
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"aq" = (
+/obj/structure/sink/kitchen/directional/east{
+	pixel_x = -18;
+	pixel_y = 0
+	},
+/obj/structure/mirror/directional/west{
+	pixel_x = -27;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"av" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/power/rtg/advanced,
+/turf/open/floor/circuit/green,
+/area/ruin/space/has_grav/fastfood_employee)
+"ax" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"az" = (
+/obj/effect/turf_decal/trimline/brown/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"aB" = (
+/obj/structure/closet/crate/trashcart,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/item/trash/can,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"aJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/gs13_fluff/brokenhose/scraps2,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"aW" = (
+/obj/machinery/door/airlock/silver{
+	name = "Freezer"
+	},
+/obj/structure/plasticflaps/kitchen,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"aZ" = (
+/obj/machinery/door/airlock/public{
+	dir = 4;
+	name = "Toilet 2";
+	id_tag = "gato_toilet2"
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"bb" = (
+/obj/machinery/door/airlock/public{
+	name = "Manager's Office"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"bi" = (
+/obj/machinery/vending/wardrobe/chef_wardrobe{
+	all_products_free = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"bj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"bn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Restaurant Maintenance"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_main)
+"bp" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"bu" = (
+/obj/structure/trash_pile,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"by" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"bB" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"bC" = (
+/obj/effect/turf_decal/siding/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/brown/line,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"bG" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 1;
+	color = "#eb34e8";
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"bM" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/chair/beanbag/gato{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning/corner,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/moffuchis_pizza/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"bP" = (
+/obj/machinery/vending/wallmed/directional/north,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"bQ" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/robust_softdrinks/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"bT" = (
+/obj/structure/closet/crate/freezer/food,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"bV" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"ch" = (
+/obj/structure/trash_pile,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"cm" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"cp" = (
+/obj/item/trash/tray,
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"cw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth_half,
+/area/ruin/space/has_grav/fastfood_employee)
+"cA" = (
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"cB" = (
+/obj/structure/sink/directional/west,
+/obj/structure/mirror/directional/east,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"cF" = (
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"cG" = (
+/obj/item/kirbyplants/organic/plant10,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"cJ" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"cN" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"cR" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"cS" = (
+/obj/machinery/smartfridge/food,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"cW" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 5
+	},
+/obj/machinery/firealarm/directional/north,
+/obj/structure/closet/firecloset/full,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"cZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"dg" = (
+/obj/structure/toilet,
+/obj/machinery/light/small/directional/west,
+/obj/machinery/button/door{
+	pixel_x = 27;
+	pixel_y = -1;
+	id = "gato_toilet3"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"dh" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/trash_pile,
+/obj/item/cigarette/dart,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"dk" = (
+/obj/machinery/computer/arcade,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"dr" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"dt" = (
+/obj/machinery/suit_storage_unit/mining/eva,
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"dv" = (
+/obj/structure/rack/shelf,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/obj/item/choice_beacon/ingredient,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"dz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"dG" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"dJ" = (
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	req_access = null
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"dN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal,
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/fastfood_employee)
+"dP" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"dQ" = (
+/obj/machinery/plumbing/synthesizer/water_synth,
+/obj/effect/turf_decal/delivery/white{
+	color = "#52B4E9"
+	},
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"dU" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"dY" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/iv_drip/feeding_tube,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"eb" = (
+/obj/machinery/duct,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"ec" = (
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"ef" = (
+/obj/structure/trash_pile,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/item/trash/boritos,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"eg" = (
+/obj/structure/chair/beanbag/gato{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"el" = (
+/obj/structure/sink/directional/west,
+/obj/structure/mirror/directional/east,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/item/trash/candy/coconut_joy,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"eo" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"er" = (
+/obj/item/trash/blueberry_gum,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"et" = (
+/obj/effect/turf_decal/siding/thinplating,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"fd" = (
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/dark/corner{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"fk" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"fm" = (
+/obj/structure/rack/shelf,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/iron/fifty{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/plastic/fifty{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/sign/warning/radiation/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"fo" = (
+/turf/open/floor/iron/smooth_corner,
+/area/ruin/space/has_grav/fastfood_employee)
+"fw" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"fz" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/multi_tile/public/glass{
+	name = "GATO Fast Food Entrance"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"fA" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"fC" = (
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"fH" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"fI" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"gb" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"gw" = (
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"gA" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/fatoray_scrap1,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"gC" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/machinery/airalarm/directional/south{
+	req_access = null
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"gK" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/box,
+/obj/machinery/door/airlock/external{
+	name = "External Airlock"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"gL" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/ruin/space/has_grav/fastfood_employee)
+"gO" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"gP" = (
+/obj/effect/turf_decal/bot/right,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/mob_spawn/ghost_role/human/gato_fastfood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"gQ" = (
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/rack/shelf,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"gS" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space/nearstation)
+"gT" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"gV" = (
+/obj/effect/decal/big_gato,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"hf" = (
+/obj/machinery/plumbing/synthesizer/water_synth,
+/obj/effect/turf_decal/delivery/white{
+	color = "#52B4E9"
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"hh" = (
+/obj/structure/reagent_dispensers/cooking_oil,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"hi" = (
+/obj/machinery/space_heater,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"hl" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"hs" = (
+/obj/effect/turf_decal/stripes/corner{
+	color = "#6b6b6b"
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"ht" = (
+/obj/effect/turf_decal/siding/corner{
+	dir = 1
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"hw" = (
+/turf/open/floor/iron/smooth_edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"hz" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/fastfood_employee)
+"hA" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = 3
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"hG" = (
+/obj/structure/urinal/directional/north,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"hI" = (
+/obj/machinery/computer/security/telescreen/entertainment,
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_main)
+"hM" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"hR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_main)
+"ib" = (
+/obj/structure/table,
+/obj/item/stack/rods/twentyfive,
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = -7
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"ik" = (
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo"
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"il" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"io" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"iq" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/gatito{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/fastfood_employee)
+"iu" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"ix" = (
+/obj/structure/chair/stool/directional/east{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/wideplating_new/light,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"jd" = (
+/obj/structure/rack,
+/obj/item/stack/package_wrap,
+/obj/item/stack/package_wrap,
+/obj/effect/turf_decal/siding/light{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"jm" = (
+/obj/structure/steam_vent,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"jo" = (
+/obj/structure/chair/beanbag/gato{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"jr" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets/donkpocketpizza{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"jE" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"jJ" = (
+/obj/item/cigbutt{
+	pixel_x = -7;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/light/directional/west,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"jM" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/fastfood_employee)
+"kd" = (
+/turf/closed/mineral/asteroid,
+/area/space/nearstation)
+"ke" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = 16;
+	pixel_y = 3
+	},
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"km" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"kq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_half,
+/area/ruin/space/has_grav/fastfood_employee)
+"kr" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/north,
+/obj/machinery/button/door{
+	pixel_x = 0;
+	pixel_y = 28;
+	id = "gato_toilet1"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/fastfood_main)
+"kv" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"kQ" = (
+/obj/machinery/vending/boozeomat{
+	all_products_free = 1
+	},
+/obj/machinery/firealarm/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"kS" = (
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/dark/corner{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"kU" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "GATO Fast Food Entrance"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_main)
+"lg" = (
+/obj/structure/reagent_dispensers/cooking_oil,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"lh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/power/rtg/advanced,
+/turf/open/floor/circuit/green,
+/area/ruin/space/has_grav/fastfood_employee)
+"li" = (
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/corner{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"lj" = (
+/obj/effect/turf_decal/stripes/box,
+/obj/machinery/door/airlock/external{
+	name = "External Airlock"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"lo" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"lt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"lw" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor{
+	id = "gatofood_storage"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"lG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/gs13_fluff/brokenhose,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"lH" = (
+/obj/machinery/gibber,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"lI" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"lR" = (
+/obj/structure/rack/shelf,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"lV" = (
+/obj/effect/turf_decal/siding/corner,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"lX" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"md" = (
+/obj/machinery/door/airlock/silver{
+	name = "Freezer"
+	},
+/obj/structure/plasticflaps/kitchen,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"me" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"mi" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 8
+	},
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"mo" = (
+/obj/machinery/vending/dinnerware{
+	free = 1;
+	all_products_free = 1
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"ms" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 8
+	},
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"mt" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/item/cigbutt,
+/obj/item/cigbutt{
+	pixel_x = -11;
+	pixel_y = 16
+	},
+/obj/item/cigbutt{
+	pixel_x = 15;
+	pixel_y = 11
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"mw" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"mE" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"mG" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/multi_tile/public/glass{
+	name = "EMPLOYEE ONLY"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"mH" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"mJ" = (
+/obj/machinery/vending/wardrobe/bar_wardrobe{
+	all_products_free = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"mM" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space/nearstation)
+"mO" = (
+/obj/machinery/vending/mealdor{
+	all_products_free = 1
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"mU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"mV" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"mX" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"mZ" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"na" = (
+/obj/item/chair/stool,
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/fastfood_employee)
+"nd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/moisture_trap,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"ng" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/space_cola/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"nh" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"ni" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"nn" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"ny" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"nB" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"nC" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"nE" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"nI" = (
+/obj/structure/chair/stool/directional/west,
+/obj/structure/closet/emcloset/wall{
+	pixel_x = 32
+	},
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/fastfood_employee)
+"nJ" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"nS" = (
+/obj/machinery/computer/security/telescreen/entertainment,
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_employee)
+"nT" = (
+/obj/machinery/jukebox{
+	req_one_access = null
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"nV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"nW" = (
+/obj/effect/turf_decal/caution{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"nZ" = (
+/obj/structure/closet/crate/trashcart,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/trash/tray,
+/obj/item/trash/sosjerky,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"oa" = (
+/obj/machinery/icecream_vat,
+/obj/effect/turf_decal/bot_blue,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"od" = (
+/obj/structure/chair/beanbag/gato{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"og" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"oh" = (
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"ol" = (
+/obj/machinery/door/airlock/public{
+	name = "EMPLOYEE ONLY"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen2"
+	},
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"or" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/ruin/space/has_grav/fastfood_employee)
+"os" = (
+/obj/effect/turf_decal/bot/left,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/effect/mob_spawn/ghost_role/human/gato_fastfood{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"oA" = (
+/obj/effect/turf_decal/trimline/brown/corner,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"oJ" = (
+/obj/machinery/conveyor/inverted{
+	dir = 10;
+	id = "boulderbelt"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"oO" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"oP" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/item/rag{
+	pixel_x = -4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"oR" = (
+/obj/effect/turf_decal/trimline/brown/corner,
+/obj/effect/turf_decal/trimline/brown/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"oY" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/structure/closet/emcloset/wall{
+	pixel_x = 32
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"pk" = (
+/obj/structure/scale,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"pl" = (
+/obj/structure/chair/sofa/corp{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"pm" = (
+/obj/structure/reagent_dispensers/keg/lipoifier,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"ps" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_employee)
+"px" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"py" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"pB" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"pI" = (
+/obj/machinery/door/airlock/hatch{
+	name = "RTG Room"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"pM" = (
+/obj/machinery/conveyor_switch{
+	id = "fastfood_trash"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"pP" = (
+/turf/template_noop,
+/area/template_noop)
+"pT" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"qc" = (
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"qk" = (
+/obj/item/trash/candle,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"qo" = (
+/obj/machinery/griddle,
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"qt" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"qu" = (
+/obj/structure/table,
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = -9
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"qD" = (
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"qH" = (
+/obj/machinery/door/airlock/bathroom{
+	name = "Employee Restroom";
+	id_tag = "gato_toilet3"
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"rc" = (
+/obj/machinery/iv_drip/feeding_tube,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"rd" = (
+/obj/item/flashlight/lamp,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"rh" = (
+/obj/structure/billboard/gato{
+	pixel_x = 0;
+	pixel_y = 22
+	},
+/obj/structure/marker_beacon/fuchsia,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/fastfood_main)
+"rx" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"ry" = (
+/obj/machinery/smartfridge/hotbar,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"rR" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"rS" = (
+/obj/structure/sign/poster/greenscreen/directional/east,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"rV" = (
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/loosen/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"sg" = (
+/obj/effect/turf_decal/trimline/brown/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"sj" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"so" = (
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"sD" = (
+/obj/effect/turf_decal/siding,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"sG" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/sink/kitchen/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/ruin/space/has_grav/fastfood_employee)
+"sH" = (
+/obj/structure/closet/secure_closet/freezer/fridge{
+	req_access = null
+	},
+/obj/effect/turf_decal/bot_blue,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"sK" = (
+/obj/effect/turf_decal/trimline/brown/corner{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"sO" = (
+/obj/structure/sign/warning/docking,
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_main)
+"sU" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/box/white,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"sX" = (
+/obj/structure/table/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"tc" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"ti" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/paper_cup/big{
+	pixel_x = -10;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/cup/paper_cup{
+	pixel_x = 3;
+	pixel_y = -1
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_soda"
+	},
+/obj/structure/sign/gatofull_2/directional/north{
+	pixel_x = 10;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"ts" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/machinery/button/door{
+	pixel_x = 25;
+	pixel_y = -5;
+	name = "door shutters";
+	id = "gatofood_kitchen2"
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"tA" = (
+/obj/effect/turf_decal/trimline/purple/corner,
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/corner,
+/area/ruin/space/has_grav/fastfood_main)
+"tE" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"tH" = (
+/obj/effect/turf_decal/siding,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"tN" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Kitchen"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"tO" = (
+/obj/structure/lattice,
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
+/turf/template_noop,
+/area/space/nearstation)
+"tR" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"tV" = (
+/obj/structure/window/plasma/fulltile,
+/turf/open/floor/light,
+/area/ruin/space/has_grav/fastfood_main)
+"uj" = (
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"uk" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"uo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"up" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"uu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"uz" = (
+/obj/structure/billboard/gato{
+	pixel_x = 0;
+	pixel_y = 22
+	},
+/obj/structure/marker_beacon/fuchsia,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"uA" = (
+/obj/structure/closet/l3closet/janitor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"uG" = (
+/obj/structure/falsewall,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"uM" = (
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes/white/line{
+	color = "#D381C9";
+	dir = 2
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"uS" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"uV" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_y = 8
+	},
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_x = 1;
+	pixel_y = -16
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/fastfood_employee)
+"uW" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"uX" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"uY" = (
+/obj/machinery/door/airlock/public{
+	dir = 4;
+	name = "Toilet 1";
+	id_tag = "gato_toilet1"
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"uZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"va" = (
+/obj/effect/turf_decal/siding/dark,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"vf" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"vm" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"vn" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = 3
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"vo" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"vq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"vu" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/official/calorite/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"vB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"vE" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/machinery/firealarm/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/under/dual_tone/centcom/civilian,
+/obj/item/clothing/head/soft/black,
+/obj/item/clothing/shoes/wraps/silver,
+/obj/item/clothing/shoes/sneakers/black,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"vG" = (
+/obj/machinery/atmospherics/components/tank/air/layer4{
+	open_ports = 2
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"vI" = (
+/obj/machinery/door/airlock/bathroom{
+	name = "Restroom"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"vT" = (
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 8;
+	pixel_x = 20;
+	pixel_y = 0;
+	density = 0;
+	name = "orders console"
+	},
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"we" = (
+/obj/structure/decorative/fluff{
+	icon = 'icons/turf/floors.dmi';
+	base_icon_state = "stairs-old";
+	icon_state = "stairs-old";
+	anchored = 1;
+	pixel_y = -17;
+	name = "staircase";
+	desc = "A small step for the humanity, and so is for you."
+	},
+/obj/structure/decorative/fluff{
+	icon = 'icons/turf/decals.dmi';
+	icon_state = "trimline_mid_fill";
+	anchored = 1;
+	color = "#2a2e2e";
+	name = "decorative tile covers";
+	pixel_y = 6;
+	pixel_x = 16
+	},
+/obj/structure/decorative/fluff{
+	icon = 'icons/turf/decals.dmi';
+	icon_state = "tile_half";
+	anchored = 1;
+	color = "#2a2e2e";
+	name = "decorative tile covers";
+	pixel_y = 6
+	},
+/obj/structure/decorative/fluff{
+	icon = 'icons/turf/decals.dmi';
+	icon_state = "warningline";
+	anchored = 1;
+	name = "warning line"
+	},
+/obj/structure/decorative/fluff{
+	icon = 'icons/turf/decals.dmi';
+	icon_state = "warningline_white";
+	anchored = 1;
+	name = "warning line"
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"wf" = (
+/obj/item/trash/candy{
+	pixel_x = 10;
+	pixel_y = -3
+	},
+/obj/structure/gs13_fluff/brokenhose/scraps3{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"wk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"wt" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new/light,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"wu" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets/donkpocketpizza{
+	pixel_y = 9;
+	pixel_x = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"wx" = (
+/obj/machinery/vending/gato{
+	free = 1;
+	all_products_free = 1
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"wA" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"wB" = (
+/obj/structure/mop_bucket/janitorialcart{
+	dir = 4
+	},
+/obj/item/mop,
+/obj/item/reagent_containers/cup/bucket,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"wI" = (
+/obj/structure/billboard/gato{
+	pixel_x = 0;
+	pixel_y = 22
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"wO" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"xd" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"xl" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"xm" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/condiment/mayonnaise{
+	pixel_y = 9;
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/condiment/ketchup{
+	pixel_y = 9;
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = 3
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"xo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/purple/filled/line,
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes/white/line{
+	color = "#D381C9";
+	dir = 2
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"xp" = (
+/obj/effect/turf_decal/trimline/purple/corner,
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/corner,
+/area/ruin/space/has_grav/fastfood_main)
+"xu" = (
+/obj/structure/closet/crate,
+/obj/item/reagent_containers/cup/paper_cup,
+/obj/item/reagent_containers/cup/paper_cup,
+/obj/item/reagent_containers/cup/paper_cup,
+/obj/item/reagent_containers/cup/paper_cup,
+/obj/item/reagent_containers/cup/paper_cup,
+/obj/item/reagent_containers/cup/paper_cup,
+/obj/item/reagent_containers/cup/paper_cup/big,
+/obj/item/reagent_containers/cup/paper_cup/big,
+/obj/item/reagent_containers/cup/paper_cup/big,
+/obj/item/reagent_containers/cup/paper_cup/big,
+/obj/item/reagent_containers/cup/paper_cup/big,
+/obj/item/reagent_containers/cup/paper_cup/big,
+/obj/item/reagent_containers/cup/paper_cup/extra_big,
+/obj/item/reagent_containers/cup/paper_cup/extra_big,
+/obj/item/reagent_containers/cup/paper_cup/extra_big,
+/obj/item/reagent_containers/cup/paper_cup/extra_big,
+/obj/item/reagent_containers/cup/paper_cup/extra_big,
+/obj/item/reagent_containers/cup/paper_cup/extra_big,
+/obj/item/reagent_containers/cup/paper_cup/medium,
+/obj/item/reagent_containers/cup/paper_cup/medium,
+/obj/item/reagent_containers/cup/paper_cup/medium,
+/obj/item/reagent_containers/cup/paper_cup/medium,
+/obj/item/reagent_containers/cup/paper_cup/medium,
+/obj/item/reagent_containers/cup/paper_cup/medium,
+/obj/item/reagent_containers/cup/paper_cup/small,
+/obj/item/reagent_containers/cup/paper_cup/small,
+/obj/item/reagent_containers/cup/paper_cup/small,
+/obj/item/reagent_containers/cup/paper_cup/small,
+/obj/item/reagent_containers/cup/paper_cup/small,
+/obj/item/reagent_containers/cup/paper_cup/small,
+/obj/item/reagent_containers/cup/paper_cup/super_extra_big,
+/obj/item/reagent_containers/cup/paper_cup/super_extra_big,
+/obj/item/reagent_containers/cup/paper_cup/super_extra_big,
+/obj/item/reagent_containers/cup/paper_cup/super_extra_big,
+/obj/item/reagent_containers/cup/paper_cup/super_extra_big,
+/obj/item/reagent_containers/cup/paper_cup/super_extra_big,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/button/door{
+	pixel_x = 6;
+	pixel_y = -26;
+	name = "door shutters";
+	id = "gatofood_kitchen3"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"xC" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"xD" = (
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"xJ" = (
+/obj/item/trash/boritos,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"xL" = (
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"xP" = (
+/obj/machinery/griddle,
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"xR" = (
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 4
+	},
+/obj/machinery/firealarm/directional/north,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"xS" = (
+/obj/machinery/autolathe/hacked,
+/obj/machinery/light/small/directional/north,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"xY" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal{
+	dir = 1
+	},
+/turf/open/floor/circuit/telecomms,
+/area/ruin/space/has_grav/fastfood_employee)
+"xZ" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/space_up/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"yb" = (
+/obj/structure/table,
+/obj/structure/closet/mini_fridge/grimy{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/structure/sign/poster/gato/futurework/directional/south,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"yd" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"yf" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"yi" = (
+/obj/effect/turf_decal/trimline/purple/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/corner{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"yB" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"yD" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"yF" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/structure/sign/flag/gato{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/obj/item/plate,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"yL" = (
+/obj/structure/table,
+/obj/item/kitchen/rollingpin{
+	pixel_x = 6;
+	pixel_y = 12
+	},
+/obj/item/stack/package_wrap{
+	pixel_x = -1;
+	pixel_y = -1
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"yS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating_new/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"yT" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"yU" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/shipping_container/gato,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"yZ" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/corner{
+	dir = 1
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"za" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"zg" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/fastfood_employee)
+"zk" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 4;
+	color = "#ff38fc"
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"zm" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"zt" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"zu" = (
+/obj/structure/sign/warning{
+	name = "TRASH DUMP ZONE"
+	},
+/turf/closed/wall,
+/area/space/nearstation)
+"zD" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning/corner{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"zE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"zL" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"zQ" = (
+/obj/effect/turf_decal/siding/wideplating_new/light{
+	dir = 1
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"zR" = (
+/obj/effect/turf_decal/siding/corner{
+	dir = 4
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"zS" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"zW" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ab" = (
+/obj/machinery/computer/arcade,
+/obj/structure/sign/flag/gato{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"Ad" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 1;
+	color = "#eb34e8";
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Af" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ai" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ao" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/eat/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Az" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"AG" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"AH" = (
+/obj/structure/flora/grass/jungle/b/style_random,
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"AP" = (
+/obj/structure/table,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"AX" = (
+/obj/structure/window/fulltile,
+/obj/structure/window/plasma/fulltile,
+/turf/open/floor/light,
+/area/ruin/space/has_grav/fastfood_main)
+"AY" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Bl" = (
+/obj/structure/marker_beacon/fuchsia,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/fastfood_main)
+"Bo" = (
+/obj/machinery/teleport/hub,
+/obj/structure/sign/gatofull_3/directional/south{
+	pixel_x = 26;
+	pixel_y = -32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"Bt" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/rack,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Bu" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Bz" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"BG" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"BJ" = (
+/obj/machinery/vending/clothing,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"BP" = (
+/obj/structure/table,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = 3;
+	pixel_y = 12
+	},
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/obj/item/soap/gato{
+	pixel_x = 0;
+	pixel_y = -13
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"BR" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/structure/sign/flag/gato{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/trimline/purple/filled/warning/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"BT" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 1
+	},
+/obj/item/radio/intercom/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ca" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/sign/flag/gato,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Cb" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ck" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Janitorial Closet"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Cl" = (
+/obj/structure/rack/shelf,
+/obj/item/vending_refill/mealdor,
+/obj/item/vending_refill/boozeomat,
+/obj/item/vending_refill/coffee,
+/obj/item/vending_refill/hydroseeds,
+/obj/item/vending_refill/hydronutrients,
+/obj/item/vending_refill/dinnerware,
+/obj/item/vending_refill/custom,
+/obj/item/vending_refill/custom,
+/obj/effect/turf_decal/bot,
+/obj/item/vending_refill/gato_merch,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Cq" = (
+/obj/structure/trash_pile,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/item/trash/can,
+/obj/item/poster/random_contraband,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Cv" = (
+/obj/effect/turf_decal/siding,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"CR" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"CU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth_corner{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"CW" = (
+/obj/structure/chair/sofa/corp{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"CX" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/structure/sign/flag/gato{
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"Da" = (
+/obj/item/trash/tray{
+	pixel_y = -5;
+	pixel_x = -10
+	},
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"De" = (
+/obj/machinery/door/airlock/public{
+	name = "Drink Prep"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Dh" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/structure/sign/poster/contraband/eat/directional/south,
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"Di" = (
+/obj/machinery/processor,
+/obj/structure/table,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Dn" = (
+/obj/structure/table,
+/obj/item/lightreplacer{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/storage/bag/trash{
+	pixel_x = -9;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"Dq" = (
+/obj/structure/closet/secure_closet/freezer/meat{
+	req_access = null
+	},
+/obj/effect/turf_decal/bot_blue,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Du" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Dw" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Janitorial Closet"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"DF" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/delivery,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"DG" = (
+/obj/effect/turf_decal/trimline/brown/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"DJ" = (
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"DP" = (
+/obj/structure/filingcabinet,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"DS" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"DZ" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Er" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/trimline/purple/filled/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/pwr_game/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"Ev" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ez" = (
+/obj/structure/window/fulltile,
+/obj/structure/window/plasma/fulltile,
+/obj/structure/marker_beacon/fuchsia,
+/turf/open/floor/light,
+/area/ruin/space/has_grav/fastfood_main)
+"EC" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"EH" = (
+/obj/structure/chair/stool/bar/directional/north,
+/obj/item/stack/arcadeticket{
+	pixel_x = 13;
+	pixel_y = 11
+	},
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"EP" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/condiment/mayonnaise{
+	pixel_y = 4;
+	pixel_x = 0
+	},
+/obj/item/reagent_containers/condiment/ketchup{
+	pixel_y = 4;
+	pixel_x = 9
+	},
+/obj/item/reagent_containers/condiment/hotsauce{
+	pixel_x = -18;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/condiment/mustard{
+	pixel_x = -9;
+	pixel_y = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_soda"
+	},
+/obj/structure/sign/gatofull_3/directional/north{
+	pixel_x = 10;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"EY" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_manager"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"EZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/trash_pile,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Fb" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/obj/machinery/recycler{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fd" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/end,
+/obj/machinery/door/airlock/external{
+	name = "GATO Fast Food Entrance"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_main)
+"Fg" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/public/glass{
+	name = "Drink Prep"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fi" = (
+/obj/structure/table,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fk" = (
+/obj/machinery/teleport/station,
+/obj/structure/sign/gatofull_2/directional/south{
+	pixel_x = 26;
+	pixel_y = -32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"Fn" = (
+/obj/structure/chair/sofachair{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fp" = (
+/obj/structure/table,
+/obj/item/clothing/gloves/cargo_gauntlet{
+	pixel_x = -2;
+	pixel_y = 0
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fr" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fu" = (
+/obj/structure/gs13_fluff/brokenhose/scraps1{
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fv" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/blue,
+/obj/structure/sign/poster/gato/cleanhands/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Fz" = (
+/obj/item/stack/sheet/cardboard/fifty,
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"FB" = (
+/obj/effect/turf_decal/trimline/purple/filled/warning/corner{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"FG" = (
+/obj/structure/mirror/directional/east,
+/obj/structure/sink/directional/west,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"FT" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"FV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/machinery/airalarm/directional/south,
+/obj/item/radio/intercom/directional/west,
+/obj/effect/mob_spawn/ghost_role/human/gato_fastfood/manager{
+	dir = 4
+	},
+/turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ga" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/chair/beanbag/gato{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/missingpizza/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Gf" = (
+/obj/effect/turf_decal/siding/wideplating_new/light/corner{
+	dir = 1
+	},
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"Gh" = (
+/obj/structure/closet/secure_closet/freezer/kitchen{
+	req_access = null
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Gi" = (
+/obj/machinery/computer/teleporter{
+	dir = 1
+	},
+/obj/structure/sign/gatofull_1/directional/south{
+	pixel_x = 26;
+	pixel_y = -32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"Gp" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"Gv" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"GA" = (
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/door/poddoor{
+	id = "gatofood_cargodock"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"GC" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/vending/wallmed/directional/north,
+/obj/item/kirbyplants/photosynthetic,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"GL" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/sink/kitchen/directional/south,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"GM" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"GN" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 11;
+	height = 24;
+	name = "GATO Fast Food, Restaurant Port";
+	shuttle_id = "gato_restaurant";
+	width = 35
+	},
+/turf/template_noop,
+/area/space/nearstation)
+"GS" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes/white/line{
+	color = "#D381C9";
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"GW" = (
+/obj/machinery/vending/mealdor{
+	all_products_free = 1
+	},
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Hn" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/fastfood_main)
+"Hr" = (
+/obj/structure/flora/rock,
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"Ht" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"Hy" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"HE" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Restaurant Maintenance"
+	},
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"HG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"HH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wideplating_new/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"HN" = (
+/obj/structure/marker_beacon/fuchsia,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"HU" = (
+/obj/structure/table,
+/obj/item/hand_labeler{
+	pixel_x = 2;
+	pixel_y = -6
+	},
+/obj/item/storage/box/beakers/big{
+	pixel_x = -3;
+	pixel_y = 9
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"HY" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"HZ" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/starkist/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Ib" = (
+/obj/effect/turf_decal/trimline/brown/corner,
+/obj/effect/turf_decal/trimline/brown/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"If" = (
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Ig" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/bluespace,
+/area/ruin/space/has_grav/fastfood_employee)
+"In" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"Ip" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Is" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/super/full,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Iu" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/obj/item/reagent_containers/cup/paper_cup{
+	pixel_x = -13;
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Iv" = (
+/obj/structure/trash_pile,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Iw" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"IE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"IG" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"IL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth_edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"IQ" = (
+/obj/effect/turf_decal/siding,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"IS" = (
+/obj/structure/table,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"IX" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/wideplating_new/light,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"IZ" = (
+/obj/machinery/vending/gato_merch,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Ja" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 4;
+	color = "#ff38fc"
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Jb" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"Jd" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Jf" = (
+/obj/effect/turf_decal/siding/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"Jg" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ji" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = -4
+	},
+/obj/item/pen,
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/button/door{
+	pixel_x = -9;
+	pixel_y = -26;
+	name = "Cargo Delivery Blast Door";
+	id = "gatofood_cargodock"
+	},
+/obj/machinery/button/door{
+	pixel_x = 0;
+	pixel_y = -26;
+	name = "Secure Cargo Storage";
+	id = "gatofood_storage"
+	},
+/obj/machinery/button/door{
+	pixel_x = 9;
+	pixel_y = -26;
+	name = "Manager Office Shutters";
+	id = "gatofood_manager"
+	},
+/turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/fastfood_employee)
+"Jl" = (
+/obj/structure/rack,
+/obj/item/circuitboard/computer/slot_machine,
+/obj/item/circuitboard/machine/biogenerator,
+/obj/item/circuitboard/machine/chem_dispenser,
+/obj/item/circuitboard/machine/dish_drive,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/microwave,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/seed_extractor,
+/obj/item/circuitboard/machine/dish_drive,
+/obj/item/circuitboard/machine/fishing_portal_generator,
+/obj/item/circuitboard/machine/vendor,
+/obj/item/circuitboard/machine/vendor,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Js" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Employee Pods"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Jx" = (
+/obj/structure/window/plasma/fulltile,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"JF" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"JG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"JI" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"JM" = (
+/obj/item/clothing/neck/tie/black,
+/obj/item/clothing/under/suit/red,
+/obj/item/clothing/under/suit/navy,
+/obj/item/clothing/under/suit/burgundy,
+/obj/item/clothing/under/suit/charcoal,
+/obj/item/crowbar/large/heavy,
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/structure/sign/flag/gato{
+	pixel_x = 0;
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/obj/item/card/id/advanced/gato_fastfood,
+/obj/item/card/id/advanced/gato_fastfood,
+/obj/item/card/id/advanced/gato_fastfood,
+/obj/item/storage/toolbox/guncase/skyrat/pistol/pepperball,
+/obj/item/melee/baton,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"JP" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/structure/disposalpipe/segment,
+/obj/item/trash/ready_donk{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/obj/item/trash/pljeskavica{
+	pixel_x = -6;
+	pixel_y = 9
+	},
+/obj/item/trash/pljeskavica{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/obj/structure/sign/poster/contraband/pizza_imperator/directional/east,
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"JR" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"JS" = (
+/obj/structure/closet/firecloset/full,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"Kd" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 1;
+	color = "#eb34e8";
+	pixel_x = 0;
+	pixel_y = -5
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Kl" = (
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"KD" = (
+/obj/structure/table,
+/obj/item/universal_scanner{
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/clipboard,
+/obj/structure/sign/poster/gato/safety/directional/north,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"KH" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"KL" = (
+/obj/structure/trash_pile,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"KR" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"KS" = (
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"KW" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/freezer/food,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"KY" = (
+/obj/structure/table/wood,
+/obj/machinery/fax{
+	name = "Restaurant Fax Machine";
+	fax_name = "GATO Fast Food"
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"La" = (
+/obj/effect/turf_decal/trimline/purple/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Lc" = (
+/obj/effect/turf_decal/stripes/box,
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Ld" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 4;
+	color = "#ff38fc"
+	},
+/obj/effect/turf_decal/trimline/neutral/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/dark/side{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Le" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Lp" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/effect/turf_decal/trimline/dark/line,
+/obj/machinery/firealarm/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Lq" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/template_noop,
+/area/space/nearstation)
+"LP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"LQ" = (
+/obj/structure/table,
+/obj/item/paper_bin/carbon,
+/obj/item/pen,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"LV" = (
+/obj/machinery/food_cart,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"LZ" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Mb" = (
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"Mc" = (
+/obj/structure/safe,
+/obj/item/stack/spacecash/c1,
+/obj/item/stack/spacecash/c100,
+/obj/item/stack/spacecash/c100,
+/obj/item/stack/spacecash/c100,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c200,
+/obj/item/stack/spacecash/c200,
+/obj/item/stack/spacecash/c1000,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/item/sign/flag/gato{
+	pixel_x = -1;
+	pixel_y = 12
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"Me" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/marker_beacon{
+	anchored = 1;
+	icon_state = "markerburgundy-on";
+	light_color = "#FA644B";
+	light_power = 3;
+	light_range = 2;
+	name = "landing marker";
+	picked_color = "Burgundy"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Mj" = (
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Mk" = (
+/obj/effect/turf_decal/trimline/brown/filled/warning,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Mp" = (
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"Ms" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "boulderbelt"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"Mz" = (
+/obj/machinery/oven/range,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"MA" = (
+/obj/item/trash/can{
+	pixel_x = 10;
+	pixel_y = -13
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"MB" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/structure/sign/gatofull_1/directional/north,
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"MI" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_employee)
+"MK" = (
+/obj/item/trash/can,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"MR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_corner{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"MS" = (
+/obj/structure/window/plasma/fulltile,
+/obj/structure/marker_beacon/fuchsia,
+/turf/open/floor/light,
+/area/ruin/space/has_grav/fastfood_main)
+"Nb" = (
+/obj/structure/kitchenspike,
+/obj/item/radio/intercom/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Nc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/can/food/tomatoes,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Ns" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"Nu" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/multitool,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Nz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"NE" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/clothing/under/dual_tone/centcom/civilian,
+/obj/item/clothing/head/soft/black,
+/obj/item/clothing/shoes/wraps/silver,
+/obj/item/clothing/shoes/sneakers/black,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"NL" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"NS" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"NX" = (
+/obj/structure/trash_pile,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/trash/tray,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Oa" = (
+/obj/structure/rack/shelf,
+/obj/item/construction/plumbing/service,
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron/dark/herringbone,
+/area/ruin/space/has_grav/fastfood_employee)
+"Od" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/trash/nachos,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Oi" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ok" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Oq" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"OC" = (
+/obj/effect/turf_decal/bot_blue,
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/condiment/mayonnaise,
+/obj/item/reagent_containers/condiment/mayonnaise,
+/obj/item/reagent_containers/condiment/mustard,
+/obj/item/reagent_containers/condiment/mustard,
+/obj/item/reagent_containers/condiment/ketchup,
+/obj/item/reagent_containers/condiment/ketchup,
+/obj/item/reagent_containers/condiment/hotsauce,
+/obj/item/reagent_containers/condiment/hotsauce,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"OQ" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"OX" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/wooden,
+/obj/item/cardboard_cutout,
+/obj/item/cardboard_cutout,
+/obj/item/cardboard_cutout,
+/obj/item/cardboard_cutout,
+/obj/item/storage/crayons,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Pc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/broken_canister_frame,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Pl" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Pm" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8;
+	color = "#6b6b6b"
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"Ps" = (
+/obj/structure/sign/warning/vacuum,
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_employee)
+"PE" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"PG" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 5
+	},
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"PW" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Qf" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Qm" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/trash/candy,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"Qn" = (
+/obj/item/trash/popcorn/caramel,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"Qp" = (
+/obj/effect/turf_decal/arrows/white{
+	dir = 1;
+	color = "#eb34e8";
+	pixel_x = 0;
+	pixel_y = -5
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Qr" = (
+/obj/structure/closet/crate/trashcart,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/trash/sosjerky,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Qv" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/duct,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"QC" = (
+/obj/structure/sink/kitchen/directional/east,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"QK" = (
+/obj/machinery/greenscreen_camera{
+	dir = 4;
+	pixel_y = 0;
+	name = "promotional broadcaster"
+	},
+/obj/effect/turf_decal/siding/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"QP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"QU" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding{
+	dir = 9
+	},
+/obj/item/plate_shard{
+	pixel_x = 1;
+	pixel_y = -7
+	},
+/obj/item/plate_shard{
+	pixel_x = 11;
+	pixel_y = 4
+	},
+/obj/machinery/duct,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"QZ" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Rc" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Rd" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Re" = (
+/obj/effect/turf_decal/stripes{
+	color = "#6b6b6b"
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"Rg" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_main)
+"Ro" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_main)
+"Ru" = (
+/obj/machinery/telecomms/relay/preset/mining,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/bluespace,
+/area/ruin/space/has_grav/fastfood_employee)
+"RH" = (
+/obj/machinery/recharge_station,
+/obj/structure/sign/poster/contraband/jumbo_bar/directional/west,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/fastfood_main)
+"RJ" = (
+/obj/machinery/computer/arcade/amputation,
+/obj/structure/sign/poster/official/waddle/directional/north,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"RW" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"RY" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/dark{
+	dir = 6
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/fastfood_employee)
+"Sk" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Sl" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Sp" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/space/has_grav/fastfood_main)
+"Sv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/smooth_edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"SF" = (
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"SJ" = (
+/obj/structure/rack/shelf,
+/obj/item/storage/part_replacer,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/item/storage/box/stockparts/deluxe,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/sign/warning/radiation/directional/north,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"SO" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"Tk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_main)
+"Tm" = (
+/obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron/stairs/right{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Tr" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 9
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/closet/emcloset,
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Tw" = (
+/obj/machinery/food_cart,
+/obj/effect/turf_decal/bot_blue,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Tx" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/wood/tile,
+/area/ruin/space/has_grav/fastfood_employee)
+"TC" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/structure/sign/poster/contraband/space_cola/directional/south,
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"TJ" = (
+/obj/effect/turf_decal/siding/wideplating_new/light/corner{
+	dir = 4
+	},
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"TN" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/ruin/space/has_grav/fastfood_employee)
+"TP" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"TS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"TX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ua" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Ug" = (
+/obj/structure/trash_pile,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Uj" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes,
+/obj/effect/turf_decal/stripes/white/line{
+	color = "#D381C9";
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"Uq" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Uu" = (
+/obj/structure/bed/double,
+/obj/item/restraints/handcuffs/cable/zipties{
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Uy" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"UE" = (
+/obj/structure/rack/shelf,
+/obj/item/knife/butcher,
+/obj/item/book/manual/chef_recipes,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"UV" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"UW" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_main)
+"UY" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/light/small/directional/north,
+/obj/machinery/button/door{
+	pixel_x = 0;
+	pixel_y = 28;
+	id = "gato_toilet2"
+	},
+/turf/open/floor/iron/white/smooth_large,
+/area/ruin/space/has_grav/fastfood_main)
+"Va" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Vc" = (
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 8;
+	name = "ordering kiosk"
+	},
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Vl" = (
+/obj/structure/sign/warning,
+/turf/closed/wall,
+/area/ruin/space/has_grav/fastfood_employee)
+"Vm" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/item/trash/boritos/purple{
+	pixel_x = -10;
+	pixel_y = -3
+	},
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"VJ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_soda"
+	},
+/obj/machinery/chem_dispenser/drinks,
+/obj/structure/sign/gatofull_1/directional/north{
+	pixel_x = 10;
+	pixel_y = 32
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"VL" = (
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"VQ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/meter,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"VR" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"VS" = (
+/obj/effect/turf_decal/trimline/purple/line,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/side,
+/area/ruin/space/has_grav/fastfood_main)
+"Wc" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Wf" = (
+/turf/open/misc/asteroid/airless,
+/area/space/nearstation)
+"Wi" = (
+/obj/effect/turf_decal/trimline/brown/corner,
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Wk" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ws" = (
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"Wt" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 8
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"Ww" = (
+/obj/structure/sign/poster/contraband/gulp/directional/west,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Wy" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"WC" = (
+/obj/effect/turf_decal/caution,
+/obj/effect/turf_decal{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"WU" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/uranium/fifty,
+/obj/item/stack/sheet/mineral/uranium/fifty,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Xb" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/structure/sign/gatofull_3/directional/north,
+/turf/open/floor/iron/small_edge{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"Xe" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/small,
+/area/ruin/space/has_grav/fastfood_main)
+"Xj" = (
+/obj/machinery/light/floor,
+/obj/structure/window/plasma/fulltile,
+/obj/structure/marker_beacon/fuchsia,
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"Xk" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/hatch{
+	name = "Mini-Telecomms"
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Xz" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/machinery/button/door{
+	pixel_x = 6;
+	pixel_y = -26;
+	name = "soda fountain shutters";
+	id = "gatofood_soda"
+	},
+/obj/machinery/button/door{
+	pixel_x = -6;
+	pixel_y = -26;
+	name = "kitchen shutters";
+	id = "gatofood_kitchen"
+	},
+/turf/open/floor/plastic,
+/area/ruin/space/has_grav/fastfood_employee)
+"XJ" = (
+/obj/structure/rack/shelf,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/crowbar/red,
+/obj/item/crowbar/red,
+/obj/item/crowbar/red,
+/obj/item/clothing/mask/gas,
+/obj/item/tank/internals/emergency_oxygen/engi,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"XP" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"XS" = (
+/obj/machinery/bluespace_beacon,
+/obj/effect/decal/big_gato{
+	pixel_x = -16;
+	pixel_y = -32
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_main)
+"XU" = (
+/obj/structure/lattice,
+/obj/structure/grille/broken,
+/turf/template_noop,
+/area/space/nearstation)
+"XW" = (
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/drinks,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Yf" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"Yj" = (
+/turf/open/floor/carpet/gato,
+/area/ruin/space/has_grav/fastfood_main)
+"Yu" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/has_grav/fastfood_employee)
+"Yz" = (
+/obj/structure/closet/crate,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/ruin/space/has_grav/fastfood_employee)
+"YB" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/small_edge,
+/area/ruin/space/has_grav/fastfood_main)
+"YD" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/thinplating/corner,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"YH" = (
+/turf/open/floor/iron/edge{
+	dir = 8
+	},
+/area/ruin/space/has_grav/fastfood_main)
+"YJ" = (
+/obj/structure/fluff/sat_dish,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Zd" = (
+/obj/structure/closet/crate/trashcart,
+/obj/effect/turf_decal/stripes/line,
+/obj/item/trash/cheesie,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
+"Zf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Zi" = (
+/obj/machinery/door/airlock/public{
+	name = "EMPLOYEE ONLY"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "gatofood_kitchen3"
+	},
+/turf/open/floor/iron/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"Zl" = (
+/obj/structure/urinal/directional/north,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/sign/poster/gato/cleanhands/directional/east,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"Zm" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/small,
+/area/ruin/space/has_grav/fastfood_employee)
+"Zn" = (
+/obj/effect/turf_decal/siding/white,
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/obj/machinery/firealarm/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/iron/white/diagonal,
+/area/ruin/space/has_grav/fastfood_main)
+"Zs" = (
+/obj/structure/closet/emcloset,
+/obj/item/storage/toolbox/emergency,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"Zx" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/obj/structure/aquarium/prefilled,
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/fastfood_employee)
+"ZA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth_edge{
+	dir = 4
+	},
+/area/ruin/space/has_grav/fastfood_employee)
+"ZC" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/fastfood_employee)
+"ZJ" = (
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/brown/line{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/fastfood_employee)
+"ZO" = (
+/obj/machinery/oven/range,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"ZQ" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/iron/white/textured_large,
+/area/ruin/space/has_grav/fastfood_employee)
+"ZZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/carpet/royalblack,
+/area/ruin/space/has_grav/fastfood_employee)
+
+(1,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(2,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(3,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(4,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+AH
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(5,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+hs
+vm
+TJ
+dG
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+GN
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(6,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+Re
+uz
+zQ
+Wf
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+Lq
+Lq
+Lq
+gS
+Lq
+Lq
+gS
+gS
+gS
+sO
+kU
+Fd
+sO
+gS
+gS
+gS
+gS
+Lq
+Lq
+pP
+pP
+pP
+"}
+(7,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+Re
+gT
+zQ
+AH
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+uz
+pP
+Rg
+qt
+XP
+Rg
+pP
+pP
+uz
+pP
+pP
+Lq
+pP
+pP
+pP
+"}
+(8,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+Re
+HN
+zQ
+AH
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+gT
+pP
+Rg
+Bu
+Ht
+Rg
+pP
+pP
+gT
+pP
+pP
+Lq
+pP
+pP
+pP
+"}
+(9,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+Pm
+ec
+Gf
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+UW
+UW
+UW
+UW
+UW
+gS
+gS
+gS
+HN
+gS
+UW
+MB
+CX
+UW
+gS
+gS
+HN
+gS
+gS
+Lq
+pP
+pP
+pP
+"}
+(10,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+Wf
+kd
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+YJ
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+ps
+ps
+ps
+ps
+Lq
+Lq
+Lq
+Lq
+UW
+RJ
+EH
+Qn
+UW
+pP
+pP
+pP
+gS
+pP
+UW
+ah
+TC
+UW
+pP
+pP
+gS
+pP
+pP
+gS
+pP
+pP
+pP
+"}
+(11,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+ps
+ps
+ps
+ps
+os
+XJ
+gP
+ps
+pP
+pP
+pP
+pP
+UW
+Ab
+cA
+Yj
+UW
+Rg
+Rg
+Rg
+UW
+UW
+UW
+Xb
+Dh
+UW
+pP
+pP
+gS
+pP
+pP
+gS
+pP
+pP
+pP
+"}
+(12,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+KS
+gS
+gS
+gS
+ps
+dg
+aq
+ps
+HH
+nW
+yS
+ps
+gS
+ps
+ps
+ps
+UW
+dk
+cA
+Yj
+UW
+yF
+In
+Qm
+dU
+RH
+UW
+Bu
+Ht
+UW
+UW
+Rg
+Rg
+Rg
+UW
+UW
+pP
+pP
+pP
+"}
+(13,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+wI
+pP
+pP
+pP
+ps
+ps
+qH
+ps
+Gv
+Js
+Gv
+ps
+ps
+ps
+gQ
+xu
+UW
+UW
+Tm
+GM
+hI
+gb
+IG
+ny
+yB
+La
+UW
+MK
+XP
+UW
+Tr
+OQ
+UV
+Uj
+Gi
+UW
+pP
+pP
+pP
+"}
+(14,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gT
+pP
+pP
+pP
+ps
+mJ
+mV
+ac
+BG
+Zm
+YD
+uS
+De
+Hy
+vo
+eo
+Zi
+DZ
+KH
+me
+SF
+CR
+CR
+CR
+bj
+LP
+fz
+Ad
+XP
+fz
+Kd
+If
+XS
+xo
+Fk
+UW
+pP
+pP
+pP
+"}
+(15,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gT
+pP
+pP
+pP
+ps
+vE
+tc
+eb
+bV
+wk
+et
+Jg
+ps
+kQ
+Sl
+Ev
+ps
+FB
+YH
+YH
+YH
+hl
+hl
+uZ
+uo
+uZ
+Ro
+bG
+YB
+Ro
+Qp
+If
+If
+uM
+Bo
+UW
+pP
+pP
+pP
+"}
+(16,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+KS
+gS
+gS
+gS
+ps
+bi
+mH
+eb
+na
+hz
+FT
+yb
+ps
+ke
+yd
+ps
+ps
+xR
+tA
+Ja
+nh
+Ja
+yi
+xp
+zk
+Ld
+UW
+mi
+ms
+UW
+cW
+Pl
+Qf
+GS
+cG
+UW
+pP
+pP
+pP
+"}
+(17,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+ps
+NE
+mH
+eb
+TN
+iq
+mt
+jr
+ps
+XW
+Nz
+ps
+VJ
+Ok
+hM
+Vc
+Ca
+Vc
+nn
+bp
+wx
+IZ
+UW
+UW
+UW
+UW
+UW
+Rg
+Rg
+Rg
+UW
+UW
+pP
+pP
+pP
+"}
+(18,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+ps
+BJ
+PG
+Ns
+nI
+RY
+cm
+jE
+ps
+og
+yd
+ps
+ti
+Ok
+Vm
+Jx
+Xj
+Jx
+mw
+io
+Jx
+Xj
+UW
+gS
+gS
+Sp
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(19,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+mM
+mM
+ps
+ps
+ps
+ps
+zW
+Qv
+ps
+ps
+ps
+ps
+ps
+ps
+Fg
+ps
+EP
+Ok
+za
+NS
+pl
+fw
+mw
+io
+LZ
+pl
+Rg
+pP
+pP
+MS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(20,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+mM
+mM
+ps
+Yf
+Le
+Ps
+tR
+uW
+ps
+Fv
+pB
+Wk
+ik
+mo
+Xz
+ps
+ps
+Ao
+VS
+Ua
+xm
+Ua
+mw
+bp
+cp
+xm
+Rg
+pP
+pP
+tV
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(21,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+mM
+mM
+gK
+Mj
+Mj
+lj
+tR
+Jd
+ps
+GL
+QU
+rR
+vf
+vf
+yZ
+Oi
+mG
+Bz
+VS
+Xe
+CW
+fk
+mw
+bp
+Xe
+CW
+Rg
+pP
+pP
+MS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(22,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+ps
+ps
+ps
+ps
+ps
+bP
+JF
+ps
+xP
+Da
+lV
+oh
+xD
+Jb
+zR
+Oq
+rx
+VS
+Jx
+Xj
+Jx
+mw
+io
+Jx
+Xj
+UW
+gS
+gS
+Sp
+gS
+Lc
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(23,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+JM
+Tx
+Fn
+FV
+ps
+BT
+wA
+ps
+qo
+zt
+sD
+ZQ
+yL
+wu
+nB
+ps
+Du
+za
+NS
+pl
+iu
+mw
+io
+NS
+pl
+Rg
+pP
+pP
+rh
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(24,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+Gv
+DP
+Mb
+uV
+Ji
+ps
+KR
+vu
+ps
+Mz
+zt
+IQ
+Zf
+qu
+IS
+zt
+ry
+Ok
+VS
+Od
+xm
+Ua
+mw
+bp
+Ua
+xm
+Rg
+pP
+pP
+Hn
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(25,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+Gv
+KY
+va
+jM
+ZZ
+EY
+tR
+gC
+ps
+ZO
+zt
+tH
+dz
+Fi
+AP
+zt
+AY
+Ok
+VS
+PE
+CW
+Iu
+mw
+bp
+PE
+CW
+Rg
+pP
+pP
+Bl
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(26,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+Mc
+QK
+HY
+ni
+bb
+km
+JR
+ps
+dJ
+Uy
+Cv
+Di
+HU
+IS
+zt
+AY
+Ok
+VS
+Jx
+Xj
+Jx
+mw
+bp
+Jx
+Xj
+UW
+gS
+gS
+Sp
+gS
+Lc
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(27,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+Zx
+rS
+Iw
+dt
+EY
+yT
+tE
+ps
+Gh
+Uy
+Jf
+vT
+uj
+Wt
+ht
+ry
+kv
+wO
+jo
+hA
+od
+uk
+io
+MA
+jo
+Rg
+pP
+pP
+Ez
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(28,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+ps
+ps
+ps
+EY
+EY
+EY
+yT
+Lp
+ps
+ps
+cS
+tN
+ps
+oP
+sX
+AY
+nS
+nC
+li
+fI
+fI
+xl
+fd
+kS
+Kl
+vn
+Rg
+pP
+pP
+AX
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(29,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+LQ
+ix
+jd
+sU
+QC
+zW
+sg
+cF
+QZ
+QZ
+nE
+cR
+ps
+BR
+TS
+mE
+Uq
+qc
+LP
+VL
+LP
+QP
+VL
+VL
+QP
+eg
+Rg
+pP
+pP
+Ez
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(30,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+KD
+we
+oA
+bB
+sK
+DF
+dP
+NL
+Rc
+Rc
+Fr
+ts
+ol
+Er
+bQ
+HZ
+xZ
+ng
+Ga
+JP
+bM
+px
+zD
+hl
+gO
+nT
+UW
+gS
+gS
+Sp
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(31,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+Fp
+IX
+bC
+RW
+Wi
+ps
+MI
+ps
+ps
+ps
+aW
+ps
+ps
+ps
+ps
+uG
+ps
+ps
+ps
+ps
+UW
+bn
+UW
+UW
+vI
+UW
+UW
+UW
+UW
+UW
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(32,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+Oa
+IX
+bC
+DS
+Mk
+dY
+LV
+Bt
+ps
+hh
+yD
+Tw
+ps
+EC
+wB
+uA
+BP
+Dn
+hf
+dQ
+UW
+hR
+UW
+GC
+uX
+UW
+kr
+UW
+UY
+UW
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(33,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+Fz
+IX
+bC
+KW
+Ib
+ZJ
+ZJ
+Ws
+ps
+UE
+TP
+oa
+ps
+or
+fo
+hw
+Sv
+IL
+JG
+kq
+UW
+Tk
+UW
+hG
+Zn
+UW
+uY
+UW
+aZ
+UW
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(34,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+KS
+gS
+mM
+mM
+gL
+Vl
+lR
+wt
+bC
+lo
+Mk
+LV
+bT
+VR
+ps
+Nb
+yD
+OC
+ps
+sG
+MR
+zE
+sj
+ZA
+CU
+cw
+Ck
+by
+UW
+xC
+Mp
+jJ
+Gp
+Gp
+yf
+UW
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(35,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+GA
+nV
+dr
+az
+cN
+oR
+xL
+xL
+xL
+ps
+dv
+fH
+Dq
+ps
+py
+hi
+hi
+Zs
+JS
+SO
+zL
+ps
+Va
+UW
+Zl
+oY
+FG
+cB
+cB
+el
+UW
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(36,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+GA
+AG
+gV
+Wy
+dr
+oO
+OX
+pT
+mO
+ps
+lH
+fH
+Dq
+ps
+Dw
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+Va
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+UW
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(37,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+GA
+vB
+dr
+mX
+mU
+DG
+fC
+so
+so
+md
+Wc
+Af
+sH
+ps
+Yu
+lI
+Ai
+Ai
+Ai
+zS
+il
+il
+zm
+lj
+Mj
+Mj
+gK
+mM
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(38,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+Lc
+pP
+pP
+pP
+KS
+gS
+mM
+mM
+gL
+Vl
+ps
+ps
+ps
+lw
+lw
+ps
+HE
+ps
+ps
+ps
+ps
+ps
+ps
+PW
+ps
+Cb
+ps
+ZC
+VQ
+vG
+ps
+Ip
+ps
+Yf
+up
+ps
+mM
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(39,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+gS
+gS
+gS
+ps
+Jl
+Cl
+ps
+gw
+gw
+jm
+gw
+gw
+gw
+gw
+Sk
+ps
+zg
+ps
+mZ
+cZ
+vG
+ps
+IE
+ps
+ps
+ps
+ps
+mM
+gS
+gS
+KS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(40,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+Lq
+pP
+pP
+ps
+ps
+ps
+ps
+uG
+ps
+ps
+Nu
+fA
+ib
+Mj
+xd
+ps
+tO
+ps
+ps
+Xk
+ps
+ps
+ax
+dh
+cJ
+ps
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(41,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+Lq
+pP
+pP
+ps
+GW
+xJ
+Ww
+HG
+Fu
+ps
+ps
+ps
+xS
+Mj
+Is
+ps
+gS
+ps
+dN
+Ig
+xY
+ps
+lt
+pM
+lX
+ps
+pP
+pP
+pP
+pP
+Lq
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(42,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+zu
+gT
+gT
+gT
+zu
+kd
+kd
+gS
+gS
+Lq
+pP
+pP
+ps
+Az
+HG
+pk
+Uu
+wf
+ps
+lh
+ps
+fm
+Mj
+JI
+ps
+gS
+ps
+dN
+Ru
+xY
+ps
+Me
+nd
+Fb
+ps
+pP
+pP
+pP
+pP
+Lq
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(43,1,1) = {"
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+aB
+Iv
+uu
+Pc
+ch
+kd
+kd
+pP
+pP
+Lq
+pP
+pP
+ps
+rV
+rc
+lg
+rd
+pm
+ps
+TX
+pI
+WC
+xd
+qD
+ps
+Lq
+ps
+ps
+ps
+ps
+ps
+Yz
+Ms
+oJ
+ps
+pP
+pP
+pP
+pP
+gS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(44,1,1) = {"
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+lG
+er
+DJ
+Nc
+NX
+kd
+kd
+kd
+gS
+gS
+gS
+gS
+ps
+ps
+ps
+ps
+ps
+ps
+ps
+av
+ps
+SJ
+Mj
+WU
+ps
+gS
+pP
+gS
+pP
+gS
+ps
+ps
+ps
+ps
+ps
+gS
+Lq
+Lq
+gS
+KS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(45,1,1) = {"
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+Rd
+yU
+vq
+vq
+nZ
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+ps
+ps
+ps
+ps
+Gv
+ps
+ps
+Lq
+Lq
+XU
+gS
+gS
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(46,1,1) = {"
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+Rd
+vq
+qk
+KL
+Qr
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(47,1,1) = {"
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+Rd
+DJ
+KL
+bu
+Zd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+Wf
+Wf
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(48,1,1) = {"
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+Ug
+gA
+DJ
+nJ
+EZ
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+kd
+kd
+kd
+Wf
+pP
+pP
+pP
+pP
+kd
+kd
+Wf
+Wf
+Wf
+Hr
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(49,1,1) = {"
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+zu
+aJ
+ef
+Cq
+zu
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+kd
+kd
+AH
+Wf
+AH
+pP
+pP
+kd
+kd
+kd
+Wf
+Wf
+AH
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(50,1,1) = {"
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+kd
+kd
+dG
+AH
+kd
+pP
+pP
+kd
+kd
+dG
+Wf
+dG
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(51,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+kd
+kd
+AH
+Wf
+kd
+kd
+kd
+kd
+pP
+pP
+kd
+dG
+Wf
+AH
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(52,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+kd
+Wf
+kd
+kd
+kd
+kd
+pP
+pP
+kd
+kd
+kd
+Wf
+Hr
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(53,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+pP
+pP
+Wf
+kd
+kd
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+Wf
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(54,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+pP
+pP
+kd
+kd
+Wf
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(55,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+kd
+kd
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}
+(56,1,1) = {"
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+pP
+"}

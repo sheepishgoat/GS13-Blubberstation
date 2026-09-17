@@ -186,7 +186,7 @@
 			touched_chem.fatten(src, 3)
 
 	else if(helper.zone_selected == BODY_ZONE_PRECISE_MOUTH) //BOOP
-		if(HAS_TRAIT(src, TRAIT_QUICKREFLEXES) && (src.stat != UNCONSCIOUS) && !INCAPACITATED_IGNORING(src, INCAPABLE_RESTRAINTS) && !(HAS_TRAIT(src, TRAIT_SENSITIVESNOUT)))
+		if(HAS_TRAIT(src, TRAIT_QUICKREFLEXES) && (!IS_UNCONSCIOUS(src)) && !INCAPACITATED_IGNORING(src, INCAPABLE_RESTRAINTS) && !(HAS_TRAIT(src, TRAIT_SENSITIVESNOUT)))
 			return
 		if(touched_mutation)
 			touched_mutation.fatten(helper)
@@ -198,7 +198,7 @@
 	else if(check_zone(helper.zone_selected) == BODY_ZONE_HEAD && get_bodypart(BODY_ZONE_HEAD)) //HEADPAT
 		if(HAS_TRAIT(src, TRAIT_OVERSIZED) && !HAS_TRAIT(helper, TRAIT_OVERSIZED))
 			return
-		else if(HAS_TRAIT(src, TRAIT_QUICKREFLEXES) && (src.stat != UNCONSCIOUS) && !INCAPACITATED_IGNORING(src, INCAPABLE_RESTRAINTS))
+		else if(HAS_TRAIT(src, TRAIT_QUICKREFLEXES) && (!IS_UNCONSCIOUS(src)) && !INCAPACITATED_IGNORING(src, INCAPABLE_RESTRAINTS))
 			return
 		if(touched_mutation)
 			touched_mutation.fatten(helper, 2)
@@ -217,7 +217,7 @@
 				touched_chem.fatten(src, 5)
 
 		else
-			if (HAS_TRAIT(src, TRAIT_QUICKREFLEXES) && (src.stat != UNCONSCIOUS) && !INCAPACITATED_IGNORING(src, INCAPABLE_RESTRAINTS)) //HUG
+			if (HAS_TRAIT(src, TRAIT_QUICKREFLEXES) && (!IS_UNCONSCIOUS(src)) && !INCAPACITATED_IGNORING(src, INCAPABLE_RESTRAINTS)) //HUG
 				return
 			if(touched_mutation)
 				touched_mutation.fatten(helper, 4)
