@@ -32,7 +32,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium/old/white,
+/turf/open/floor/mineral/titanium/white,
 /area/shuttle/arrival)
 "h" = (
 /obj/machinery/light/small{
@@ -73,7 +73,6 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium/old/white,
 /area/shuttle/arrival)
 "k" = (
 /obj/structure/window/reinforced{
@@ -127,7 +126,6 @@
 /area/shuttle/arrival)
 "r" = (
 /obj/structure/closet/wardrobe/black,
-/turf/open/floor/mineral/titanium/old/white,
 /area/shuttle/arrival)
 "s" = (
 /obj/item/radio/intercom{
@@ -138,7 +136,6 @@
 /obj/structure/closet/wardrobe/black,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/white/line,
-/turf/open/floor/mineral/titanium/old/white,
 /area/shuttle/arrival)
 "t" = (
 /obj/effect/turf_decal/stripes/line{
@@ -165,11 +162,9 @@
 /obj/machinery/computer/arcade{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium/old/white,
 /area/shuttle/arrival)
 "P" = (
 /obj/structure/closet/wardrobe/green,
-/turf/open/floor/mineral/titanium/old/white,
 /area/shuttle/arrival)
 
 (1,1,1) = {"

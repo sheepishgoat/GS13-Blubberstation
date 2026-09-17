@@ -20912,7 +20912,6 @@
 /obj/item/clothing/gloves/color/yellow,
 /obj/item/assembly/flash/handheld,
 /obj/item/assembly/flash/handheld,
-/obj/item/ai_module/reset,
 /obj/item/aicard,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
@@ -24315,7 +24314,7 @@
 /turf/open/floor/iron,
 /area/station/security/prison)
 "lWC" = (
-/obj/machinery/computer/upload/borg,
+/obj/machinery/ai_law_rack/base/core,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
 "lXj" = (
@@ -33520,13 +33519,14 @@
 /area/station/engineering/atmos)
 "qKM" = (
 /obj/structure/table,
-/obj/item/ai_module/core/full/custom,
-/obj/item/ai_module/core/freeformcore,
-/obj/item/ai_module/core/full/asimov,
 /obj/effect/spawner/random/aimodule/harmless,
 /obj/effect/spawner/random/aimodule/neutral,
 /obj/machinery/camera/autoname/aiupload/directional/south,
 /obj/structure/cable,
+/obj/item/ai_module/law/core/full/custom,
+/obj/item/ai_module/law/core/full/crewsimov,
+/obj/item/ai_module/law/core/full/asimov,
+/obj/item/ai_module/law/core/freeformcore,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
 "qKY" = (
@@ -35086,9 +35086,8 @@
 /area/station/medical/medbay/central)
 "rAL" = (
 /obj/structure/table,
-/obj/item/ai_module/reset,
-/obj/item/ai_module/supplied/quarantine,
-/obj/item/ai_module/supplied/freeform,
+/obj/item/ai_module/law/supplied/quarantine,
+/obj/item/ai_module/law/supplied/freeform,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
 "rBc" = (
@@ -35440,7 +35439,6 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue/office)
 "rMk" = (
-/obj/machinery/computer/upload/ai,
 /obj/machinery/camera/autoname/aiupload/directional/north,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
@@ -39022,11 +39020,10 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/door/window/left/directional/north,
 /obj/structure/table,
-/obj/item/ai_module/reset/purge,
-/obj/item/ai_module/zeroth/onehuman,
-/obj/item/ai_module/supplied/protect_station,
-/obj/item/ai_module/supplied/oxygen,
 /obj/effect/spawner/random/aimodule/harmful,
+/obj/item/ai_module/law/supplied/oxygen,
+/obj/item/ai_module/law/supplied/protect_station,
+/obj/item/ai_module/law/zeroth/onehuman,
 /turf/open/floor/circuit,
 /area/station/ai/upload/chamber)
 "tFz" = (
