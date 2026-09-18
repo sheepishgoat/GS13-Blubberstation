@@ -1,6 +1,6 @@
 /obj/item/clothing/under/dual_tone/button_up/turtleneck
 	name = "turtleneck shirt (modular)"
-	desc = "A turtleneck shirt. Its a bit tight..."
+	desc = "A turtleneck shirt. It compresses your chest pretty well."
 
 	modular_icon_location = 'modular_gs/icons/mob/modclothes/turtleneck.dmi'
 	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF"
