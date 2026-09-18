@@ -3,9 +3,7 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/snowtaxi)
 "b" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/power/shuttle_engine/propulsion/burst{
 	dir = 4
@@ -40,12 +38,9 @@
 	},
 /obj/docking_port/mobile{
 	callTime = 5;
-	dwidth = 3;
-	height = 4;
 	shuttle_id = "snow_taxi";
 	name = "snow taxi";
-	port_direction = 8;
-	width = 6
+	port_direction = 8
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
