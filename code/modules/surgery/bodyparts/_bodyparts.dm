@@ -1221,24 +1221,25 @@
 	if(owner_species && owner_species.specific_alpha != 255)
 		alpha = owner_species.specific_alpha
 
-	// BUBBER EDIT ADDITION START - per-limb alpha.
+	// BUBBER EDIT ADDITION START - per-limb alpha and hand marking fixes
 	// preference (stored in dna.features) overrides it for this specific zone if present over species alpha
 	limb_alpha = owner_species?.specific_alpha || 255
 	var/limb_alpha_key = "limb_alpha_[body_zone]"
-	var/new_marking_alpha = -1 // GS13 EDIT - Variable used to set the marking alpha, -1 is used to indicate that limb alpha is disabled
 	if(limb_alpha_key in human_owner.dna.features)
 		limb_alpha = human_owner.dna.features[limb_alpha_key]
-		alpha = human_owner.dna.features[limb_alpha_key] // GS13 EDIT - Set alpha of the bodypart using the limb-alpha function
-		new_marking_alpha = human_owner.dna.features[limb_alpha_key] // GS13 EDIT - New line for setting the alpha of markings
-	// BUBBER EDIT ADDITION END
+
+	markings_alpha = owner_species.markings_alpha // Has no default, and a null alpha renders nothing
 
 	if(body_zone in owner_species.body_markings)
 		markings = LAZYCOPY(owner_species.body_markings[body_zone])
-		if(aux_zone && (aux_zone in owner_species.body_markings))
-			aux_zone_markings = LAZYCOPY(owner_species.body_markings[aux_zone])
-		markings_alpha = new_marking_alpha == -1 ? owner_species.markings_alpha : new_marking_alpha // GS13 EDIT - Changes marking alpha to use the limb alpha
 	else
 		markings = list()
+
+	if(aux_zone && (aux_zone in owner_species.body_markings))
+		aux_zone_markings = LAZYCOPY(owner_species.body_markings[aux_zone])
+	else
+		aux_zone_markings = list()
+	// BUBBER EDIT ADDITION END
 	// SKYRAT EDIT END
 	return TRUE
 
