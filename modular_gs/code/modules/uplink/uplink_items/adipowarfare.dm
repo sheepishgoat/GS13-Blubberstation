@@ -62,11 +62,30 @@
 	cant_discount = TRUE
 
 /datum/uplink_item/adipowarfare/alter_ray_reverser
-	name = "Alter-Ray Reverser"
+	name = /obj/item/gun/energy/laser/alter_ray/noloss::name
 	desc = "A lasergun that's capable of reversing the subject's metabolism, making them unable to lose weight."
 	item = /obj/item/gun/energy/laser/alter_ray/noloss
 	cost = 1
 	cant_discount = TRUE
+
+/datum/uplink_item/adipowarfare/alter_ray_metabolism
+	name = /obj/item/gun/energy/laser/alter_ray/gainrate::name
+	desc = "A lasergun capable of altering the subject's metabolism, changing the speed at which they gain and lose weight."
+	item = /obj/item/gun/energy/laser/alter_ray/gainrate
+	cost = 1
+	cant_discount = TRUE
+
+/datum/uplink_item/adipowarfare/matador
+	name = /obj/item/gun/energy/e_gun/fattening::name
+	desc = /obj/item/gun/energy/e_gun/fattening::desc
+	item = /obj/item/gun/energy/e_gun/fattening
+	cost = 5
+
+/datum/uplink_item/adipowarfare/salamander
+	name = /obj/item/gun/energy/fatoray/stunning::name
+	desc = /obj/item/gun/energy/fatoray/stunning::desc
+	item = /obj/item/gun/energy/fatoray/stunning
+	cost = 5
 
 //chems
 /datum/uplink_item/adipowarfare/lipoifier_beaker

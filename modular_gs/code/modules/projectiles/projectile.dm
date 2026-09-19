@@ -1,5 +1,7 @@
+// allow EVERY projectile to be fattening. Only good things can come from this
 /obj/projectile
-	var/fat_added = 0		// GS13 - allow EVERY projectile to be fattening. Only good things can come from this
+	/// How much fat is added onto the target?
+	var/fat_added = 0
 
 /obj/projectile/on_hit(atom/target, blocked = 0, pierce_hit)
 	. = ..()
