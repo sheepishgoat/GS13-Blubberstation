@@ -7,7 +7,7 @@
 
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
-	icon_state = "/obj/item/clothing/under/dual_tone/turtleneck"
+	icon_state = "/obj/item/clothing/under/dual_tone/button_up/turtleneck"
 	worn_icon = 'modular_gs/icons/mob/modclothes/turtleneck_worn.dmi'
 	post_init_icon_state = "turtleneck"
 
