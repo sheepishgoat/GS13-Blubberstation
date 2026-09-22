@@ -11,7 +11,7 @@
 /turf/open/indestructible/bubblegum,
 /area/ruin/unpowered)
 "f" = (
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
@@ -77,13 +77,13 @@
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "o" = (
-/obj/structure/lollipop{
+/obj/structure/flora/lollipop{
 	icon_state = "lollipop_tree_red"
 	},
 /turf/open/indestructible/bubblegum,
 /area/ruin/unpowered)
 "p" = (
-/obj/effect/turf_decal/candy/greenwhite2,
+/obj/structure/flora/candy/greenwhite2,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "r" = (
@@ -95,7 +95,7 @@
 /turf/open/indestructible/bubblegum,
 /area/ruin/unpowered)
 "t" = (
-/obj/effect/turf_decal/candy/redwhite,
+/obj/structure/flora/candy/redwhite,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "u" = (
@@ -122,7 +122,7 @@
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "D" = (
-/obj/effect/turf_decal/candy/bluewhite1,
+/obj/structure/flora/candy/bluewhite1,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "E" = (
@@ -139,7 +139,7 @@
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "G" = (
-/obj/effect/turf_decal/candy/purplewhite1,
+/obj/structure/flora/candy/purplewhite1,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "H" = (
@@ -163,7 +163,7 @@
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "M" = (
-/obj/effect/turf_decal/candy/redwhite,
+/obj/structure/flora/candy/redwhite,
 /obj/effect/light_emitter/tendril,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
@@ -171,7 +171,7 @@
 /turf/closed/indestructible/candy,
 /area/ruin/unpowered)
 "O" = (
-/obj/effect/turf_decal/candy/redwhite2,
+/obj/structure/flora/candy/redwhite2,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "P" = (
@@ -179,11 +179,11 @@
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "Q" = (
-/obj/effect/turf_decal/candy/greenwhite1,
+/obj/structure/flora/candy/greenwhite1,
 /turf/open/candyfloor,
 /area/ruin/unpowered)
 "U" = (
-/obj/structure/lollipop,
+/obj/structure/flora/lollipop,
 /turf/open/indestructible/bubblegum,
 /area/ruin/unpowered)
 "W" = (
