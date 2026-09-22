@@ -7394,6 +7394,7 @@
 #include "modular_gs\code\datums\quirks\neutral\lisp.dm"
 #include "modular_gs\code\datums\quirks\neutral\metal_cruncher.dm"
 #include "modular_gs\code\datums\quirks\neutral\neutral_quirks.dm"
+#include "modular_gs\code\datums\quirks\neutral\porcine.dm"
 #include "modular_gs\code\datums\quirks\neutral\tail_sweep.dm"
 #include "modular_gs\code\datums\quirks\neutral\water_sponde.dm"
 #include "modular_gs\code\datums\quirks\positive\fat_affinity.dm"
