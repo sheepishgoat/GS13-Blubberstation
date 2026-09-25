@@ -33,12 +33,42 @@
 	quirk_holder.remove_traits(hardcore_fatty_traits, mob_trait)
 	. = ..()
 
+
+/mob/living/carbon
+	/// How many points have we gotten over the course of this round, for this character?
+	var/hardcore_fatty_streak_total = 0
+
 /datum/award/score/hardcore_fatty_total
 	name = "Hardcore fatty total shifts completed"
 	desc = "You aren't in the room with the food, the food is in the room with you."
-	database_id = HARDCORE_RANDOM_SCORE
+	database_id = HARDCORE_FATTY_SCORE
 
 /datum/award/score/hardcore_fatty_streak
 	name = "Hardcore fatty consecutive shifts completed"
 	desc = "Either you are really good or really bad at managing your weight."
-	database_id = HARDCORE_RANDOM_SCORE
+	database_id = HARDCORE_FATTY_STREAK_SCORE
+
+/datum/award/score/hardcore_fatty_streak/unlock(mob/user, datum/achievement_data/holder, value = 1)
+	if(value <= holder.data[type])
+		return // Don't update unless we are beating the score.
+
+	holder.data[type] = value
+
+///
+/mob/living/carbon/proc/update_hardcore_fatty_value()
+	if(!HAS_TRAIT(src, TRAIT_HARDCORE_FATTY))
+		return
+
+	if(stat == DEAD || !client) // We can't get to them now, but we'll check up on them later.
+		addtimer(CALLBACK(src, PROC_REF(update_hardcore_fatty_value)), HARDCORE_FATTY_POINT_CHECK_INTERVAL)
+		return
+
+	client?.give_award(/datum/award/score/hardcore_fatty_total, src, HARDCORE_FATTY_POINTS_PER_INTERVAL)
+	hardcore_fatty_streak_total += HARDCORE_FATTY_POINTS_PER_INTERVAL
+
+	addtimer(CALLBACK(src, PROC_REF(update_hardcore_fatty_value)), HARDCORE_FATTY_POINT_CHECK_INTERVAL)
+
+
+
+
+
