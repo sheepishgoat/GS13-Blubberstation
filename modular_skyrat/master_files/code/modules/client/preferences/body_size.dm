@@ -12,6 +12,7 @@
 
 /datum/preference/numeric/body_size/apply_to_human(mob/living/carbon/human/target, value)
 	target.update_transform(value / target.current_size)
+	target.starting_size = value	// GS13 Edit - make it so we know the mobs starting size
 
 /datum/preference/numeric/body_size/create_default_value()
 	return RESIZE_DEFAULT_SIZE

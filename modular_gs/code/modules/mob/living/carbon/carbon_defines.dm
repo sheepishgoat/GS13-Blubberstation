@@ -55,3 +55,5 @@
 
 	/// List of modular items applied to the mob
 	var/modular_items = list()
+	/// size at which the mob spawns in. Used in weight calculations
+	var/starting_size = 1

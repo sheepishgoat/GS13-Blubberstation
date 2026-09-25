@@ -22,12 +22,14 @@ GLOBAL_LIST_EMPTY_TYPED(helplessness_mechanics, /datum/helplessness)
 	var/gain_message = ""
 	/// message we send on player losing this helplessness
 	var/lose_message = ""
+	/// related config controlling whether this is being forced on players at certain weight or not
+	var/datum/config_entry/number/forced_helplessness/forced_weight_config = null
+	/// BFI at which this will be forced upon players regardless of quirks/prefs. 0 disables this
+	var/forced_weight = 0
 
-/*
-oh yeah I'm such a good little coder boy mmmmh~ ❤
-mommy is gonna be so proud of her good little coder boy for writing such good code
-ahhhh~! It's all documented too~ 🥵
-*/
+/datum/helplessness/New()
+	. = ..()	
+	forced_weight = global.config.Get(forced_weight_config)
 
 /**
  * Starting proc, used as a starting point to get everything running. Calls other procs that 
@@ -47,6 +49,9 @@ ahhhh~! It's all documented too~ 🥵
 	var/trigger_weight = get_trigger_weight(fatty)
 
 	var/effective_fatness = fatty.calculate_effective_fatness()
+
+	if (forced_weight && effective_fatness >= forced_weight)
+		return apply_helplessness(fatty, trigger_weight, effective_fatness)
 
 	if (trigger_weight <= 0)
 		disable_helplessness(fatty)

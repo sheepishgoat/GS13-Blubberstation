@@ -374,6 +374,9 @@
 #include "washing.dm"
 #include "weird_food.dm"
 #include "wizard_loadout.dm"
+// GS13 EDIT
+#include "~gs\helplessness.dm"
+// GS13 END EDIT
 // SKYRAT EDIT START
 #include "~skyrat\automapper.dm"
 #include "~skyrat\digitigrade_sprites.dm"

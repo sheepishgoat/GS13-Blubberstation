@@ -5,6 +5,7 @@
 	preference = /datum/preference/numeric/helplessness/no_movement
 	gain_message = "You have become too fat to move anymore."
 	lose_message = "You have become thin enough to regain some of your mobility."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/immobile
 
 /datum/helplessness/immobile/get_trigger_weight(mob/living/carbon/human/fatty)
 	var/datum/preferences/preferences = fatty.client.prefs
@@ -25,6 +26,7 @@
 	preference = /datum/preference/numeric/helplessness/clumsy
 	gain_message = "Your newfound weight has made it hard to manipulate objects."
 	lose_message = "You feel like you have lost enough weight to recover your dexterity."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/clumsy
 
 /datum/helplessness/low_fov
 	helplessness_trait = null
@@ -33,6 +35,7 @@
 	preference = /datum/preference/numeric/helplessness/low_fov
 	gain_message = "Your fat makes it difficult to see the world around you."
 	lose_message = "You are thin enough to see your environment better."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/low_fov
 
 /datum/helplessness/low_fov/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	if(fatness >= 2 * trigger_weight)
@@ -68,6 +71,7 @@
 	preference = /datum/preference/numeric/helplessness/nearsighted
 	gain_message = "Your fat makes it difficult to see the world around you."
 	lose_message = "You are thin enough to see your environment better."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/nearsighted
 
 /datum/helplessness/nearsighted/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -86,6 +90,7 @@
 	preference = /datum/preference/numeric/helplessness/hidden_face
 	gain_message = "You have gotten so fat that your face is now unrecognizable."
 	lose_message = "You have lost enough weight to allow people to recognize your face."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/hidden_face
 
 /datum/helplessness/mute
 	helplessness_trait = TRAIT_MUTE
@@ -94,6 +99,7 @@
 	preference = /datum/preference/numeric/helplessness/mute
 	gain_message = "Your fat makes it impossible for you to speak."
 	lose_message = "You are thin enough now to be able to speak again."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/mute
 
 /datum/helplessness/immobile_arms
 	helplessness_trait = TRAIT_PARALYSIS_L_ARM	// one arm, because we can't do 2 at once, and we want to be able to use the default apply_helplessness
@@ -102,6 +108,7 @@
 	preference = /datum/preference/numeric/helplessness/immobile_arms
 	gain_message = "Your arms are now engulfed in fat, making it impossible to move your arms."
 	lose_message = "You are able to move your arms again."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/immobile_arms
 
 /datum/helplessness/immobile_arms/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -126,6 +133,7 @@
 	preference = /datum/preference/numeric/helplessness/clothing_jumpsuit
 	gain_message = "You feel too fat to wear jumpsuits."
 	lose_message = "You feel thin enough to put on jumpsuits now."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/jumpsuit_bursting
 
 /datum/helplessness/jumpsuit_bursting/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	..()
@@ -142,6 +150,7 @@
 	preference = /datum/preference/numeric/helplessness/clothing_misc
 	gain_message = "You feel too fat to wear suits, shoes, and gloves."
 	lose_message = "You feel thin enough to put on suits, shoes, and gloves now."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/misc_clothing_bursting
 
 /datum/helplessness/misc_clothing_bursting/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -168,6 +177,7 @@
 	preference = /datum/preference/numeric/helplessness/belts
 	gain_message = "You feel too fat to wear belts."
 	lose_message = "You feel thin enough to put on belts now."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/belt_bursting
 
 /datum/helplessness/belt_bursting/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -192,6 +202,7 @@
 	preference = /datum/preference/numeric/helplessness/clothing_back
 	gain_message = "You feel too fat to wear backpacks."
 	lose_message = "You feel thin enough to hold items on your back now."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/back_clothing
 
 /datum/helplessness/back_clothing/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -208,6 +219,7 @@
 	preference = /datum/preference/numeric/helplessness/no_buckle
 	gain_message = "You feel like you've gotten too big to fit on anything."
 	lose_message = "You feel thin enough to sit on things again."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/no_buckle
 
 /datum/helplessness/no_neck
 	helplessness_trait = TRAIT_NO_NECK
@@ -216,6 +228,7 @@
 	preference = /datum/preference/numeric/helplessness/no_neck
 	gain_message = "You feel a tightness around your neck."
 	lose_message = "You no longer feel a tightness around your neck."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/no_neck
 
 /datum/helplessness/no_neck/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -232,6 +245,7 @@
 	preference = /datum/preference/numeric/helplessness/waddle
 	gain_message = "Your legs are too thick to walk straight."
 	lose_message = "Your legs are thin enough to walk normally again."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/waddle
 
 /datum/helplessness/waddle/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
@@ -252,6 +266,7 @@
 	preference = /datum/preference/numeric/helplessness/lisp
 	gain_message = "Your face feelth too big to pronouce thome letterth."
 	lose_message = "Your face has shrunk enough to talk normally again."
+	forced_weight_config = /datum/config_entry/number/forced_helplessness/lisp
 
 /datum/helplessness/lisp/apply_helplessness(mob/living/carbon/human/fatty, trigger_weight, fatness)
 	. = ..()
