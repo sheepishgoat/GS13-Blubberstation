@@ -41,3 +41,28 @@
 2026-09-16:
   Swan:
   - bugfix: fixes the character height setting working with modular outfits
+2026-09-18:
+  Icepick200:
+  - qol: Added more recolorable areas to the modular bunny suit
+  - bugfix: fixed a few sprite issues with the modular bunny suit
+2026-09-20:
+  Swan:
+  - bugfix: fixes GT consultant icon not showing up in the orbit menu
+2026-09-22:
+  Swan:
+  - bugfix: fixes a mood debuff being applied when players nutrition is very high
+  - bugfix: fixes the round not restarting after a map vote concludes with no votes
+2026-09-23:
+  DSBx1:
+  - rscadd: Added the Porcine Traits quirk
+  - rscadd: Added the *oink emote
+2026-09-24:
+  Swan:
+  - rscadd: Adds the master WG pref
+2026-09-25:
+  evilew:
+  - map: 'Detailed out the GATO Fast Food map further: Fixed the errors, added extra
+      resources, made some things look better, added a book of tips for the workers
+      etc etc'
+  - map: Added the Food Truck whiteship, available for use in the Fast Food role
+  - map: GATO Fast Food map is guaranteed to spawn every round now

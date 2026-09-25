@@ -85,5 +85,5 @@
 	description = "The beloved, pink-slathered, grease-smelling GATO Fast Food Restaurant."
 	prefix = "_maps/RandomRuins/SpaceRuins/GS13/"
 	suffix = "GATO_FastFood.dmm"
-	cost = 1
+	always_place = TRUE
 	allow_duplicates = FALSE

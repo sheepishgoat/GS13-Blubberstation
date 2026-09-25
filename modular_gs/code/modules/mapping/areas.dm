@@ -201,3 +201,8 @@
 	power_equip = TRUE
 	power_environ = TRUE
 	requires_power = FALSE
+
+//shuttles
+
+/area/shuttle/food_truck
+	name = "GATO Food Truck"

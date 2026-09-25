@@ -35513,9 +35513,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "cBJ" = (
-/obj/machinery/power/apc/auto_name/directional/east{
-	arc_shielded = 1
-	},
+/obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5;

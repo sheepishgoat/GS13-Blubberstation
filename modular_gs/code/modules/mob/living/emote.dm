@@ -103,6 +103,14 @@
 	emote_type = EMOTE_AUDIBLE
 	sound = 'modular_gs/sound/voice/funnycat.ogg'*/
 
+/datum/emote/living/oink
+	key = "oink"
+	key_third_person = "oinks"
+	message = "oinks!"
+	emote_type = EMOTE_AUDIBLE
+	vary = TRUE
+	sound = SFX_PIG_OINK
+
 /datum/emote/living/bellyrub
 	key = "bellyrub"
 	key_third_person = "bellyrubs"

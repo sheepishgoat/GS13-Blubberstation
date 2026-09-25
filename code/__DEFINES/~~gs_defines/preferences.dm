@@ -1,3 +1,5 @@
+/// the master WG pref, the main switch deciding if you can gain weight or not. It has a special place
+#define MASTER_WG_PREF	"master_wg_pref"
 /// For the WG prefs tab in the character creator
 #define WG_PREFERENCES	"wg_prefs"
 /// For the WG prefs tab in the character creator, the blueberry section

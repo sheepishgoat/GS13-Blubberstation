@@ -153,8 +153,6 @@ Always compile, always use that verb, and always make sure that it works for wha
 #define ZTRAITS_LAVALAND_XENOARCH list(\
 	ZTRAIT_MINING = TRUE, \
 	ZTRAIT_NOPARALLAX = TRUE, \
-	ZTRAIT_ASHSTORM = FALSE, \
-	ZTRAIT_LAVA_RUINS = FALSE, \
 	ZTRAIT_BOMBCAP_MULTIPLIER = 2, \
 	ZTRAIT_BASETURF = /turf/open/misc/asteroid/basalt/lava_land_surface)
 //GS13 EDIT END

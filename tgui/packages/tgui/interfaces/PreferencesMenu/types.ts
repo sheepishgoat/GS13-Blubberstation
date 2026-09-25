@@ -213,6 +213,7 @@ export type CharacterPreferencesData = {
   manually_rendered_features: Record<string, string>;
 
   // GS13 EDIT
+  master_wg_pref: Record<string, unknown>;
   wg_prefs: Record<string, unknown>;
   helplessness_prefs: Record<string, unknown>;
   blueberry_prefs: Record<string, unknown>;

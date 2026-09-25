@@ -1,3 +1,12 @@
+/datum/preference/toggle/master_wg_pref
+	category = MASTER_WG_PREF
+	savefile_identifier = PREFERENCE_CHARACTER
+	savefile_key = "master_wg_pref"
+	default_value = FALSE
+
+/datum/preference/toggle/master_wg_pref/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
+	return
+
 /datum/preference/numeric/starting_fatness
 	category = WG_PREFERENCES
 	savefile_identifier = PREFERENCE_CHARACTER

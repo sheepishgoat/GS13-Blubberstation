@@ -27,7 +27,7 @@
 	prompt_name = "a GATO fast food worker"
 	you_are_text = "You are an employee of the local GATO Fast Food Restaurant."
 	flavour_text = "You were employed in this establishment to provide an authentic, iconic GATO dining experience."
-	important_text = "Take care of your workplace and do not abandon it. You may come aboard the station to advertise. Try to work alongside station's kitchen staff instead of rivaling with them."
+	important_text = "Take care of your workplace and do not abandon it. You may come aboard the station to advertise. Read up the pamphlet in your pocket for more conduct and tips."
 	quirks_enabled = TRUE
 	random_appearance = FALSE
 	loadout_enabled = TRUE
@@ -39,6 +39,6 @@
 	prompt_name = "a GATO fast food manager"
 	you_are_text = "You are the manager of the local GATO Fast Food Restaurant."
 	flavour_text = "You were employed in this establishment as a manager to provide an authentic, iconic GATO dining experience."
-	important_text = "Manage your workplace, employees and do not abandon either. You may come aboard the station to advertise. Try to work alongside station's kitchen staff instead of rivaling with them."
+	important_text = "Manage your workplace, employees and do not abandon either. You may come aboard the station to advertise. Read up the pamphlet in your pocket for more conduct and tips."
 	outfit = /datum/outfit/gato_fastfood/manager
 
