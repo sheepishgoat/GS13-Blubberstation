@@ -94,6 +94,19 @@
 /obj/item/paper/fluff/ruins/calorite_facility/micro_calorite_note
 	name = "Report #21 MC-07 - Micro-Calorite"
 	default_raw_text = "Subject 7 - Female, Anthropomorphic Fox: orange fur, pink hair. Subject's initials: V.V. (redacted for privacy). Over the course of the week, subject has been continously exposed to micro-calorite. Although the build-up was slow, gradual changes in metabolism and appetite were quickly noted. After a week of testing, the subject appears incapable of losing any weight, as well as having an insatiable appetite. Continue exposure and note any further effects."
+
+/obj/item/paper/fluff/snaxi_bathhouse
+	name = "BATH HOUSE INSTRUCTIONS"
+	default_raw_text = "Hey there! So, a few things to keep in mind: \
+	If you want to pump steam to the main area, you can do so \
+	by hooking up a tank with a wrench to the connector port. \
+	Afterwards, heat up the steam with the heater next to it. \
+	Once it's heated (please don't raise it to a boiling temperature), \
+	you can turn on the valve pump labelled 'gas to bathhouse' \
+	to get it pumping inside the main room. Voila! \
+	P.S.: A tank of steam will usually be enough for the main hall. \
+	Don't overpressurize or heat the room too much."
+
 //GS13 starting_contentapads and Books
 /obj/item/book/manual/blubbery_bartender
 	name = "The Blubbery Bartender"
