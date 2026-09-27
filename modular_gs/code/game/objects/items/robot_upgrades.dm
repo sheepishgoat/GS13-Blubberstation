@@ -4,7 +4,10 @@
 	icon_state = "module_general"
 
 	items_to_add = list(/obj/item/portable_weight_scanner)
-	custom_materials = list(/datum/material/iron = HALF_SHEET_MATERIAL_AMOUNT, /datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT)
+	custom_materials = list(
+		/datum/material/iron = HALF_SHEET_MATERIAL_AMOUNT,
+		/datum/material/glass = HALF_SHEET_MATERIAL_AMOUNT
+		)
 
 /obj/item/borg/upgrade/weight_analyzer/action(mob/living/silicon/robot/borg, mob/living/user)
 	. = ..()
@@ -43,6 +46,7 @@
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.4,
 		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.3,
 		/datum/material/silver = SHEET_MATERIAL_AMOUNT * 0.2,
+		/datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.1,
 		)
 
 /obj/item/borg/upgrade/feeding_tube_upgrade/action(mob/living/silicon/robot/borg, mob/living/user = usr)

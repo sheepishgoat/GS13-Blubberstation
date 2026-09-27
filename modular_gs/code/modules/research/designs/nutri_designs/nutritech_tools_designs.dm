@@ -119,26 +119,21 @@
 	construction_time = 100
 	category = list(RND_CATEGORY_MECHFAB_CYBORG_MODULES)
 
-
-/*
-/datum/design/borg_fatoray
-	name = "Cyborg Upgrade (Fatoray)"
-	id = "borg_upgrade_fatoray"
+/datum/design/borg_feeding_tube_upgrade
+	name = "Borg Feeding Tube Upgrade"
+	id = "borg_feeding_tube_upgrade"
 	build_type = MECHFAB
-	build_path = /obj/item/borg/upgrade/fatoray
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 4, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 3, /datum/material/calorite = SHEET_MATERIAL_AMOUNT *5)
+	build_path = /obj/item/borg/upgrade/feeding_tube_upgrade
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.4,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.3,
+		/datum/material/silver = SHEET_MATERIAL_AMOUNT * 0.2,
+		/datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.1,
+		)
 	construction_time = 100
-	category = list(RND_CATEGORY_MECHFAB_CYBORG_MODULES)
-
-/datum/design/borg_feedtube
-	name = "Cyborg Upgrade (Feeding Tube)"
-	id = "borg_upgrade_feedingtube"
-	build_type = MECHFAB
-	build_path = /obj/item/borg/upgrade/feedtube
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 4, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 3, /datum/material/calorite = SHEET_MATERIAL_AMOUNT *5)
-	construction_time = 100
-	category = list(RND_CATEGORY_MECHFAB_CYBORG_MODULES)
-*/
+	category = list(
+		RND_CATEGORY_MECHFAB_CYBORG_MODULES + RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_ALL
+	)
 
 /datum/design/borg_foodgrip
 	name = "Cyborg Upgrade (Food Gripper)"
