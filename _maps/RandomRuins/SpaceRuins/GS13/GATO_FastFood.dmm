@@ -1871,6 +1871,7 @@
 "up" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/machinery/light/small/directional/east,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/fastfood_employee)
 "uu" = (
@@ -2043,6 +2044,7 @@
 /obj/item/clothing/head/soft/black,
 /obj/item/clothing/shoes/wraps/silver,
 /obj/item/clothing/shoes/sneakers/black,
+/obj/item/storage/backpack/industrial/frontier_colonist/satchel,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/fastfood_employee)
 "vG" = (
@@ -3097,7 +3099,7 @@
 /turf/open/floor/iron/textured_large,
 /area/ruin/space/has_grav/fastfood_employee)
 "Fh" = (
-/obj/item/flatpack,
+/obj/item/flatpack/flatpacker,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/fastfood_employee)
 "Fi" = (
@@ -3604,6 +3606,7 @@
 /obj/item/circuitboard/machine/vendor,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/small/directional/north,
+/obj/item/circuitboard/machine/plantgenes,
 /turf/open/floor/iron/textured_large,
 /area/ruin/space/has_grav/fastfood_employee)
 "Js" = (
@@ -3668,6 +3671,7 @@
 /obj/item/encryptionkey/headset_faction,
 /obj/item/encryptionkey/headset_faction,
 /obj/item/encryptionkey/headset_faction,
+/obj/item/storage/backpack/satchel/leather,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/fastfood_employee)
 "JP" = (
@@ -3850,6 +3854,7 @@
 "Le" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/machinery/light/small/directional/west,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/fastfood_employee)
 "Lp" = (
@@ -4050,6 +4055,7 @@
 /obj/item/clothing/head/soft/black,
 /obj/item/clothing/shoes/wraps/silver,
 /obj/item/clothing/shoes/sneakers/black,
+/obj/item/storage/backpack/industrial/frontier_colonist/satchel,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/fastfood_employee)
 "NL" = (
@@ -4144,6 +4150,7 @@
 /obj/item/cardboard_cutout,
 /obj/item/cardboard_cutout,
 /obj/item/storage/crayons,
+/obj/item/storage/box/disks_plantgene,
 /turf/open/floor/iron/large,
 /area/ruin/space/has_grav/fastfood_employee)
 "Pc" = (
@@ -4858,6 +4865,7 @@
 /obj/item/storage/bag/ore,
 /obj/item/t_scanner/adv_mining_scanner/lesser,
 /obj/item/clothing/glasses/meson,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/fastfood_employee)
 "Yj" = (

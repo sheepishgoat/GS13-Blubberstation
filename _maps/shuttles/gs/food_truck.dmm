@@ -312,9 +312,9 @@
 /turf/open/floor/iron/shuttle/exploration,
 /area/shuttle/food_truck)
 "vl" = (
-/obj/machinery/oven/range_frontier,
-/obj/effect/decal/gatofull_1{
-	pixel_x = -1;
+/obj/machinery/oven/range,
+/obj/structure/sign/gatofull_1/directional/north{
+	pixel_x = 10;
 	pixel_y = 32
 	},
 /turf/open/floor/iron/shuttle/ferry,
@@ -365,14 +365,14 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/food_truck)
 "AB" = (
-/obj/effect/decal/gatofull_2{
-	pixel_x = -1;
-	pixel_y = 32
-	},
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder{
 	pixel_x = 8;
 	pixel_y = 8
+	},
+/obj/structure/sign/gatofull_2/directional/north{
+	pixel_x = 10;
+	pixel_y = 32
 	},
 /turf/open/floor/iron/shuttle/ferry,
 /area/shuttle/food_truck)
@@ -787,6 +787,7 @@
 /obj/item/reagent_containers/cup/paper_cup/big,
 /obj/item/reagent_containers/cup/paper_cup/big,
 /obj/item/reagent_containers/condiment/enzyme,
+/obj/item/reagent_containers/cup/jerrycan/oil,
 /turf/open/floor/iron/shuttle/ferry,
 /area/shuttle/food_truck)
 "XF" = (
@@ -826,14 +827,14 @@
 /turf/open/floor/catwalk_floor,
 /area/shuttle/food_truck)
 "Zs" = (
-/obj/effect/decal/gatofull_3{
-	pixel_x = -1;
-	pixel_y = 32
-	},
 /obj/machinery/biogenerator/lizard_gas_smartfridge,
 /obj/machinery/microwave/frontier_printed{
 	pixel_x = 0;
 	pixel_y = 18
+	},
+/obj/structure/sign/gatofull_3/directional/north{
+	pixel_x = 10;
+	pixel_y = 32
 	},
 /turf/open/floor/iron/shuttle/ferry,
 /area/shuttle/food_truck)

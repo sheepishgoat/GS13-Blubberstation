@@ -178,8 +178,8 @@
 	<center>Here are a few handy tips and tricks to familiarize you with your workplace:</center><br>\
 	<h2>GENERAL CONDUCT:</h2><br>\
 	- You have general station access and the teleporter room access. This does not mean you are allowed to take items or resources from the station without their explicit permission.<br>\
-	- As a restaurant worker, you are a part of the GATO Corp and for security purposes, you may be treated as a part of the General Station 13's visitor crew.\
-	- Make sure to keep your restaurant clean and well-stocked.\
+	- As a restaurant worker, you are a part of the GATO Corp and for security purposes, you may be treated as a part of the General Station 13's visitor crew.<br>\
+	- Make sure to keep your restaurant clean and well-stocked.<br>\
 	- Try not to rival with the General Station's 13 service crew: instead cooperate, see if you can source ingredients from them or maybe exchange workplaces.<br>\
 	<br>\
 	<h2>WORKPLACE TIPS:</h2><br>\
@@ -193,9 +193,9 @@
 	<br>\
 	<h2>ADVERTISING TIPS:</h2><br>\
 	- You have 2 holo-projectors at your disposal: One for setting up a restaurant advertisment, the other for signalling the restaurant is closed.<br>\
-	- There are navigation mega-beacons available in cargo bay. You may set these right outside your dock to allow ships to travel there.\
-	- You may use the Foodtruck Whiteship parked outside the Cargo Bay blast doors to reach the station or other locations.\
-	- It's advised to set up a menu for clients to browse from.\
+	- There are navigation mega-beacons available in cargo bay. You may set these right outside your dock to allow ships to travel there.<br>\
+	- You may use the Foodtruck Whiteship parked outside the Cargo Bay blast doors to reach the station or other locations.<br>\
+	- It's advised to set up a menu for clients to browse from.<br>\
 	<br>\
 	<h1>Good luck!</h1>"
 
