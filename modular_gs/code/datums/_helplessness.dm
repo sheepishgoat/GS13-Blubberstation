@@ -51,7 +51,9 @@ GLOBAL_LIST_EMPTY_TYPED(helplessness_mechanics, /datum/helplessness)
 	var/effective_fatness = fatty.calculate_effective_fatness()
 
 	if (forced_weight && effective_fatness >= forced_weight)
-		return apply_helplessness(fatty, trigger_weight, effective_fatness)
+		var/area/current_area = get_area(fatty)
+		if (!is_type_in_list(current_area, SIZE_WHITELISTED_AREAS))
+			return apply_helplessness(fatty, trigger_weight, effective_fatness)
 
 	if (trigger_weight <= 0)
 		disable_helplessness(fatty)
