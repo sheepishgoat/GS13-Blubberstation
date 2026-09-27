@@ -62,10 +62,36 @@
 	cant_discount = TRUE
 
 /datum/uplink_item/adipowarfare/alter_ray_reverser
-	name = "Alter-Ray Reverser"
+	name = /obj/item/gun/energy/laser/alter_ray/noloss::name
 	desc = "A lasergun that's capable of reversing the subject's metabolism, making them unable to lose weight."
 	item = /obj/item/gun/energy/laser/alter_ray/noloss
 	cost = 1
+	cant_discount = TRUE
+
+/datum/uplink_item/adipowarfare/alter_ray_metabolism
+	name = /obj/item/gun/energy/laser/alter_ray/gainrate::name
+	desc = "A lasergun capable of altering the subject's metabolism, changing the speed at which they gain and lose weight."
+	item = /obj/item/gun/energy/laser/alter_ray/gainrate
+	cost = 1
+	cant_discount = TRUE
+
+/datum/uplink_item/adipowarfare/salamander
+	name = /obj/item/gun/energy/fatoray/stunning/antag::name
+	desc = /obj/item/gun/energy/fatoray/stunning/antag::desc
+	item = /obj/item/gun/energy/fatoray/stunning/antag
+	cost = 5
+
+/datum/uplink_item/adipowarfare/matador
+	name = /obj/item/gun/energy/e_gun/fattening/antag::name
+	desc = /obj/item/gun/energy/e_gun/fattening/antag::desc
+	item = /obj/item/gun/energy/e_gun/fattening/antag
+	cost = 5
+
+/datum/uplink_item/adipowarfare/feeder_ebow
+	name = "Feeder's Mini Energy Crossbow"
+	desc = "A modified version of the standard mini energy crossbow, designed to fatten up a target while incapacitating them."
+	item = /obj/item/gun/energy/kinetic_accelerator/crossbow/feeder
+	cost = 2
 	cant_discount = TRUE
 
 //chems
@@ -128,6 +154,12 @@
 	name = "Fatoray Cannon"
 	item_type = /obj/item/gun/energy/fatoray/cannon
 	description = "A larger variant of the fatoray: a large laser cannon with calorite fattening lens. Its shots are harmless, but fatten the target. This model has about 10 shots, but they fatten up by a lot."
+	admin_note = "Useful for kink antags. Generally harmless. Fattens people."
+
+/datum/opposing_force_equipment/antagonist_powers/feeder_ebow
+	name = "Feeder's Mini Energy Crossbow"
+	item_type = /obj/item/gun/energy/kinetic_accelerator/crossbow/feeder
+	description = "A modified version of the standard mini energy crossbow, designed to fatten up a target while incapacitating them."
 	admin_note = "Useful for kink antags. Generally harmless. Fattens people."
 
 /datum/opposing_force_equipment/antagonist_powers/calorite_whip

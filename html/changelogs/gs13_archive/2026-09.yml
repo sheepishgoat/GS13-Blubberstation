@@ -48,3 +48,33 @@
 2026-09-20:
   Swan:
   - bugfix: fixes GT consultant icon not showing up in the orbit menu
+2026-09-22:
+  Swan:
+  - bugfix: fixes a mood debuff being applied when players nutrition is very high
+  - bugfix: fixes the round not restarting after a map vote concludes with no votes
+2026-09-23:
+  DSBx1:
+  - rscadd: Added the Porcine Traits quirk
+  - rscadd: Added the *oink emote
+2026-09-24:
+  Swan:
+  - rscadd: Adds the master WG pref
+2026-09-25:
+  evilew:
+  - map: 'Detailed out the GATO Fast Food map further: Fixed the errors, added extra
+      resources, made some things look better, added a book of tips for the workers
+      etc etc'
+  - map: Added the Food Truck whiteship, available for use in the Fast Food role
+  - map: GATO Fast Food map is guaranteed to spawn every round now
+2026-09-26:
+  Icepick200:
+  - rscadd: Added two new audial emotes and one visual emote, triggered by *creak,
+      *mufmoan, and *bubelch. Sprites for the belch visual made by Sooooope on the
+      discord.
+  Swan:
+  - rscadd: Added the Salamander and Matador guns, which are fattening weapons that
+      also deal stamina damage. Obtainable through cargo and the traitor uplink
+2026-09-27:
+  Throughawaynadir:
+  - rscadd: Added feeders mini energy crossbow to OPFOR panel
+  - rscadd: Added feeders mini energy crossbow to traitor uplink

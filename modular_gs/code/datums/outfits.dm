@@ -5,10 +5,11 @@
 	uniform = /obj/item/clothing/under/dual_tone/centcom/civilian
 	shoes = /obj/item/clothing/shoes/sneakers/black
 	head = /obj/item/clothing/head/soft/black
-	l_pocket = /obj/item/modular_computer/pda
+	belt = /obj/item/modular_computer/pda
+	r_pocket = /obj/item/paper/fluff/ruins/fastfood
 	id = /obj/item/card/id/advanced/gato_fastfood
 	skillchips = list(/obj/item/skillchip/job/chef)
-	ears = /obj/item/radio/headset/headset_srv
+	ears = /obj/item/radio/headset/headset_faction
 
 /datum/outfit/gato_fastfood/post_equip(mob/living/carbon/human/clerk, visualsOnly = FALSE)
 	var/obj/item/card/id/id_card = clerk.wear_id
@@ -23,7 +24,8 @@
 	name = "GATO Fast Food Manager"
 	uniform = /obj/item/clothing/under/dual_tone/button_up/service/curator
 	shoes = /obj/item/clothing/shoes/sneakers/brown
-	l_pocket = /obj/item/modular_computer/pda
+	belt = /obj/item/modular_computer/pda
+	r_pocket = /obj/item/paper/fluff/ruins/fastfood
 	id = /obj/item/card/id/advanced/gato_fastfood/manager
 	neck = /obj/item/clothing/neck/tie/allamerican
 	skillchips = list(/obj/item/skillchip/job/chef)

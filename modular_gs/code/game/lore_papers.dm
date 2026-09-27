@@ -171,12 +171,33 @@
 
 
 //fastfood
-/obj/item/paper/fluff/ruins/fastfood/general_default_raw_text
-	name = "Welcome to GATO!"
-	icon = 'modular_gs/icons/obj/library.dmi'
-	icon_state = "book1"
-	default_raw_text = "We are glad to have you be a part of our galaxy-wide GATO franchise locations! As a restaurant worker / manager, you are a part of the GATO Corp and for security purposes, you may be treated as a part of the General Station 13's crew. Make sure to keep your restaurant clean and well-stocked. Good luck!"
-
+/obj/item/paper/fluff/ruins/fastfood
+	name = "Employee Manual"
+	default_raw_text = "<center><h1>Welcome, employee!</h1></center><br>\
+	<center>We are glad to have you be a part of our galaxy-wide GATO dining franchise!</center><br>\
+	<center>Here are a few handy tips and tricks to familiarize you with your workplace:</center><br>\
+	<h2>GENERAL CONDUCT:</h2><br>\
+	- You have general station access and the teleporter room access. This does not mean you are allowed to take items or resources from the station without their explicit permission.<br>\
+	- As a restaurant worker, you are a part of the GATO Corp and for security purposes, you may be treated as a part of the General Station 13's visitor crew.\
+	- Make sure to keep your restaurant clean and well-stocked.\
+	- Try not to rival with the General Station's 13 service crew: instead cooperate, see if you can source ingredients from them or maybe exchange workplaces.<br>\
+	<br>\
+	<h2>WORKPLACE TIPS:</h2><br>\
+	- There are consoles in the dining hall and inside the kitchen. You can set them up like ordering kiosks - be sure to set up a chatroom and rename the kiosks appropriately.<br>\
+	- Your workplace is equipped with basic resources: Some frozen meals, food beacons, materials and parts for upgrading machines. You can, for instance, upgrade the RTGs to produce more power. <br>\
+	- Due to unfortunate design flaws, there is a small probability that the usage of the teleporter will result in an insect mutation. Use SAD in medbay to revert yourself back to normal. You can upgrade the teleporter to make this less probable.<br>\
+	- Your manager has seniority over you - however, in their abscence, you can access their office to find emergency supplies like extra IDs, produce console funds, encryption keys and similar.<br>\
+	- Similarly, the manager's office has 2 buttons that will allow access to the Secure Storage (containing vending refills and machine boards) and Cargo Bay Door, allowing access to your foodtruck.<br>\
+	- There is a small trash dump to the left outside cargo bay.<br>\
+	- You can use Cargo Bay to set up machinery, like improvised hydroponics or plumbing.<br>\
+	<br>\
+	<h2>ADVERTISING TIPS:</h2><br>\
+	- You have 2 holo-projectors at your disposal: One for setting up a restaurant advertisment, the other for signalling the restaurant is closed.<br>\
+	- There are navigation mega-beacons available in cargo bay. You may set these right outside your dock to allow ships to travel there.\
+	- You may use the Foodtruck Whiteship parked outside the Cargo Bay blast doors to reach the station or other locations.\
+	- It's advised to set up a menu for clients to browse from.\
+	<br>\
+	<h1>Good luck!</h1>"
 
 //space law - we still keep the old upstarting_contented version, but might as well use this one too
 //commented out this version, for the sake of modularity we're gonna be using the default law book but edited
