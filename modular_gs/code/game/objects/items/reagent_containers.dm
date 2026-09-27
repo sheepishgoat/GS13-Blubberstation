@@ -6,9 +6,6 @@
 
 // same as breast reagents, except no ERP chems
 #define EXPANDED_FEEDING_TUBE_REAGENTS list(\
-		/datum/reagent/consumable/cream,\
-		/datum/reagent/consumable/milk,\
-		/datum/reagent/consumable/nutriment,\
 		/datum/reagent/consumable/alien_honey,\
 		/datum/reagent/consumable/pinkmilk,\
 		/datum/reagent/consumable/milk/chocolate_milk,\
