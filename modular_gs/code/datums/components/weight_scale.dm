@@ -65,7 +65,7 @@
 				message += span_userdanger(span_big("[last_reading]Lbs!!!"))
 			else
 				message += span_userdanger(span_big("[round(last_reading/2000, 0.01)]TONS!!!"))
-	
+
 	return message
 
 /datum/component/weight_scale/heft_scale/generate_weightee_flavor(fatness)
