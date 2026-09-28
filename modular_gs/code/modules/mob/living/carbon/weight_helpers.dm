@@ -35,7 +35,7 @@
 /// calculates the mobs bmi based on the given weight and the mobs size, to not calculate the weight twice
 /mob/living/carbon/proc/calculate_bmi_from_weight(weight)
 	weight *= LB_TO_KG
-	var/body_height = BASE_HEIGHT * starting_size**2
+	var/body_height = BASE_HEIGHT * starting_size
 	body_height *= FEET_TO_METER
 	return round(weight / (body_height**2), 0.1)
 
