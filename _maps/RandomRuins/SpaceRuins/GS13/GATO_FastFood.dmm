@@ -5118,8 +5118,7 @@
 /turf/template_noop,
 /area/space/nearstation)
 "XV" = (
-/obj/structure/lattice,
-/turf/closed/mineral/asteroid,
+/turf/closed/wall/r_wall/rust,
 /area/space/nearstation)
 "XW" = (
 /obj/structure/table/reinforced,
@@ -6895,8 +6894,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -6953,8 +6952,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7011,8 +7010,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7069,8 +7068,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7127,8 +7126,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7185,8 +7184,8 @@ pP
 pP
 pP
 pP
-pP
 Lc
+gS
 gS
 mM
 WC
@@ -7417,8 +7416,8 @@ pP
 pP
 pP
 pP
-pP
 Lc
+gS
 gS
 mM
 WC
@@ -7475,8 +7474,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7533,8 +7532,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7591,8 +7590,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7649,8 +7648,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7707,8 +7706,8 @@ pP
 pP
 pP
 pP
-pP
 gS
+pP
 pP
 pP
 pP
@@ -7765,7 +7764,7 @@ pP
 pP
 pP
 pP
-pP
+gS
 gS
 gS
 gS
