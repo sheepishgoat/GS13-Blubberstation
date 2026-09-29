@@ -10,8 +10,8 @@
 
 /datum/nifsoft/fat_scanner/activate()
 	. = ..()
-	if(active)
-		ADD_TRAIT(linked_mob, TRAIT_FAT_SCANNER, REF(src))
+	if(!active || !.)
+		REMOVE_TRAIT(linked_mob, TRAIT_FAT_SCANNER, REF(src))
 		return
 
-	REMOVE_TRAIT(linked_mob, TRAIT_FAT_SCANNER, REF(src))
+	ADD_TRAIT(linked_mob, TRAIT_FAT_SCANNER, REF(src))

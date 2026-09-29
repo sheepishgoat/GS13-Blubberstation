@@ -1,7 +1,8 @@
 /datum/nifsoft/weight_display
 	name = "Weight Watcher"
 	program_desc = "Allows the user to accurately judge the weight of those they look at."
-	activation_cost = 150
+	activation_cost = 0.5
+	purchase_price = 150
 	able_to_keep = TRUE
 	buying_category = NIFSOFT_CATEGORY_UTILITY
 	ui_icon = "weight-scale"
