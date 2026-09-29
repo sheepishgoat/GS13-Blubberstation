@@ -1,3 +1,4 @@
+// #region Adipowarfare
 /datum/uplink_category/adipowarfare
 	name = "Adipo-Warfare"
 	weight = -5
@@ -116,6 +117,15 @@
 	cost = 2
 	cant_discount = FALSE
 
+/datum/uplink_item/adipowarfare/borg_hacked_feeding_tube
+	name = "Hacked borg feeding tube upgrade"
+	desc = "An upgraded variant of the borg feeding tube, allowing the borg to synthesize reagents such as lipoifier, micro calorite or galbanic compound. Keep the borg laws in mind."
+	item = /obj/item/borg/upgrade/feeding_tube/hacked
+	cost = 1
+	cant_discount = FALSE
+
+// #endregion
+// #region OPFOR
 //adding in a category for OPFOR items here as well
 //these items can be found in OTHER category in OPFOR menu
 
@@ -191,3 +201,11 @@
 	item_type = /obj/item/clothing/neck/necklace/memento_mori/calori/sprinkled
 	description = "A necklace that hides all of your fatness, long-term and short-term. Taking it off results in a lot of weight gain, however."
 	admin_note = "Useful for kink antags. Generally harmless. Useful for kink antags that don't want to gain weight."
+
+/datum/opposing_force_equipment/antagonist_powers/borg_hacked_feeding_tube
+	name = "Hacked borg feeding tube upgrade"
+	description = "An upgraded variant of the borg feeding tube, allowing the borg to synthesize reagents such as lipoifier, micro calorite or galbanic compound. Keep the borg laws in mind."
+	item_type = /obj/item/borg/upgrade/feeding_tube/hacked
+	admin_note = "Useful for kink antags. Generally harmless."
+
+// #endregion
