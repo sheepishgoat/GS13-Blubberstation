@@ -1,0 +1,5 @@
+author: "Swan"
+delete-after: True
+changes:
+  - qol: "Instant storyteller vote no longer has the voting window popup on reminder"
+  - bugfix: "Fixes BMI calculations being wrong for anyone with scale other than 1"

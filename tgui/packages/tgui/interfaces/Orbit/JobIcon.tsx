@@ -53,8 +53,10 @@ const antagIcon: IconSettings = {
 };
 
 // BUBBER EDIT ADDITION BEGIN - Custom observe menu icons
-const customIcon: IconSettings = {
-  dmi: 'modular_zubbers/icons/mob/huds/hud.dmi',
+const customIcon: IconSettings = {  // GS13 EDIT - gatoificated NT consultant job icon
+  // dmi: 'modular_zubbers/icons/mob/huds/hud.dmi',
+  dmi: 'modular_gs/icons/mob/huds/hud.dmi',
+  // GS13 END EDIT
   transform: 'scale(2.3) translateX(9px) translateY(1px)',
 };
 // BUBBER EDIT ADDITION END - Custom observe menu icons

@@ -61,6 +61,12 @@ with open(file_reference, 'r') as file:
         elif line == "// SKYRAT EDIT END":
             continue
         # SKYRAT EDIT END
+        # GS13 EDIT
+        elif line == "// GS13 EDIT":
+            continue
+        elif line == "// GS13 END EDIT":
+            continue
+        # GS13 END EDIT
 
         lines.append(line)
 
@@ -92,6 +98,10 @@ for code_file in scannable_files:
         if("~zubbers/" in code_file):
             dm_path = "~zubbers\\" + dm_path
         # BUBBER EDIT END
+        # GS13 EDIT
+        if("~gs/" in code_file):
+            dm_path = "~gs\\" + dm_path
+        # GS13 END EDIT
 
     included = f"#include \"{dm_path}\"" in lines
 

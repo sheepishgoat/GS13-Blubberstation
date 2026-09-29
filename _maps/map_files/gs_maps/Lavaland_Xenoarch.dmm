@@ -1756,12 +1756,10 @@
 /obj/machinery/light/broken{
 	dir = 1
 	},
-/obj/machinery/computer{
-	name = "bluescreened computer"
-	},
 /obj/effect/turf_decal/siding/dark{
 	dir = 9
 	},
+/obj/machinery/computer/old,
 /turf/open/floor/iron/dark/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "bgJ" = (
@@ -3847,6 +3845,16 @@
 "cCy" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
+/area/lavaland/underground/xenoarch/caloriteresearch)
+"cCR" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 9
+	},
+/obj/machinery/light/directional/north,
+/obj/structure/frame/computer{
+	dir = 4
+	},
+/turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cDB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7106,10 +7114,10 @@
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 10
 	},
-/obj/machinery/computer/arcade/minesweeper{
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/machinery/computer/arcade/orion_trail{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /turf/open/floor/iron/dark/diagonal,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "eUm" = (
@@ -15155,15 +15163,14 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "kDt" = (
-/obj/machinery/computer{
-	name = "broken computer";
-	dir = 4
-	},
 /obj/machinery/button/door{
 	pixel_x = -30;
 	pixel_y = 0;
 	name = "Checkpoint Front Shutters";
 	id = "calofac_checkpointfront"
+	},
+/obj/structure/frame/computer{
+	dir = 4
 	},
 /turf/open/floor/iron/smooth,
 /area/lavaland/underground/xenoarch/caloriteresearch)
@@ -16863,8 +16870,7 @@
 	dir = 9
 	},
 /obj/machinery/light/directional/north,
-/obj/machinery/computer{
-	name = "broken computer";
+/obj/machinery/computer/old{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -22254,13 +22260,11 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/underground)
 "pov" = (
-/obj/machinery/computer{
-	name = "broken computer"
-	},
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
 /obj/structure/sign/poster/official/periodic_table/directional/north,
+/obj/machinery/computer/old,
 /turf/open/floor/iron/dark/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "poK" = (
@@ -33081,9 +33085,9 @@
 /turf/open/floor/plating,
 /area/xenoarch/lavaland/maint_east)
 "wEG" = (
-/obj/machinery/computer{
-	name = "broken computer";
-	dir = 4
+/obj/machinery/computer/old{
+	dir = 4;
+	name = "bluescreened computer"
 	},
 /turf/open/floor/iron/smooth,
 /area/lavaland/underground/xenoarch/caloriteresearch)
@@ -90965,7 +90969,7 @@ qhg
 uAi
 ngw
 wXi
-lJE
+cCR
 hNZ
 wXi
 pWB

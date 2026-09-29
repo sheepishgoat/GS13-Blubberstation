@@ -1,6 +1,7 @@
 /datum/vote/storyteller/instant
 	name = "Instant Storyteller"
 	default_message = "Vote for the storyteller! This vote will change the storyteller instantly."
+	force_open_panel_on_reminder = FALSE
 
 /datum/vote/storyteller/instant/can_be_initiated(mob/by_who, forced = FALSE)
 	. = ..()

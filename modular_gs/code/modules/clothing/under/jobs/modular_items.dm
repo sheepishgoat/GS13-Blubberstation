@@ -118,17 +118,17 @@
 		if (genital.visibility_preference == GENITAL_ALWAYS_SHOW)
 			continue
 		if(istype(genital, /obj/item/organ/genital/belly))
-			add_modular_overlay(user, mod_belly_rec, MODULAR_BELLY_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
-			add_modular_overlay(user, "[mod_belly_rec]_SOUTH", BELLY_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
+			add_modular_overlays(user, mod_belly_rec, MODULAR_BELLY_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
+			add_modular_overlays(user, "[mod_belly_rec]_SOUTH", BELLY_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BELLY)
 			continue
 		if(istype(genital, /obj/item/organ/genital/butt))
-			add_modular_overlay(user, mod_butt_rec, MODULAR_BUTT_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
-			add_modular_overlay(user, "[mod_butt_rec]_NORTH", BUTT_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
+			add_modular_overlays(user, mod_butt_rec, MODULAR_BUTT_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
+			add_modular_overlays(user, "[mod_butt_rec]_NORTH", BUTT_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BUTT)
 			continue
 		if(istype(genital, /obj/item/organ/genital/breasts))
-			add_modular_overlay(user, mod_breasts_rec, MODULAR_BREASTS_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
-			add_modular_overlay(user, "[mod_breasts_rec]_NORTH", BREASTS_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
-			add_modular_overlay(user, "[mod_breasts_rec]_SOUTH", BREASTS_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
+			add_modular_overlays(user, mod_breasts_rec, MODULAR_BREASTS_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
+			add_modular_overlays(user, "[mod_breasts_rec]_NORTH", BREASTS_BEHIND_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
+			add_modular_overlays(user, "[mod_breasts_rec]_SOUTH", BREASTS_FRONT_LAYER, greyscale_colors, ORGAN_SLOT_BREASTS)
 
 //Remove the previously built modular sprite overlays and empty the list of tracked overlays
 /obj/item/proc/delete_modular_overlays(mob/user)
@@ -141,21 +141,49 @@
 		carbon_user.cut_overlay(overlay)
 	mod_overlays -= mod_overlays
 
-//Function to easily add a requested overlay
-//Create the appropriate sprite object (mod_overlay) using the icon previously found, from the item's modular sprites file, on the appropriate overlay and with the item's color
-//The sprite is then added to the item's list of built modular sprites overlay
-//Added to the appropriate layer of the user
-//Then the layer is applied
-//
-// Why is the layer in mutable appearance entered as its negative version?
-// No. Damn. Clue. SS13, I don't question it further.
-//
-/obj/item/proc/add_modular_overlay(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
+/**
+ * Applies the given modular icon state onto the mob and adds it to the list of tracked 
+ * modular overlays. Don't override this, and if you ever have to, may god have you in his care.
+ * If you have to override this, may god have you in his care.
+ * 
+ * `user` - `/mob/living/carbon` onto which the overlay is applied. Will runtime for non carbons.
+ * 
+ * `icon_state` - the name of the icon state you want to apply. Icon file used is 
+ * `modular_icon_location`, and if the icon state doesn't exist there, simply
+ * displays nothing
+ * 
+ * `modular_layer` - layer onto which the icon is applied
+ * 
+ * `sprite_color` - color which is applied onto the icon
+ */
+/obj/item/proc/add_modular_overlay(mob/living/carbon/user, modular_icon, modular_layer, sprite_color)
+	SHOULD_NOT_OVERRIDE(TRUE)
+	// Why is the layer here entered as its negative version?
+	// No. Damn. Clue. SS13, I don't question it further.
 	var/mutable_appearance/mod_overlay = mutable_appearance(modular_icon_location, modular_icon, -(modular_layer))
 	mod_overlay.color = sprite_color
 	mod_overlays += mod_overlay
 	user.overlays_standing[modular_layer] =  mod_overlay
+	user.apply_height(mod_overlay, ENTIRE_BODY)
 	user.apply_overlay(modular_layer)
+
+/**
+ * Function to handle adding all modular overlays for the given layer. Meant to handle calling `add_modular_overlay`,
+ * by setting up the color, icon state names and all the other shit required by more specialized (multi color)
+ * modular items. Ideally override this rather than `add_modular_overlay`
+ * 
+ * `user` - `/mob/living/carbon` onto which the overlay is applied. Will runtime for non carbons.
+ * 
+ * `icon_state` - the name of the icon state you want to apply. Icon file used is 
+ * `modular_icon_location`, and if the icon state doesn't exist there, simply
+ * displays nothing
+ * 
+ * `modular_layer` - layer onto which the icon is applied
+ * 
+ * `sprite_color` - color which is applied onto the icon
+ */
+/obj/item/proc/add_modular_overlays(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
+	add_modular_overlay(user, modular_icon, modular_layer, sprite_color, organ_slot)
 
 //General function to generate the right icon_state for belly modular sprites
 /obj/item/proc/get_modular_belly(obj/item/organ/genital/genital)

@@ -1,13 +1,13 @@
 /obj/item/clothing/under/dual_tone/button_up/turtleneck
 	name = "turtleneck shirt (modular)"
-	desc = "A turtleneck shirt. Its a bit tight..."
+	desc = "A turtleneck shirt. It compresses your chest pretty well."
 
 	modular_icon_location = 'modular_gs/icons/mob/modclothes/turtleneck.dmi'
 	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF"
 
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
-	icon_state = "/obj/item/clothing/under/dual_tone/turtleneck"
+	icon_state = "/obj/item/clothing/under/dual_tone/button_up/turtleneck"
 	worn_icon = 'modular_gs/icons/mob/modclothes/turtleneck_worn.dmi'
 	post_init_icon_state = "turtleneck"
 

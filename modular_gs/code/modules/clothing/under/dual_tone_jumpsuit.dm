@@ -36,18 +36,12 @@
 	name = "Dual Tone Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/dual_tone_suit_taur_snake.dmi'
 
-/obj/item/clothing/under/dual_tone/add_modular_overlay(mob/living/carbon/U, modular_icon, modular_layer, sprite_color, organ_slot)
+/obj/item/clothing/under/dual_tone/add_modular_overlays(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
 	var/list/suit_colors = SSgreyscale.ParseColorString(greyscale_colors)
-	var/mutable_appearance/mod_overlay = mutable_appearance(modular_icon_location, modular_icon, -(modular_layer))
-	mod_overlays += mod_overlay
-	U.overlays_standing[modular_layer] =  mod_overlay
-	U.apply_overlay(modular_layer)
+	add_modular_overlay(user, modular_icon, modular_layer, "#FFFFFF")
 	for (var/i = 1, i < 3, i++)
-		mod_overlay = mutable_appearance(modular_icon_location, (modular_icon + "-" + num2text(i)), -(modular_layer))
-		mod_overlay.color = suit_colors[i]
-		mod_overlays += mod_overlay
-		U.overlays_standing[modular_layer] =  mod_overlay
-		U.apply_overlay(modular_layer)
+		var/modular_icon_state = modular_icon + "-" + num2text(i)
+		add_modular_overlay(user, modular_icon_state, modular_layer, suit_colors[i])
 
 /obj/item/clothing/under/dual_tone/get_butt_alt()
 	return ""

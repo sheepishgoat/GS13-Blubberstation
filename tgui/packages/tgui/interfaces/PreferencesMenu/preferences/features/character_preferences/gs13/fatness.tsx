@@ -8,6 +8,13 @@ import {
 } from '../../base';
 import { FeatureDropdownInput } from '../../dropdowns';
 
+export const master_wg_pref: FeatureToggle = {
+  name: 'Enable Weight Gain',
+  description:
+    'This setting is required for all other weight gain preferences to be active. Disabling it will act as if you disabled all methods of weight gain, while also NOT reseting the values of the individual settings. This setting is required to be on in order to gain weight. IMPORTANT: This setting is overriden by taking any helplessness quirks.',
+  component: CheckboxInput,
+};
+
 export const starting_fatness: Feature<number> = {
   name: 'Starting Fatness',
   description: 'How fat is your character when starting the round?',

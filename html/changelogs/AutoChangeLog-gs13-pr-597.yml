@@ -1,0 +1,6 @@
+author: "evilew"
+delete-after: True
+changes:
+  - map: "tiny tweaks (removed roulette gun from pubby bar & added a scrubber to kilo gato dorm & fixed error sprites on xenoarch)"
+  - map: "lot of QOL and general (layout, items, balance, typos) tweaks / fixes to GATO Fast Food"
+  - rscadd: "added the new fatty guns to the fatwankus vendor"

@@ -11213,6 +11213,9 @@
 	pixel_x = 0;
 	pixel_y = -32
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/carpet/gato,
 /area/station/commons/dorms)
 "dJU" = (
@@ -17146,6 +17149,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/commons/locker)
 "fEe" = (
@@ -20343,6 +20347,7 @@
 /obj/item/book/lorebooks/welcome_to_gato,
 /obj/effect/turf_decal/trimline/purple/filled/line,
 /obj/effect/turf_decal/siding/dark,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms)
 "gDl" = (
@@ -25849,18 +25854,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron,
 /area/station/service/chapel/dock)
-"ikE" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/station/commons/locker)
 "ikH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -35648,6 +35641,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms)
 "lqR" = (
@@ -49759,6 +49753,9 @@
 /obj/effect/landmark/start/hangover,
 /obj/structure/closet/secure_closet/personal,
 /obj/item/book/lorebooks/welcome_to_gato,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/carpet/gato,
 /area/station/commons/dorms)
 "pXU" = (
@@ -63298,11 +63295,10 @@
 "uhE" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/light/small/directional/west,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
 /obj/effect/turf_decal/trimline/purple/filled/line,
 /obj/effect/turf_decal/siding/dark,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/commons/dorms)
 "uib" = (
@@ -66265,13 +66261,6 @@
 "vgl" = (
 /turf/open/chocolateriver,
 /area/station/maintenance/port/greater)
-"vgm" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/station/commons/locker)
 "vgz" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -99202,8 +99191,8 @@ esq
 qrP
 nKh
 fEc
-ikE
-vgm
+deZ
+qKR
 lqP
 uhE
 dJT
