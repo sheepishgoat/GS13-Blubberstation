@@ -238,6 +238,7 @@
 /obj/machinery/duct,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/fastfood_employee)
 "ch" = (
@@ -2361,6 +2362,7 @@
 	color = "#D381C9";
 	dir = 2
 	},
+/obj/machinery/bluespace_beacon,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/fastfood_main)
 "xp" = (

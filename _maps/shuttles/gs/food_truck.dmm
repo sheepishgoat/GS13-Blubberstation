@@ -314,7 +314,7 @@
 "vl" = (
 /obj/machinery/oven/range,
 /obj/structure/sign/gatofull_1/directional/north{
-	pixel_x = 10;
+	pixel_x = -5;
 	pixel_y = 32
 	},
 /turf/open/floor/iron/shuttle/ferry,
@@ -371,7 +371,7 @@
 	pixel_y = 8
 	},
 /obj/structure/sign/gatofull_2/directional/north{
-	pixel_x = 10;
+	pixel_x = -5;
 	pixel_y = 32
 	},
 /turf/open/floor/iron/shuttle/ferry,
@@ -833,7 +833,7 @@
 	pixel_y = 18
 	},
 /obj/structure/sign/gatofull_3/directional/north{
-	pixel_x = 10;
+	pixel_x = -4;
 	pixel_y = 32
 	},
 /turf/open/floor/iron/shuttle/ferry,
