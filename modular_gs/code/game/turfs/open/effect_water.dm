@@ -7,11 +7,11 @@
 
 /// Applies an effect while the mob is within the liquid
 /turf/open/water/effect/proc/apply_continous_effect(mob/living/target_mob)
-	return can_mob_be_affected(target_mob)
+	return
 
 /// Applies an effect  when the mob moves through the liquid
 /turf/open/water/effect/proc/apply_movement_effect(mob/living/target_mob)
-	return can_mob_be_affected(target_mob)
+	return
 
 /// Can the checked mob be effected by the contents of this liquid?
 /turf/open/water/effect/proc/can_mob_be_affected(mob/living/checked_mob)
@@ -56,8 +56,7 @@
 	var/perma_fatness_continously_added = 0
 
 /turf/open/water/effect/fattening/apply_movement_effect(mob/living/target_mob)
-	. = ..()
-	if(!.)
+	if(!can_mob_be_affected(target_mob))
 		return FALSE
 
 	var/mob/living/carbon/target_carbon = target_mob
@@ -69,8 +68,7 @@
 	return TRUE
 
 /turf/open/water/effect/fattening/apply_continous_effect(mob/living/target_mob)
-	. = ..()
-	if(!.)
+	if(!can_mob_be_affected(target_mob))
 		return FALSE
 
 	var/mob/living/carbon/target_carbon = target_mob
@@ -92,8 +90,7 @@
 	var/reagent_volume_continously_added = 0
 
 /turf/open/water/effect/reagent/apply_movement_effect(mob/living/target_mob)
-	. = ..()
-	if(!. || !reagent_volume_on_move)
+	if(!can_mob_be_affected(target_mob) || !reagent_volume_on_move)
 		return FALSE
 
 	var/mob/living/carbon/target_carbon = target_mob
@@ -101,8 +98,7 @@
 
 
 /turf/open/water/effect/reagent/apply_continous_effect(mob/living/target_mob)
-	. = ..()
-	if(!. || !reagent_volume_continously_added)
+	if(!can_mob_be_affected(target_mob) || !reagent_volume_continously_added)
 		return FALSE
 
 	var/mob/living/carbon/target_carbon = target_mob
