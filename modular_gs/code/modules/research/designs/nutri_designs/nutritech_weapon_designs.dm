@@ -48,34 +48,20 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SECURITY
 
 
-// /datum/design/borg_fatoray
-// 	name = "Cyborg Upgrade (Fatoray)"
-// 	id = "borg_upgrade_fatoray"
-// 	build_type = MECHFAB
-// 	build_path = /obj/item/borg/upgrade/fatoray
-// 	materials = list(/datum/material/iron = 400, /datum/material/glass = 300, /datum/material/calorite = 500)
-// 	construction_time = 100
-// 	category = list(
-// 		RND_CATEGORY_MECHFAB_CYBORG_MODULES + RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_SECURITY
-// 	)
-
-// /obj/item/borg/upgrade/fatoray
-// 	name = "cyborg fatoray module"
-// 	desc = "An extra module that allows cyborgs to use fatoray weapons."
-// 	icon_state = "cyborg_upgrade3"
-
-// /obj/item/borg/upgrade/fatoray/action(mob/living/silicon/robot/R, user = usr)
-// 	. = ..()
-// 	if(.)
-// 		var/obj/item/gun/energy/fatoray/weak/cyborg/S = new(R.module)
-// 		R.module.basic_modules += S
-// 		R.module.add_module(S, FALSE, TRUE)
-
-// /obj/item/borg/upgrade/fatoray/deactivate(mob/living/silicon/robot/R, user = usr)
-// 	. = ..()
-// 	if (.)
-// 		var/obj/item/gun/energy/fatoray/weak/cyborg/S = locate() in R.module
-// 		R.module.remove_module(S, TRUE)
+/datum/design/borg_fatoray
+	name = "Cyborg Upgrade (Fatoray)"
+	id = "borg_upgrade_fatoray"
+	build_type = MECHFAB
+	build_path = /obj/item/borg/upgrade/fatoray
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.4,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.3,
+		/datum/material/calorite = SHEET_MATERIAL_AMOUNT * 0.5
+		)
+	construction_time = 100
+	category = list(
+		RND_CATEGORY_MECHFAB_CYBORG_MODULES + RND_SUBCATEGORY_MECHFAB_CYBORG_MODULES_ALL
+	)
 
 /datum/design/caloray
 	name = "Caloray"

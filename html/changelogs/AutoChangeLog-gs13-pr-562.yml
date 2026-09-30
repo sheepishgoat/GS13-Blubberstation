@@ -1,0 +1,5 @@
+author: "sheepishgoat"
+delete-after: True
+changes:
+  - rscadd: "Re-added belch/wg trap spells and spellbooks, wand of gluttony, and the cream demon."
+  - refactor: "Turns candyland plants into actual flora that can be harvested."

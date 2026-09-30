@@ -138,6 +138,9 @@
 	if(!client?.prefs || !type_of_fattening)
 		return FALSE
 
+	if (!client.prefs.read_preference(/datum/preference/toggle/master_wg_pref))
+		return FALSE
+
 	if (perma && !client.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent))
 		return FALSE
 

@@ -94,28 +94,39 @@
 	vend_reply = "Pervert."
 	allow_custom = FALSE
 	products = list(
+				//MELEE
 				/obj/item/melee/curator_whip/fattening = 99,
 				/obj/item/melee/curator_whip/permafattening = 99,
 				/obj/item/pen/calorite = 99,
 				/obj/item/pen/calorite/syndicate = 99,
 				/obj/item/gavelhammer/fattening = 99,
 				/obj/item/gavelhammer/permafattening = 99,
+				//GUNS
 				/obj/item/gun/energy/fatoray/cannon = 99,
 				/obj/item/gun/energy/fatoray = 99,
 				/obj/item/gun/energy/laser/alter_ray/gainrate = 99,
 				/obj/item/gun/energy/laser/alter_ray/noloss = 99,
+				/obj/item/gun/medbeam/caloray = 99,
+				/obj/item/gun/medbeam/caloray/infinite_cell = 99,
+				/obj/item/gun/medbeam/caloray/bluespace_cell = 99,
+				/obj/item/gun/energy/e_gun/fattening = 99,
+				/obj/item/gun/energy/e_gun/fattening/antag = 99,
+				/obj/item/gun/energy/fatoray/stunning = 99,
+				/obj/item/gun/energy/fatoray/stunning/antag = 99,
+				//FOOD & CONSUMABLES
 				/obj/item/metal_food/mburger_calorite = 99,
 				/obj/item/food/burger/greaseburger = 99,
+				/obj/item/slimepotion/weightratepotions = 99,
+				/obj/item/stack/sheet/mineral/calorite/ten = 99,
+				/obj/item/seeds/lipoplant = 99,
+				/obj/item/food/grown/lipofruit = 99,
+				//APPAREL
 				/obj/item/clothing/neck/human_petcollar/calorite = 99,
 				/obj/item/clothing/neck/human_petcollar/locked/calorite = 99,
 				/obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_receiver = 99,
 				/obj/item/clothing/neck/human_petcollar/locked/bluespace_collar_transmitter = 99,
-				/obj/item/slimepotion/weightratepotions = 99,
 				/obj/item/clothing/neck/necklace/memento_mori/calori = 99,
-				/obj/item/gun/medbeam/caloray = 99,
-				/obj/item/gun/medbeam/caloray/infinite_cell = 99,
-				/obj/item/gun/medbeam/caloray/bluespace_cell = 99,
-				/obj/item/stack/sheet/mineral/calorite/ten = 99,
+				//CHEMICALS
 				/obj/item/reagent_containers/cup/beaker/galbanic = 99,
 				/obj/item/reagent_containers/cup/beaker/lipoifier = 99,
 				/obj/item/reagent_containers/cup/beaker/macarenic = 99,
@@ -125,10 +136,10 @@
 				/obj/item/reagent_containers/cup/beaker/blueberry_juice = 99,
 				/obj/item/reagent_containers/cup/beaker/cornoil = 99,
 				/obj/item/reagent_containers/cup/beaker/flatulose = 99,
-				/obj/item/seeds/lipoplant = 99,
-				/obj/item/food/grown/lipofruit = 99,
+				//OTHER
 				/obj/item/portable_weight_scanner = 99,
 				)
+	//TODO: ADD ITEM CATEGORIES TO THE VENDOR
 
 	refill_canister = /obj/item/vending_refill/fattywank
 
@@ -156,6 +167,8 @@
 				/obj/item/dnainjector/fatfang = 2,
 				/obj/item/pen/calorite/syndicate = 4,
 				/obj/item/portable_weight_scanner = 3,
+				/obj/item/gun/energy/fatoray/stunning/antag = 1,
+				/obj/item/gun/energy/e_gun/fattening/antag = 1,
 				)
 
 /obj/item/vending_refill/fattywank

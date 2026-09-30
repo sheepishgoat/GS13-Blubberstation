@@ -1,0 +1,6 @@
+author: "Swan"
+delete-after: True
+changes:
+  - rscadd: "Adds the fatoray, feeding tube and weight analyzer modules to cyborgs"
+  - rscadd: "AIs will now be able to see the BFI of any mob it examines"
+  - bugfix: "fixes the fat scanner trait displaying real fatness rather than total fatness on examine"

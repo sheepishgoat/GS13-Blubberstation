@@ -164,7 +164,7 @@
 	. += get_weight_text()
 	. += get_muscle_text()
 	if(user.can_see_bfi())
-		. += span_notice("[src] weighs [calculate_weight_in_pounds()] pounds (BFI: [fatness_real])")
+		. += span_notice("[src] weighs [calculate_weight_in_pounds()] pounds (BFI: [fatness])")
 	// GS13 END EDIT
 
 	switch(disgust)
@@ -604,7 +604,12 @@
 		wanted_status = target_record.wanted_status
 		if(target_record.security_note)
 			security_note = target_record.security_note
-	if(ishuman(user))
+	// BUBBER EDIT ADDITION START - silly HUDsunglasses replace the criminal status field outright
+	var/mob/living/carbon/human/human_examiner = user
+	if(ishuman(user) && istype(human_examiner.glasses, /obj/item/clothing/glasses/hud/security/sunglasses/guard/silly))
+		. += "Criminal status: <a href='byond://?src=[REF(src)];hud=s;honkstatus=1;examine_time=[world.time]'>\[[wanted_status]\]</a>"
+	else if(ishuman(user))
+	// BUBBER EDIT ADDITION END
 		. += "Criminal status: <a href='byond://?src=[REF(src)];hud=s;status=1;examine_time=[world.time]'>\[[wanted_status]\]</a>"
 	else
 		. += "Criminal status: [wanted_status]"

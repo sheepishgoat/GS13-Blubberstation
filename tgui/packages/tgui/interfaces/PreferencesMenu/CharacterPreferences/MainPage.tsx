@@ -535,6 +535,9 @@ export function MainPage(props: MainPageProps) {
   }
 
   // GS13 EDIT
+  const MasterFatnessPref = {
+    ...data.character_preferences.master_wg_pref,
+  };
   const WGPreferences = {
     ...data.character_preferences.wg_prefs,
   };
@@ -566,6 +569,7 @@ export function MainPage(props: MainPageProps) {
   const [currentPrefPage, setCurrentPrefPage] = useState(PrefPage.CharBasics);
 
   let prefPageContents;
+  let masterFatnessPref; // GS13 EDIT
   let BFI_stages; // GS13 EDIT
   let helplessness_contents; // GS13 EDIT
   let blueberry_contents; // GS13 EDIT
@@ -653,6 +657,24 @@ export function MainPage(props: MainPageProps) {
       break;
     // GS13 EDIT
     case PrefPage.WGprefs:
+      masterFatnessPref = (
+        <NoticeBox>
+        <Section>
+          <b>Master Weight Gain Switch</b>
+        <Divider />
+        This setting is required for all other weight gain preferences to be active. Disabling it will act as if you disabled all methods of weight gain, while also NOT reseting the values of the individual settings. This setting is required to be on in order to gain weight. IMPORTANT: This setting is overriden by taking any helplessness quirks.
+        <PreferenceList
+          randomizations={getRandomization(
+            MasterFatnessPref,
+            serverData,
+            randomBodyEnabled,
+          )}
+          preferences={MasterFatnessPref}
+          maxHeight="auto"
+        />
+        </Section>
+        </NoticeBox>
+      )
       prefPageContents = (
         <Section>
         <b>Weight gain preferences</b>
@@ -663,6 +685,9 @@ export function MainPage(props: MainPageProps) {
           you can also control whether you want to participate in more extreme
           aspects of gaining weight.
         </BlockQuote>
+        <NoticeBox>
+          IMPORTANT: All of these preferences are overriden by taking any helplessness quirks.
+        </NoticeBox>
         <PreferenceList
           randomizations={getRandomization(
             WGPreferences,
@@ -704,6 +729,9 @@ export function MainPage(props: MainPageProps) {
           trigger. If you're playing an important role, try to prioritize
           roleplay over fetish content. 0 disables them.
         </BlockQuote>
+        <NoticeBox>
+          IMPORTANT: Helplessness quirks override their related helplessness prefs.
+        </NoticeBox>
         <PreferenceList
           randomizations={getRandomization(
             HelplessnessPreferences,
@@ -992,6 +1020,7 @@ export function MainPage(props: MainPageProps) {
             </Stack>
             <Stack vertical fill>
               <Stack.Item>{BFI_stages}</Stack.Item>
+              <Stack.Item>{masterFatnessPref}</Stack.Item>
               <Stack.Item>{prefPageContents}</Stack.Item>
               <Stack.Item>{helplessness_contents}</Stack.Item>
               <Stack.Item>{blueberry_contents}</Stack.Item>

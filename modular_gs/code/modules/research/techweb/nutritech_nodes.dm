@@ -16,7 +16,7 @@
 		"adipoelectric_generator",
 		"cookie_synthesizer",
 		"borg_upgrade_cookiesynthesizer",
-		// "borg_upgrade_feedingtube",
+		"borg_feeding_tube_upgrade",
 		"ci-fatmobility",
 		"bluespace_collar_receiver",
 		"bluespace_collar_transmitter",
@@ -41,7 +41,7 @@
 		"fatoray_cannon_weak",
 		"alter_ray_metabolism",
 		"alter_ray_reverser",
-		// "borg_upgrade_fatoray",
+		"borg_upgrade_fatoray",
 		"bwomf_nanites",
 		"caloray",
 		// "docility_implant"

@@ -3,7 +3,7 @@
 	desc = "A particularly stretchy bunny suit."
 
 	modular_icon_location = 'modular_gs/icons/mob/modclothes/bunny_suit.dmi'
-	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF"
+	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFFFFF"
 
 	icon = 'icons/map_icons/clothing/under/_under.dmi'
 	icon_state = "/obj/item/clothing/under/dual_tone/bunny_suit"
@@ -32,27 +32,19 @@
 	name = "Bunny Suit (Worn)(Taur)(Snake)"
 	icon_file = 'modular_gs/icons/mob/modclothes/bunny_suit_taur_snake.dmi'
 
-/obj/item/clothing/under/dual_tone/bunny_suit/add_modular_overlay(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
+/obj/item/clothing/under/dual_tone/bunny_suit/add_modular_overlays(mob/living/carbon/user, modular_icon, modular_layer, sprite_color, organ_slot)
 	var/list/suit_colors = SSgreyscale.ParseColorString(greyscale_colors)
-	var/mutable_appearance/mod_overlay = mutable_appearance(modular_icon_location, modular_icon, -(modular_layer))
-	mod_overlays += mod_overlay
-	user.overlays_standing[modular_layer] =  mod_overlay
-	user.apply_overlay(modular_layer)
+	var/modular_icon_state
 
+	add_modular_overlay(user, modular_icon, modular_layer, "#FFFFFF")
 	var/obj/item/organ/genital/organ = user.get_organ_slot(organ_slot)
 	var/color = organ.bodypart_overlay.draw_color
 	if (islist(color))
 		color = color[1]
 
-	mod_overlay = mutable_appearance(modular_icon_location, (modular_icon + "-1"), -(modular_layer))
-	mod_overlay.color = color
-	mod_overlays += mod_overlay
-	user.overlays_standing[modular_layer] =  mod_overlay
-	user.apply_overlay(modular_layer)
+	modular_icon_state = (modular_icon + "-1")
+	add_modular_overlay(user, modular_icon_state, modular_layer, color)
 
-	for (var/i = 2, i < 5, i++)
-		mod_overlay = mutable_appearance(modular_icon_location, (modular_icon + "-" + num2text(i)), -(modular_layer))
-		mod_overlay.color = suit_colors[i-1]
-		mod_overlays += mod_overlay
-		user.overlays_standing[modular_layer] =  mod_overlay
-		user.apply_overlay(modular_layer)
+	for (var/i = 2, i < 8, i++)
+		modular_icon_state = modular_icon + "-" + num2text(i)
+		add_modular_overlay(user, modular_icon_state, modular_layer, suit_colors[i-1])
