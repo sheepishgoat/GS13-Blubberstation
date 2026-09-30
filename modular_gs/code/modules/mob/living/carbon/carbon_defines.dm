@@ -23,7 +23,7 @@
 	var/muscle_gain_rate = 0.5
 	/// How fast do we gain muscle?
 	var/muscle_loss_rate = 1
-	
+
 	///The list of items/effects that are being added/subtracted from our real fatness
 	var/fat_hiders = list()
 
@@ -55,3 +55,6 @@
 
 	/// List of modular items applied to the mob
 	var/modular_items = list()
+
+	/// How many points have we gotten over the course of this round, for this character?
+	var/hardcore_fatty_streak_total = 0

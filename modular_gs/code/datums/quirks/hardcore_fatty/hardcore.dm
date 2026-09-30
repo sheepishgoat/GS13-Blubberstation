@@ -37,11 +37,7 @@
 	. = ..()
 
 
-/mob/living/carbon
-	/// How many points have we gotten over the course of this round, for this character?
-	var/hardcore_fatty_streak_total = 0
-
-///
+/// Checks to see if the parents is eligable, and if so, awards them hardcore fatty points
 /mob/living/carbon/proc/update_hardcore_fatty_value()
 	if(!HAS_TRAIT(src, TRAIT_HARDCORE_FATTY))
 		return
