@@ -41,10 +41,17 @@
 	required_reagents = list(/datum/reagent/consumable/milk/chocolate_milk = 1, /datum/reagent/consumable/cream = 1, /datum/reagent/consumable/coco = 1)
 
 //currently broken- no generic "kegs" on bubberstation
-/obj/structure/reagent_dispensers/keg/lipoifier //gs13
+/obj/structure/reagent_dispensers/keg/lipoifier
 	name = "keg of lipoifier"
 	desc = "Good luck downing that and not getting beached."
 	icon = 'modular_gs/icons/obj/medical/chemical_tanks.dmi'
 	icon_state = "orangekeg"
 	reagent_id = /datum/reagent/consumable/lipoifier
 	tank_volume = 300
+
+/obj/structure/reagent_dispensers/keg/berry
+	name = "keg of berry juice"
+	desc = "A bountiful harvest."
+	keg_print = null
+	reagent_id = /datum/reagent/blueberry_juice
+

@@ -17,7 +17,7 @@
 	// set_recipient_reagents_holder(custom_receiver ? custom_receiver : parent_movable.reagents)
 
 	ducts = list()
-	
+
 	if(start)
 		enable()
 	if(!istype(parent, /obj/machinery/iv_drip/gs13))
@@ -269,6 +269,9 @@
 	var/obj/item/organ/genital/vagina = attached_mob.get_organ_slot(ORGAN_SLOT_VAGINA)
 	if(vagina && vagina.is_exposed())
 		vagina.reagents.trans_to(target, amount)
+
+	if(attached_mob.reagents.get_reagent_amount(/datum/reagent/blueberry_juice) > amount)
+		attached_mob.reagents.trans_to(target, amount, target_id = /datum/reagent/blueberry_juice)
 
 	update_appearance(UPDATE_ICON)
 

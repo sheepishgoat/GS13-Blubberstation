@@ -7478,6 +7478,7 @@
 #include "modular_gs\code\modules\bitrunning\virtual_domain\domains\calorite_temple.dm"
 #include "modular_gs\code\modules\bloopers\bark_list.dm"
 #include "modular_gs\code\modules\borg\feeding_tools.dm"
+#include "modular_gs\code\modules\cargo\exports.dm"
 #include "modular_gs\code\modules\cargo\packs.dm"
 #include "modular_gs\code\modules\cargo\supplypod.dm"
 #include "modular_gs\code\modules\cargo\packs\engineering.dm"
