@@ -22,6 +22,7 @@
 		TRAIT_HELPLESS_NEARSIGHTED,
 		TRAIT_LIPOLICIDE_TOLERANCE,
 		TRAIT_MACERINIC_TOLERANCE,
+		TRAIT_WEAKLEGS,
 		)
 
 /datum/quirk/helplessness/hardcore_fatty/add_to_holder(mob/living/new_holder, quirk_transfer, client/client_source, unique, announce)
