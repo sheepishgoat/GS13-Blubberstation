@@ -2,15 +2,12 @@
 	/// At what weight is someone locked out of playing this job, while hardcore fatty is enabled?
 	var/max_hardcore_fatty_weight = FATNESS_LEVEL_BLOB // Most jobs aside from assistant are going to lock you out for being too fat.
 
-/datum/job/assistant
-	max_hardcore_fatty_weight = FALSE
-
-/datum/job/prisoner // That good RP
-	max_hardcore_fatty_weight = FALSE
-
 /// Checks if the player is able to
 /datum/job/proc/check_weight_restrictions(datum/preferences/prefs, player_key)
-	if(!prefs || !max_hardcore_fatty_weight || !("Hardcore Fatty" in prefs.all_quirks)) // No reason to care.
+	if(!prefs || !max_hardcore_fatty_weight) // No reason to care.
+		return TRUE
+
+	if(!("Hardcore Fatty" in prefs.all_quirks))
 		return TRUE
 
 	// We need to read the modular persistence save and get info from it.

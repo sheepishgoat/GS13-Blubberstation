@@ -117,7 +117,7 @@
 
 	if(HAS_TRAIT(src,TRAIT_HARDCORE_FATTY))
 		local_gain_rate = clamp(local_gain_rate, HARDCORE_FATTY_MINIMUM_WG_RATE, HARDCORE_FATTY_MAXIMUM_WG_RATE)
-		return local_gain_rate // haha, weight loss is not going to be that easy for you >:p
+		return local_gain_rate
 
 	if (flip_gain_rate)
 		local_gain_rate = -local_gain_rate

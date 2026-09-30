@@ -156,6 +156,7 @@
 		// GS13 EDIT Hardcore Fatty
 		if(JOB_UNAVAILABLE_HARDCORE_WEIGHT)
 			return "You are too heavy to work this job!"
+		// GS13 EDIT END
 
 	return GENERIC_JOB_UNAVAILABLE_ERROR
 
