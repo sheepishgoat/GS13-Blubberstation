@@ -36,15 +36,15 @@
 		client?.give_award(/datum/award/score/hardcore_fatty_streak, src, persistence.hardcore_fatty_max_streak)
 
 
-	if (HAS_TRAIT(src,TRAIT_HARDCORE_FATTY)) // You get all of the fun!
+	if("Hardcore Fatty" in prefs.all_quirks) // You get all of the fun!
 		fatness_real = persistence.real_fat
 		fatness_perma = persistence.perma_fat
 		micro_calorite_poisoning = persistence.micro_calorite_poisoning
 		addtimer(CALLBACK(src, PROC_REF(update_hardcore_fatty_value)), HARDCORE_FATTY_POINT_CHECK_INTERVAL)
 		return
 
-	if(persistence.hardcore_fatty_current_streak)
-		persistence.hardcore_fatty_current_streak = 0  // Reset the streak
+	if(persistence.hardcore_fatty_current_streak) // Reset the streak, if you've joined into a round without the quirk
+		persistence.hardcore_fatty_current_streak = 0
 		to_chat(src, span_boldwarning("Your streak has been reset!"))
 
 	if (prefs.read_preference(/datum/preference/toggle/weight_gain_persistent))

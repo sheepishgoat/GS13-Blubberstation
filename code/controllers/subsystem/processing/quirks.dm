@@ -70,6 +70,8 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/clothing_back),
 	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/no_buckle),
 	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/helplessness/clumsy),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/lipolicide_tolerance),
+	list(/datum/quirk/helplessness/hardcore_fatty,/datum/quirk/macerinic_tolerance),
 	// GS13 END EDIT
 ))
 
