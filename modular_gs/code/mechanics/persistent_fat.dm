@@ -45,7 +45,7 @@
 
 	if(persistence.hardcore_fatty_current_streak) // Reset the streak, if you've joined into a round without the quirk
 		persistence.hardcore_fatty_current_streak = 0
-		to_chat(src, span_boldwarning("Your streak has been reset!"))
+		to_chat(src, span_boldwarning("Your hardcore fatty streak has been reset!"))
 
 	if (prefs.read_preference(/datum/preference/toggle/weight_gain_persistent))
 		fatness_real = persistence.real_fat
