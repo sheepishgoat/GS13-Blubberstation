@@ -59,5 +59,5 @@
 	/// size at which the mob spawns in. Used in weight calculations
 	var/starting_size = 1
 
-/// How many points have we gotten over the course of this round, for this character?
+	/// How many points have we gotten over the course of this round, for this character?
 	var/hardcore_fatty_streak_total = 0
