@@ -636,7 +636,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/captain,
 /obj/effect/landmark/navigate_destination/det,
 /turf/open/floor/iron/dark,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "aiB" = (
 /obj/machinery/door/airlock/maintenance,
@@ -4421,7 +4420,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "bzb" = (
 /obj/structure/grille,
@@ -8519,7 +8517,6 @@
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/iron/dark/diagonal,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "cTk" = (
 /obj/machinery/duct,
@@ -9958,7 +9955,6 @@
 	},
 /obj/machinery/suit_storage_unit/blueshield,
 /turf/open/floor/iron/dark/small,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "dok" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9993,7 +9989,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "doy" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -10214,7 +10209,6 @@
 	},
 /obj/machinery/light/directional/east,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "drG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12609,7 +12603,6 @@
 "eiY" = (
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "ejc" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -13641,7 +13634,6 @@
 	pixel_y = -32
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "eAk" = (
 /obj/machinery/light/small/directional/east,
@@ -26107,7 +26099,6 @@
 /obj/effect/landmark/start/blueshield,
 /obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "ipo" = (
 /obj/machinery/chem_master/condimaster{
@@ -29652,7 +29643,6 @@
 	dir = 5
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "juq" = (
 /obj/structure/flora/grass/jungle/a/style_random,
@@ -31596,7 +31586,6 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "kbw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -32274,7 +32263,6 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "kpA" = (
 /obj/effect/turf_decal/siding/white{
@@ -33622,7 +33610,6 @@
 	},
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "kLR" = (
 /obj/machinery/telecomms/server/presets/medical,
@@ -45938,7 +45925,6 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "oNr" = (
 /obj/effect/mapping_helpers/burnt_floor,
@@ -46997,7 +46983,6 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "peY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -49202,7 +49187,6 @@
 	dir = 9
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "pNZ" = (
 /obj/machinery/portable_atmospherics/canister/air,
@@ -51896,7 +51880,6 @@
 /area/station/maintenance/port/lesser)
 "qKX" = (
 /turf/closed/wall/r_wall,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "qLb" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -61351,7 +61334,6 @@
 	pixel_y = 8
 	},
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "tCd" = (
 /obj/effect/landmark/event_spawn,
@@ -63958,7 +63940,6 @@
 /obj/machinery/light/small/blacklight/directional/south,
 /obj/effect/spawner/random/loot/dignitary/blueshield,
 /turf/open/floor/iron/dark/diagonal,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "uqW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -65777,7 +65758,6 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/blue,
-/area/station/hallway/primary/aft,
 /area/station/command/heads_quarters/blueshield)
 "uYb" = (
 /obj/machinery/door/firedoor,
