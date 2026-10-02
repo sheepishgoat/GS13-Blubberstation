@@ -1026,6 +1026,12 @@ SUBSYSTEM_DEF(job)
 		return JOB_UNAVAILABLE_AUGMENT
 
 	//SKYRAT EDIT END
+	// GS13 EDIT START
+	if(!possible_job.check_weight_restrictions(player.client.prefs, player.ckey))
+		job_debug("[debug_prefix] Error: [get_job_unavailable_error_message(JOB_UNAVAILABLE_HARDCORE_WEIGHT)], Player: [player][add_job_to_log ? ", Job: [possible_job]" : ""]")
+		return JOB_UNAVAILABLE_HARDCORE_WEIGHT
+
+	// GS13 EDIT END
 
 
 	// Run this check after is_banned_from since it can query the DB which may sleep.
