@@ -93,6 +93,10 @@
 	playsound(src, 'sound/items/weapons/pierce.ogg', rand(10, 50), TRUE)
 	var/obj/item/trash/can/crushed_can = new /obj/item/trash/can(target.drop_location())
 	crushed_can.icon_state = icon_state
+	// GS13 EDIT our drinks
+	if (icon == 'modular_gs/icons/obj/drinks.dmi')
+		crushed_can.icon = 'modular_gs/icons/obj/janitor.dmi'
+	// GS13 END EDIT
 	qdel(src)
 	return ITEM_INTERACT_SUCCESS
 

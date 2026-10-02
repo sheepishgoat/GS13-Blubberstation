@@ -172,6 +172,9 @@
 		if(FATTENING_TYPE_MOBS)
 			return client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_mobs)
 
+		if(FATTENING_TYPE_MUTATIONS)
+			return client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_mutations)
+
 		if(FATTENING_TYPE_WEIGHT_LOSS)
 			return (!HAS_TRAIT(src, TRAIT_WEIGHT_LOSS_IMMUNE))
 

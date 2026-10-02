@@ -8,7 +8,7 @@
 #define FATTENING_TYPE_VIRUS "virus"
 #define FATTENING_TYPE_NANITES "nanites"
 #define FATTENING_TYPE_ATMOS "atmos"
-#define FATTENING_TYPE_RADIATIONS "radiations"
+#define FATTENING_TYPE_MUTATIONS "mutations"
 #define FATTENING_TYPE_MOBS "mobs"
 #define FATTENING_TYPE_WEIGHT_LOSS "weight_loss"
 /// This ignores prefs, please only use this for admin stuff or when you have a VERY good reason.

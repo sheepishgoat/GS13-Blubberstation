@@ -62,6 +62,13 @@ export const weight_gain_mobs: FeatureToggle = {
   component: CheckboxInput,
 };
 
+export const weight_gain_mutations: FeatureToggle = {
+  name: 'Weight gain from mutations',
+  description: 'Toggle whenever you want to be fattened from effects of mutations.',
+  category: 'WG Sources',
+  component: CheckboxInput,
+};
+
 export const blueberry_inflation: FeatureToggle = {
   name: 'Blueberryfication',
   description: 'Toggle whether you want to be affected by blueberry inflation mechanics.',

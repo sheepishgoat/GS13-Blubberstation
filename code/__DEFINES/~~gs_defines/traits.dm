@@ -16,7 +16,7 @@
 #define TRAIT_VERY_LOW_FOV "fat_blocking_view_HARD"
 #define TRAIT_NEARSIGHTED	"nearsighted_from_weight"
 
-#define TRAIT_RADRESONANCE "radresonance" //FIX THIS LATER
+#define TRAIT_RADRESONANCE "radresonance"
 #define COMSIG_MICRO_PICKUP_FEET "micro_force_grabbed"			//From /datum/element/mob_holder/micro
 #define COMSIG_MOBSIZE_CHANGED "mobsize_changed"				//Adding this in so items and whatnot can check when someone changes size. -Cap'n
 

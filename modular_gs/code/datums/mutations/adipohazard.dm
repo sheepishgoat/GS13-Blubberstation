@@ -14,18 +14,18 @@
 	if(owner.pulledby != null && iscarbon(owner.pulledby))
 		var/mob/living/carbon/C = owner.pulledby
 		var/pwr = GET_MUTATION_POWER(src)
-		C.adjust_fatness(get_fatness_bonus(owner) + (fat_add * pwr), FATTENING_TYPE_RADIATIONS)
+		C.adjust_fatness(get_fatness_bonus(owner) + (fat_add * pwr), FATTENING_TYPE_MUTATIONS)
 		if(C.grab_state >= GRAB_AGGRESSIVE)
-			C.adjust_fatness(get_fatness_bonus(owner) + ((fat_add * 2) * pwr), FATTENING_TYPE_RADIATIONS)
+			C.adjust_fatness(get_fatness_bonus(owner) + ((fat_add * 2) * pwr), FATTENING_TYPE_MUTATIONS)
 		if(prob(5))
 			var/add_text = pick("You feel softer.", "[owner] feels warm to the touch", "It's so nice to touch [owner].", "You don't want to let go of [owner].")
 			to_chat(C, "<span class='notice'>[add_text]</span>")
 	if(owner.pulling != null && iscarbon(owner.pulling))
 		var/mob/living/carbon/C = owner.pulling
 		var/pwr = GET_MUTATION_POWER(src)
-		C.adjust_fatness(get_fatness_bonus(owner) + (fat_add * pwr), FATTENING_TYPE_RADIATIONS)
+		C.adjust_fatness(get_fatness_bonus(owner) + (fat_add * pwr), FATTENING_TYPE_MUTATIONS)
 		if(C.grab_state >= GRAB_AGGRESSIVE)
-			C.adjust_fatness(get_fatness_bonus(owner) + ((fat_add * 2) * pwr), FATTENING_TYPE_RADIATIONS)
+			C.adjust_fatness(get_fatness_bonus(owner) + ((fat_add * 2) * pwr), FATTENING_TYPE_MUTATIONS)
 		if(prob(5))
 			var/add_text = pick("You feel softer.", "[owner] feels warm to the touch", "It's so nice for [owner] to touch.", "You don't want [owner] to let go of you.")
 			to_chat(C, "<span class='notice'>[add_text]</span>")
@@ -47,7 +47,7 @@
 	return fatness_bonus
 
 /datum/mutation/adipohazard/proc/fatten(mob/living/carbon/toucher, amount = 1)
-	toucher.adjust_fatness(get_fatness_bonus(owner) + (amount * GET_MUTATION_POWER(src)), FATTENING_TYPE_RADIATIONS)
+	toucher.adjust_fatness(get_fatness_bonus(owner) + (amount * GET_MUTATION_POWER(src)), FATTENING_TYPE_MUTATIONS)
 	to_chat(toucher, "<span class='notice'>That felt so nice!</span>")
 
 /obj/item/dnainjector/antiadipohazard
