@@ -116,7 +116,7 @@
 		load_bellies_from_prefs(living_parent.client)
 		return
 
-	return create_default_belly()
+	// return create_default_belly()	// GS13 EDIT - this makes it so deleting a mob runtimes
 
 /datum/component/vore/proc/get_parent_vore_prefs()
 	var/mob/living/living_parent = parent
