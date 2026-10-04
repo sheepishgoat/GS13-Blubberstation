@@ -4,7 +4,7 @@
 	database_id = HARDCORE_FATTY_SCORE
 
 /datum/award/score/hardcore_fatty_streak
-	name = "Hardcore Fatty: Biggest Point Streak"
+	name = "Hardcore Fatty: Highest Point Streak"
 	desc = "Either you are really good or really bad at managing your weight."
 	database_id = HARDCORE_FATTY_STREAK_SCORE
 
