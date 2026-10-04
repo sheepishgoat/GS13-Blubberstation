@@ -15,11 +15,11 @@
 	// we save this all the time, but we'll only load if we have the prefs
 	persistence.micro_calorite_poisoning = micro_calorite_poisoning
 
-	if(HAS_TRAIT(src, TRAIT_HARDCORE_FATTY))
+	if(hardcore_fatty_streak_total)
 		persistence.hardcore_fatty_current_streak += hardcore_fatty_streak_total
 
 		if(persistence.hardcore_fatty_current_streak > persistence.hardcore_fatty_max_streak)
-			persistence.hardcore_fatty_current_streak = persistence.hardcore_fatty_max_streak
+			persistence.hardcore_fatty_max_streak = persistence.hardcore_fatty_current_streak
 
 
 /mob/living/carbon/proc/load_persistent_fat(datum/modular_persistence/persistence)
