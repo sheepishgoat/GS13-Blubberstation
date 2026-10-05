@@ -754,7 +754,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "apL" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -1268,7 +1268,7 @@
 /obj/item/target,
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "aAH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold,
@@ -1490,7 +1490,7 @@
 /turf/open/floor/iron/dark/small,
 /area/station/common/pool/sauna)
 "aFl" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/explored)
 "aFq" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -1558,7 +1558,7 @@
 "aHp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/yellow/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "aHA" = (
 /obj/structure/cable,
@@ -1694,7 +1694,7 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "aKU" = (
 /obj/machinery/light{
@@ -1773,7 +1773,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "aNA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/general/visible{
@@ -2807,7 +2807,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "bkZ" = (
 /obj/structure/shipping_container/gas/nthi,
@@ -2899,7 +2899,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible/layer4{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "bnc" = (
 /obj/machinery/light{
@@ -4298,7 +4298,7 @@
 	width = 5;
 	dir = 2
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "bUT" = (
 /obj/structure/window/spawner/directional/north,
@@ -4904,7 +4904,7 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ceG" = (
 /obj/effect/turf_decal/tile/red{
@@ -5024,7 +5024,7 @@
 /area/icemoon/surface/outdoors)
 "cge" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "cgg" = (
 /obj/machinery/button/door{
@@ -5048,7 +5048,7 @@
 "cgA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "cha" = (
 /obj/machinery/jukebox,
@@ -5173,7 +5173,7 @@
 "civ" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "cix" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -5195,7 +5195,7 @@
 "ciP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ciT" = (
 /obj/structure/closet/cabinet,
@@ -5277,7 +5277,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "cjJ" = (
 /obj/machinery/airalarm/directional/south,
@@ -5819,7 +5819,7 @@
 /area/station/security/office)
 "cvF" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/maintenance/department/electrical)
 "cvM" = (
 /obj/structure/closet/emcloset,
@@ -6648,7 +6648,7 @@
 	name = "Atmos Waste";
 	volume_rate = 200
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "cOq" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -6950,7 +6950,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "cWy" = (
 /turf/open/floor/iron,
@@ -7893,7 +7893,7 @@
 /obj/effect/spawner/random/maintenance/dumpster,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dqa" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -8134,7 +8134,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dtR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -8720,7 +8720,7 @@
 /area/station/cargo/miningdock)
 "dGu" = (
 /obj/effect/spawner/random/trash/mess,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dGH" = (
 /obj/machinery/light/small{
@@ -8806,7 +8806,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dIw" = (
 /obj/machinery/door/poddoor/shutters{
@@ -8869,7 +8869,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dKf" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
@@ -8985,7 +8985,7 @@
 /area/station/service/chapel/office)
 "dOG" = (
 /obj/structure/fence,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dPh" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
@@ -9037,7 +9037,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dQa" = (
 /obj/structure/cable,
@@ -9304,7 +9304,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dUW" = (
 /obj/machinery/door/airlock/atmos{
@@ -9349,7 +9349,7 @@
 "dVv" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "dVF" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
@@ -9630,7 +9630,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "eaH" = (
 /obj/structure/cable,
@@ -9717,7 +9717,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "edq" = (
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible,
@@ -9850,7 +9850,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 10
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "efy" = (
 /turf/closed/wall,
@@ -10605,7 +10605,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "euv" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -10945,7 +10945,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "eDr" = (
 /obj/structure/table,
@@ -11459,7 +11459,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "eOr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
@@ -11566,7 +11566,7 @@
 /area/station/service/bar)
 "eQk" = (
 /obj/structure/sign/warning/radiation/directional/north,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/explored)
 "eQo" = (
 /obj/structure/table/optable{
@@ -11672,7 +11672,7 @@
 /area/station/hallway/primary/port)
 "eSb" = (
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/port/aft)
 "eSj" = (
 /obj/effect/turf_decal/stripes/line{
@@ -11680,7 +11680,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "eSl" = (
 /obj/effect/turf_decal/tile/purple{
@@ -12064,7 +12064,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "faP" = (
 /obj/effect/spawner/random/trash/mess,
@@ -12168,7 +12168,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fdZ" = (
 /obj/machinery/light/small,
@@ -13670,7 +13670,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fIV" = (
 /obj/structure/cable,
@@ -13762,7 +13762,7 @@
 	},
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/external,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "fLv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
@@ -13855,7 +13855,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/maintenance/aft/greater)
 "fNc" = (
 /obj/machinery/door/airlock/public/glass,
@@ -13884,7 +13884,7 @@
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/random/maintenance/dumpster,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fNw" = (
 /obj/effect/turf_decal/tile/purple{
@@ -14239,7 +14239,7 @@
 /area/station/hallway/primary/port)
 "fVf" = (
 /obj/effect/spawner/random/trash/caution_sign,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fVJ" = (
 /obj/structure/cable,
@@ -14252,7 +14252,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fVM" = (
 /obj/structure/rack,
@@ -14354,7 +14354,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fWY" = (
 /obj/effect/decal/cleanable/glass,
@@ -14415,7 +14415,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "fYJ" = (
 /obj/structure/scale,
@@ -14816,7 +14816,7 @@
 "ggn" = (
 /obj/structure/trash_pile,
 /obj/effect/spawner/random/trash/mess,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ggt" = (
 /obj/structure/railing{
@@ -14902,7 +14902,7 @@
 "giE" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "giO" = (
 /obj/structure/table,
@@ -15190,7 +15190,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "goP" = (
 /obj/structure/disposalpipe/segment,
@@ -15380,7 +15380,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gst" = (
 /obj/structure/cable,
@@ -15591,7 +15591,7 @@
 /turf/open/floor/iron,
 /area/station/science/explab)
 "gxu" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/starboard/fore)
 "gxD" = (
 /turf/open/floor/carpet/red,
@@ -15694,7 +15694,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gBo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
@@ -15753,7 +15753,7 @@
 "gBV" = (
 /obj/structure/cable,
 /obj/item/reagent_containers/cup/bucket,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gCf" = (
 /obj/structure/cable,
@@ -16260,7 +16260,7 @@
 /area/station/engineering/atmos)
 "gLj" = (
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/starboard/fore)
 "gLn" = (
 /obj/effect/turf_decal/tile/blue{
@@ -16469,7 +16469,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gRp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
@@ -16479,7 +16479,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gRt" = (
 /obj/structure/cable,
@@ -16634,7 +16634,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gUU" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -16736,7 +16736,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "gXg" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
@@ -17233,7 +17233,7 @@
 	name = "Chief Engineer Swan";
 	desc = "His watchful gaze examines your pipework. Better do your best."
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hgp" = (
 /obj/structure/rack,
@@ -17630,7 +17630,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hpE" = (
 /obj/structure/fans/tiny,
@@ -17837,7 +17837,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hvB" = (
 /obj/effect/turf_decal/weather/snow/corner{
@@ -17904,7 +17904,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/security/prison)
 "hws" = (
 /obj/structure/disposalpipe/segment{
@@ -17941,7 +17941,7 @@
 "hxb" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hxt" = (
 /obj/structure/disposalpipe/segment{
@@ -17980,7 +17980,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hym" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
@@ -18012,7 +18012,7 @@
 /area/station/command/bridge)
 "hzq" = (
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/starboard/aft)
 "hzr" = (
 /obj/structure/gs13_fluff/brokenhose/scraps1,
@@ -18296,7 +18296,7 @@
 "hGT" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hHa" = (
 /obj/structure/chair,
@@ -18429,7 +18429,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 10
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hKy" = (
 /obj/machinery/light,
@@ -18874,7 +18874,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hTX" = (
 /turf/open/floor/circuit,
@@ -18902,7 +18902,7 @@
 	name = "Northeast Taxi Port";
 	width = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "hUw" = (
 /turf/open/floor/iron/white/small,
@@ -19277,7 +19277,7 @@
 "ibE" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
 /obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ibN" = (
 /obj/effect/turf_decal/stripes/line{
@@ -19327,7 +19327,7 @@
 /area/station/commons/lounge)
 "ido" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "idr" = (
 /turf/closed/wall/r_wall,
@@ -19521,7 +19521,7 @@
 	dir = 8
 	},
 /obj/structure/sign/gato/directional/south,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ihB" = (
 /obj/machinery/door/poddoor/incinerator_atmos_main,
@@ -20165,7 +20165,7 @@
 /area/station/commons/lounge)
 "iuC" = (
 /obj/machinery/light,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/hallway/secondary/exit/departure_lounge)
 "ivd" = (
 /obj/structure/cable,
@@ -20560,7 +20560,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "iCV" = (
 /turf/closed/wall/r_wall,
@@ -20578,7 +20578,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "iDt" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -20619,7 +20619,7 @@
 	name = "lavaland";
 	shuttle_id = "pod_3_lavaland"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "iEj" = (
 /obj/machinery/airalarm/directional/north,
@@ -20648,7 +20648,7 @@
 "iEI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/cyan/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "iEL" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -20709,7 +20709,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "iGE" = (
 /obj/structure/disposalpipe/segment,
@@ -21825,7 +21825,7 @@
 	dir = 10
 	},
 /obj/machinery/camera/preset/ordnance,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "jeQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
@@ -22143,7 +22143,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "jjZ" = (
 /obj/machinery/treadmill,
@@ -22773,7 +22773,7 @@
 /area/station/science/ordnance/office)
 "jwU" = (
 /obj/item/cultivator,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "jxt" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -24139,7 +24139,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "jXx" = (
 /obj/effect/landmark/event_spawn,
@@ -24235,7 +24235,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 5
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "jYH" = (
 /obj/machinery/door/airlock/mining{
@@ -24374,7 +24374,7 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kbn" = (
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -24638,7 +24638,7 @@
 	name = "Cargo Bay";
 	width = 12
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kgA" = (
 /obj/effect/turf_decal/stripes/corner,
@@ -24651,7 +24651,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kgI" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -24889,7 +24889,7 @@
 /obj/structure/fence/end{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kmo" = (
 /obj/structure/disposalpipe/segment,
@@ -25063,7 +25063,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kqX" = (
 /obj/machinery/photocopier,
@@ -25708,7 +25708,7 @@
 /obj/structure/sign/directions/security{
 	pixel_y = 24
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kDf" = (
 /obj/structure/disposalpipe/segment{
@@ -25735,7 +25735,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kDy" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
@@ -26315,7 +26315,7 @@
 /area/station/commons/lounge)
 "kRk" = (
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/port/fore)
 "kRm" = (
 /obj/structure/fence,
@@ -26454,7 +26454,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kUr" = (
 /obj/structure/chair/sofa/corp/left,
@@ -26545,7 +26545,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "kWy" = (
 /obj/structure/marker_beacon/indigo,
@@ -26863,7 +26863,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "lel" = (
 /obj/effect/turf_decal/stripes{
@@ -27061,7 +27061,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ljt" = (
 /turf/closed/wall/r_wall,
@@ -27135,7 +27135,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ljY" = (
 /obj/structure/sign/poster/contraband/random/directional/north,
@@ -27232,7 +27232,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "lmf" = (
 /obj/machinery/button/door/directional/north{
@@ -27247,7 +27247,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/science/robotics/mechbay)
 "lmp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer4{
@@ -28233,7 +28233,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "lIO" = (
 /obj/machinery/cryopod/tele{
@@ -28264,7 +28264,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "lJP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
@@ -28516,7 +28516,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "lOL" = (
 /obj/effect/landmark/event_spawn,
@@ -28594,7 +28594,7 @@
 "lRO" = (
 /obj/effect/spawner/random/trash/mess,
 /obj/effect/spawner/random/trash/food_packaging,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "lRQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -29433,7 +29433,7 @@
 "miB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "miE" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -29816,7 +29816,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "mqr" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -29843,7 +29843,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "mqL" = (
 /obj/effect/turf_decal/bot_white,
@@ -30248,7 +30248,7 @@
 /area/station/command/heads_quarters/hos)
 "myK" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "myX" = (
 /obj/effect/turf_decal/tile/red,
@@ -31039,7 +31039,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "mQA" = (
 /obj/structure/disposalpipe/segment{
@@ -31515,7 +31515,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "nan" = (
 /obj/structure/chair/comfy/black{
@@ -31783,7 +31783,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/explored)
 "neU" = (
 /obj/machinery/chem_dispenser/drinks,
@@ -32030,7 +32030,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "njI" = (
 /obj/structure/cable,
@@ -32147,7 +32147,7 @@
 	dir = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "nnf" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -32313,7 +32313,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "nsc" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -32844,7 +32844,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 10
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "nCH" = (
 /obj/structure/window/spawner/directional/west,
@@ -33284,7 +33284,7 @@
 	name = "lavaland";
 	shuttle_id = "pod_2_lavaland"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "nLp" = (
 /obj/machinery/airalarm/directional/north,
@@ -33385,7 +33385,7 @@
 	},
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/external,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "nOZ" = (
 /obj/structure/cable,
@@ -33560,7 +33560,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "nSq" = (
 /obj/machinery/computer/station_alert,
@@ -33660,7 +33660,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "nTL" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
@@ -34044,7 +34044,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "obN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -34062,7 +34062,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4,
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "oce" = (
 /obj/structure/sign/poster/official/mining/directional/east,
@@ -34140,7 +34140,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "odO" = (
 /obj/structure/cable,
@@ -34495,7 +34495,7 @@
 /area/station/hallway/primary/port)
 "olc" = (
 /obj/item/pickaxe,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "olf" = (
 /obj/structure/cable,
@@ -34880,7 +34880,7 @@
 "orW" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "osf" = (
 /obj/structure/table,
@@ -34926,7 +34926,7 @@
 /area/station/command/bridge)
 "otb" = (
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "otA" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
@@ -35446,7 +35446,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "oGn" = (
 /obj/structure/cable,
@@ -35859,7 +35859,7 @@
 	shuttle_id = "pod_lavaland";
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "oPx" = (
 /mob/living/basic/pet/poppy,
@@ -35960,7 +35960,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "oQL" = (
 /obj/structure/chair/beanbag/blue{
@@ -36178,7 +36178,7 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "oWE" = (
 /obj/machinery/button/door/directional/west,
@@ -36392,7 +36392,7 @@
 "pcp" = (
 /obj/structure/trash_pile,
 /obj/effect/spawner/random/maintenance/dumpster,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "pcN" = (
 /obj/structure/cable,
@@ -36571,7 +36571,7 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "phG" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -36747,7 +36747,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/hallway/secondary/exit/departure_lounge)
 "pmS" = (
 /obj/effect/turf_decal/trimline/green/filled/warning{
@@ -36883,7 +36883,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "pqx" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
@@ -37065,7 +37065,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "puk" = (
 /obj/machinery/power/turbine/core_rotor{
@@ -37636,7 +37636,7 @@
 /area/station/security/office)
 "pGs" = (
 /obj/structure/girder,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "pGu" = (
 /obj/effect/turf_decal/tile/bar,
@@ -37760,7 +37760,7 @@
 	width = 35;
 	shuttle_id = "whiteship_home"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "pJt" = (
 /obj/effect/spawner/structure/window,
@@ -38447,7 +38447,7 @@
 /area/station/maintenance/fore)
 "qaK" = (
 /obj/item/beacon,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qaL" = (
 /obj/structure/table/wood,
@@ -38924,7 +38924,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qjK" = (
 /obj/structure/cable,
@@ -39365,7 +39365,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qtw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -39493,7 +39493,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qxw" = (
 /obj/machinery/airalarm/directional/north,
@@ -39816,7 +39816,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qCJ" = (
 /turf/closed/wall/mineral/sandstone,
@@ -39955,7 +39955,7 @@
 /area/station/tcommsat/computer)
 "qFA" = (
 /obj/docking_port/stationary/escape_pod,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qFB" = (
 /turf/open/floor/engine,
@@ -40033,7 +40033,7 @@
 /obj/structure/sign/directions/evac{
 	pixel_y = 24
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qHa" = (
 /obj/machinery/vending/mealdor,
@@ -40054,7 +40054,7 @@
 	dir = 6
 	},
 /obj/machinery/light,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qHs" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -40097,7 +40097,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qIy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
@@ -40173,7 +40173,7 @@
 /area/station/hallway/primary/port)
 "qJv" = (
 /obj/structure/firepit,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qJx" = (
 /obj/machinery/shower/directional/north,
@@ -40409,7 +40409,7 @@
 /area/station/engineering/atmos)
 "qOS" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/medical/virology)
 "qOY" = (
 /obj/machinery/space_heater,
@@ -40635,7 +40635,7 @@
 	dir = 4
 	},
 /obj/machinery/camera/autoname/prison/directional/east,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/security/prison)
 "qUU" = (
 /obj/structure/disposalpipe/segment{
@@ -40694,7 +40694,7 @@
 /area/station/engineering/atmos/storage)
 "qVX" = (
 /obj/structure/sign/warning/electric_shock/directional/west,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qWa" = (
 /obj/effect/spawner/random/vending/colavend,
@@ -40873,10 +40873,10 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "qYW" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/port/fore)
 "qZf" = (
 /obj/structure/broken_flooring/singular/directional/west,
@@ -40922,7 +40922,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rbl" = (
 /obj/structure/cable,
@@ -41259,7 +41259,7 @@
 	dir = 9
 	},
 /obj/structure/cable,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rjr" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -42093,7 +42093,7 @@
 /area/station/hallway/secondary/entry)
 "rBp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rBJ" = (
 /obj/machinery/light/small{
@@ -42314,7 +42314,7 @@
 /area/station/commons/dorms)
 "rGj" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rGm" = (
 /obj/effect/turf_decal/trimline/brown/filled/line,
@@ -42372,7 +42372,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "rIA" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rIY" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -42600,7 +42600,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rQo" = (
 /turf/open/floor/catwalk_floor,
@@ -42782,7 +42782,7 @@
 /turf/open/floor/plating,
 /area/station/command/corporate_showroom)
 "rUh" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "rUn" = (
 /obj/structure/cable,
@@ -42922,7 +42922,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "rWM" = (
 /obj/machinery/air_sensor/ordnance_burn_chamber,
@@ -43028,7 +43028,7 @@
 /area/station/engineering/lobby)
 "rZp" = (
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "rZK" = (
 /turf/closed/wall/r_wall,
@@ -43215,7 +43215,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible/layer4{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "sfn" = (
 /obj/machinery/door/firedoor/border_only{
@@ -43709,7 +43709,7 @@
 	dir = 1
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "sok" = (
 /obj/machinery/light{
@@ -43770,7 +43770,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "spw" = (
 /obj/structure/disposalpipe/segment{
@@ -43836,7 +43836,7 @@
 /area/station/maintenance/aft)
 "sqw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "sqK" = (
 /obj/structure/railing{
@@ -44248,7 +44248,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/visible/layer2{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "sza" = (
 /obj/structure/table,
@@ -44619,7 +44619,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "sIg" = (
 /obj/machinery/button/door/directional/west,
@@ -44895,7 +44895,7 @@
 "sMT" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/engineering/atmos)
 "sMV" = (
 /turf/open/floor/iron/white,
@@ -45679,7 +45679,7 @@
 	dir = 8
 	},
 /obj/item/target/alien/anchored,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "tfc" = (
 /obj/item/wrench,
@@ -47432,7 +47432,7 @@
 "tRu" = (
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible,
 /obj/machinery/meter,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "tRv" = (
 /obj/structure/flora/rock/icy,
@@ -47549,7 +47549,7 @@
 /area/station/security/warden)
 "tUG" = (
 /obj/structure/fence/end,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "tUN" = (
 /obj/machinery/door/airlock/atmos,
@@ -47956,7 +47956,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ueQ" = (
 /obj/effect/landmark/event_spawn,
@@ -48002,7 +48002,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ufE" = (
 /obj/structure/cable,
@@ -48061,7 +48061,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "ugl" = (
 /obj/effect/turf_decal/tile/blue{
@@ -48378,7 +48378,7 @@
 /area/station/commons/dorms)
 "unZ" = (
 /obj/structure/trash_pile,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "uoc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer2{
@@ -49173,7 +49173,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "uDu" = (
 /obj/item/radio/intercom{
@@ -50371,7 +50371,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "uZR" = (
 /obj/effect/turf_decal/stripes/line{
@@ -50723,7 +50723,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 10
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vfs" = (
 /obj/structure/cable,
@@ -51118,7 +51118,7 @@
 	pixel_x = 3;
 	pixel_y = 7
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vlf" = (
 /obj/machinery/computer/robotics{
@@ -51406,7 +51406,7 @@
 /area/station/maintenance/aft)
 "vrl" = (
 /obj/structure/sign/warning/fire/directional/north,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/explored)
 "vrC" = (
 /obj/machinery/holopad,
@@ -52113,7 +52113,7 @@
 "vIA" = (
 /obj/structure/table/rolling,
 /obj/item/trash/fatoray_scrap1,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vIX" = (
 /obj/structure/railing{
@@ -52142,7 +52142,7 @@
 /obj/structure/disposaloutlet{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vJr" = (
 /obj/machinery/cryopod,
@@ -52481,7 +52481,7 @@
 /area/station/commons/dorms)
 "vPG" = (
 /obj/effect/spawner/random/trash/food_packaging,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vPH" = (
 /obj/structure/cable,
@@ -52720,7 +52720,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vVU" = (
 /obj/machinery/atmospherics/components/binary/pump{
@@ -52782,7 +52782,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/orange/visible{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "vYn" = (
 /obj/machinery/door/airlock/ce{
@@ -53261,7 +53261,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "wgY" = (
 /obj/effect/spawner/random/vending/colavend,
@@ -53789,7 +53789,7 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible/layer2,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "wus" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
@@ -54128,13 +54128,13 @@
 "wBg" = (
 /obj/structure/trash_pile,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "wBm" = (
 /obj/docking_port/stationary/escape_pod{
 	dir = 8
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "wBo" = (
 /obj/structure/bodycontainer/morgue{
@@ -54555,7 +54555,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "wKm" = (
 /obj/structure/table/wood,
@@ -55464,7 +55464,7 @@
 	pixel_x = 13;
 	pixel_y = 12
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xdo" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -55567,7 +55567,7 @@
 /obj/structure/disposalpipe/junction{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xfE" = (
 /obj/structure/cable,
@@ -55784,7 +55784,7 @@
 	pixel_x = 8;
 	pixel_y = 18
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xkm" = (
 /obj/effect/turf_decal/trimline/brown/filled/corner{
@@ -55920,7 +55920,7 @@
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
 "xmC" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/starboard/aft)
 "xmK" = (
 /obj/structure/railing,
@@ -56193,7 +56193,7 @@
 	width = 6;
 	roundstart_template = /datum/map_template/shuttle/snow_taxi
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xtk" = (
 /obj/item/radio/intercom/directional/south,
@@ -56322,7 +56322,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xwg" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -56592,7 +56592,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xBR" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
@@ -56968,7 +56968,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xJL" = (
 /obj/machinery/door/poddoor/shutters{
@@ -57159,7 +57159,7 @@
 	pixel_x = 4;
 	pixel_y = 14
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xOF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/yellow/visible{
@@ -57290,7 +57290,7 @@
 /turf/open/floor/carpet,
 /area/station/maintenance/aft/greater)
 "xSn" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/station/solars/port/aft)
 "xSr" = (
 /obj/machinery/door/poddoor/preopen{
@@ -57596,7 +57596,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/surface/outdoors)
 "xXr" = (
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
@@ -57904,7 +57904,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/floor/plating/snowed/smoothed,
 /area/icemoon/underground/unexplored)
 "yeR" = (
 /obj/effect/turf_decal/stripes{
