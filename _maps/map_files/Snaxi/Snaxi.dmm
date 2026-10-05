@@ -2811,7 +2811,7 @@
 /area/icemoon/surface/outdoors)
 "bkZ" = (
 /obj/structure/shipping_container/gas/nthi,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "blb" = (
 /obj/structure/cable,
@@ -10500,7 +10500,7 @@
 /obj/structure/closet/crate/cargo,
 /obj/effect/spawner/random/maintenance/two,
 /obj/effect/spawner/random/maintenance/two,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "esH" = (
 /obj/effect/turf_decal/stripes,
@@ -12146,7 +12146,6 @@
 	height = 4;
 	shuttle_id = "snaxi_s";
 	name = "South Taxi Port";
-	roundstart_template = /datum/map_template/shuttle/snow_taxi;
 	width = 6
 	},
 /turf/open/floor/plating/airless,
@@ -12915,7 +12914,7 @@
 /area/station/commons/dorms)
 "fsE" = (
 /obj/structure/shipping_container/gato_defaced,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "fsV" = (
 /obj/machinery/light{
@@ -28016,7 +28015,7 @@
 /area/station/hallway/primary/port)
 "lEM" = (
 /obj/structure/shipping_container/nthi/minor,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "lFv" = (
 /obj/structure/closet/crate/freezer/surplus_limbs,
@@ -32879,7 +32878,7 @@
 /area/station/security/prison)
 "nDs" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "nDK" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -36090,7 +36089,7 @@
 /turf/open/floor/iron/corner,
 /area/station/hallway/primary/aft)
 "oUO" = (
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "oVc" = (
 /obj/structure/cable,
@@ -44399,7 +44398,7 @@
 	spawn_scatter_radius = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "sDl" = (
 /turf/open/floor/iron/white,
@@ -45176,7 +45175,7 @@
 /area/station/service/bar)
 "sSe" = (
 /obj/structure/trash_pile,
-/turf/open/floor/iron/shuttle/arrivals/airless,
+/turf/open/floor/iron/shuttle/arrivals,
 /area/station/maintenance/fore)
 "sSi" = (
 /obj/machinery/cryopod/tele{
@@ -56191,7 +56190,8 @@
 	height = 4;
 	shuttle_id = "snaxi_nw";
 	name = "Northwest Taxi Port";
-	width = 6
+	width = 6;
+	roundstart_template = /datum/map_template/shuttle/snow_taxi
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
