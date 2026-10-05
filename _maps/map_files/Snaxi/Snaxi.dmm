@@ -186,7 +186,7 @@
 "aeG" = (
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible,
 /obj/machinery/door_buttons/airlock_controller{
-	pixel_x = -8;
+	pixel_x = 24;
 	idInterior = "mix_interior_airlock";
 	idExterior = "mix_exterior_airlock";
 	idSelf = "mix_airlock_controller"
@@ -1998,8 +1998,7 @@
 /area/station/cargo/warehouse)
 "aSm" = (
 /obj/structure/frame/computer{
-	dir = 1;
-	icon_state = "0"
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/ripped/directional/south,
@@ -2187,9 +2186,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/office)
 "aXk" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/effect/turf_decal/trimline/tram/filled/corner{
 	dir = 4
 	},
@@ -3326,9 +3323,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
+/obj/item/kirbyplants/organic/plant21,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "bwX" = (
@@ -3908,6 +3903,13 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/iron/dark/herringbone,
 /area/station/command/heads_quarters/qm)
+"bKF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/obj/machinery/camera/autoname/directional/south,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/exit/departure_lounge)
 "bKH" = (
 /obj/structure/disposalpipe/sorting/mail/flip{
 	dir = 8;
@@ -5061,7 +5063,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/abandon_cafeteria)
 "chp" = (
-/obj/machinery/computer/shuttle/ferry,
+/obj/machinery/computer/shuttle/snow_taxi,
 /obj/structure/sign/directions/supply{
 	dir = 6;
 	pixel_y = 40
@@ -6051,9 +6053,7 @@
 /area/station/science/ordnance/office)
 "cBp" = (
 /obj/structure/cable,
-/obj/machinery/light{
-	dir = 8
-	},
+/obj/machinery/light/directional/west,
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 4
@@ -8672,9 +8672,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/wood,
 /area/station/command/meeting_room)
 "dEw" = (
@@ -8695,10 +8693,8 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "dFd" = (
-/obj/machinery/power/floodlight,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
+/turf/open/floor/plating/airless,
+/area/icemoon/surface/outdoors)
 "dFs" = (
 /obj/machinery/disposal/bin,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -11154,9 +11150,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
+/obj/item/kirbyplants/organic/plant21,
 /obj/structure/railing,
 /obj/structure/railing{
 	dir = 8
@@ -11248,9 +11242,7 @@
 /turf/open/floor/iron,
 /area/station/commons/lounge)
 "eJT" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
+/obj/item/kirbyplants/organic/plant21,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "eKa" = (
@@ -12157,7 +12149,7 @@
 	roundstart_template = /datum/map_template/shuttle/snow_taxi;
 	width = 6
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/airless,
 /area/icemoon/surface/outdoors)
 "fdq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
@@ -14043,6 +14035,10 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/wood,
 /area/station/security/courtroom)
+"fRE" = (
+/obj/machinery/light/floor,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "fRG" = (
 /obj/machinery/atmospherics/pipe/bridge_pipe/yellow/visible{
 	dir = 8
@@ -15898,7 +15894,6 @@
 /obj/item/stack/package_wrap,
 /obj/item/stack/package_wrap,
 /obj/item/hand_labeler,
-/obj/machinery/light/small,
 /turf/open/floor/iron,
 /area/mine/eva)
 "gEG" = (
@@ -17062,12 +17057,10 @@
 /turf/closed/wall/r_wall,
 /area/station/maintenance/aft/greater)
 "hdm" = (
-/obj/machinery/camera{
-	c_tag = "Escape Arm Central";
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/hallway/secondary/exit/departure_lounge)
+/obj/structure/table,
+/obj/machinery/light/small,
+/turf/open/floor/iron,
+/area/mine/eva)
 "hdM" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/fyellow{
@@ -17699,6 +17692,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
 "hqw" = (
@@ -18014,9 +18008,7 @@
 /turf/open/floor/engine/airless,
 /area/station/engineering/atmos)
 "hyV" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "hzq" = (
@@ -20521,7 +20513,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "iBY" = (
-/obj/machinery/computer/shuttle/ferry,
+/obj/machinery/computer/shuttle/snow_taxi,
 /obj/effect/turf_decal/trimline/tram/filled/corner{
 	dir = 4
 	},
@@ -21945,9 +21937,7 @@
 /area/station/hallway/primary/central)
 "jgJ" = (
 /obj/structure/cable,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/iron,
 /area/station/security/prison)
 "jgP" = (
@@ -29522,9 +29512,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "mjM" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
+/obj/item/kirbyplants/organic/plant21,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit/departure_lounge)
 "mkb" = (
@@ -30080,9 +30068,7 @@
 /turf/open/floor/iron/white/textured,
 /area/station/service/kitchen)
 "muy" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
+/obj/item/kirbyplants/organic/plant21,
 /turf/open/floor/iron,
 /area/station/maintenance/aft)
 "muR" = (
@@ -30547,9 +30533,7 @@
 /area/station/hallway/primary/port)
 "mFb" = (
 /obj/structure/cable,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/wood,
 /area/station/service/chapel)
@@ -32306,9 +32290,7 @@
 /area/station/hallway/secondary/entry)
 "nrA" = (
 /obj/structure/cable,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "nrJ" = (
@@ -32569,6 +32551,7 @@
 	alpha = 120
 	},
 /obj/item/radio/intercom/directional/east,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/edge{
 	dir = 8
 	},
@@ -32851,7 +32834,7 @@
 	dir = 8;
 	name = "Plasma to Pure"
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/green/visible,
+/obj/machinery/atmospherics/pipe/bridge_pipe/green/visible,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -33329,8 +33312,7 @@
 /area/station/ai/upload/chamber)
 "nMe" = (
 /obj/machinery/mech_bay_recharge_port{
-	dir = 1;
-	icon_state = "recharge_port"
+	dir = 1
 	},
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light/small{
@@ -40460,6 +40442,10 @@
 "qPD" = (
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/rd)
+"qPN" = (
+/obj/machinery/camera/autoname/directional/west,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/exit/departure_lounge)
 "qPP" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -42187,7 +42173,7 @@
 /turf/open/floor/iron/textured_large,
 /area/station/command/eva)
 "rEh" = (
-/obj/machinery/computer/shuttle/ferry{
+/obj/machinery/computer/shuttle/snow_taxi{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral,
@@ -42605,6 +42591,7 @@
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/trimline/yellow/filled/line,
 /obj/effect/turf_decal/box,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
@@ -43593,6 +43580,7 @@
 "slg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
+/obj/machinery/light/floor,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "sli" = (
@@ -45497,6 +45485,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/wood,
+/area/station/hallway/secondary/exit/departure_lounge)
+"sYC" = (
+/obj/machinery/light/floor,
+/turf/open/floor/plating,
 /area/station/hallway/secondary/exit/departure_lounge)
 "sYG" = (
 /obj/structure/bodycontainer/morgue{
@@ -47893,9 +47885,7 @@
 /turf/open/floor/iron,
 /area/station/maintenance/aft/greater)
 "uda" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/wood/large,
 /area/station/hallway/primary/central)
@@ -48079,9 +48069,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
@@ -49261,6 +49249,7 @@
 	dir = 1;
 	alpha = 120
 	},
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron/edge,
 /area/station/commons/storage/primary)
 "uEv" = (
@@ -50046,6 +50035,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/paramedic)
+"uSG" = (
+/obj/structure/cable,
+/obj/machinery/light/floor,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "uSQ" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 2
@@ -52136,9 +52130,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer2{
 	name = "air supply pipe"
 	},
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/effect/turf_decal/trimline/tram/filled/corner{
 	dir = 1
 	},
@@ -53080,10 +53072,14 @@
 /area/station/hallway/secondary/exit/departure_lounge)
 "wdR" = (
 /obj/machinery/firealarm/directional/east,
-/obj/machinery/camera/autoname/directional/east,
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#ffa570";
+	color = "#ffa570"
 	},
 /turf/open/floor/iron/dark/textured,
 /area/station/service/bar)
@@ -53104,9 +53100,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/upper)
 "weT" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-16"
-	},
+/obj/item/kirbyplants/organic/plant16,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
@@ -56029,9 +56023,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/lab)
 "xpB" = (
-/obj/item/kirbyplants{
-	icon_state = "applebush"
-	},
+/obj/item/kirbyplants/organic/applebush,
 /turf/open/floor/wood/large,
 /area/station/security/courtroom)
 "xpH" = (
@@ -57700,9 +57692,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/structure/cable,
 /obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/iron/dark,
@@ -57766,10 +57756,8 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "ybO" = (
-/obj/machinery/mass_driver{
-	dir = 8;
-	icon_state = "mass_driver";
-	id = "toxinsdriver"
+/obj/machinery/mass_driver/ordnance{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/station/science/ordnance/office)
@@ -163652,7 +163640,7 @@ qEi
 qVa
 cdG
 gEA
-hTo
+hdm
 ljt
 nHQ
 nHQ
@@ -219734,7 +219722,7 @@ nhp
 nhp
 tbQ
 dxj
-sIu
+bKF
 bik
 nhp
 nhp
@@ -220758,7 +220746,7 @@ mrn
 ncq
 hHo
 ncq
-ncq
+qPN
 hRu
 ncq
 ncq
@@ -223072,7 +223060,7 @@ kFx
 vHw
 vHw
 vHw
-hdm
+ban
 gJy
 ciT
 dEK
@@ -225631,17 +225619,17 @@ nhp
 nhp
 nhp
 tbQ
-gYo
+sYC
 tbQ
-gYo
-tbQ
-tbQ
+sYC
 tbQ
 tbQ
 tbQ
-gYo
 tbQ
-gYo
+tbQ
+sYC
+tbQ
+sYC
 jLK
 gPo
 qfl
@@ -225650,10 +225638,10 @@ aKP
 wtH
 mqk
 bik
-rxb
-rxb
-rxb
-rxb
+dFd
+dFd
+dFd
+dFd
 wyW
 lTZ
 gWR
@@ -225907,10 +225895,10 @@ aKP
 nEQ
 vFD
 hOp
-rxb
-rxb
-rxb
-rxb
+dFd
+dFd
+dFd
+dFd
 wyW
 chp
 nZt
@@ -226164,10 +226152,10 @@ dPl
 isU
 inq
 tbQ
-rxb
-rxb
-rxb
-rxb
+dFd
+dFd
+dFd
+dFd
 wyW
 sPq
 toj
@@ -226421,9 +226409,9 @@ tbQ
 jig
 qid
 rfS
-rxb
-rxb
-rxb
+dFd
+dFd
+dFd
 fdl
 mVh
 oce
@@ -226678,10 +226666,10 @@ tbQ
 lln
 nvf
 tbQ
-rxb
-rxb
-rxb
-rxb
+dFd
+dFd
+dFd
+dFd
 wyW
 nAy
 wvo
@@ -226935,10 +226923,10 @@ bik
 bik
 bik
 bik
-rxb
-rxb
-rxb
-rxb
+dFd
+dFd
+dFd
+dFd
 hcY
 qTQ
 eCp
@@ -240471,12 +240459,12 @@ ebt
 ebt
 ebt
 ebt
+fRE
+ebt
 aER
 aER
 aER
-aER
-aER
-aER
+uSG
 aER
 rHo
 aER
@@ -240728,7 +240716,7 @@ vGp
 uDP
 nQZ
 bGv
-dFd
+ebt
 ebt
 ebt
 ebt
