@@ -172,6 +172,9 @@
 		if(FATTENING_TYPE_MOBS)
 			return client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_mobs)
 
+		if(FATTENING_TYPE_MUTATIONS)
+			return client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_mutations)
+
 		if(FATTENING_TYPE_WEIGHT_LOSS)
 			return (!HAS_TRAIT(src, TRAIT_WEIGHT_LOSS_IMMUNE))
 
@@ -195,11 +198,8 @@
 	calculate_fatness()
 
 	handle_fatness_speed_modifier()
-	// `handle_fatness` returns the return value of `handle_fatness_trait`,
-	// which returns `TRUE` if the weight has changed and `FALSE` if it hasn't
-	// as such, we only update modular items sprites if the weight stage has changed
-	if (handle_fatness())
-		handle_modular_items()
+	handle_fatness()
+	handle_modular_items()
 
 	fullness_adjustment()
 	handle_helplessness()

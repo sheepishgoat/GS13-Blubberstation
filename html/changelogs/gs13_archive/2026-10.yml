@@ -1,0 +1,24 @@
+2026-10-01:
+  Swan:
+  - rscadd: Adds the fatoray, feeding tube and weight analyzer modules to cyborgs
+  - rscadd: AIs will now be able to see the BFI of any mob it examines
+  - bugfix: fixes the fat scanner trait displaying real fatness rather than total
+      fatness on examine
+  sheepishgoat:
+  - rscadd: Re-added belch/wg trap spells and spellbooks, wand of gluttony, and the
+      cream demon.
+  - refactor: Turns candyland plants into actual flora that can be harvested.
+2026-10-02:
+  evilew:
+  - map: 'Kilo: fixed a missing blueshield area, seperated duplicated aft corridors
+      around sec/engie, placed APCs appropriately, moved the plasma sheets elsewhere
+      (they always just turn into plasma)'
+  - map: fixed disposals on GATO Fast Food
+2026-10-05:
+  Swan:
+  - bugfix: fixes fullness not affecting belly size when wearing modular items
+  - rscadd: reworks (and fixes) radiotropic metabolism. Its per baseline per second
+      WG is now affected by the light level of the turf on which the mob is. It should
+      now also properly protect from radiation
+  - bugfix: fixes fizz wizz and sootheseltz not having crushed sprites
+  - bugfix: fixes galbanic compound addiction triggering very quickly

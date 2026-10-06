@@ -66,3 +66,32 @@
       etc etc'
   - map: Added the Food Truck whiteship, available for use in the Fast Food role
   - map: GATO Fast Food map is guaranteed to spawn every round now
+2026-09-26:
+  Icepick200:
+  - rscadd: Added two new audial emotes and one visual emote, triggered by *creak,
+      *mufmoan, and *bubelch. Sprites for the belch visual made by Sooooope on the
+      discord.
+  Swan:
+  - rscadd: Added the Salamander and Matador guns, which are fattening weapons that
+      also deal stamina damage. Obtainable through cargo and the traitor uplink
+2026-09-27:
+  Throughawaynadir:
+  - rscadd: Added feeders mini energy crossbow to OPFOR panel
+  - rscadd: Added feeders mini energy crossbow to traitor uplink
+2026-09-28:
+  Swan:
+  - rscadd: unit test for checking helplessness mechanics
+  - rscadd: adds configs which allow admins to force helplessness prefs to kick in
+      above certain weights. Can only be prevented by using the MOD mobility module,
+      or being in one of the ERP areas (ghost cafe, dorms, etc.)
+  - bugfix: fixes XWG causing exponential increase in weight in pounds
+2026-09-29:
+  Swan:
+  - qol: Instant storyteller vote no longer has the voting window popup on reminder
+  - bugfix: Fixes BMI calculations being wrong for anyone with scale other than 1
+  evilew:
+  - map: tiny tweaks (removed roulette gun from pubby bar & added a scrubber to kilo
+      gato dorm & fixed error sprites on xenoarch)
+  - map: lot of QOL and general (layout, items, balance, typos) tweaks / fixes to
+      GATO Fast Food
+  - rscadd: added the new fatty guns to the fatwankus vendor

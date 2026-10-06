@@ -10,6 +10,7 @@
 	id = /obj/item/card/id/advanced/gato_fastfood
 	skillchips = list(/obj/item/skillchip/job/chef)
 	ears = /obj/item/radio/headset/headset_faction
+	back = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 
 /datum/outfit/gato_fastfood/post_equip(mob/living/carbon/human/clerk, visualsOnly = FALSE)
 	var/obj/item/card/id/id_card = clerk.wear_id
@@ -30,6 +31,7 @@
 	neck = /obj/item/clothing/neck/tie/allamerican
 	skillchips = list(/obj/item/skillchip/job/chef)
 	ears = /obj/item/radio/headset/headset_srv
+	back = /obj/item/storage/backpack/satchel/leather
 
 //syndicate persistence prisoner
 /datum/outfit/persistence/prisoner/feedee

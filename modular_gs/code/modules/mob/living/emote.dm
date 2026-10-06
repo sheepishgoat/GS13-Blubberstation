@@ -124,3 +124,35 @@
 
 	var/mob/living/carbon/carbon_user = user
 	carbon_user.reduce_fullness(rand(4,16), FALSE)
+
+/datum/emote/living/burp/belch/bubble
+	key = "bubelch"
+
+/datum/emote/living/burp/belch/bubble/run_emote(mob/living/user, params, type_override, intentional)
+	. = ..()
+	if(!ishuman(user))
+		return
+	var/image/emote_animation = image('modular_gs/icons/mob/human/emote_visuals.dmi', user, "bubblebelch")
+	flick_overlay_global(emote_animation, GLOB.clients, 2.0 SECONDS)
+
+/datum/emote/living/mufmoan
+	key = "mufmoan"
+	key_third_person = "mufmoans"
+	message = "makes a muffled moan."
+
+/datum/emote/living/mufmoan/get_sound(mob/living/user)
+	return pick('modular_skyrat/modules/modular_items/lewd_items/sounds/under_moan_f1.ogg',
+				'modular_skyrat/modules/modular_items/lewd_items/sounds/under_moan_f2.ogg',
+				'modular_skyrat/modules/modular_items/lewd_items/sounds/under_moan_f3.ogg',
+				'modular_skyrat/modules/modular_items/lewd_items/sounds/under_moan_f4.ogg')
+
+/datum/emote/living/creak
+	key = "creak"
+	key_third_person = "creaks"
+	message = "'s body creaks."
+
+/datum/emote/living/creak/get_sound(mob/living/user)
+	return pick('modular_gs/sound/effects/inflation/creaking/Creak1.ogg',
+				'modular_gs/sound/effects/inflation/creaking/Creak2.ogg',
+				'modular_gs/sound/effects/inflation/creaking/Creak3.ogg',
+				'modular_gs/sound/effects/inflation/creaking/Creak4.ogg')

@@ -12,7 +12,7 @@
 	mob_size = MOB_SIZE_LARGE
 	can_buckle_to = FALSE
 
-	silicon_huds = list(TRAIT_MEDICAL_HUD_SENSOR_ONLY, TRAIT_SECURITY_HUD_ID_ONLY, TRAIT_DIAGNOSTIC_HUD, TRAIT_BOT_PATH_HUD)
+	silicon_huds = list(TRAIT_MEDICAL_HUD_SENSOR_ONLY, TRAIT_SECURITY_HUD_ID_ONLY, TRAIT_DIAGNOSTIC_HUD, TRAIT_BOT_PATH_HUD, TRAIT_FAT_SCANNER)	// GS13 EDIT - makes AIs have the fat scanner trait by default
 	radio = /obj/item/radio/headset/silicon/ai
 	radiomod = ";" //AIs will, by default, state their laws on the internal radio.
 

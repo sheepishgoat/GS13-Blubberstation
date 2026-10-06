@@ -77,6 +77,7 @@
 		/mob/living/simple_animal/hostile/feed,
 		/mob/living/simple_animal/hostile/feed/chocolate_slime,
 		/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
+		/mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast/cream_demon,
 		/mob/living/simple_animal/hostile/fatten,
 		/mob/living/simple_animal/hostile/fatten/magehand,
 

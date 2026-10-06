@@ -164,7 +164,7 @@
 	. += get_weight_text()
 	. += get_muscle_text()
 	if(user.can_see_bfi())
-		. += span_notice("[src] weighs [calculate_weight_in_pounds()] pounds (BFI: [fatness_real])")
+		. += span_notice("[src] weighs [calculate_weight_in_pounds()] pounds (BFI: [fatness])")
 	// GS13 END EDIT
 
 	switch(disgust)

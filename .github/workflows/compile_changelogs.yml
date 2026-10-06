@@ -47,13 +47,14 @@ jobs:
 
       - name: Commit
         if: steps.value_holder.outputs.ACTIONS_ENABLED
+        # GS13 EDIT: changes bubberstation to Gain Station
         run: |
           git config --local user.name "Bubberbot"
           git config --local user.email "151680451+Bubberbot@users.noreply.github.com"
           git pull origin master
           git add html/changelogs
-          git commit -m "Bubberstation automatic changelog compile [ci skip]" -a || true
-
+          git commit -m "Gain Station automatic changelog compile [ci skip]" -a || true
+        # GS13 END EDIT
       - name: Generate App Token
         id: app-token-generation
         uses: actions/create-github-app-token@v3.2.0

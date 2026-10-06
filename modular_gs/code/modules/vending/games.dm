@@ -37,6 +37,7 @@
 				/obj/item/toy/plush/gs13/balian = 3,
 				/obj/item/toy/plush/gs13/remmy = 3,
 				/obj/item/toy/plush/gs13/duke = 3,
+				/obj/item/toy/plush/gs13/sato = 3,
 			)
 		)
 	)

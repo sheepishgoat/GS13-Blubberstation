@@ -5,6 +5,7 @@
 	return ..()
 
 /obj/item/toy/plush/gs13
+	abstract_type = /obj/item/toy/plush/gs13
 	name = "gs13 plush"
 	desc = "You're not supposed to see this..."
 	icon = 'modular_gs/icons/obj/plushes.dmi'
@@ -294,5 +295,14 @@
 	icon_state = "duke"
 	stuffed_icon_state = "duke_stuffed"
 	pred_plush = TRUE
+	prey_plush = TRUE
+	can_eat_food = TRUE
+
+/obj/item/toy/plush/gs13/sato
+	name = "Timid Snow Leopard Plushie"
+	desc = "They look quite timid, why not carry them and show them around the station?"
+	icon_state = "sato"
+	stuffed_icon_state = "sato_stuffed"
+	pred_plush = FALSE
 	prey_plush = TRUE
 	can_eat_food = TRUE

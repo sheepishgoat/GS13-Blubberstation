@@ -7,3 +7,26 @@ VOTE_AUTOSTORYTELLER_INITIAL 72000
 
 ## autovote delay (deciseconds in real time) before sequential automatic storyteller votes are called (default 30 minutes)
 VOTE_AUTOSTORYTELLER_INTERVAL 36000
+
+## Helplessness forcing
+## If these configs are uncommented and set to any integer value other than 0, they will 
+## become automatically forced onto every player who exceeds the specified BFI, regardless of their
+## prefs and quirks. The only exceptions are if the player has no client, that client has no prefs,
+## or they have the `TRAIT_NO_HELPLESSNESS` (as of the time of writing this, available only through 
+## the mobility assistance MOD)
+
+# IMMOBILE 0
+# CLUMSY 0
+# LOW_FOV 0
+# NEARSIGHTED 0
+# HIDDEN_FACE 0
+# MUTE 0
+# IMMOBILE_ARMS 0
+# JUMPSUIT_BURSTING 0
+# MISC_CLOTHING_BURSTING 0
+# BELT_BURSTING 0
+# BACK_CLOTHING 0
+# NO_BUCKLE 0
+# NO_NECK 0
+# WADDLE 0
+# LISP 0
