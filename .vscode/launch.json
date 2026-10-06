@@ -49,10 +49,7 @@
 			"name": "Launch DreamDaemon (With selected flags)",
 			"preLaunchTask": "Build All",
 			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
-			"dreamDaemon": true,
-			"env": {
-				"WINEPREFIX": "/home/ben/Games/byond2/"
-			}
+			"dreamDaemon": true
 			"dreamDaemon": true
 		{
 			"type": "byond",
