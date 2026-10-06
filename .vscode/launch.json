@@ -50,7 +50,7 @@
 			"preLaunchTask": "Build All",
 			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
 			"dreamDaemon": true
-			"dreamDaemon": true
+		},
 		{
 			"type": "byond",
 			"request": "launch",
