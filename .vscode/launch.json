@@ -53,7 +53,7 @@
 			"env": {
 				"WINEPREFIX": "/home/ben/Games/byond2/"
 			}
-		},
+			"dreamDaemon": true
 		{
 			"type": "byond",
 			"request": "launch",
