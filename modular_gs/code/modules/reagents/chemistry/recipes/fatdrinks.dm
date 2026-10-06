@@ -54,4 +54,4 @@
 	desc = "A bountiful harvest."
 	keg_print = null
 	reagent_id = /datum/reagent/blueberry_juice
-
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5)
