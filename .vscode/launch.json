@@ -84,10 +84,7 @@
 			"name": "Launch DreamDaemon (testing + low memory mode)",
 			"preLaunchTask": "Build All (testing + low memory mode)",
 			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
-			"dreamDaemon": true,
-			"env": {
-				"WINEPREFIX": "/home/ben/Games/byond2/"
-			}
+			"dreamDaemon": true
 		},
 		{
 			"type": "byond",
