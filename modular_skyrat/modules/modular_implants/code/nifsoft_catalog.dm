@@ -11,6 +11,7 @@ GLOBAL_LIST_INIT(purchasable_nifsofts, list(
 	// GS13 EDIT our NIFSofts
 	/datum/nifsoft/fat_scanner,
 	/datum/nifsoft/weight_display,
+	// GS13 END EDIT
 ))
 
 /datum/computer_file/program/nifsoft_downloader
