@@ -1,6 +1,6 @@
 /datum/nifsoft/weight_display
-	name = "Weight Watcher"
-	program_desc = "Allows the user to accurately judge the weight of those they look at."
+	name = "Internal Scale"
+	program_desc = "Gives the user access to a readout of their current body composition. This readout is only updated upon activation of the NIFSoft."
 	activation_cost = 0.5
 	purchase_price = 150
 	able_to_keep = TRUE
