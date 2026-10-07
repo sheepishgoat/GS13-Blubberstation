@@ -206,3 +206,76 @@
 
 /area/shuttle/food_truck
 	name = "GATO Food Truck"
+
+// #region snaxi outdoors
+
+/area/snaxi
+	icon = 'icons/area/areas_station.dmi'
+	icon_state = "mining"
+	default_gravity = STANDARD_GRAVITY
+	flags_1 = NONE
+	area_flags_mapping = UNIQUE_AREA | FLORA_ALLOWED
+	ambience_index = AMBIENCE_ICEMOON
+	sound_environment = SOUND_AREA_ICEMOON
+	ambient_buzz = 'sound/ambience/lavaland/magma.ogg'
+	allow_shuttle_docking = TRUE
+	skip_minimap_rendering = TRUE
+
+/area/snaxi/surface
+	name = "Ice Planet"
+	icon_state = "explored"
+	always_unpowered = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	requires_power = TRUE
+
+/area/snaxi/surface/outdoors // parent that defines if something is on the exterior of the station.
+	name = "Ice Planet Wastes"
+	outdoors = TRUE
+
+/area/snaxi/surface/outdoors/Initialize(mapload)
+	if(HAS_TRAIT(SSstation, STATION_TRAIT_BRIGHT_DAY))
+		base_lighting_alpha = 145
+	return ..()
+
+/area/snaxi/surface/outdoors/unexplored //monsters and ruins spawn here
+	icon_state = "unexplored"
+	area_flags_mapping = parent_type::area_flags_mapping | MOB_SPAWN_ALLOWED | CAVES_ALLOWED
+
+/area/snaxi/surface/outdoors/unexplored/rivers // rivers spawn here
+	icon_state = "danger"
+	map_generator = /datum/map_generator/cave_generator/snaxi/surface
+
+/area/snaxi/surface/outdoors/unexplored/rivers/New()
+	. = ..()
+	if(HAS_TRAIT(SSstation, STATION_TRAIT_FORESTED))
+		map_generator = /datum/map_generator/cave_generator/snaxi/surface/forested
+		area_flags_mapping |= MOB_SPAWN_ALLOWED //flip this on, the generator has already disabled dangerous fauna
+
+/area/snaxi/surface/outdoors/unexplored/rivers/no_monsters
+	area_flags_mapping = /area/snaxi/::area_flags_mapping | CAVES_ALLOWED
+
+/area/snaxi/underground
+	name = "Ice Planet Caves"
+	outdoors = TRUE
+	always_unpowered = TRUE
+	requires_power = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+
+/area/snaxi/underground/unexplored // mobs and megafauna and ruins spawn here
+	icon_state = "unexplored"
+	area_flags_mapping = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
+
+/area/snaxi/underground/unexplored/no_rivers
+	icon_state = "norivers"
+	area_flags_mapping = CAVES_ALLOWED | FLORA_ALLOWED // same rules as "shoreline" turfs since we might need this to pull double-duty
+	map_generator = /datum/map_generator/cave_generator/snaxi
+
+/area/snaxi/underground/unexplored/rivers // rivers spawn here
+	icon_state = "danger"
+	map_generator = /datum/map_generator/cave_generator/snaxi
+
+// #endregion
