@@ -5,6 +5,11 @@
 		/datum/gas/oxygen=22,
 		/datum/gas/nitrogen=82,
 	)
+	normal_gases = list(
+		/datum/gas/oxygen=22,
+		/datum/gas/nitrogen=82,
+	)
+	restricted_gases = list()
 	restricted_chance = 0
 
 	minimum_pressure = 90
