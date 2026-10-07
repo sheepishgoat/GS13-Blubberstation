@@ -153,6 +153,7 @@
 	src.width = width
 	src.height = height
 	if(width > world.maxx || height > world.maxy || width < 1 || height < 1)
+		stack_trace("problem seems to be with width/height. Width: [width]; Height: [height]; world.maxx: [world.maxx]; world.maxy: [world.maxy]")
 		return FALSE
 	var/list/avail = SSmapping.unused_turfs["[zlevel]"]
 	var/turf/BL
@@ -184,6 +185,7 @@
 			continue
 		break
 	if(!passing || !istype(BL) || !istype(TR))
+		stack_trace("problem with... something. passing: [passing];, istype(BL): [istype(BL)]; istype(TR): [istype(TR)]")
 		return FALSE
 	for(var/i in final)
 		var/turf/T = i
