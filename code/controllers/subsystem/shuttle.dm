@@ -1022,7 +1022,7 @@ SUBSYSTEM_DEF(shuttle)
 	// - We need to check that no additional ports have slipped in from the
 	//   template, because that causes unintended behaviour.
 	if (istype(loading_template, /datum/map_template/shuttle/snow_taxi))
-		WARNING("[affected.len]")
+		WARNING("amount of tiles: [affected.len]")
 	for(var/affected_turfs in affected)
 		if (istype(loading_template, /datum/map_template/shuttle/snow_taxi) && istype(affected_turfs, /turf/open/floor/plating))
 			var/turf/turf_we_on = affected_turfs
