@@ -1022,6 +1022,12 @@ SUBSYSTEM_DEF(shuttle)
 	// - We need to check that no additional ports have slipped in from the
 	//   template, because that causes unintended behaviour.
 	for(var/affected_turfs in affected)
+		if (istype(loading_template, /datum/map_template/shuttle/snow_taxi) && istype(affected_turfs, /turf/open/floor/plating))
+			var/turf/turf_we_on = affected_turfs
+			var/contents = ""
+			for (var/content in turf_we_on)
+				contents += "[content];"
+			stack_trace("Contents of the plating: [contents]")
 		for(var/obj/docking_port/port in affected_turfs)
 			if(istype(port, /obj/docking_port/mobile))
 				found++
