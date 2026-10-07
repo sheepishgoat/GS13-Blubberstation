@@ -1013,7 +1013,7 @@ SUBSYSTEM_DEF(shuttle)
 	var/turf/bottom_left = preview_reservation.bottom_left_turfs[1]
 	loading_template.load(bottom_left, centered = FALSE, register = FALSE)
 
-	var/affected = loading_template.get_affected_turfs(bottom_left, centered=FALSE)
+	var/list/affected = loading_template.get_affected_turfs(bottom_left, centered=FALSE)
 
 	var/found = 0
 	// Search the turfs for docking ports
@@ -1021,6 +1021,8 @@ SUBSYSTEM_DEF(shuttle)
 	//   the shuttle.
 	// - We need to check that no additional ports have slipped in from the
 	//   template, because that causes unintended behaviour.
+	if (istype(loading_template, /datum/map_template/shuttle/snow_taxi))
+		WARNING("[affected.len]")
 	for(var/affected_turfs in affected)
 		if (istype(loading_template, /datum/map_template/shuttle/snow_taxi) && istype(affected_turfs, /turf/open/floor/plating))
 			var/turf/turf_we_on = affected_turfs
