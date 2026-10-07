@@ -1024,7 +1024,7 @@ SUBSYSTEM_DEF(shuttle)
 	if (istype(loading_template, /datum/map_template/shuttle/snow_taxi))
 		WARNING("amount of tiles: [affected.len]")
 	for(var/affected_turfs in affected)
-		if (istype(loading_template, /datum/map_template/shuttle/snow_taxi))
+		if (istype(loading_template, /datum/map_template/shuttle/snow_taxi) && istype(affected_turfs, /turf/open/floor/plating))
 			var/turf/turf_we_on = affected_turfs
 			var/contents = ""
 			for (var/content in turf_we_on)
