@@ -6,6 +6,8 @@
 	description = "Small shuttle used to transport the crew across the 3 Snaxi outposts."
 	credit_cost = CARGO_CRATE_VALUE * 8
 	occupancy_limit = "5"
+	width = 4
+	height = 6
 
 /datum/map_template/shuttle/arrival/snaxi
 	name = "arrival shuttle (snaxi)"
