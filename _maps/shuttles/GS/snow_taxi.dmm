@@ -19,7 +19,6 @@
 /turf/open/floor/plating,
 /area/shuttle/snowtaxi)
 "e" = (
-/obj/structure/fans/tiny/invisible,
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/shuttle/snowtaxi)
@@ -65,7 +64,6 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/snowtaxi)
 "l" = (
-/obj/structure/fans/tiny/invisible,
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating/airless,
 /area/shuttle/snowtaxi)
