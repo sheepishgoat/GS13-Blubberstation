@@ -1,26 +1,8 @@
-// /turf/open
-// 	plane = FLOOR_PLANE
-// 	var/slowdown = 0 //negative for faster, positive for slower
-
-// 	var/postdig_icon_change = FALSE
-// 	var/postdig_icon
-// 	var/wet
-
-// 	var/footstep = null
-// 	var/barefootstep = null
-// 	var/clawfootstep = null
-// 	var/heavyfootstep = null
-
-// leaving this helper for remembering vars - Sono
-
-///////////////////////////////// GS13 OPEN TURFS ///////////////////////////////
-
 /turf/open/indestructible/chocolate
 	name = "chocolate floor"
 	desc = "A rather tasty floor, hopefully it does not ruin your shoes."
 	icon = 'modular_gs/icons/turf/floor_candy.dmi'
 	icon_state = "choclit_2"
-
 
 /turf/open/indestructible/bubblegum
 	name = "bubblegum floor"
@@ -49,7 +31,7 @@
 	clawfootstep = FOOTSTEP_WATER
 	heavyfootstep = FOOTSTEP_WATER
 
-/turf/open/floor/carpet/gato //GS13
+/turf/open/floor/carpet/gato
 	icon = 'modular_gs/icons/turf/carpet_gato.dmi'
 	icon_state = "executive_carpet-255"
 	base_icon_state = "executive_carpet"
@@ -57,7 +39,7 @@
 	smoothing_groups = SMOOTH_GROUP_TURF_OPEN + SMOOTH_GROUP_CARPET_GATO
 	canSmoothWith = SMOOTH_GROUP_CARPET_GATO
 
-/obj/item/stack/tile/carpet/gato //GS13
+/obj/item/stack/tile/carpet/gato
 	icon = 'modular_gs/icons/obj/tiles.dmi'
 	name = "gato-themed carpet"
 	icon_state = "tile-carpet-gato"
@@ -65,3 +47,52 @@
 	merge_type = /obj/item/stack/tile/carpet/gato
 	tile_reskin_types = null
 
+// #region snaxi open turfs
+
+/turf/open/misc/asteroid/snow/snaxi
+	baseturfs = /turf/open/openspace/icemoon/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+	slowdown = 0
+	skip_minimap_rendering = TRUE
+
+/turf/open/misc/ice/snaxi
+	baseturfs = /turf/open/openspace/icemoon/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+	slowdown = 0
+	skip_minimap_rendering = TRUE
+
+/turf/open/openspace/icemoon/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+	baseturfs = /turf/open/openspace/icemoon/snaxi
+
+/turf/open/openspace/icemoon/snaxi/Initialize(mapload)
+	. = ..()
+	baseturfs = /turf/open/openspace/icemoon/snaxi	// I hate this
+
+/turf/open/openspace/icemoon/snaxi/keep_below
+	drill_below = FALSE
+
+/turf/open/misc/asteroid/snow/ice/snaxi
+	baseturfs = /turf/open/misc/asteroid/snow/ice/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+	planetary_atmos = TRUE
+	slowdown = 0
+
+/turf/open/floor/plating/snowed/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+
+/turf/open/floor/plating/snowed/smoothed/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+
+/turf/open/floor/plating/snowed/smoothed/standard_air
+	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+
+/turf/open/lava/plasma/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+	baseturfs = /turf/open/lava/plasma/snaxi
+	planetary_atmos = TRUE
+
+/turf/open/floor/iron/solarpanel/snaxi
+	initial_gas_mix = SNAXI_DEFAULT_ATMOS
+
+// #endregion

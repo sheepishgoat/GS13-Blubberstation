@@ -245,19 +245,19 @@
 
 /area/snaxi/surface/outdoors/unexplored/rivers // rivers spawn here
 	icon_state = "danger"
-	map_generator = /datum/map_generator/cave_generator/icemoon/surface
+	map_generator = /datum/map_generator/cave_generator/snaxi/surface
 
 /area/snaxi/surface/outdoors/unexplored/rivers/New()
 	. = ..()
 	if(HAS_TRAIT(SSstation, STATION_TRAIT_FORESTED))
-		map_generator = /datum/map_generator/cave_generator/icemoon/surface/forested
+		map_generator = /datum/map_generator/cave_generator/snaxi/surface/forested
 		area_flags_mapping |= MOB_SPAWN_ALLOWED //flip this on, the generator has already disabled dangerous fauna
 
 /area/snaxi/surface/outdoors/unexplored/rivers/no_monsters
-	area_flags_mapping = /area/icemoon/::area_flags_mapping | CAVES_ALLOWED
+	area_flags_mapping = /area/snaxi/::area_flags_mapping | CAVES_ALLOWED
 
 /area/snaxi/underground
-	name = "Icemoon Caves"
+	name = "Ice Planet Caves"
 	outdoors = TRUE
 	always_unpowered = TRUE
 	requires_power = TRUE
@@ -266,17 +266,16 @@
 	power_light = FALSE
 
 /area/snaxi/underground/unexplored // mobs and megafauna and ruins spawn here
-	name = "Icemoon Caves"
 	icon_state = "unexplored"
 	area_flags_mapping = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
 
 /area/snaxi/underground/unexplored/no_rivers
 	icon_state = "norivers"
 	area_flags_mapping = CAVES_ALLOWED | FLORA_ALLOWED // same rules as "shoreline" turfs since we might need this to pull double-duty
-	map_generator = /datum/map_generator/cave_generator/icemoon
+	map_generator = /datum/map_generator/cave_generator/snaxi
 
 /area/snaxi/underground/unexplored/rivers // rivers spawn here
 	icon_state = "danger"
-	map_generator = /datum/map_generator/cave_generator/icemoon
+	map_generator = /datum/map_generator/cave_generator/snaxi
 
 // #endregion
