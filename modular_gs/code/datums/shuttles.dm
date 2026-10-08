@@ -1,5 +1,5 @@
 /datum/map_template/shuttle/snow_taxi
-	prefix = "_maps/shuttles/gs/"
+	prefix = "_maps/shuttles/GS/"
 	name = "Snow Taxi"
 	port_id = "snow"
 	suffix = "taxi"
