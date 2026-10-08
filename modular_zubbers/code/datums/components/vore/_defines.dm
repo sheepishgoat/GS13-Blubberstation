@@ -25,7 +25,7 @@
 /// If true, mobs with no player cannot be pred or prey
 #define REQUIRES_PLAYER CONFIG_GET(flag/vore_requires_player)
 /// Makes every mob spawn with a vore component, just for testing
-// #define VORE_TESTING_ALL_MOBS_ARE_VORE_MOBS
+#define VORE_TESTING_ALL_MOBS_ARE_VORE_MOBS	// GS13 EDIT - enables vore for all mobs
 /// Number of rolling backups bellies will keep
 #define BELLY_BACKUP_COUNT 5
 /// Maximum number of belly layout slots
@@ -96,8 +96,11 @@
 /// This controls whether vore components are added on any mob Login for vore-enabled clients
 #ifndef VORE_DEBUG
 GLOBAL_LIST_INIT(vore_allowed_mob_types, typecacheof(list(
+	/* GS13 EDIT - makes all mobs voreable
 	/mob/living/carbon/human,
 	/mob/living/silicon/robot
+	*/
+	/mob/living,	// GS13 END EDIT
 )))
 #else
 // Vore debug mode: all mobs are fair game
