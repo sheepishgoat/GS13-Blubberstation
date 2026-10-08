@@ -189,7 +189,7 @@
 /obj/structure/stairs{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "ahg" = (
 /obj/effect/turf_decal/arrows{
@@ -208,7 +208,7 @@
 /area/xenoarch/lavaland/gym)
 "ahx" = (
 /obj/effect/turf_decal,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "ahy" = (
 /obj/structure/broken_flooring/side/always_floorplane/directional/north,
@@ -216,7 +216,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "ahH" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "ahK" = (
 /obj/effect/decal/cleanable/dirt,
@@ -234,7 +234,7 @@
 	},
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch/unpowered)
 "aiD" = (
 /obj/effect/turf_decal/trimline/white/tram{
@@ -257,7 +257,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground/xenoarch/donut_factory)
 "ajC" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -327,7 +327,7 @@
 	dir = 1;
 	icon_state = "siding_plain_end"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "alb" = (
 /obj/structure/broken_flooring/pile/always_floorplane/directional/east,
@@ -374,9 +374,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "amb" = (
 /obj/machinery/conveyor{
@@ -653,7 +651,7 @@
 "atX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/plating/always_floorplane/directional/west,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "auk" = (
 /obj/structure/railing{
@@ -728,7 +726,7 @@
 /obj/item/mining_scanner,
 /obj/item/clothing/glasses/meson,
 /obj/item/flashlight,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "avS" = (
 /obj/machinery/light/small{
@@ -860,7 +858,7 @@
 /area/lavaland/underground/xenoarch/donut_factory)
 "ayy" = (
 /obj/structure/sign/warning/secure_area/directional/south,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "ayz" = (
 /obj/machinery/conveyor{
@@ -923,7 +921,7 @@
 "aAu" = (
 /obj/structure/closet/l3closet,
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "aAC" = (
 /obj/effect/turf_decal/trimline/yellow/warning,
@@ -1061,7 +1059,7 @@
 /area/lavaland/underground/xenoarch/candyland)
 "aFY" = (
 /obj/structure/ore_box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "aGk" = (
 /obj/effect/turf_decal/loading_area{
@@ -1080,7 +1078,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "aGO" = (
 /obj/effect/decal/cleanable/ash,
@@ -1136,9 +1134,7 @@
 /obj/effect/turf_decal/arrows{
 	dir = 4
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "aJe" = (
 /obj/item/flashlight/lantern/on,
@@ -1304,9 +1300,7 @@
 "aOI" = (
 /obj/structure/closet/firecloset,
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "aOP" = (
 /obj/machinery/portable_atmospherics/pump,
@@ -1348,9 +1342,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/atmos,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "aPn" = (
 /obj/machinery/light/floor,
@@ -1364,7 +1356,7 @@
 	dir = 1;
 	icon_state = "siding_plain_end"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "aPv" = (
 /obj/structure/flora/lollipop,
@@ -1492,7 +1484,7 @@
 	pixel_x = -12;
 	pixel_y = -7
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/misc/asteroid/basalt,
 /area/lavaland/underground)
 "aWn" = (
 /obj/machinery/door/airlock/grunge{
@@ -2199,7 +2191,7 @@
 /turf/open/floor/carpet/orange,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "bvZ" = (
-/turf/open/floor/iron/stairs/medium,
+/turf/open/floor/iron/stairs/medium/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "bwe" = (
 /obj/structure/fluff/paper/stack{
@@ -2216,9 +2208,7 @@
 "bwY" = (
 /obj/effect/turf_decal/box,
 /obj/structure/tank_dispenser/oxygen,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "bxe" = (
 /obj/effect/turf_decal/tile/purple{
@@ -2235,7 +2225,7 @@
 "bxL" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/closet/crate/miningcar,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "bxM" = (
 /obj/structure/bookcase/manuals/research_and_development,
@@ -2393,7 +2383,7 @@
 	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "bBV" = (
 /obj/effect/turf_decal/stripes/line{
@@ -2500,7 +2490,7 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/turf_decal/trimline/yellow,
 /obj/effect/turf_decal/trimline/yellow,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "bFw" = (
 /obj/effect/turf_decal/tile/brown/diagonal_centre{
@@ -2511,7 +2501,7 @@
 	},
 /obj/structure/broken_flooring/singular/always_floorplane,
 /obj/structure/flora/rock,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "bFN" = (
 /obj/machinery/light/small{
@@ -2903,7 +2893,7 @@
 "bVq" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "bVt" = (
 /obj/structure/table,
@@ -2930,18 +2920,6 @@
 /obj/effect/turf_decal/trimline/purple/corner,
 /turf/open/floor/iron/white,
 /area/xenoarch/lavaland/arch)
-"bVL" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/asteroid{
-	dir = 1
-	},
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/lavaland/underground)
 "bWe" = (
 /obj/item/coin/gold{
 	pixel_y = 7;
@@ -2949,7 +2927,7 @@
 	},
 /obj/structure/table/wood/fancy/orange,
 /obj/item/stack/sheet/mineral/calorite/five,
-/turf/open/floor/mineral/calorite/strong,
+/turf/open/floor/mineral/calorite/strong/lavaland_atmos,
 /area/lavaland/underground)
 "bWg" = (
 /obj/item/ammo_casing/shotgun/beehive{
@@ -2971,7 +2949,7 @@
 /area/lavaland/underground/xenoarch/donut_factory)
 "bXe" = (
 /obj/structure/barricade/wooden,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "bXh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3004,7 +2982,7 @@
 	},
 /obj/structure/trap/fattening,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "bYt" = (
 /obj/machinery/duct,
@@ -3012,7 +2990,7 @@
 /area/xenoarch/lavaland/foyer)
 "bYx" = (
 /obj/effect/turf_decal/box,
-/turf/open/floor/iron/recharge_floor/airless,
+/turf/open/floor/iron/recharge_floor/lavaland_atmos,
 /area/lavaland/underground)
 "bYB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3053,9 +3031,6 @@
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/wood/tile,
 /area/lavaland/underground/xenoarch/donut_factory)
-"bZT" = (
-/turf/open/floor/plating/airless,
-/area/lavaland/underground/xenoarch/caloriteresearch)
 "cay" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -3093,7 +3068,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "ccH" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "ccO" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -3113,7 +3088,7 @@
 "cdp" = (
 /obj/structure/lattice/catwalk,
 /obj/item/chair,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "cdH" = (
 /turf/open/floor/iron/dark/side{
@@ -3404,7 +3379,7 @@
 "cmN" = (
 /obj/structure/holosign/barrier/atmos,
 /obj/structure/cable,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cmQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -3483,7 +3458,7 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/turf_decal/trimline/yellow,
 /obj/effect/turf_decal/trimline/yellow,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "coA" = (
 /obj/effect/turf_decal/siding/white/corner,
@@ -3522,7 +3497,7 @@
 	dir = 10
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "cqI" = (
 /obj/structure/sign/poster/official/lovegato,
@@ -3773,7 +3748,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "czH" = (
 /obj/structure/fans/tiny/invisible,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "czR" = (
 /obj/structure/barricade/wooden,
@@ -3836,7 +3811,7 @@
 "cCb" = (
 /obj/item/shard,
 /obj/structure/holosign/barrier/atmos,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cCx" = (
 /obj/effect/turf_decal/siding/wood,
@@ -3868,7 +3843,7 @@
 "cDI" = (
 /obj/structure/holosign/barrier/atmos,
 /obj/structure/fans/tiny/invisible,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cEm" = (
 /obj/effect/light_emitter/tendril,
@@ -4046,9 +4021,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "cIR" = (
 /obj/effect/turf_decal/tile/brown/diagonal_centre{
@@ -4104,7 +4077,7 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "cKq" = (
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cKu" = (
 /obj/structure/sign/poster/official/fatorays,
@@ -4147,6 +4120,9 @@
 	},
 /turf/open/floor/iron/large,
 /area/xenoarch/lavaland/gym)
+"cNf" = (
+/turf/open/lava/smooth/lava_land_surface/standard_air,
+/area/lavaland/underground/xenoarch/caloriteresearch)
 "cNt" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/decal/cleanable/dirt,
@@ -4187,7 +4163,7 @@
 /obj/item/stack/ore/calorite,
 /obj/item/stack/ore/calorite,
 /obj/item/stack/ore/calorite,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "cOY" = (
 /obj/structure/railing{
@@ -4219,7 +4195,7 @@
 	anchored = 1;
 	icon_state = "lantern-on"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "cPy" = (
 /turf/closed/wall,
@@ -4243,7 +4219,7 @@
 	pixel_y = -1;
 	pixel_x = 7
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "cPK" = (
 /mob/living/simple_animal/hostile/feed/chocolate_slime/creambeast,
@@ -4277,9 +4253,7 @@
 "cQK" = (
 /obj/effect/turf_decal/stripes/asteroid,
 /obj/structure/railing,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "cQT" = (
 /obj/item/clothing/head/helmet/skull{
@@ -4527,7 +4501,7 @@
 /obj/effect/turf_decal/caution{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "cYy" = (
 /obj/structure/table,
@@ -4957,9 +4931,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "dpj" = (
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/public)
 "dpB" = (
 /obj/structure/window/calorite/fulltile,
@@ -5117,14 +5089,14 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "dvy" = (
 /obj/machinery/conveyor{
 	dir = 6
 	},
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "dvW" = (
 /obj/structure/flora/rock/pile,
@@ -5311,7 +5283,7 @@
 	pixel_y = -6
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "dDv" = (
 /obj/machinery/conveyor{
@@ -5323,7 +5295,7 @@
 "dDZ" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/ore_box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "dEg" = (
 /obj/structure/stone_tile/cracked,
@@ -5360,7 +5332,7 @@
 	},
 /obj/structure/broken_flooring/singular/always_floorplane/directional/east,
 /obj/structure/broken_flooring/singular/always_floorplane/directional/south,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "dGn" = (
 /obj/effect/turf_decal/stripes/line,
@@ -5521,7 +5493,7 @@
 /turf/open/floor/iron/dark/smooth_edge,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "dNU" = (
-/turf/open/floor/iron/recharge_floor/airless,
+/turf/open/floor/iron/recharge_floor,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "dOc" = (
 /obj/machinery/disposal/bin,
@@ -5690,7 +5662,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/machinery/porta_turret/syndicate/fattening/heavy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "dST" = (
 /obj/effect/decal/cleanable/garbage,
@@ -5756,7 +5728,7 @@
 	dir = 8
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "dTV" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -5799,7 +5771,7 @@
 	dir = 4;
 	plane = -3
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "dUJ" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/warning{
@@ -5860,7 +5832,7 @@
 	dir = 10
 	},
 /obj/machinery/light/floor,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "dXC" = (
 /obj/effect/turf_decal/stripes/line{
@@ -5984,7 +5956,7 @@
 /obj/effect/turf_decal/caution/stand_clear{
 	dir = 4
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "edg" = (
 /obj/structure/dresser,
@@ -6062,7 +6034,7 @@
 /area/lavaland/underground/xenoarch/donut_factory)
 "egb" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "egp" = (
 /obj/structure/cable,
@@ -6135,7 +6107,7 @@
 "eiY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/broken_flooring/plating/directional/north,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "ejC" = (
 /obj/item/flashlight/lamp{
@@ -6220,7 +6192,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "elX" = (
 /obj/effect/turf_decal/siding/wideplating_new,
@@ -6342,7 +6314,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch/unpowered)
 "erm" = (
 /obj/effect/turf_decal/siding/dark{
@@ -6357,7 +6329,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "esk" = (
 /obj/structure/trash_pile,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "esH" = (
 /obj/machinery/door/airlock/maintenance{
@@ -6419,7 +6391,7 @@
 "euo" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "euK" = (
 /obj/effect/turf_decal/trimline/purple/line{
@@ -6461,7 +6433,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "ewc" = (
 /obj/effect/turf_decal/stripes/line{
@@ -6636,7 +6608,7 @@
 /obj/effect/turf_decal/stripes/asteroid,
 /obj/structure/railing,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "eDk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6794,7 +6766,7 @@
 	pixel_x = 0;
 	pixel_y = -32
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "eIC" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -6820,7 +6792,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/machinery/porta_turret/syndicate/fattening,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "eJW" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6868,7 +6840,7 @@
 "eNh" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "eNK" = (
 /obj/structure/sign/warning,
@@ -6913,7 +6885,7 @@
 /area/xenoarch/lavaland/maint_east)
 "eOQ" = (
 /obj/structure/closet/crate/trashcart,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "ePr" = (
 /obj/machinery/conveyor{
@@ -6945,7 +6917,7 @@
 	dir = 1
 	},
 /obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "eQG" = (
 /obj/effect/turf_decal/tile/brown/diagonal_centre{
@@ -6966,9 +6938,7 @@
 	opacity = 0;
 	dir = 4
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "eQO" = (
 /obj/effect/turf_decal/siding/wideplating/terracotta{
@@ -7040,7 +7010,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "eSr" = (
 /obj/effect/turf_decal{
@@ -7300,7 +7270,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/holofloor/stairs/right,
+/turf/open/floor/iron/stairs/medium/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "fbx" = (
 /turf/open/floor/wood,
@@ -7331,7 +7301,7 @@
 "fcO" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "fcS" = (
 /obj/item/flashlight/lantern/on{
@@ -7437,7 +7407,7 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "fis" = (
 /obj/structure/closet/firecloset,
@@ -7702,7 +7672,7 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
-/turf/open/openspace,
+/turf/open/openspace/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "frH" = (
 /obj/effect/turf_decal/siding/wood{
@@ -7764,7 +7734,7 @@
 "ftm" = (
 /obj/effect/turf_decal/box,
 /obj/structure/closet/crate/miningcar,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "ftn" = (
 /obj/item/chair,
@@ -7811,6 +7781,10 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/xenoarch/lavaland/gen)
+"fvI" = (
+/obj/structure/lattice,
+/turf/open/lava/smooth/lava_land_surface/standard_air,
+/area/lavaland/underground/xenoarch/caloriteresearch)
 "fvN" = (
 /obj/machinery/light/floor,
 /mob/living/simple_animal/hostile/feed/chocolate_slime,
@@ -7835,7 +7809,7 @@
 "fxy" = (
 /obj/structure/lattice,
 /obj/structure/fans/tiny/invisible,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "fyH" = (
 /obj/structure/chair/office/light{
@@ -7930,7 +7904,7 @@
 /area/lavaland/underground)
 "fCx" = (
 /obj/structure/closet/emcloset,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "fCz" = (
 /obj/structure/flora/grass/jungle/a/style_random,
@@ -7950,7 +7924,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "fDA" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -8053,7 +8027,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "fGK" = (
 /obj/effect/turf_decal/tile/purple,
@@ -8520,7 +8494,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "fYN" = (
 /obj/structure/table/reinforced,
@@ -8621,9 +8595,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/public)
 "gcj" = (
 /obj/effect/turf_decal/siding/dark{
@@ -8751,7 +8723,7 @@
 	pixel_x = -8
 	},
 /obj/structure/table/wood/fancy/orange,
-/turf/open/floor/mineral/calorite/strong,
+/turf/open/floor/mineral/calorite/strong/lavaland_atmos,
 /area/lavaland/underground)
 "ggw" = (
 /obj/structure/curtain/cloth,
@@ -8973,9 +8945,7 @@
 	dir = 8
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "gol" = (
 /obj/machinery/light{
@@ -9163,7 +9133,7 @@
 	},
 /obj/structure/flora/rock,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "gvg" = (
 /obj/structure/closet/cabinet,
@@ -9275,7 +9245,7 @@
 	color = "#991e18";
 	dir = 8
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "gzC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -9347,11 +9317,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/underground)
-"gBP" = (
-/obj/structure/girder,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "gCi" = (
 /obj/machinery/door/airlock/external,
@@ -9434,7 +9400,7 @@
 /area/lavaland/underground/xenoarch/donut_factory)
 "gHO" = (
 /obj/structure/lattice/catwalk/mining,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "gIc" = (
 /obj/effect/light_emitter,
@@ -9562,7 +9528,7 @@
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/door/airlock/hatch,
 /obj/effect/turf_decal/delivery,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "gMZ" = (
 /obj/structure/closet/crate,
@@ -9634,7 +9600,7 @@
 /turf/open/floor/iron/white/small,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "gQo" = (
-/turf/open/lava/smooth,
+/turf/open/lava/smooth/lava_land_surface/standard_air,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "gQJ" = (
 /obj/effect/turf_decal/siding/wood{
@@ -9710,7 +9676,7 @@
 	pixel_x = -5
 	},
 /obj/structure/table/wood/fancy/orange,
-/turf/open/floor/mineral/calorite/strong,
+/turf/open/floor/mineral/calorite/strong/lavaland_atmos,
 /area/lavaland/underground)
 "gTM" = (
 /obj/effect/turf_decal/trimline/brown/filled/warning{
@@ -9773,7 +9739,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "gVH" = (
 /obj/structure/holosign/barrier/atmos,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "gVL" = (
 /obj/effect/turf_decal/siding/white{
@@ -9827,7 +9793,7 @@
 "gWq" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /obj/structure/holosign/barrier/atmos,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "gWu" = (
 /obj/effect/decal/cleanable/ash,
@@ -10031,7 +9997,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "heK" = (
 /obj/machinery/light/floor,
@@ -10069,7 +10035,7 @@
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "hfR" = (
 /obj/structure/table/wood,
@@ -10090,7 +10056,7 @@
 /obj/effect/turf_decal/caution{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "hgl" = (
 /obj/item/reagent_containers/applicator/pill/appetite_stimulant{
@@ -10164,9 +10130,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "hho" = (
 /obj/effect/turf_decal/siding/wood,
@@ -10553,7 +10517,7 @@
 	use_holiday_colors = 0
 	},
 /obj/structure/flora/rock,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "huk" = (
 /obj/effect/light_emitter/tendril,
@@ -10681,7 +10645,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "hxY" = (
 /obj/structure/disposalpipe/segment{
@@ -10910,11 +10874,11 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 5
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "hDY" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "hEh" = (
 /obj/effect/turf_decal/siding/dark_red{
@@ -10955,7 +10919,7 @@
 "hGF" = (
 /obj/structure/ore_box,
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "hGP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10979,7 +10943,7 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 1
 	},
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "hHU" = (
 /obj/structure/marker_beacon/fuchsia{
@@ -10987,7 +10951,7 @@
 	pixel_y = -6
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "hHV" = (
 /obj/effect/turf_decal/tile/blue,
@@ -11013,7 +10977,7 @@
 	dir = 2
 	},
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "hIv" = (
 /obj/structure/bookcase/random,
@@ -11144,7 +11108,7 @@
 	},
 /obj/effect/turf_decal/box/corners,
 /obj/structure/ore_box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "hMj" = (
 /obj/structure/filingcabinet,
@@ -11229,12 +11193,12 @@
 	icon_state = "siding_plain_end"
 	},
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/lowerlevel)
 "hOp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "hPf" = (
 /obj/machinery/vending/cigarette{
@@ -11278,7 +11242,7 @@
 	use_holiday_colors = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "hQG" = (
 /obj/machinery/door/airlock{
@@ -11318,7 +11282,7 @@
 	pixel_y = -8;
 	pixel_x = 10
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "hSN" = (
 /obj/structure/railing{
@@ -11400,7 +11364,7 @@
 	dir = 6
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "hUM" = (
 /obj/effect/turf_decal{
@@ -11413,7 +11377,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "hUS" = (
 /obj/effect/turf_decal/caution{
@@ -11623,7 +11587,7 @@
 "hZE" = (
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "iaW" = (
 /obj/structure/sign/warning/secure_area/directional/north,
@@ -11732,7 +11696,7 @@
 	dir = 4
 	},
 /obj/structure/trap/belch,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "ieL" = (
 /obj/machinery/duct,
@@ -12356,7 +12320,7 @@
 /area/lavaland/underground)
 "iAL" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "iAO" = (
 /obj/structure/mecha_wreckage/ripley/mk2,
@@ -12407,7 +12371,7 @@
 	use_holiday_colors = 0
 	},
 /obj/structure/flora/rock,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "iBS" = (
 /obj/machinery/light{
@@ -12499,7 +12463,7 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "iEY" = (
-/turf/open/openspace,
+/turf/open/openspace/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "iFI" = (
 /obj/machinery/space_heater,
@@ -12557,9 +12521,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "iKN" = (
 /obj/structure/fence{
@@ -12715,7 +12677,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "iQR" = (
 /obj/item/pickaxe/improvised,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/misc/asteroid/basalt,
 /area/lavaland/underground)
 "iQZ" = (
 /obj/machinery/light{
@@ -12785,7 +12747,7 @@
 /area/xenoarch/lavaland/foyer)
 "iSl" = (
 /obj/structure/lattice,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "iTc" = (
 /obj/effect/turf_decal/siding/dark,
@@ -12806,7 +12768,7 @@
 /area/lavaland/underground/xenoarch/donut_factory)
 "iUg" = (
 /obj/structure/trash_pile,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "iUu" = (
 /obj/effect/turf_decal/stripes/line{
@@ -13107,7 +13069,7 @@
 "jhN" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "jih" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -13185,7 +13147,7 @@
 /area/lavaland/underground/xenoarch/candy_outpost)
 "jkD" = (
 /obj/structure/lattice/catwalk,
-/turf/open/floor/concrete/smooth,
+/turf/open/floor/concrete/smooth/lavaland_atmos,
 /area/lavaland/underground)
 "jkL" = (
 /obj/structure/cable,
@@ -13441,7 +13403,7 @@
 	pixel_x = 8
 	},
 /obj/item/pickaxe,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "jtd" = (
 /obj/effect/turf_decal/siding/dark{
@@ -13515,17 +13477,6 @@
 	},
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/donut_factory)
-"jwJ" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/asteroid{
-	dir = 1
-	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/lavaland/underground)
 "jxa" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/iron,
@@ -13740,7 +13691,7 @@
 /area/xenoarch/lavaland/public/powered)
 "jEk" = (
 /obj/structure/lattice/catwalk/mining,
-/turf/open/openspace,
+/turf/open/openspace/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "jER" = (
 /turf/open/floor/engine,
@@ -13891,7 +13842,7 @@
 /obj/structure/railing/unbreakable{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "jJj" = (
 /obj/structure/disposalpipe/segment{
@@ -14181,7 +14132,7 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "jTo" = (
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "jUz" = (
 /turf/closed/wall/mineral/iron,
@@ -14206,7 +14157,7 @@
 	dir = 1;
 	id = "fatchamber"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "jVY" = (
 /obj/effect/turf_decal/tile/purple{
@@ -14226,7 +14177,7 @@
 /area/xenoarch/lavaland/eng)
 "jWs" = (
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "jWA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -14263,7 +14214,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "jXM" = (
 /obj/structure/falsewall,
@@ -14325,7 +14276,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/machinery/porta_turret/syndicate/fattening/heavy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "kav" = (
 /obj/structure/cable,
@@ -14546,7 +14497,7 @@
 /obj/effect/turf_decal/caution{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "khO" = (
 /obj/structure/table,
@@ -14576,7 +14527,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "kig" = (
 /obj/effect/decal/cleanable/glass,
@@ -14661,7 +14612,7 @@
 /obj/effect/turf_decal,
 /obj/structure/cable,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "kkH" = (
 /obj/structure/bookcase,
@@ -14717,7 +14668,7 @@
 /area/xenoarch/lavaland/public)
 "kmA" = (
 /obj/machinery/light/directional/north,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "kmF" = (
 /obj/effect/turf_decal/siding/dark{
@@ -14800,7 +14751,7 @@
 /turf/open/floor/iron/white/small,
 /area/xenoarch/lavaland/gen)
 "krL" = (
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/construction)
 "krP" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -14891,7 +14842,7 @@
 /area/lavaland/underground)
 "kuB" = (
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "kva" = (
 /obj/structure/closet/firecloset,
@@ -15069,7 +15020,7 @@
 /obj/structure/railing/unbreakable{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "kzl" = (
 /obj/structure/disposalpipe/segment{
@@ -15129,7 +15080,7 @@
 /obj/structure/statue/calorite/fatty,
 /obj/structure/table/wood/fancy/orange,
 /obj/effect/light_emitter/tendril,
-/turf/open/floor/mineral/calorite/strong,
+/turf/open/floor/mineral/calorite/strong/lavaland_atmos,
 /area/lavaland/underground)
 "kBH" = (
 /obj/structure/fans/tiny,
@@ -15150,9 +15101,9 @@
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "kCo" = (
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/underground/xenoarch/caloriteresearch)
+/obj/structure/barricade/wooden,
+/turf/open/misc/asteroid/basalt,
+/area/lavaland/underground)
 "kCR" = (
 /obj/structure/closet/wardrobe/pjs,
 /obj/effect/turf_decal/trimline/dark_red/line,
@@ -15382,7 +15333,7 @@
 	pixel_x = -7;
 	pixel_y = 10
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/misc/asteroid/basalt,
 /area/lavaland/underground)
 "kLH" = (
 /obj/effect/turf_decal/tile/purple{
@@ -15611,7 +15562,7 @@
 "kUc" = (
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /obj/structure/trap/fattening,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "kUv" = (
 /obj/structure/flora/grass/jungle/b/style_random,
@@ -15650,7 +15601,7 @@
 /area/xenoarch/lavaland/maint_east)
 "kVX" = (
 /obj/structure/trash_pile,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "kWu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -15744,7 +15695,7 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "kYT" = (
 /obj/machinery/airalarm/directional/east,
@@ -15755,7 +15706,7 @@
 /area/lavaland/underground/xenoarch/candy_outpost)
 "lak" = (
 /obj/effect/turf_decal/trimline/purple/line,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "laC" = (
 /obj/structure/ladder{
@@ -15836,7 +15787,7 @@
 /area/lavaland/underground/xenoarch/candyland)
 "lcw" = (
 /obj/structure/broken_flooring/plating/directional/east,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "lcD" = (
 /obj/effect/decal/cleanable/glass,
@@ -15844,7 +15795,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "lcV" = (
 /obj/effect/turf_decal/box,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "lcW" = (
 /obj/effect/turf_decal/siding/dark{
@@ -16031,7 +15982,7 @@
 "lky" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "lkA" = (
 /turf/closed/wall,
@@ -16072,7 +16023,7 @@
 	dir = 1
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "lnb" = (
 /obj/machinery/light/floor,
@@ -16366,7 +16317,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "lvm" = (
 /obj/structure/mecha_wreckage/ripley,
-/turf/open/floor/iron/recharge_floor/airless,
+/turf/open/floor/iron/recharge_floor,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "lvq" = (
 /obj/structure/weightmachine/weightlifter,
@@ -16402,7 +16353,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "lwz" = (
 /obj/item/stack/sheet/mineral/sandstone/thirty,
@@ -16921,7 +16872,7 @@
 	dir = 8
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "lKU" = (
 /obj/structure/closet/emcloset,
@@ -16968,7 +16919,7 @@
 	},
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "lNC" = (
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_east)
 "lOm" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -17197,7 +17148,7 @@
 "lVP" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/fans/tiny/invisible,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "lVT" = (
 /obj/structure/chair/sofa/bench{
@@ -17367,7 +17318,7 @@
 	use_holiday_colors = 0
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "mbE" = (
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -17391,7 +17342,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "mbV" = (
 /obj/effect/turf_decal/siding/dark{
@@ -17448,7 +17399,7 @@
 /obj/effect/turf_decal/tile/neutral/half{
 	dir = 1
 	},
-/turf/open/floor/concrete/smooth,
+/turf/open/floor/concrete/smooth/lavaland_atmos,
 /area/lavaland/underground)
 "mdJ" = (
 /obj/effect/turf_decal/trimline/brown/line{
@@ -17460,7 +17411,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/eng)
 "meu" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -17579,7 +17530,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "mjs" = (
 /obj/structure/chair/sofa/left,
@@ -17612,7 +17563,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "mkG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -17636,7 +17587,7 @@
 "mlv" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/fuchsia,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "mlw" = (
 /obj/machinery/photocopier,
@@ -17675,7 +17626,7 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 1
 	},
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "mmV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -17691,9 +17642,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "mnz" = (
 /obj/effect/spawner/random/engineering/tracking_beacon,
@@ -17702,7 +17651,7 @@
 "mnH" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_east)
 "mnO" = (
 /obj/effect/turf_decal/tile/brown/diagonal_centre{
@@ -17720,7 +17669,7 @@
 	dir = 10
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "mot" = (
 /obj/effect/turf_decal/siding,
@@ -17951,7 +17900,7 @@
 "mwI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "mxc" = (
 /obj/structure/table,
@@ -18131,7 +18080,7 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/machinery/porta_turret/syndicate/fattening,
 /obj/effect/turf_decal/box,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "mCT" = (
 /obj/item/restraints/legcuffs/beartrap,
@@ -18150,7 +18099,7 @@
 	pixel_x = 0;
 	pixel_y = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "mDd" = (
 /obj/effect/turf_decal/stripes/line{
@@ -18188,7 +18137,7 @@
 /obj/effect/turf_decal/box,
 /obj/structure/closet/l3closet,
 /obj/item/clothing/mask/gas/atmos/glass,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "mEM" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
@@ -18326,7 +18275,7 @@
 /area/xenoarch/lavaland/gen)
 "mKb" = (
 /obj/effect/turf_decal/tile/neutral/half,
-/turf/open/floor/concrete/smooth,
+/turf/open/floor/concrete/smooth/lavaland_atmos,
 /area/lavaland/underground)
 "mKD" = (
 /turf/open/floor/iron/smooth,
@@ -18574,7 +18523,7 @@
 "mSY" = (
 /obj/effect/turf_decal/siding,
 /obj/effect/turf_decal/tile/neutral/half,
-/turf/open/floor/concrete/smooth,
+/turf/open/floor/concrete/smooth/lavaland_atmos,
 /area/lavaland/underground)
 "mTn" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -18714,7 +18663,7 @@
 	dir = 8
 	},
 /obj/structure/ore_box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "mWu" = (
 /obj/effect/turf_decal/stripes/line{
@@ -18792,7 +18741,7 @@
 "mZs" = (
 /obj/effect/turf_decal/box,
 /obj/structure/mecha_wreckage/ripley,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "mZE" = (
 /obj/structure/broken_flooring/singular/always_floorplane/directional/east,
@@ -19004,7 +18953,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "ngA" = (
 /obj/structure/girder,
-/turf/open/floor/iron,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "ngE" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -19037,7 +18986,7 @@
 	dir = 6
 	},
 /obj/machinery/light/floor,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "nhw" = (
 /obj/structure/disposalpipe/segment{
@@ -19267,7 +19216,7 @@
 "nmZ" = (
 /obj/effect/turf_decal,
 /obj/effect/turf_decal/caution,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "nne" = (
 /obj/machinery/conveyor{
@@ -19348,7 +19297,7 @@
 	name = "landing marker";
 	picked_color = "Burgundy"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "nqv" = (
 /obj/effect/turf_decal/stripes/line{
@@ -19617,7 +19566,7 @@
 	dir = 5
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "nBl" = (
 /obj/structure/decorative/shelf/crates,
@@ -19831,7 +19780,7 @@
 /obj/effect/turf_decal{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "nIM" = (
 /obj/structure/disposalpipe/segment,
@@ -19868,15 +19817,8 @@
 	},
 /mob/living/simple_animal/hostile/fatten/magehand,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
-"nKg" = (
-/obj/effect/turf_decal/stripes/asteroid,
-/obj/structure/railing,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/lavaland/underground)
 "nKr" = (
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 1
@@ -19942,7 +19884,7 @@
 	pixel_y = -1
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "nMK" = (
 /obj/effect/turf_decal/siding/dark{
@@ -20005,7 +19947,7 @@
 "nOX" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/turf_decal/trimline/yellow/warning,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "nPw" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
@@ -20118,7 +20060,7 @@
 /turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "nRW" = (
-/turf/open/lava/smooth,
+/turf/open/lava/smooth/lava_land_surface/standard_air,
 /area/lavaland/underground)
 "nSa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -20149,7 +20091,7 @@
 /obj/effect/turf_decal/tile/neutral/half{
 	dir = 1
 	},
-/turf/open/floor/concrete/smooth,
+/turf/open/floor/concrete/smooth/lavaland_atmos,
 /area/lavaland/underground)
 "nSF" = (
 /obj/structure/girder,
@@ -20314,7 +20256,7 @@
 "nWa" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/chair/office,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "nWf" = (
 /obj/item/reagent_containers/cup/bottle/succubus_milk{
@@ -20463,7 +20405,7 @@
 "nZU" = (
 /obj/effect/turf_decal/stripes/asteroid,
 /obj/structure/railing,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "nZZ" = (
 /obj/effect/spawner/structure/window,
@@ -20500,7 +20442,7 @@
 "oaS" = (
 /obj/effect/turf_decal/box,
 /obj/item/mecha_parts/part/ripley_right_arm,
-/turf/open/floor/iron/recharge_floor/airless,
+/turf/open/floor/iron/recharge_floor/lavaland_atmos,
 /area/lavaland/underground)
 "obG" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -20516,7 +20458,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "oct" = (
 /obj/structure/girder,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "ocG" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -20542,7 +20484,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "odu" = (
 /obj/effect/turf_decal/tile/brown/diagonal_centre{
@@ -20565,13 +20507,13 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/eng)
 "oeM" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "oeY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -20744,11 +20686,11 @@
 "okq" = (
 /obj/effect/turf_decal/box,
 /obj/structure/closet/l3closet,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "okx" = (
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "okC" = (
 /obj/machinery/door/airlock/maintenance{
@@ -21057,7 +20999,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "otY" = (
 /obj/structure/stone_tile/block{
@@ -21219,9 +21161,7 @@
 "ozI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/public)
 "ozX" = (
 /obj/machinery/light{
@@ -21469,7 +21409,7 @@
 "oIZ" = (
 /obj/effect/turf_decal,
 /obj/structure/cable,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "oJs" = (
 /obj/machinery/duct,
@@ -21630,7 +21570,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "oPm" = (
 /obj/machinery/light/small{
@@ -21701,7 +21641,7 @@
 	dir = 8
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "oQy" = (
 /obj/structure/closet/crate,
@@ -21923,7 +21863,7 @@
 	use_holiday_colors = 0
 	},
 /obj/structure/flora/rock/pile,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pbo" = (
 /obj/structure/reagent_dispensers/watertank/high,
@@ -22003,12 +21943,12 @@
 /obj/effect/turf_decal{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "pdW" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/ore_box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "peA" = (
 /obj/effect/turf_decal/siding{
@@ -22427,7 +22367,7 @@
 	dir = 8
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "puz" = (
 /obj/structure/chair/milking_machine,
@@ -22471,7 +22411,7 @@
 	},
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pwh" = (
 /obj/structure/extinguisher_cabinet/directional/east,
@@ -22490,7 +22430,7 @@
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "pwX" = (
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "pxa" = (
 /obj/structure/rack/shelf,
@@ -22560,7 +22500,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "pzJ" = (
 /obj/structure/flora/rock/pile/jungle,
@@ -22600,7 +22540,7 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "pAj" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "pAm" = (
 /obj/machinery/disposal/bin,
@@ -23152,7 +23092,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "pVe" = (
 /obj/effect/turf_decal/siding/white{
@@ -23205,7 +23145,7 @@
 "pVT" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/turf_decal/trimline/purple/line,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "pWq" = (
 /obj/structure/disposalpipe/segment{
@@ -23371,7 +23311,7 @@
 	},
 /obj/structure/rack/shelf,
 /obj/item/pickaxe/drill,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "qdQ" = (
 /obj/item/gun/ballistic/shotgun/lethal{
@@ -23477,8 +23417,9 @@
 /turf/open/floor/iron/smooth,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "qkt" = (
-/turf/open/floor/holofloor/stairs/medium,
-/area/lavaland/underground/xenoarch/candy_outpost)
+/obj/structure/fans/tiny/invisible,
+/turf/open/lava/smooth/lava_land_surface/standard_air,
+/area/lavaland/underground)
 "qkF" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 1
@@ -23547,7 +23488,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/construction)
 "qlI" = (
 /obj/structure/flora/candy/bluewhite1,
@@ -23569,9 +23510,7 @@
 /obj/effect/turf_decal/stripes/asteroid,
 /obj/structure/marker_beacon/burgundy,
 /obj/structure/railing,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "qmC" = (
 /obj/structure/bed/double,
@@ -23595,7 +23534,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "qne" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -23790,7 +23729,7 @@
 	dir = 1
 	},
 /obj/structure/closet/crate,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "qwf" = (
 /obj/structure/rack/shelf,
@@ -23841,7 +23780,7 @@
 	dir = 1
 	},
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/lowerlevel)
 "qyz" = (
 /obj/structure/chair/beanbag/purple{
@@ -23950,7 +23889,7 @@
 /obj/item/trash/fatoray_scrap1,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "qCo" = (
 /obj/structure/stone_tile/block/cracked{
@@ -24084,7 +24023,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "qGJ" = (
 /obj/structure/window/calorite/unanchored/spawner/directional/east,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "qHb" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -24344,7 +24283,7 @@
 /obj/effect/turf_decal{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "qOO" = (
 /obj/item/shard{
@@ -24422,7 +24361,7 @@
 "qRR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "qSs" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -24954,7 +24893,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "rkQ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -25032,7 +24971,7 @@
 "rmV" = (
 /obj/effect/turf_decal/trimline/yellow/filled/warning,
 /obj/effect/turf_decal/arrows,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "rmY" = (
 /obj/item/flashlight/lantern{
@@ -25045,7 +24984,7 @@
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "rnf" = (
 /obj/effect/turf_decal/tile/brown{
@@ -25180,7 +25119,7 @@
 /turf/open/indestructible/hotelwood,
 /area/xenoarch/lavaland/maint_east)
 "rpu" = (
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "rpy" = (
 /turf/open/floor/iron/edge{
@@ -25399,7 +25338,7 @@
 "rxq" = (
 /obj/structure/table,
 /obj/item/weldingtool,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "rxs" = (
 /obj/structure/cable,
@@ -25590,7 +25529,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "rGd" = (
 /obj/structure/table,
@@ -25635,7 +25574,7 @@
 /obj/effect/turf_decal{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "rHN" = (
 /obj/structure/rack/shelf,
@@ -25675,7 +25614,7 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "rKb" = (
 /obj/structure/table,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "rKh" = (
 /obj/structure/table,
@@ -25894,9 +25833,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "rSq" = (
 /obj/machinery/conveyor{
@@ -25940,7 +25877,7 @@
 /obj/effect/turf_decal/trimline/white/warning{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "rUf" = (
 /obj/structure/disposalpipe/segment{
@@ -26004,7 +25941,7 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "rWq" = (
 /obj/structure/railing{
@@ -26099,12 +26036,12 @@
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 1
 	},
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "sas" = (
 /obj/structure/broken_flooring/plating/always_floorplane/directional,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "saT" = (
 /obj/item/soap/deluxe{
@@ -26140,9 +26077,7 @@
 "sbx" = (
 /obj/structure/closet/emcloset,
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "sbG" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -26198,14 +26133,14 @@
 /area/lavaland/underground/xenoarch/calorite_temple)
 "sgc" = (
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "sgl" = (
 /obj/structure/shipping_container/gato{
 	pixel_x = -8;
 	pixel_y = 5
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "sgt" = (
 /obj/effect/turf_decal/delivery,
@@ -26251,7 +26186,7 @@
 	dir = 1
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "sie" = (
 /turf/closed/indestructible/chocolate,
@@ -26333,7 +26268,7 @@
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge{
 	use_holiday_colors = 0
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "skH" = (
 /obj/machinery/light{
@@ -26393,7 +26328,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "smG" = (
 /obj/structure/cable,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "smK" = (
 /obj/effect/turf_decal/siding/dark{
@@ -26460,7 +26395,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/holofloor/stairs/left,
+/turf/open/floor/iron/stairs/medium/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "spc" = (
 /obj/effect/turf_decal/stripes/line{
@@ -26493,7 +26428,7 @@
 	pixel_x = -5;
 	pixel_y = 0
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "spE" = (
 /obj/structure/sign/gato,
@@ -26520,7 +26455,7 @@
 /area/lavaland/underground/xenoarch/candy_outpost)
 "srj" = (
 /obj/effect/turf_decal,
-/turf/open/floor/iron/stairs/medium,
+/turf/open/floor/iron/stairs/medium/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "srH" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -26567,7 +26502,7 @@
 "stO" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/structure/closet/emcloset,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "sum" = (
 /obj/item/toy/katana,
@@ -26591,7 +26526,7 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch/unpowered)
 "svd" = (
 /obj/machinery/holopad,
@@ -26636,7 +26571,7 @@
 /area/xenoarch/lavaland/foyer)
 "swl" = (
 /obj/structure/girder,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "swF" = (
 /obj/structure/chair/wood{
@@ -26872,7 +26807,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "sFc" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -26953,7 +26888,7 @@
 	pixel_x = 0;
 	pixel_y = -32
 	},
-/turf/open/openspace,
+/turf/open/openspace/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "sGB" = (
 /obj/structure/table/reinforced,
@@ -27005,7 +26940,7 @@
 /area/xenoarch/lavaland/maint_east)
 "sHB" = (
 /obj/structure/closet/crate,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "sJj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27204,7 +27139,7 @@
 "sNE" = (
 /obj/structure/trash_pile,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "sOe" = (
 /obj/item/kirbyplants/random,
@@ -27317,7 +27252,7 @@
 	icon_state = "siding_plain_end"
 	},
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/lowerlevel)
 "sRL" = (
 /obj/structure/chair/sofa/left/brown{
@@ -27395,7 +27330,7 @@
 /area/lavaland/underground/xenoarch/candy_outpost)
 "sVc" = (
 /obj/item/grenade/chem_grenade/galbanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "sVe" = (
 /obj/machinery/smartfridge/wooden,
@@ -27497,7 +27432,7 @@
 /obj/effect/turf_decal{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "sZa" = (
 /obj/structure/table/wood/fancy/orange,
@@ -27608,7 +27543,7 @@
 /turf/open/floor/iron/dark/textured_edge,
 /area/xenoarch/lavaland/gym)
 "tca" = (
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "tcr" = (
 /obj/structure/chair/comfy/black{
@@ -27965,7 +27900,7 @@
 "tpb" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/machinery/porta_turret/syndicate/fattening,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tpg" = (
 /obj/machinery/door/firedoor,
@@ -28062,7 +27997,7 @@
 	dir = 1;
 	icon_state = "siding_plain_end"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "tuF" = (
 /obj/structure/broken_flooring/pile/directional/east,
@@ -28144,7 +28079,7 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "twS" = (
 /obj/structure/cable,
@@ -28166,7 +28101,7 @@
 "tyC" = (
 /obj/structure/gs13_fluff/brokenhose,
 /obj/structure/cable,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tzE" = (
 /obj/machinery/conveyor{
@@ -28438,7 +28373,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "tIO" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tIY" = (
 /obj/structure/window/calorite/fulltile,
@@ -28545,7 +28480,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "tMC" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "tML" = (
 /turf/open/floor/iron/smooth_edge,
@@ -28620,7 +28555,7 @@
 /area/xenoarch/lavaland/gen)
 "tON" = (
 /obj/structure/broken_flooring/plating/always_floorplane/directional/west,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tOX" = (
 /obj/structure/disposalpipe/segment,
@@ -28783,7 +28718,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tUf" = (
 /obj/effect/turf_decal/bot,
@@ -28898,7 +28833,7 @@
 "tWR" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/structure/cable,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "tXc" = (
 /obj/effect/turf_decal/stripes/line{
@@ -28997,7 +28932,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/caution,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "tYN" = (
 /obj/machinery/door/airlock/public,
@@ -29025,7 +28960,7 @@
 	pixel_x = 0;
 	pixel_y = -4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "tZK" = (
 /obj/structure/trap/fattening,
@@ -29311,7 +29246,7 @@
 /turf/open/floor/mineral/calorite/hide,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "uko" = (
-/turf/open/openspace,
+/turf/open/openspace/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "ukI" = (
 /obj/structure/curtain,
@@ -29349,7 +29284,7 @@
 /obj/item/climbing_hook,
 /obj/item/climbing_hook,
 /obj/item/climbing_hook,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "ulN" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -29465,7 +29400,7 @@
 	dir = 9
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "uob" = (
 /obj/structure/railing{
@@ -29501,8 +29436,13 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
+"uoF" = (
+/turf/open/floor/iron/stairs/medium/lavaland_atmos{
+	dir = 8
+	},
+/area/xenoarch/lavaland/public)
 "uoM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -29511,7 +29451,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "upe" = (
 /obj/machinery/vending/dinnerware{
@@ -29542,14 +29482,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/caloriteresearch)
-"upv" = (
-/obj/effect/turf_decal/stripes/asteroid,
-/obj/structure/railing,
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
-/area/lavaland/underground)
 "upI" = (
 /obj/structure/flora/candy/redwhite3,
 /obj/effect/light_emitter/tendril,
@@ -29642,7 +29574,7 @@
 	pixel_x = 8;
 	pixel_y = -2
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "urx" = (
 /obj/effect/turf_decal{
@@ -29651,7 +29583,7 @@
 /obj/effect/turf_decal/caution{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "urE" = (
 /obj/effect/turf_decal/siding/dark{
@@ -29750,7 +29682,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 2
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "uuk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29786,9 +29718,9 @@
 /turf/open/indestructible/chocolate,
 /area/lavaland/underground/xenoarch/candyland)
 "uvp" = (
-/obj/structure/girder,
-/turf/open/floor/plating/airless,
-/area/lavaland/underground/xenoarch/caloriteresearch)
+/obj/structure/flora/lollipop,
+/turf/open/candyfloor/lavaland_atmos,
+/area/lavaland/underground/xenoarch/candyland)
 "uvq" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -29979,7 +29911,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "uzb" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -30195,7 +30127,7 @@
 /obj/effect/turf_decal/box,
 /obj/item/storage/fancy/cigarettes/cigpack_candy,
 /obj/item/storage/fancy/cigarettes/cigpack_candy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "uGx" = (
 /obj/structure/broken_flooring/side/always_floorplane/directional/south,
@@ -30233,7 +30165,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground/xenoarch/donut_factory)
 "uIT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -30307,9 +30239,7 @@
 /obj/effect/mapping_helpers/airlock/access/any/science/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/atmos,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "uKd" = (
 /obj/structure/stone_tile/surrounding/cracked{
@@ -30343,7 +30273,7 @@
 "uLE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/holosign/barrier/atmos,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "uLJ" = (
 /obj/structure/rack/shelf,
@@ -30430,13 +30360,8 @@
 	},
 /area/xenoarch/lavaland/arch)
 "uPO" = (
-/obj/machinery/conveyor{
-	dir = 2;
-	id = "fatchamber"
-	},
-/obj/structure/window/reinforced/tinted/spawner/directional/east,
-/turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/underground/xenoarch/caloriteresearch)
+/turf/open/misc/asteroid/basalt,
+/area/lavaland/underground)
 "uPZ" = (
 /obj/structure/fluff/paper/stack{
 	dir = 10
@@ -30445,7 +30370,7 @@
 /area/lavaland/underground/xenoarch/candyland)
 "uQc" = (
 /obj/structure/broken_flooring/plating/directional/east,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "uQD" = (
 /obj/machinery/door/airlock{
@@ -30733,7 +30658,7 @@
 	use_holiday_colors = 0
 	},
 /obj/structure/broken_flooring/pile/always_floorplane/directional/north,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "vab" = (
 /obj/structure/stone_tile/block/cracked,
@@ -30980,7 +30905,7 @@
 "vjg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "vjH" = (
 /obj/machinery/light/floor,
@@ -31005,9 +30930,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "vkR" = (
 /obj/machinery/iv_drip/feeding_tube{
@@ -31207,7 +31130,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "vqx" = (
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -31222,7 +31145,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
 	dir = 8
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/donut_factory)
 "vrf" = (
 /obj/machinery/conveyor_switch{
@@ -31387,11 +31310,6 @@
 /obj/structure/window/calorite/spawner/directional/east,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/calorite_temple)
-"vwy" = (
-/turf/open/floor/holofloor/stairs{
-	dir = 8
-	},
-/area/xenoarch/lavaland/public)
 "vwz" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -31496,7 +31414,7 @@
 	dir = 1;
 	icon_state = "siding_plain_end"
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "vDq" = (
 /obj/structure/flora/candy/greenwhite1,
@@ -31628,7 +31546,7 @@
 	},
 /area/xenoarch/lavaland/construction)
 "vJJ" = (
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "vJM" = (
 /obj/item/kirbyplants/random,
@@ -31959,7 +31877,7 @@
 	dir = 4
 	},
 /obj/structure/closet/crate/miningcar,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "vUF" = (
 /obj/structure/door_assembly/door_assembly_vault,
@@ -32170,13 +32088,13 @@
 /turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "vZJ" = (
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "wac" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "wad" = (
 /obj/effect/turf_decal/siding/wood/corner,
@@ -32394,9 +32312,7 @@
 /obj/effect/turf_decal/arrows{
 	dir = 4
 	},
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/lavaland/underground/xenoarch/candyland)
 "wgw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -32492,9 +32408,7 @@
 "wig" = (
 /obj/machinery/door/firedoor,
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "wii" = (
 /obj/effect/decal/cleanable/dirt,
@@ -32569,7 +32483,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_east)
 "wlG" = (
 /obj/structure/trash_pile,
@@ -32602,7 +32516,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "wmL" = (
 /obj/structure/trash_pile,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "wmR" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -32740,7 +32654,7 @@
 	dir = 4
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_east)
 "wto" = (
 /obj/effect/turf_decal/tile/dark_red/diagonal_edge{
@@ -32768,7 +32682,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/maint_west)
 "wuy" = (
 /obj/item/folder/yellow,
@@ -32869,7 +32783,7 @@
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/xenoarch/lavaland/public)
 "wxD" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -33281,7 +33195,7 @@
 /obj/effect/turf_decal/box,
 /obj/item/pickaxe,
 /obj/item/clothing/mask/gas/atmos/glass,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "wMH" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -33354,7 +33268,7 @@
 /obj/item/seeds/cannabis/death,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "wRe" = (
 /obj/effect/decal/cleanable/dirt,
@@ -33362,7 +33276,7 @@
 /area/xenoarch/lavaland/lowerlevel)
 "wRk" = (
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "wSg" = (
 /turf/open/floor/wood/parquet,
@@ -33391,7 +33305,7 @@
 	picked_color = "Burgundy"
 	},
 /obj/effect/turf_decal/box,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "wTP" = (
 /obj/structure/broken_flooring/corner/always_floorplane/directional/north,
@@ -33512,9 +33426,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "wZl" = (
 /obj/effect/spawner/random/trash/crushed_can{
@@ -33537,7 +33449,7 @@
 /obj/structure/broken_flooring/singular/always_floorplane/directional/south,
 /obj/structure/flora/rock/pile,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt/dark,
+/turf/open/misc/dirt/dark/station,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "wZn" = (
 /obj/structure/chair/stool/bar{
@@ -33557,7 +33469,7 @@
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 2
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "wZV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -33573,7 +33485,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground/xenoarch/donut_factory)
 "xaI" = (
 /obj/structure/flora/tree/jungle/small/style_6,
@@ -33587,7 +33499,7 @@
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xbz" = (
 /obj/structure/stairs/north,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "xch" = (
 /obj/machinery/door/firedoor,
@@ -33747,12 +33659,12 @@
 "xgx" = (
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground)
 "xgz" = (
 /obj/structure/girder,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xgK" = (
 /obj/machinery/disposal/bin,
@@ -34109,7 +34021,7 @@
 /turf/open/floor/iron/dark,
 /area/xenoarch/lavaland/foyer)
 "xtE" = (
-/turf/open/floor/concrete/smooth,
+/turf/open/floor/concrete/smooth/lavaland_atmos,
 /area/lavaland/underground)
 "xtJ" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -34118,7 +34030,7 @@
 "xtQ" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/porta_turret/syndicate/fattening,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "xud" = (
 /obj/machinery/recharge_station,
@@ -34212,7 +34124,7 @@
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "xxo" = (
 /obj/structure/barricade/security,
@@ -34306,7 +34218,7 @@
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
-/turf/open/floor/concrete,
+/turf/open/floor/concrete/lavaland_atmos,
 /area/lavaland/underground)
 "xAP" = (
 /obj/structure/gs13_fluff/brokenhose/scraps3,
@@ -34453,7 +34365,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "xIk" = (
 /obj/structure/table,
@@ -34768,7 +34680,7 @@
 "xPF" = (
 /obj/structure/table/wood/fancy/orange,
 /obj/item/melee/curator_whip/fattening,
-/turf/open/floor/mineral/calorite/strong,
+/turf/open/floor/mineral/calorite/strong/lavaland_atmos,
 /area/lavaland/underground)
 "xQw" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -34873,7 +34785,7 @@
 	dir = 6
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "xUW" = (
 /obj/structure/table/wood/poker,
@@ -34894,7 +34806,7 @@
 "xVz" = (
 /obj/effect/turf_decal/bot,
 /obj/item/climbing_hook,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "xVQ" = (
 /obj/effect/turf_decal/bot,
@@ -35064,7 +34976,7 @@
 "ycx" = (
 /obj/structure/lattice/catwalk/mining,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "ycy" = (
 /obj/structure/girder,
@@ -35074,9 +34986,7 @@
 "ycz" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
-/turf/open/floor/plating{
-	initial_gas_mix = "o2=14;n2=23;TEMP=300"
-	},
+/turf/open/floor/plating,
 /area/xenoarch/lavaland/eng)
 "ycG" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
@@ -35133,7 +35043,7 @@
 /area/xenoarch/lavaland/med)
 "ydc" = (
 /obj/structure/lattice,
-/turf/open/floor/iron/airless,
+/turf/open/floor/iron/lavaland,
 /area/lavaland/underground)
 "ydj" = (
 /obj/machinery/door/airlock/glass{
@@ -35279,7 +35189,7 @@
 	pixel_x = 0;
 	pixel_y = 32
 	},
-/turf/open/floor/plating/lavaland_baseturf,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "yid" = (
 /obj/machinery/vending/autodrobe{
@@ -35338,7 +35248,7 @@
 "yjL" = (
 /obj/machinery/door/airlock/public,
 /obj/structure/fans/tiny/invisible,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "yjR" = (
 /obj/item/reagent_containers/cup/beaker/large,
@@ -47724,7 +47634,7 @@ nZt
 nZt
 kHZ
 cay
-vwy
+uoF
 otT
 vZJ
 nOX
@@ -47982,7 +47892,7 @@ ubM
 hHU
 nZt
 cay
-vwy
+uoF
 otT
 vZJ
 nOX
@@ -114547,7 +114457,7 @@ kHZ
 kHZ
 kHZ
 cay
-vwy
+uoF
 otT
 vZJ
 avK
@@ -137086,7 +136996,7 @@ doL
 aNd
 doL
 rTE
-qkt
+bvZ
 vJJ
 utY
 fGQ
@@ -143978,9 +143888,9 @@ jkn
 jkn
 jkn
 jkn
-bVL
+lmO
 vHQ
-upv
+eCZ
 kHZ
 kHZ
 kHZ
@@ -144236,9 +144146,9 @@ jkn
 jkn
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 kHZ
 kHZ
 kHZ
@@ -144494,9 +144404,9 @@ jkn
 jkn
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 jkn
 kHZ
 kHZ
@@ -144752,9 +144662,9 @@ jkn
 jkn
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 jkn
 jkn
 jkn
@@ -145010,9 +144920,9 @@ jkn
 jkn
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 jkn
 jkn
 jkn
@@ -145268,9 +145178,9 @@ jkn
 jkn
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 jkn
 jkn
 jkn
@@ -145526,9 +145436,9 @@ kHZ
 jkn
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 jkn
 jkn
 jkn
@@ -145784,9 +145694,9 @@ kHZ
 kHZ
 jkn
 jkn
-jwJ
+gBE
 vHQ
-nKg
+nZU
 jkn
 jkn
 jkn
@@ -146042,9 +145952,9 @@ foF
 kHZ
 kHZ
 kHZ
-bVL
+lmO
 vHQ
-upv
+eCZ
 jkn
 jkn
 jkn
@@ -146557,7 +146467,7 @@ dAd
 sie
 sie
 sie
-efe
+uvp
 kHZ
 kHZ
 kHZ
@@ -153557,7 +153467,7 @@ nEf
 nEf
 nEf
 nEf
-kHZ
+uPO
 nEf
 nEf
 nEf
@@ -153815,8 +153725,8 @@ nEf
 nEf
 nEf
 nEf
-jzg
-kHZ
+kCo
+uPO
 nEf
 nEf
 nEf
@@ -154074,7 +153984,7 @@ nEf
 nEf
 nEf
 nEf
-kHZ
+uPO
 nEf
 nEf
 nEf
@@ -154332,8 +154242,8 @@ nEf
 nEf
 nEf
 nEf
-kHZ
-kHZ
+uPO
+uPO
 nEf
 nEf
 nEf
@@ -154416,7 +154326,7 @@ kHZ
 tIO
 bVq
 pwX
-uvp
+oct
 aZS
 alc
 alc
@@ -154677,7 +154587,7 @@ tIO
 iAL
 uLE
 hfP
-pwX
+tby
 jVw
 jVw
 jVw
@@ -154849,7 +154759,7 @@ nEf
 nRW
 nRW
 nRW
-kHZ
+uPO
 nEf
 nEf
 nEf
@@ -154934,15 +154844,15 @@ kkb
 pwX
 tIO
 cCb
-pwX
-kCo
-kCo
-kCo
-iAL
+tby
+jLF
+jLF
+jLF
+qBo
 rmZ
-kCo
-pwX
-pwX
+jLF
+tby
+tby
 pqM
 aZS
 qme
@@ -155109,7 +155019,7 @@ nRW
 nRW
 nRW
 nRW
-kHZ
+uPO
 nEf
 oTg
 oTg
@@ -155194,11 +155104,11 @@ dvy
 gWq
 hIu
 kUc
-uPO
+aKi
 gdF
-uPO
-uPO
-uPO
+aKi
+aKi
+aKi
 gdF
 gdF
 aLo
@@ -155619,11 +155529,11 @@ oTg
 oTg
 seq
 seq
-nRW
-nRW
-nRW
-nRW
-nRW
+qkt
+qkt
+qkt
+qkt
+qkt
 seq
 seq
 seq
@@ -155708,13 +155618,13 @@ oIZ
 yjL
 aPK
 bpb
-kCo
+jLF
 bpb
 bpb
-kCo
-kCo
-kCo
-kCo
+jLF
+jLF
+jLF
+jLF
 bpb
 bpb
 pqM
@@ -156481,15 +156391,15 @@ alc
 oIZ
 swQ
 gjR
-kCo
+jLF
 bpb
 bpb
-kCo
-kCo
+jLF
+jLF
 bpb
 bpb
 bpb
-kCo
+jLF
 bpb
 pqM
 aZS
@@ -158587,13 +158497,13 @@ rNz
 aZS
 fpS
 mKD
-fIm
-fIm
-fIm
-fIm
-fIm
-fIm
-fIm
+cNf
+cNf
+cNf
+cNf
+cNf
+cNf
+cNf
 snu
 alc
 jkn
@@ -158846,13 +158756,13 @@ alc
 mWG
 gWu
 mKD
-fIm
+cNf
 tLI
 scK
 mKD
-jfW
-fIm
-fIm
+fvI
+cNf
+cNf
 czH
 jkn
 jkn
@@ -159109,8 +159019,8 @@ aMR
 scK
 jzm
 sYc
-fIm
-fIm
+cNf
+cNf
 fxy
 jkn
 jkn
@@ -159495,7 +159405,7 @@ nRW
 nRW
 nRW
 kLo
-kHZ
+uPO
 nEf
 nEf
 oTg
@@ -159754,7 +159664,7 @@ nRW
 nRW
 nRW
 aVX
-kHZ
+uPO
 nEf
 oTg
 seq
@@ -160012,7 +159922,7 @@ nRW
 nRW
 nRW
 nRW
-kHZ
+uPO
 nEf
 oTg
 seq
@@ -160270,7 +160180,7 @@ nRW
 nRW
 nRW
 nRW
-kHZ
+uPO
 nEf
 oTg
 seq
@@ -164508,7 +164418,7 @@ alc
 alc
 alc
 lcw
-bZT
+pwX
 pVT
 aZS
 aZS
@@ -164766,7 +164676,7 @@ iSl
 kVX
 mVc
 sas
-bZT
+pwX
 pVT
 ngA
 iUg
@@ -165014,7 +164924,7 @@ jkn
 jkn
 jkn
 jkn
-gBP
+swl
 pAj
 iUg
 uQc
@@ -165024,7 +164934,7 @@ txH
 ahH
 fCx
 mmT
-bZT
+pwX
 pVT
 ydc
 ydc
@@ -165282,7 +165192,7 @@ mVc
 jkn
 ydc
 rZB
-bZT
+pwX
 pVT
 ogT
 jkn
@@ -166051,7 +165961,7 @@ txH
 txH
 jkn
 jkn
-gBP
+swl
 jkn
 jkn
 jkn

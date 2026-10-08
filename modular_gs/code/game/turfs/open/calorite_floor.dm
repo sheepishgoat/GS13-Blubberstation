@@ -35,6 +35,9 @@
 	icons = list("calorite_strong")
 	fat_to_add = 40
 
+/turf/open/floor/mineral/calorite/strong/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
 // calorite dance floor, groovy! - GS13
 
 /turf/open/floor/mineral/calorite/dance

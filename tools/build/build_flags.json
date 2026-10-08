@@ -68,6 +68,13 @@
 			"description": "Prevents Lavaland from loading in."
 		},
 		{
+			"id": "SKIP_XENOARCH",
+			"define": "SKIP_XENOARCH",
+			"label": "No Xenoarch",
+			"category": "Map",
+			"description": "Prevents Xenoarch from loading in. This setting is completely separate from the \"No Lavaland\" setting."
+		},
+		{
 			"id": "SKIP_SPACE_LEVELS",
 			"define": "SKIP_SPACE_LEVELS",
 			"label": "No space ruins",
@@ -194,7 +201,7 @@
 		{
 			"id": "LOW_MEMORY",
 			"label": "Low memory mode",
-			"flags": ["SKIP_LAVALAND", "SKIP_SPACE_LEVELS"],
+			"flags": ["SKIP_LAVALAND", "SKIP_SPACE_LEVELS", "SKIP_XENOARCH"],
 			"values": { "force_map": "runtimestation" }
 		},
 		{
@@ -202,6 +209,7 @@
 			"label": "Absolute minimum",
 			"flags": [
 				"SKIP_LAVALAND",
+				"SKIP_XENOARCH",
 				"SKIP_SPACE_LEVELS",
 				"AUTOSTART_GAME",
 				"MINIMAL_CENTCOM"
@@ -223,6 +231,7 @@
 			"label": "Testing + low memory mode",
 			"flags": [
 				"SKIP_LAVALAND",
+				"SKIP_XENOARCH",
 				"SKIP_SPACE_LEVELS",
 				"TESTING",
 				"REAGENTS_TESTING",

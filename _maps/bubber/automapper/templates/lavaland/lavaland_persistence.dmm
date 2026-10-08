@@ -1931,9 +1931,7 @@
 	icon_state = "tram";
 	base_icon_state = "tram"
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/evac)
 "dM" = (
 /obj/structure/disposalpipe/segment{
@@ -3008,9 +3006,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/cargo)
 "fV" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
@@ -3374,9 +3370,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/service/hydro)
 "gF" = (
 /obj/structure/cable,
@@ -5889,9 +5883,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/service/hydro)
 "lI" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
@@ -6214,9 +6206,7 @@
 	icon_state = "tram";
 	base_icon_state = "tram"
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/cargo)
 "ms" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -7021,9 +7011,7 @@
 	pixel_y = 5;
 	base_icon_state = "tram"
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "nT" = (
 /obj/machinery/airalarm/directional/west,
@@ -8033,9 +8021,7 @@
 	icon_state = "tram";
 	base_icon_state = "tram"
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/cargo)
 "pW" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
@@ -9806,9 +9792,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "tt" = (
 /obj/machinery/airalarm/directional/north,
@@ -14993,9 +14977,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/service/hydro)
 "Dl" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -17763,9 +17745,7 @@
 	pixel_y = 5;
 	base_icon_state = "tram"
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/service)
 "IG" = (
 /obj/effect/turf_decal/trimline/dark/filled/line{
@@ -24920,9 +24900,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
-/turf/open/floor/engine/hull{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/engine/hull/lavaland,
 /area/ruin/space/has_grav/bubbers/persistance/evac)
 "WX" = (
 /obj/machinery/light_switch/directional/east,

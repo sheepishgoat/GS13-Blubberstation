@@ -34,6 +34,9 @@
 	icon = 'modular_gs/icons/turf/floor_candy.dmi'
 	icon_state = "candyfloor"
 
+/turf/open/candyfloor/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
 /turf/open/chocolateriver
 	gender = PLURAL
 	name = "liquid chocolate"
@@ -65,3 +68,22 @@
 	merge_type = /obj/item/stack/tile/carpet/gato
 	tile_reskin_types = null
 
+/turf/open/floor/iron/stairs/medium/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
+/turf/open/openspace/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	baseturfs = /turf/open/openspace/lavaland_atmos
+
+/turf/open/lava/smooth/lava_land_surface/standard_air
+	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+	baseturfs = /turf/open/lava/smooth/lava_land_surface/standard_air
+
+/turf/open/floor/concrete/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
+/turf/open/floor/concrete/smooth/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+
+/turf/open/floor/iron/recharge_floor/lavaland_atmos
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
