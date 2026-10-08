@@ -17,10 +17,16 @@
 /datum/mod_theme/protean
 	name = "protean"
 
+/obj/item/mod/control/pre_equipped/protean/proc/make_indestructible()
+	for (var/part in mod_parts)
+		var/datum/mod_part/modsuit_part = mod_parts[part]
+		modsuit_part.part_item.resistance_flags |= LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF | INDESTRUCTIBLE
+
 /obj/item/mod/control/pre_equipped/protean/Initialize(mapload, datum/mod_theme/new_theme, new_skin, obj/item/mod/core/new_core)
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, "protean")
 	AddElement(/datum/element/strippable/protean, GLOB.strippable_human_items)
+	make_indestructible()
 
 /obj/item/mod/control/pre_equipped/protean/Destroy()
 	var/obj/item/mod/core/protean/p_core = core
