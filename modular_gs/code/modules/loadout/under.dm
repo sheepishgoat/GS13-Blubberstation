@@ -47,6 +47,10 @@
 	name = "White dual tone jumpsuit (Modular)"
 	item_path = /obj/item/clothing/under/dual_tone
 
+/datum/loadout_item/uniform/jumpsuit/gs13/swimwear
+	name = "White Swimwear (Modular)"
+	item_path = /obj/item/clothing/under/dual_tone/swimwear
+
 //engineering
 /datum/loadout_item/uniform/jumpsuit/gs13/white_dual_tone/engineering
 	name = "Engineering dual tone jumpsuit (Modular)"
