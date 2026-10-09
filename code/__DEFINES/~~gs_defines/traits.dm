@@ -79,6 +79,7 @@
 #define TRAIT_SURPLUS_NUTRIENTS			"surplus_nutrients"
 #define TRAIT_NATURALLY_PADDED			"naturally_padded"
 #define TRAIT_PLEASANTLY_SOFT			"pleasant_softness"
+#define TRAIT_HARDCORE_FATTY 			"hardcore_fatty"
 
 //GS13 Port
 #define TRAIT_HEADPAT_SLUT		"headpat_slut"
