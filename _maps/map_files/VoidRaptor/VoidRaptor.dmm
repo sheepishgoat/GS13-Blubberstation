@@ -6676,7 +6676,7 @@
 	dir = 8
 	},
 /obj/machinery/light_switch/directional/east,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/large,
 /area/station/commons/dorms/laundry)
 "bYj" = (
@@ -53579,7 +53579,7 @@
 /turf/open/floor/iron/smooth,
 /area/station/maintenance/aft)
 "oYF" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/tile/yellow/full,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/white/smooth_large,
@@ -55076,7 +55076,7 @@
 /obj/structure/window/spawner/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/bot,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/central)
 "psu" = (
@@ -63250,7 +63250,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},

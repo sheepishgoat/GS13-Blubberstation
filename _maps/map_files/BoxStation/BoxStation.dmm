@@ -23492,7 +23492,7 @@
 /obj/effect/turf_decal/trimline/white/mid_joiner{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white/smooth_corner{
 	dir = 1
 	},
@@ -58906,7 +58906,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark/small,
 /area/station/commons/fitness)
 "mBv" = (
@@ -64844,7 +64844,7 @@
 /obj/effect/turf_decal/trimline/white/line{
 	dir = 6
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white/smooth_corner{
 	dir = 1
 	},
@@ -84927,7 +84927,7 @@
 	dir = 4
 	},
 /obj/machinery/firealarm/directional/west,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "ydB" = (

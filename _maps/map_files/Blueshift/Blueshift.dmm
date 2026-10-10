@@ -18077,7 +18077,7 @@
 	name = "medbay camera";
 	network = list("ss13","medbay")
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
@@ -24198,7 +24198,7 @@
 /area/station/maintenance/port/upper)
 "eCq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark/side{
 	dir = 6
 	},
@@ -51249,7 +51249,7 @@
 /obj/effect/turf_decal/trimline/blue/line{
 	dir = 8
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark,
 /area/station/medical/treatment_center)
 "jKx" = (
