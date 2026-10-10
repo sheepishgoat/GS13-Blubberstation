@@ -4,6 +4,8 @@
 	icon_state = "gato13"
 	icon = 'modular_gs/icons/obj/contraband.dmi'
 
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/gatito, 32)
+
 /obj/structure/sign/poster/official/captainposter
 	name = "Respect your captain poster"
 	desc = "A poster from the Gato company, it reads: 'Your captain is always watching, do not do anything suspicious.' "

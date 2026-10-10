@@ -1,0 +1,55 @@
+{
+	"version": 1,
+	"map_name": "Snow Taxi",
+	"map_path": "map_files/Snaxi",
+	"map_file": "Snaxi.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"wilderness_levels": 2,
+	"planetary": 1,
+	"give_players_hooks": 1,
+	"shuttles":{
+		"cargo":"cargo_box",
+		"ferry":"ferry_fancy",
+		"whiteship":"whiteship_box",
+		"emergency":"emergency_box"
+	},
+	"traits": [
+		{
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins Underground": true,
+			"Baseturf": "/turf/open/lava/plasma/snaxi",
+			"No Parallax": true
+		},
+		{
+			"Mining": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Ice Ruins Underground": true,
+			"Baseturf": "/turf/open/openspace/icemoon/snaxi/keep_below",
+			"No Parallax": true
+		},
+		{
+			"Mining": true,
+			"Linkage": "Grid",
+			"Gravity": true,
+			"Ice Ruins": true,
+			"Weather_Snowstorm": true,
+			"Baseturf": "/turf/open/openspace/icemoon/snaxi/keep_below",
+			"No Parallax": true
+		}
+	],
+	"minetype": "ice",
+	"blacklist_file": "iceruinblacklist.txt",
+	"job_changes": {
+		"Captain": {
+			"special_charter": "moon"
+		},
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/bar/atrium"]
+		}
+	},
+	"bonus_weakpoints": 2
+}
