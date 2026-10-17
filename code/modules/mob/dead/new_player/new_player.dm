@@ -153,6 +153,10 @@
 			return "[jobtitle] is not compatible with some antagonist role assigned to you."
 		if(JOB_UNAVAILABLE_AGE)
 			return "Your character is not old enough for [jobtitle]."
+		// GS13 EDIT Hardcore Fatty
+		if(JOB_UNAVAILABLE_HARDCORE_WEIGHT)
+			return "You are too heavy to work this job!"
+		// GS13 EDIT END
 
 	return GENERIC_JOB_UNAVAILABLE_ERROR
 

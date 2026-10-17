@@ -6,3 +6,6 @@
 #define GLUTTONY_MILESTONE_FIVE "Gluttony Milestone Five"
 #define GLUTTONY_MILESTONE_SIX "Gluttony Milestone Six"
 #define GLUTTONY_MILESTONE_SEVEN "Gluttony Milestone Seven"
+
+#define HARDCORE_FATTY_STREAK_SCORE "Hardcore Fatty Streak"
+#define HARDCORE_FATTY_SCORE "Hardcore Fatty Score"

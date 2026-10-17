@@ -47,6 +47,16 @@
 
 	adjustment_amount = get_fatness_adjustment_amount(adjustment_amount, ignore_rate)
 
+	if(HAS_TRAIT(src, TRAIT_HARDCORE_FATTY) && (adjustment_amount < 0))
+		if(perma_fatness_loss_stored < -adjustment_amount)
+			adjustment_amount = adjustment_amount * 0.01 // Good luck :3
+		else
+			var/percentage_of_perma_fat_removed = (adjustment_amount / perma_fatness_loss_stored)
+			// Adding because we know that the adjustment amount is negative
+			perma_loss_time_stored += (percentage_of_perma_fat_removed * perma_loss_time_stored)
+			perma_fatness_loss_stored += adjustment_amount
+
+
 	if(fatness_perma + adjustment_amount < 0)
 		adjustment_amount = -fatness_perma
 
@@ -322,7 +332,7 @@
 	return needed_fatness
 
 /mob/living/carbon/proc/apply_fatness_damage(amount)
-	if(!client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_weapons)) // If we can't fatten them through weapons, apply stamina damage
+	if(!HAS_TRAIT(src, TRAIT_UNIVERSAL_GAINER) && !client?.prefs?.read_preference(/datum/preference/toggle/weight_gain_weapons)) // If we can't fatten them through weapons, apply stamina damage
 		adjust_stamina_loss(amount)
 		return TRUE
 
@@ -334,7 +344,7 @@
 	if (isnull(client))
 		return
 
-	if (!client.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent)) // If we cant apply permafat, apply regular fat
+	if(!HAS_TRAIT(src, TRAIT_HARDCORE_FATTY) && !client.prefs.read_preference(/datum/preference/toggle/weight_gain_permanent)) // If we cant apply permafat, apply regular fat
 		return apply_fatness_damage(amount)
 
 	var/fat_to_add = ((amount * CONFIG_GET(number/damage_multiplier)) * PERMA_FAT_DAMAGE_TO_FATNESS)

@@ -9,7 +9,7 @@ Wanna see an example? Search for /obj/item/bluespace_belt !!!
 */
 /**
  * Adds `hide_source` to the list of things that will hide our fatness
- * 
+ *
  * hide_source - the element that is supposed to hide our fatness. Make sure it has the `fat_hide` proc
  */
 /mob/living/carbon/proc/hider_add(hide_source)
@@ -20,7 +20,7 @@ Wanna see an example? Search for /obj/item/bluespace_belt !!!
 
 /**
  * Removes `hide_source` from the list of things that will hide our fatness
- * 
+ *
  * hide_source - the element that we want to remove froum our hiders
  */
 /mob/living/carbon/proc/hider_remove(hide_source)
@@ -47,5 +47,5 @@ Wanna see an example? Search for /obj/item/bluespace_belt !!!
 	if(fat_hiders) //do we have any hiders active?
 		var/fatness_over = hiders_calc() //calculate the sum of all hiders
 		fatness = fatness + fatness_over //Then, make their current fatness the sum of their real plus/minus the calculated amount
-		if(max_weight) //Check their prefs
+		if(!HAS_TRAIT(src, TRAIT_UNIVERSAL_GAINER) && max_weight) //Check their prefs
 			fatness = min(fatness, (max_weight - 1)) //And make sure it's not above their preferred max
