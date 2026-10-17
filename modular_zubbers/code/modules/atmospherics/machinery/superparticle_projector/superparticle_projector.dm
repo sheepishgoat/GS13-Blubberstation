@@ -184,6 +184,7 @@
 
 	check_gas_concentration(/datum/gas/carbon_dioxide, SP_GAS_FLAG_CARBON, SUPERPARTICLE_CARBON_GAS_TRESHHOLD)
 	check_gas_concentration(/datum/gas/healium, SP_GAS_FLAG_HEALIUM, SUPERPARTICLE_HEALIUM_GAS_TRESHHOLD)
+	check_gas_concentration(/datum/gas/lipoifium, SP_GAS_FLAG_LIPOIFIUM, SUPERPARTICLE_LIPOIFIUM_GAS_THRESHOLD)	// GS13 EDIT
 
 	if (connected_supermatter.internal_energy >= SUPERPARTICLE_STOP_POWER)
 		return	// we aren't doing anything below anyway
@@ -214,6 +215,8 @@
 /obj/machinery/power/superparticlegen/proc/apply_effect(mob/living/target)
 	if (iscarbon(target))	// no point in applying on silicons
 		target.apply_status_effect(/datum/status_effect/atmosgenbuff)
+		if (superparticle_gas_flags & SP_GAS_FLAG_LIPOIFIUM)	// GS13 EDIT
+			target.apply_status_effect(/datum/status_effect/atmosgenbuff_lipoifium)	// GS13 EDIT
 
 	if(superparticle_gas_flags & SP_GAS_FLAG_CARBON)
 		target.apply_status_effect(/datum/status_effect/atmosgenbuff_carbon)
