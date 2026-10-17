@@ -9570,7 +9570,7 @@
 "dqn" = (
 /obj/machinery/light/dim/directional/west,
 /obj/effect/landmark/start/hangover,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet)
 "dqw" = (
@@ -11722,7 +11722,7 @@
 /obj/effect/landmark/start/paramedic,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/duct,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "edz" = (
@@ -16731,7 +16731,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "fUR" = (
@@ -59983,7 +59983,7 @@
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
 "uEl" = (

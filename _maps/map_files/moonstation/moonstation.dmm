@@ -17394,7 +17394,7 @@
 /obj/machinery/firealarm/directional/west,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/machinery/camera/autoname/directional/west,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/showroomfloor,
 /area/station/common/pool)
 "eKs" = (
@@ -55089,7 +55089,7 @@
 	dir = 1
 	},
 /obj/machinery/firealarm/directional/north,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "oKI" = (
@@ -55152,7 +55152,7 @@
 /area/station/engineering/atmos/control_center)
 "oLA" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark/corner,
 /area/station/common/wrestling/arena)
 "oLC" = (

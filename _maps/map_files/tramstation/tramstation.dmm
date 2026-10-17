@@ -17086,7 +17086,7 @@
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
 "eOw" = (
@@ -36298,7 +36298,7 @@
 	network = list("ss13","Security","prison");
 	c_tag = "Security - Prison Main South-West"
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron,
 /area/station/security/prison)
 "lvm" = (
@@ -62402,7 +62402,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "uAC" = (

@@ -16,6 +16,10 @@
 	weight_component = AddComponent(/datum/component/weigh_out)
 	RegisterSignal(parent, COMSIG_ATOM_EXAMINE, PROC_REF(get_last_reading))
 
+/datum/component/weight_scale/proc/reassign_weighing_component(datum/component/weigh_out/weighing)
+	QDEL_NULL(weight_component)
+	weight_component = weighing
+
 /datum/component/weight_scale/Destroy(force)
 	if(weight_component)
 		QDEL_NULL(weight_component)

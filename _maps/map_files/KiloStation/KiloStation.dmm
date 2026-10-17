@@ -21103,7 +21103,7 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 8
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/dark,
 /area/station/medical/medbay/lobby)
 "gOo" = (
@@ -24498,7 +24498,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron,
 /area/station/commons/fitness/recreation)
 "hQs" = (

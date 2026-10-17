@@ -3513,7 +3513,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "cra" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "crb" = (
@@ -4764,7 +4764,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 8
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "diO" = (
@@ -8215,7 +8215,7 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/xenoarch/lavaland/arch)
 "fNh" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/engine,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "fNs" = (
@@ -8641,7 +8641,7 @@
 /turf/open/floor/mineral/calorite,
 /area/lavaland/underground/xenoarch/caloriteresearch)
 "gdN" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/edge{
 	dir = 1
 	},
@@ -12045,7 +12045,7 @@
 /area/xenoarch/lavaland/construction)
 "irx" = (
 /obj/effect/turf_decal/box/red,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/machinery/duct,
 /turf/open/floor/iron/dark/smooth_large,
 /area/xenoarch/lavaland/gym)
@@ -14128,7 +14128,7 @@
 	color = "#8b8b8b";
 	dir = 1
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron,
 /area/lavaland/underground/xenoarch/candy_outpost)
 "jTo" = (
@@ -23498,7 +23498,7 @@
 /turf/open/water/jungle/biodome,
 /area/xenoarch/lavaland/foyer)
 "qme" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/box,
 /obj/machinery/light{
 	dir = 1;
@@ -29114,7 +29114,7 @@
 /turf/open/floor/glass/reinforced,
 /area/xenoarch/lavaland/maint_east)
 "ufk" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
@@ -29290,7 +29290,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 4
 	},
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/diagonal,
 /area/lavaland/underground/xenoarch/calorite_temple)
 "ulQ" = (
@@ -34875,7 +34875,7 @@
 /turf/open/floor/iron/white/small,
 /area/lavaland/underground/xenoarch/donut_factory)
 "xXi" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /turf/open/floor/iron/dark/side{
 	dir = 9

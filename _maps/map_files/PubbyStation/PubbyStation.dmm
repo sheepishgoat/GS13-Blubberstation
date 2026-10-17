@@ -6547,7 +6547,7 @@
 /turf/open/floor/iron/dark,
 /area/station/maintenance/disposal/incinerator)
 "azD" = (
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron,
 /area/station/commons/fitness)
@@ -24226,7 +24226,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/event_spawn,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "cqd" = (
@@ -31637,7 +31637,7 @@
 /obj/structure/cable,
 /obj/machinery/duct,
 /obj/effect/landmark/event_spawn,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "god" = (
@@ -55530,7 +55530,7 @@
 /area/station/hallway/primary/central/fore)
 "uOe" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted,
-/obj/structure/scale,
+/obj/structure/scale/breaking_scale,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "uOn" = (
